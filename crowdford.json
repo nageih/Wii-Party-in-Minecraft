@@ -1,5 +1,6 @@
 { 
 	"language": {
+		"ping": "<@209630524434546688>",
 		"path": "lang.cfjson",
 		"name": "wp-mc", 
 		"namespace": "minecraft",
