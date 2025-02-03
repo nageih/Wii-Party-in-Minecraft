@@ -4,6 +4,7 @@
 		"name": "wp-mc", 
 		"namespace": "minecraft",
 		"required_languages": ["en_us"],
-		"optional_languages": []
+		"optional_languages": [],
+		"path_override": "resource-pack/assets/minecraft/lang"
 	}
 }
