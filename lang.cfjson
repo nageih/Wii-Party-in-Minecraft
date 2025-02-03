@@ -5,7 +5,6 @@
     "lobby.Name":"Wii Party in Minecraft",
     "lobby.Welcome":"Welcome!",
 
-    // 1.1.0
     "control.RightClick":"RIGHT CLICK",
     "control.Release":"RELEASE",
 
@@ -22,7 +21,6 @@
     "deathMessages.TropicalPunch7": "%s is sleeping with the fishes",
     "deathMessages.TropicalPunch8": "Let's hope %s knows how to swim...",
 
-    // 1.0.4
     "board.DiceRoll.NormalDice": "Normal Dice",
     "board.DiceRoll.NormalDice.Info": "Rolls from 1-6.",
     "board.DiceRoll.GoldenDice": "Golden Dice",
@@ -40,7 +38,6 @@
 
     "join.Ingame":"%s has rejoined and will resume next round.",
 
-    // 1.0.3
     "lobby.Credits.Translators":"Translators:",
 
     "select.Selected":"has been chosen!",
@@ -48,7 +45,6 @@
 
     "lobby.EndGame.Info":"Use %s to vote to end the game early!",
 
-    // new
     "lobby.EndGame.Start":"%1$s has started a vote to end the game. (%2$s/%3$s)",
     "lobby.EndGame.StartInfo":"Do %s to vote yes",
     "lobby.EndGame.Vote":"%1$s has voted to end the game. (%2$s/%3$s)",
@@ -112,9 +108,7 @@
 
     "game.ChopChops.Start":"Get Chopping!",
     "game.ChopChops.GetReady":"Get Ready...",
-    //
 
-    // EVEN NEWER
     "lobby.Minigames.Click":"Click Me!",
 
     "lobby.Teams.Join":"Join %s",
@@ -178,7 +172,6 @@
     "lobby.Graph.TP":"Click to view graph",
     "lobby.Graph.Back":"Return",
 
-    //
   "menu.options": "§dOptions...",
   "options.sounds": "§dMusic & Sounds...",
   "soundCategory.voice": "§dWii Party Music",
