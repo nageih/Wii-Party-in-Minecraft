@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "item": "minecraft:crossbow",
+                        "components": {
+                            "minecraft:charged_projectiles": []
+                        },
+                        "predicates": {
+                            "minecraft:custom_data": "{16punch:1b}"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

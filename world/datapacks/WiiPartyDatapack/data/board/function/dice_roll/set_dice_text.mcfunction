@@ -1,0 +1,6 @@
+execute if entity @s[tag=golden] run data merge block -976 12 -1153 {front_text:{messages:['{"score":{"name":"@s","objective":"diceRoll"},"font":"minecraft:gold","bold":true}','{"text":""}','{"text":""}','{"text":""}']}}
+execute if entity @s[tag=silver] run data merge block -976 12 -1153 {front_text:{messages:['{"score":{"name":"@s","objective":"diceRoll"},"font":"minecraft:silver","bold":true}','{"text":""}','{"text":""}','{"text":""}']}}
+execute if entity @s[tag=bronze] run data merge block -976 12 -1153 {front_text:{messages:['{"score":{"name":"@s","objective":"diceRoll"},"font":"minecraft:bronze","bold":true}','{"text":""}','{"text":""}','{"text":""}']}}
+execute if entity @s[tag=normal] run data merge block -976 12 -1153 {front_text:{messages:['{"score":{"name":"@s","objective":"diceRoll"},"color":"white","bold":true}','{"text":""}','{"text":""}','{"text":""}']}}
+execute if entity @s[tag=negative] run data merge block -976 12 -1153 {front_text:{messages:['{"score":{"name":"@s","objective":"diceRoll"},"font":"minecraft:red","bold":true}','{"text":""}','{"text":""}','{"text":""}']}}
+data modify entity @s CustomName set from block -976 12 -1153 front_text.messages[0]

@@ -1,0 +1,49 @@
+{
+    "providers": [
+        {
+            "file": "font/black.png",
+            "chars": [
+                "a"
+            ],
+            "height": 1024,
+            "ascent": 512,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/white.png",
+            "chars": [
+                "b"
+            ],
+            "height": 1024,
+            "ascent": 512,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/red_tint.png",
+            "chars": [
+                "c"
+            ],
+            "height": 1024,
+            "ascent": 512,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/sticky_piston_partner.png",
+            "chars": [
+                "d"
+            ],
+            "height": 130,
+            "ascent": 65,
+            "type": "bitmap"
+        },
+        {
+            "file": "font/discord.png",
+            "chars": [
+                "e"
+            ],
+            "height": 256,
+            "ascent": 128,
+            "type": "bitmap"
+        }
+    ]
+}

@@ -1,0 +1,221 @@
+execute if score timer= 28scores matches 2 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.1"}'}
+execute if score timer= 28scores matches 4 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.2"}'}
+execute if score timer= 28scores matches 6 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.3"}'}
+execute if score timer= 28scores matches 8 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.4"}'}
+execute if score timer= 28scores matches 10 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.5"}'}
+execute if score timer= 28scores matches 12 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.6"}'}
+execute if score timer= 28scores matches 14 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.7"}'}
+execute if score timer= 28scores matches 16 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.8"}'}
+execute if score timer= 28scores matches 18 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"00.9"}'}
+execute if score timer= 28scores matches 20 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.0"}'}
+
+execute if score timer= 28scores matches 22 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.1"}'}
+execute if score timer= 28scores matches 24 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.2"}'}
+execute if score timer= 28scores matches 26 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.3"}'}
+execute if score timer= 28scores matches 28 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.4"}'}
+execute if score timer= 28scores matches 30 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.5"}'}
+execute if score timer= 28scores matches 32 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.6"}'}
+execute if score timer= 28scores matches 34 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.7"}'}
+execute if score timer= 28scores matches 36 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.8"}'}
+execute if score timer= 28scores matches 38 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"01.9"}'}
+execute if score timer= 28scores matches 40 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.0"}'}
+
+execute if score timer= 28scores matches 42 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.1"}'}
+execute if score timer= 28scores matches 44 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.2"}'}
+execute if score timer= 28scores matches 46 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.3"}'}
+execute if score timer= 28scores matches 48 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.4"}'}
+execute if score timer= 28scores matches 50 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.5"}'}
+execute if score timer= 28scores matches 52 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.6"}'}
+execute if score timer= 28scores matches 54 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.7"}'}
+execute if score timer= 28scores matches 56 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.8"}'}
+execute if score timer= 28scores matches 58 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"02.9"}'}
+execute if score timer= 28scores matches 60 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.0"}'}
+
+execute if score timer= 28scores matches 62 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.1"}'}
+execute if score timer= 28scores matches 64 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.2"}'}
+execute if score timer= 28scores matches 66 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.3"}'}
+execute if score timer= 28scores matches 68 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.4"}'}
+execute if score timer= 28scores matches 70 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.5"}'}
+execute if score timer= 28scores matches 72 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.6"}'}
+execute if score timer= 28scores matches 74 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.7"}'}
+execute if score timer= 28scores matches 76 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.8"}'}
+execute if score timer= 28scores matches 78 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"03.9"}'}
+execute if score timer= 28scores matches 80 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.0"}'}
+
+execute if score timer= 28scores matches 82 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.1"}'}
+execute if score timer= 28scores matches 84 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.2"}'}
+execute if score timer= 28scores matches 86 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.3"}'}
+execute if score timer= 28scores matches 88 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.4"}'}
+execute if score timer= 28scores matches 90 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.5"}'}
+execute if score timer= 28scores matches 92 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.6"}'}
+execute if score timer= 28scores matches 94 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.7"}'}
+execute if score timer= 28scores matches 96 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.8"}'}
+execute if score timer= 28scores matches 98 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"04.9"}'}
+execute if score timer= 28scores matches 100 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.0"}'}
+
+execute if score timer= 28scores matches 102 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.1"}'}
+execute if score timer= 28scores matches 104 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.2"}'}
+execute if score timer= 28scores matches 106 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.3"}'}
+execute if score timer= 28scores matches 108 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.4"}'}
+execute if score timer= 28scores matches 110 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.5"}'}
+execute if score timer= 28scores matches 112 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.6"}'}
+execute if score timer= 28scores matches 114 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.7"}'}
+execute if score timer= 28scores matches 116 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.8"}'}
+execute if score timer= 28scores matches 118 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"05.9"}'}
+execute if score timer= 28scores matches 120 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.0"}'}
+
+execute if score timer= 28scores matches 122 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.1"}'}
+execute if score timer= 28scores matches 124 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.2"}'}
+execute if score timer= 28scores matches 126 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.3"}'}
+execute if score timer= 28scores matches 128 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.4"}'}
+execute if score timer= 28scores matches 130 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.5"}'}
+execute if score timer= 28scores matches 132 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.6"}'}
+execute if score timer= 28scores matches 134 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.7"}'}
+execute if score timer= 28scores matches 136 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.8"}'}
+execute if score timer= 28scores matches 138 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"06.9"}'}
+execute if score timer= 28scores matches 140 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.0"}'}
+
+execute if score timer= 28scores matches 142 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.1"}'}
+execute if score timer= 28scores matches 144 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.2"}'}
+execute if score timer= 28scores matches 146 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.3"}'}
+execute if score timer= 28scores matches 148 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.4"}'}
+execute if score timer= 28scores matches 150 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.5"}'}
+execute if score timer= 28scores matches 152 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.6"}'}
+execute if score timer= 28scores matches 154 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.7"}'}
+execute if score timer= 28scores matches 156 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.8"}'}
+execute if score timer= 28scores matches 158 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"07.9"}'}
+execute if score timer= 28scores matches 160 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.0"}'}
+
+execute if score timer= 28scores matches 162 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.1"}'}
+execute if score timer= 28scores matches 164 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.2"}'}
+execute if score timer= 28scores matches 166 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.3"}'}
+execute if score timer= 28scores matches 168 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.4"}'}
+execute if score timer= 28scores matches 170 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.5"}'}
+execute if score timer= 28scores matches 172 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.6"}'}
+execute if score timer= 28scores matches 174 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.7"}'}
+execute if score timer= 28scores matches 176 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.8"}'}
+execute if score timer= 28scores matches 178 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"08.9"}'}
+execute if score timer= 28scores matches 180 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.0"}'}
+
+execute if score timer= 28scores matches 182 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.1"}'}
+execute if score timer= 28scores matches 184 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.2"}'}
+execute if score timer= 28scores matches 186 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.3"}'}
+execute if score timer= 28scores matches 188 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.4"}'}
+execute if score timer= 28scores matches 190 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.5"}'}
+execute if score timer= 28scores matches 192 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.6"}'}
+execute if score timer= 28scores matches 194 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.7"}'}
+execute if score timer= 28scores matches 196 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.8"}'}
+execute if score timer= 28scores matches 198 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"09.9"}'}
+execute if score timer= 28scores matches 200 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.0"}'}
+
+
+
+execute if score timer= 28scores matches 202 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.1"}'}
+execute if score timer= 28scores matches 204 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.2"}'}
+execute if score timer= 28scores matches 206 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.3"}'}
+execute if score timer= 28scores matches 208 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.4"}'}
+execute if score timer= 28scores matches 210 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.5"}'}
+execute if score timer= 28scores matches 212 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.6"}'}
+execute if score timer= 28scores matches 214 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.7"}'}
+execute if score timer= 28scores matches 216 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.8"}'}
+execute if score timer= 28scores matches 218 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"10.9"}'}
+execute if score timer= 28scores matches 220 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.0"}'}
+
+execute if score timer= 28scores matches 222 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.1"}'}
+execute if score timer= 28scores matches 224 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.2"}'}
+execute if score timer= 28scores matches 226 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.3"}'}
+execute if score timer= 28scores matches 228 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.4"}'}
+execute if score timer= 28scores matches 230 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.5"}'}
+execute if score timer= 28scores matches 232 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.6"}'}
+execute if score timer= 28scores matches 234 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.7"}'}
+execute if score timer= 28scores matches 236 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.8"}'}
+execute if score timer= 28scores matches 238 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"11.9"}'}
+execute if score timer= 28scores matches 240 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.0"}'}
+
+execute if score timer= 28scores matches 242 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.1"}'}
+execute if score timer= 28scores matches 244 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.2"}'}
+execute if score timer= 28scores matches 246 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.3"}'}
+execute if score timer= 28scores matches 248 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.4"}'}
+execute if score timer= 28scores matches 250 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.5"}'}
+execute if score timer= 28scores matches 252 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.6"}'}
+execute if score timer= 28scores matches 254 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.7"}'}
+execute if score timer= 28scores matches 256 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.8"}'}
+execute if score timer= 28scores matches 258 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"12.9"}'}
+execute if score timer= 28scores matches 260 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.0"}'}
+
+execute if score timer= 28scores matches 262 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.1"}'}
+execute if score timer= 28scores matches 264 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.2"}'}
+execute if score timer= 28scores matches 266 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.3"}'}
+execute if score timer= 28scores matches 268 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.4"}'}
+execute if score timer= 28scores matches 270 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.5"}'}
+execute if score timer= 28scores matches 272 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.6"}'}
+execute if score timer= 28scores matches 274 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.7"}'}
+execute if score timer= 28scores matches 276 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.8"}'}
+execute if score timer= 28scores matches 278 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"13.9"}'}
+execute if score timer= 28scores matches 280 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.0"}'}
+
+execute if score timer= 28scores matches 282 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.1"}'}
+execute if score timer= 28scores matches 284 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.2"}'}
+execute if score timer= 28scores matches 286 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.3"}'}
+execute if score timer= 28scores matches 288 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.4"}'}
+execute if score timer= 28scores matches 290 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.5"}'}
+execute if score timer= 28scores matches 292 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.6"}'}
+execute if score timer= 28scores matches 294 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.7"}'}
+execute if score timer= 28scores matches 296 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.8"}'}
+execute if score timer= 28scores matches 298 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"14.9"}'}
+execute if score timer= 28scores matches 300 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.0"}'}
+
+execute if score timer= 28scores matches 302 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.1"}'}
+execute if score timer= 28scores matches 304 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.2"}'}
+execute if score timer= 28scores matches 306 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.3"}'}
+execute if score timer= 28scores matches 308 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.4"}'}
+execute if score timer= 28scores matches 310 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.5"}'}
+execute if score timer= 28scores matches 312 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.6"}'}
+execute if score timer= 28scores matches 314 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.7"}'}
+execute if score timer= 28scores matches 316 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.8"}'}
+execute if score timer= 28scores matches 318 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"15.9"}'}
+execute if score timer= 28scores matches 320 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.0"}'}
+
+execute if score timer= 28scores matches 322 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.1"}'}
+execute if score timer= 28scores matches 324 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.2"}'}
+execute if score timer= 28scores matches 326 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.3"}'}
+execute if score timer= 28scores matches 328 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.4"}'}
+execute if score timer= 28scores matches 330 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.5"}'}
+execute if score timer= 28scores matches 332 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.6"}'}
+execute if score timer= 28scores matches 334 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.7"}'}
+execute if score timer= 28scores matches 336 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.8"}'}
+execute if score timer= 28scores matches 338 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"16.9"}'}
+execute if score timer= 28scores matches 340 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.0"}'}
+
+execute if score timer= 28scores matches 342 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.1"}'}
+execute if score timer= 28scores matches 344 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.2"}'}
+execute if score timer= 28scores matches 346 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.3"}'}
+execute if score timer= 28scores matches 348 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.4"}'}
+execute if score timer= 28scores matches 350 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.5"}'}
+execute if score timer= 28scores matches 352 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.6"}'}
+execute if score timer= 28scores matches 354 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.7"}'}
+execute if score timer= 28scores matches 356 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.8"}'}
+execute if score timer= 28scores matches 358 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"17.9"}'}
+execute if score timer= 28scores matches 360 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.0"}'}
+
+execute if score timer= 28scores matches 362 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.1"}'}
+execute if score timer= 28scores matches 364 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.2"}'}
+execute if score timer= 28scores matches 366 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.3"}'}
+execute if score timer= 28scores matches 368 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.4"}'}
+execute if score timer= 28scores matches 370 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.5"}'}
+execute if score timer= 28scores matches 372 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.6"}'}
+execute if score timer= 28scores matches 374 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.7"}'}
+execute if score timer= 28scores matches 376 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.8"}'}
+execute if score timer= 28scores matches 378 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"18.9"}'}
+execute if score timer= 28scores matches 380 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.0"}'}
+
+execute if score timer= 28scores matches 382 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.1"}'}
+execute if score timer= 28scores matches 384 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.2"}'}
+execute if score timer= 28scores matches 386 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.3"}'}
+execute if score timer= 28scores matches 388 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.4"}'}
+execute if score timer= 28scores matches 390 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.5"}'}
+execute if score timer= 28scores matches 392 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.6"}'}
+execute if score timer= 28scores matches 394 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.7"}'}
+execute if score timer= 28scores matches 396 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.8"}'}
+execute if score timer= 28scores matches 398 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"19.9"}'}
+execute if score timer= 28scores matches 400 run data merge entity @s {text:'{"bold":true,"color":"#FFD000","text":"20.0"}'}

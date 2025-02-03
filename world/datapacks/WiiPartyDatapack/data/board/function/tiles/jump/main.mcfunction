@@ -1,0 +1,2 @@
+execute as @a[tag=turn,tag=!jumpFail] at @s if entity @s[y=24,dy=2] run function board:tiles/jump/fail
+execute as @a[tag=turn,tag=!jumpFail] positioned -211 33 40 if entity @s[tag=turn,distance=..2] run function board:tiles/jump/win

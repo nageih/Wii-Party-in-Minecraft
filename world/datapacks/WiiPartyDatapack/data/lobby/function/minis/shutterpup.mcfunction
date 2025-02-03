@@ -1,0 +1,1 @@
+place template games:shutterpup -619 10 545

@@ -1,0 +1,1 @@
+fill 1007 146 995 1001 146 999 minecraft:air

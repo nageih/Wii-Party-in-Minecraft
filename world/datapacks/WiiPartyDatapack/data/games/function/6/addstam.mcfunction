@@ -1,0 +1,1 @@
+scoreboard players add @s 6stamina 1

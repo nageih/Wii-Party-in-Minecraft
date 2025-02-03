@@ -1,0 +1,26 @@
+#Particles Generated with: Cloud Wolf's Particle Grapher
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.000 ^0.000 ^0.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.145 ^-0.067 ^0.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.242 ^-0.209 ^1.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.134 ^0.461 ^1.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.633 ^-0.093 ^2.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.435 ^-0.671 ^2.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.515 ^0.810 ^3.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^1.109 ^0.153 ^3.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.369 ^-1.226 ^4.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-1.081 ^0.951 ^4.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^1.461 ^0.653 ^5.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-0.016 ^-1.760 ^5.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-1.739 ^0.814 ^6.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^1.586 ^1.346 ^6.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.607 ^-2.156 ^7.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-2.371 ^0.370 ^7.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^1.412 ^2.136 ^8.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^1.439 ^-2.308 ^8.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-2.856 ^-0.369 ^9.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.901 ^2.903 ^9.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^2.384 ^-2.134 ^10.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-3.080 ^-1.344 ^10.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^0.062 ^3.519 ^11.000 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^3.319 ^-1.590 ^11.500 0 0 0 0 1 force @a
+particle dust{color:[0.000,0.902,0.122],scale:1} ^-2.950 ^-2.458 ^12.000 0 0 0 0 1 force @a

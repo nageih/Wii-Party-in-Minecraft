@@ -1,0 +1,1 @@
+place template games:goal_getters -606 11 548

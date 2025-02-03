@@ -1,0 +1,20 @@
+{
+    "start": {
+		"sounds": [
+			{
+				"name": "ouo:start",
+				"stream": true
+			}
+		],
+		"category":"master"
+	},
+    "finish": {
+		"sounds": [
+			{
+				"name": "ouo:end",
+				"stream": true
+			}
+		],
+		"category":"master"
+	}
+}

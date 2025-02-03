@@ -1,0 +1,1 @@
+place template games:risky_railway -606 11 548

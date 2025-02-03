@@ -1,0 +1,1 @@
+execute as @a[tag=nbs_maintheme] at @s run function music:main_theme/tree/0_511

@@ -1,0 +1,8 @@
+setblock 8003 21 7994 minecraft:spruce_trapdoor[facing=north,half=top,open=false]
+setblock 7996 21 8007 minecraft:spruce_trapdoor[facing=south,half=top,open=false]
+setblock 8006 21 8004 minecraft:spruce_trapdoor[facing=east,half=top,open=false]
+setblock 7993 21 7997 minecraft:spruce_trapdoor[facing=west,half=top,open=false]
+fill 8000 23 8009 7999 23 8009 minecraft:spruce_trapdoor[facing=north,half=top,open=true]
+fill 7999 23 7992 8000 23 7992 minecraft:spruce_trapdoor[facing=south,half=top,open=true]
+fill 7991 23 8001 7991 23 8000 minecraft:spruce_trapdoor[facing=east,half=top,open=true]
+fill 8008 23 8000 8008 23 8001 minecraft:spruce_trapdoor[facing=west,half=top,open=true]

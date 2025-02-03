@@ -1,0 +1,1 @@
+place template games:back_attack -610 9 547

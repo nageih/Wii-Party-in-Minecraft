@@ -1,0 +1,13 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "ouo:item/carrot/knife"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -91, 0],
+			"translation": [5, 0, -7.5]
+		}
+	}
+}

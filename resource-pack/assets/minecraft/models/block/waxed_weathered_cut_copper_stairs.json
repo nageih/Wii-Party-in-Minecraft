@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/stairs_variant",
+  "textures": {
+    "bottom": "minecraft:block/lime_concrete",
+    "top": "minecraft:block/lime_concrete",
+    "side": "minecraft:block/lime_concrete",
+    "black":"minecraft:block/black_concrete"
+  }
+}

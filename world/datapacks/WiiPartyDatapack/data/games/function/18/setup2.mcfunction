@@ -1,0 +1,1 @@
+#execute as @a[tag=ingame,tag=playing] run function games:18/controls/renewmagma_cube

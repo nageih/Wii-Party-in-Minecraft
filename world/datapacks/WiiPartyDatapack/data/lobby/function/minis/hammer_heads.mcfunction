@@ -1,0 +1,1 @@
+place template games:hammer_heads -606 11 548

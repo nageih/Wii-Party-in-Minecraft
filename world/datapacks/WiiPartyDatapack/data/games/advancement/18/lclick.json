@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "attack": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"game18\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "games:18/controls/rotate"
+    }
+}

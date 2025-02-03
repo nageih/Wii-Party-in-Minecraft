@@ -1,0 +1,1 @@
+playsound item.trident.hit master @s ~ ~ ~ 1 0.5

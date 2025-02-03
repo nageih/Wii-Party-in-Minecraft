@@ -1,0 +1,1 @@
+execute if score rolling= draw matches 1 unless entity @a[tag=ingame,tag=drawRollNow] run function board:draw/check_next_roll

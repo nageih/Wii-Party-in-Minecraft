@@ -1,0 +1,1 @@
+execute as @a[tag=turn] at @s run function board:tiles/boost/end

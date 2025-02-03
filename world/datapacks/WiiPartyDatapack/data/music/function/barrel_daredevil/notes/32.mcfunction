@@ -1,0 +1,9 @@
+playsound minecraft:block.note_block.flute voice @s ^0 ^ ^ 0.40 1.414214 1
+playsound minecraft:block.note_block.iron_xylophone voice @s ^0 ^ ^ 1 1.414214 1
+playsound minecraft:block.note_block.iron_xylophone voice @s ^0 ^ ^ 1 1.059463 1
+playsound minecraft:block.note_block.iron_xylophone voice @s ^0 ^ ^ 1 0.890899 1
+playsound minecraft:block.note_block.iron_xylophone voice @s ^0 ^ ^ 1 1.414214 1
+playsound minecraft:block.note_block.guitar voice @s ^0 ^ ^ 1 1.414214 1
+playsound minecraft:block.note_block.guitar voice @s ^0 ^ ^ 1 1.059463 1
+playsound minecraft:block.note_block.guitar voice @s ^0 ^ ^ 1 0.890899 1
+playsound minecraft:block.note_block.guitar voice @s ^0 ^ ^ 1 1.414214 1

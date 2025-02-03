@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "predicates": {
+                            "minecraft:custom_data": "{hideandpeek:1b}"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "predicates": {
+                            "minecraft:custom_data": "{hideandpeek:1b}"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+execute if score phase= 42scores matches 1 run function games:42/phase/1
+execute if score phase= 42scores matches 2 run function games:42/phase/2
+execute if score phase= 42scores matches 3 run function games:42/phase/3
+execute if score phase= 42scores matches 4 run function games:42/phase/4
+execute if score phase= 42scores matches 5 run function games:42/phase/5
+execute if score phase= 42scores matches 6 run function games:42/phase/6
+execute if score phase= 42scores matches 7 run function games:42/phase/7
+execute if score phase= 42scores matches 8 run function games:42/phase/8
+execute if score phase= 42scores matches 9 run function games:42/phase/9
+execute if score phase= 42scores matches 10 run function games:42/phase/10
+execute if score phase= 42scores matches 11 run function games:42/phase/11
+execute if score phase= 42scores matches 12 run function games:42/phase/12
+execute if score phase= 42scores matches 13 run function games:42/phase/13
+execute if score phase= 42scores matches 14 run function games:42/phase/14
+execute if score phase= 42scores matches 15 run function games:42/phase/15

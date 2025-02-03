@@ -1,0 +1,1 @@
+$fill ~ ~ ~$(target) ~7 ~ ~$(target) white_carpet replace air

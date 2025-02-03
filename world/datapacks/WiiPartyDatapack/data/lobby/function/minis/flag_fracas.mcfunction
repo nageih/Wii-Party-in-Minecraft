@@ -1,0 +1,1 @@
+place template games:flag_fracas -610 10 548

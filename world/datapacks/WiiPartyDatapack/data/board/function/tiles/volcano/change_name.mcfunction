@@ -1,0 +1,2 @@
+data merge block -976 12 -1153 {front_text:{messages:['{"entity":"@e[tag=tempName]","nbt":"CustomName","color":"dark_red","interpret":true,"source":"entity","type":"nbt"}','""','""','""']}}
+data modify entity @e[tag=tempName,limit=1] CustomName set from block -976 12 -1153 front_text.messages[0]

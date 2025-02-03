@@ -1,0 +1,6 @@
+kill @e[type=text_display,tag=spikeBall]
+
+execute if score spikeRoll= tiles matches 5 run summon text_display -156 29 98 {default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["spikeBall"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]},text:'{"bold":true,"color":"red","text":"5"}',background:0}
+execute if score spikeRoll= tiles matches 4 run summon text_display -156 29 98 {default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["spikeBall"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]},text:'{"bold":true,"color":"red","text":"4"}',background:0}
+execute if score spikeRoll= tiles matches 3 run summon text_display -156 29 98 {default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["spikeBall"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]},text:'{"bold":true,"color":"red","text":"3"}',background:0}
+execute if score spikeRoll= tiles matches 2 run summon text_display -156 29 98 {default_background:0b,shadow:1b,Rotation:[-90F,0F],Tags:["spikeBall"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]},text:'{"bold":true,"color":"red","text":"2"}',background:0}

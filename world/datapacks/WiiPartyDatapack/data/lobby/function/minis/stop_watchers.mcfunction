@@ -1,0 +1,1 @@
+place template games:stop_watchers -606 11 548

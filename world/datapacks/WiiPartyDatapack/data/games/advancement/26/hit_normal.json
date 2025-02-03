@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [],
+                "entity": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"golden\"]}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags:[\"sus\"]}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags:[\"mole\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "games:26/hit_normal"
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "ouo:item/spinpad/parent",
+	"textures": {
+		"0": "ouo:item/spinpad/spinframe_off",
+		"1": "ouo:item/spinpad/spin_off",
+		"particle": "ouo:item/spinpad/spinframe_off"
+	}
+}

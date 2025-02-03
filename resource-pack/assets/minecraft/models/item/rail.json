@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/rail"
+  },
+	"overrides": [
+		{"predicate": {"custom_model_data": 1},"model": "ouo:rails/straight"},
+		{"predicate": {"custom_model_data": 2},"model": "ouo:rails/curved"},
+		{"predicate": {"custom_model_data": 3},"model": "ouo:rails/t"},
+		{"predicate": {"custom_model_data": 4},"model": "ouo:rails/sloped"},
+		{"predicate": {"custom_model_data": 5},"model": "ouo:rails/straight2"},
+		{"predicate": {"custom_model_data": 6},"model": "ouo:rails/curved2"},
+		{"predicate": {"custom_model_data": 7},"model": "ouo:rails/t2"},
+		{"predicate": {"custom_model_data": 8},"model": "ouo:rails/sloped2"},
+		{"predicate": {"custom_model_data": 9},"model": "ouo:rails/t3"}
+	]
+}

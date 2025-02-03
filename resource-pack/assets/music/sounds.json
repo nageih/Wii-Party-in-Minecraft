@@ -1,0 +1,219 @@
+{
+    "main_menu": {
+		"sounds": [
+			{
+				"name": "music:main_menu",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "main_theme": {
+		"sounds": [
+			{
+				"name": "music:main_theme",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+	"main_finish": {
+		"sounds": [
+			{
+				"name": "music:main_finish",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+	"main_victory": {
+		"sounds": [
+			{
+				"name": "music:main_victory",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "board_game_island": {
+		"sounds": [
+			{
+				"name": "music:board_game_island",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "dicey_descent": {
+		"sounds": [
+			{
+				"name": "music:dicey_descent",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "zombie_tag": {
+		"sounds": [
+			{
+				"name": "music:zombie_tag",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "back_attack_derby_dash": {
+		"sounds": [
+			{
+				"name": "music:back_attack_derby_dash",
+				"stream": true,
+				"volume":0.66
+			}
+		],
+		"category":"voice"
+	},
+	"lucky_launch": {
+		"sounds": [
+			{
+				"name": "music:lucky_launch",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "chop_chops": {
+		"sounds": [
+			{
+				"name": "music:chop_chops",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "popgun_posse": {
+		"sounds": [
+			{
+				"name": "music:popgun_posse",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "flag_fracas": {
+		"sounds": [
+			{
+				"name": "music:flag_fracas",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "friendly_faceoff": {
+		"sounds": [
+			{
+				"name": "music:friendly_faceoff",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "goal_getters": {
+		"sounds": [
+			{
+				"name": "music:goal_getters",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "risky_railway_loop_960": {
+		"sounds": [
+			{
+				"name": "music:risky_railway_loop_960",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "maze_daze": {
+		"sounds": [
+			{
+				"name": "music:maze_daze",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "hammer_heads_loop_606": {
+		"sounds": [
+			{
+				"name": "music:hammer_heads_loop_606",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "face_flip_loop_698": {
+		"sounds": [
+			{
+				"name": "music:face_flip_loop_698",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "stop_watchers": {
+		"sounds": [
+			{
+				"name": "music:stop_watchers",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "shutterpup": {
+		"sounds": [
+			{
+				"name": "music:shutterpup",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "walk_off_loop_334": {
+		"sounds": [
+			{
+				"name": "music:walk_off_loop_334",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "channel_changers_loop_323": {
+		"sounds": [
+			{
+				"name": "music:channel_changers_loop_323",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "hide_n_peek_loop_606": {
+		"sounds": [
+			{
+				"name": "music:hammer_heads_loop_606",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	},
+    "tropical_punch_loop_549": {
+		"sounds": [
+			{
+				"name": "music:tropical_punch_loop_549",
+				"stream": true
+			}
+		],
+		"category":"voice"
+	}
+}

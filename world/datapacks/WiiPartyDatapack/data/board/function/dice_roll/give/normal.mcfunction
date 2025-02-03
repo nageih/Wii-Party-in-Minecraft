@@ -1,0 +1,1 @@
+give @s carrot_on_a_stick[custom_name='{"bold":true,"color":"white","italic":false,"translate":"board.DiceRoll.NormalDice"}',lore=['{"color":"gray","italic":false,"translate":"board.DiceRoll.NormalDice.Info"}','{"color":"gray","italic":false,"translate":"board.DiceRoll.Dice.Info"}'],unbreakable={show_in_tooltip:false},custom_model_data=101,custom_data={dice:1b,normal:1b}] 1

@@ -1,0 +1,1 @@
+place template games:zombie_tag -607 11 548

@@ -1,0 +1,1 @@
+execute as @a[tag=nbs_barreldare] at @s run function music:barrel_daredevil/tree/0_63

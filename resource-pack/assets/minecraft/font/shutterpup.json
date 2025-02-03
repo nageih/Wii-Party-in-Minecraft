@@ -1,0 +1,67 @@
+{
+    "providers": [
+        {
+            "file": "shutterpup/blue.png",
+            "chars": ["b"],
+            "height": 60,
+            "ascent": 30,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/red.png",
+            "chars": ["r"],
+            "height": 60,
+            "ascent": 30,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/green.png",
+            "chars": ["g"],
+            "height": 60,
+            "ascent": 30,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/orange.png",
+            "chars": ["o"],
+            "height": 60,
+            "ascent": 30,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/battery_4.png",
+            "chars": ["4"],
+            "height": 120,
+            "ascent": 60,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/battery_3.png",
+            "chars": ["3"],
+            "height": 120,
+            "ascent": 60,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/battery_2.png",
+            "chars": ["2"],
+            "height": 120,
+            "ascent": 60,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/battery_1.png",
+            "chars": ["1"],
+            "height": 120,
+            "ascent": 60,
+            "type": "bitmap"
+        },
+        {
+            "file": "shutterpup/battery_0.png",
+            "chars": ["0"],
+            "height": 120,
+            "ascent": 60,
+            "type": "bitmap"
+        }
+    ]
+}

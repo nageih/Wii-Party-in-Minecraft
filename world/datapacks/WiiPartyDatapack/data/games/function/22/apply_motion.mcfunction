@@ -1,0 +1,1 @@
+data merge entity @e[type=slime,tag=ball,limit=1] {Motion:[0.9d,0.525d,2.1d]}

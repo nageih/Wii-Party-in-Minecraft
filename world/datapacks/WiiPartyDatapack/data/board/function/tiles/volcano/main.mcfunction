@@ -1,0 +1,1 @@
+execute if score volcano= tiles matches 1 run function board:tiles/volcano/eruption

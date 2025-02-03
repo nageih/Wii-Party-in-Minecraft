@@ -1,0 +1,1 @@
+place template games:lucky_launch -606 11 547
