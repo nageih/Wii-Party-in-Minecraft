@@ -1,0 +1,9 @@
+{ 
+	"language": {
+		"path": "lang.cfjson",
+		"name": "wp-mc", 
+		"namespace": "minecraft",
+		"required_languages": ["en_us"],
+		"optional_languages": []
+	}
+}
