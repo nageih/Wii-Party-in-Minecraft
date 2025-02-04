@@ -593,7 +593,6 @@
 
 
 
-    @skip=true
     "test":"test",
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
@@ -673,7 +672,6 @@
     "enchantment.level.7": "",
     "enchantment.level.8": "",
     "enchantment.level.9": "",
-    "enchantment.level.10": "",
-    @skip=false
+    "enchantment.level.10": ""
 
 }
