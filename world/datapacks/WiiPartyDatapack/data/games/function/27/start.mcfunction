@@ -47,3 +47,17 @@ data modify storage minecraft:mods game.27.theme set from storage minecraft:mods
 execute if entity @a[tag=ingame,scores={27theme2=1}] run data modify storage minecraft:mods game.27.theme[1] set from storage minecraft:mods game.27.theme_not_sel[1]
 data modify storage minecraft:mods game.27.theme[0] set from storage minecraft:mods game.27.theme_sel[0]
 scoreboard players set theme= 27mods 1
+
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.ChannelChangersName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.ChannelChangersName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.ChannelChangersName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.ChannelChangersName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.ChannelChangersName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.ChannelChangers.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.ChannelChangers.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.ChannelChangers.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""

@@ -5,12 +5,19 @@ scoreboard players set ingame= 10scores 1
 scoreboard players set global minigame 10
 
 
-# These tellraws explain the game, these will only display if you are playing with tutorials off.
-tellraw @a[team=blue] {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.PopgunPosse"}],"source":"storage","type":"nbt"}
-tellraw @a[team=red] {"nbt":"colors.red","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.PopgunPosse"}],"source":"storage","type":"nbt"}
-tellraw @a[team=green] {"nbt":"colors.green","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.PopgunPosse"}],"source":"storage","type":"nbt"}
-tellraw @a[team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.PopgunPosse"}],"source":"storage","type":"nbt"}
-tellraw @a[tag=playing,tag=!ingame] {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.PopgunPosse"}],"source":"storage","type":"nbt"}
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.PopgunPosseName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.PopgunPosseName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.PopgunPosseName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.PopgunPosseName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.PopgunPosseName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.PopgunPosse.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.PopgunPosse.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.PopgunPosse.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
 tp @a[tag=ingame,team=blue] 10986 13 10988 -90 0

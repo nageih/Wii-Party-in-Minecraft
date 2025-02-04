@@ -51,6 +51,23 @@ tellraw @a[tag=solo,team=green] {"nbt":"colors.green","storage":"minecraft:confi
 tellraw @a[tag=!solo,team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.HideNPeek.Hider"}],"source":"storage","type":"nbt"}
 tellraw @a[tag=solo,team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.HideNPeek.Seeker"}],"source":"storage","type":"nbt"}
 
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.HideNSeekName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.HideNSeekName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.HideNSeekName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.HideNSeekName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.HideNSeekName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing,tag=!solo] [{"translate":"game.HideNSeek.How.Main.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing,tag=!solo] [{"translate":"game.HideNSeek.How.Main.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing,tag=!solo] [{"translate":"game.HideNSeek.How.Main.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing,tag=solo] [{"translate":"game.HideNSeek.How.Main.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing,tag=solo] [{"translate":"game.HideNSeek.How.Main.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing,tag=solo] [{"translate":"game.HideNSeek.How.Main.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
+
 #Change the coords
 spreadplayers 13002 12970 2 8 true @a[tag=playing,tag=!solo]
 tp @a[tag=solo] 13003 16 12776

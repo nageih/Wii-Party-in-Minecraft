@@ -7,11 +7,19 @@ scoreboard players set global minigame 24
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 3 0.7
 scoreboard players set @a[tag=ingame] 24dir -1
 
-#Game description
-tellraw @a[team=blue] {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.MazeDaze"}],"source":"storage","type":"nbt"}
-tellraw @a[team=red] {"nbt":"colors.red","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.MazeDaze"}],"source":"storage","type":"nbt"}
-tellraw @a[team=green] {"nbt":"colors.green","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.MazeDaze"}],"source":"storage","type":"nbt"}
-tellraw @a[team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.MazeDaze"}],"source":"storage","type":"nbt"}
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.MazeDazeName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.MazeDazeName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.MazeDazeName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.MazeDazeName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.MazeDazeName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
 
 #Generate the maze
 scoreboard players set mazeCreated= 24scores 0

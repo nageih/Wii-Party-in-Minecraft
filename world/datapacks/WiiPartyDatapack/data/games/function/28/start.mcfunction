@@ -7,12 +7,19 @@ scoreboard players set ingame= 28scores 1
 scoreboard players set global minigame 28
 
 
-# These tellraws explain the game, these will only display if you are playing with tutorials off.
-tellraw @a[team=blue] {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.StopWatchers"}],"source":"storage","type":"nbt"}
-tellraw @a[team=red] {"nbt":"colors.red","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.StopWatchers"}],"source":"storage","type":"nbt"}
-tellraw @a[team=green] {"nbt":"colors.green","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.StopWatchers"}],"source":"storage","type":"nbt"}
-tellraw @a[team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.StopWatchers"}],"source":"storage","type":"nbt"}
-tellraw @a[tag=playing,tag=!ingame] {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.StopWatchers"}],"source":"storage","type":"nbt"}
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.StopWatchersName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.StopWatchersName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.StopWatchersName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.StopWatchersName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.StopWatchersName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.StopWatchers.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.StopWatchers.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.StopWatchers.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
 tp @a[tag=ingame,team=blue] 26992.93 13.00 27011.06 -177.08 7.67
@@ -53,13 +60,13 @@ scoreboard players operation target= 28scores = temp= 28scores
 scoreboard players operation max= 28scores = target= 28scores
 scoreboard players add max= 28scores 200
 
-execute if entity @a[tag=ingame,team=blue] run summon text_display 26993.0 14.5 27002.9 {Tags:["28timer","blue"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
-execute if entity @a[tag=ingame,team=red] run summon text_display 26998.0 14.5 27002.9 {Tags:["28timer","red"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
-execute if entity @a[tag=ingame,team=green] run summon text_display 27003.0 14.5 27002.9 {Tags:["28timer","green"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
-execute if entity @a[tag=ingame,team=orange] run summon text_display 27008.0 14.5 27002.9 {Tags:["28timer","orange"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
+execute if entity @a[tag=ingame,team=blue] run summon text_display 26993.0 14.5 27002.9 {alignment:"center",Tags:["28timer","blue"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
+execute if entity @a[tag=ingame,team=red] run summon text_display 26998.0 14.5 27002.9 {alignment:"center",Tags:["28timer","red"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
+execute if entity @a[tag=ingame,team=green] run summon text_display 27003.0 14.5 27002.9 {alignment:"center",Tags:["28timer","green"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
+execute if entity @a[tag=ingame,team=orange] run summon text_display 27008.0 14.5 27002.9 {alignment:"center",Tags:["28timer","orange"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
 
 
-summon text_display 27000 20.5 26995 {Tags:["28main"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[12.5f,12.5f,12.5f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
+summon text_display 27000 20.5 26995 {alignment:"center",Tags:["28main"],shadow:0b,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[12.5f,12.5f,12.5f]},text:'{"bold":true,"color":"#FFD000","text":"00.0"}',background:16777216}
 
 
 # Summon display entity for players to ride

@@ -20,7 +20,7 @@ scoreboard players set enabled= specOptions 1
 scoreboard players reset @a 1score
 
 # These tellraws explain the game
-tellraw @s[tag=playing] ""
+tellraw @a[tag=playing] ""
 tellraw @a[team=blue] [{"translate":"game.DiceyDescentName","color":"#0088ff","bold":true,"underlined": true}]
 tellraw @a[team=red] [{"translate":"game.DiceyDescentName","color":"red","bold":true,"underlined": true}]
 tellraw @a[team=green] [{"translate":"game.DiceyDescentName","color":"green","bold":true,"underlined": true}]

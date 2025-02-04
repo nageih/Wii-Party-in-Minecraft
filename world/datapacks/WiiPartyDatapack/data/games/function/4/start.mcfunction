@@ -8,12 +8,19 @@ scoreboard players set ingame= 4scores 1
 # Sets the global minigame score to the current minigame number, this is to ensure that the tick function is being run
 scoreboard players set global minigame 4
 
-# These tellraws explain the game, these will only display if you are playing with tutorials off.
-tellraw @a[team=blue] {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.BackAttack"}],"source":"storage","type":"nbt"}
-tellraw @a[team=red] {"nbt":"colors.red","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.BackAttack"}],"source":"storage","type":"nbt"}
-tellraw @a[team=green] {"nbt":"colors.green","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.BackAttack"}],"source":"storage","type":"nbt"}
-tellraw @a[team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.BackAttack"}],"source":"storage","type":"nbt"}
-tellraw @a[tag=playing,tag=!ingame] {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.BackAttack"}],"source":"storage","type":"nbt"}
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.BackAttackName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.BackAttackName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.BackAttackName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.BackAttackName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.BackAttackName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.BackAttack.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.BackAttack.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.BackAttack.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
 
 # Teleport all players to the correct position
     # Players

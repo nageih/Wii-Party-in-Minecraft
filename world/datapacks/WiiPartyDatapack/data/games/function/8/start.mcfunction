@@ -25,12 +25,18 @@ tp @a[team=green] 7995.0 21 8006.0 255 10
 # Face carrot
 #execute as @a[tag=ingame] at @s run tp @s ~ ~ ~ facing entity @e[type=item_display,tag=carrot,limit=1,sort=nearest]
 
-# These tellraws explain the game, these will only display if you are playing with tutorials off.
-tellraw @a[team=blue] {"nbt":"colors.blue","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ChopChops"}],"source":"storage","type":"nbt"}
-tellraw @a[team=red] {"nbt":"colors.red","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ChopChops"}],"source":"storage","type":"nbt"}
-tellraw @a[team=green] {"nbt":"colors.green","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ChopChops"}],"source":"storage","type":"nbt"}
-tellraw @a[team=orange] {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ChopChops"}],"source":"storage","type":"nbt"}
-tellraw @a[tag=playing,tag=!ingame] {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ChopChops"}],"source":"storage","type":"nbt"}
+# These tellraws explain the game
+tellraw @a[tag=playing] ""
+tellraw @a[team=blue] [{"translate":"game.ChopChopsName","color":"#0088ff","bold":true,"underlined": true}]
+tellraw @a[team=red] [{"translate":"game.ChopChopsName","color":"red","bold":true,"underlined": true}]
+tellraw @a[team=green] [{"translate":"game.ChopChopsName","color":"green","bold":true,"underlined": true}]
+tellraw @a[team=orange] [{"translate":"game.ChopChopsName","color":"gold","bold":true,"underlined": true}]
+tellraw @a[tag=playing,tag=!ingame] [{"translate":"game.ChopChopsName","color":"light_purple","bold":true,"underlined": true}]
+tellraw @a[tag=playing] ""
+tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":true}]
+tellraw @a[tag=playing] [{"translate":"game.ChopChops.How.1","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.ChopChops.How.2","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] ""
 
 
     # Spectators
