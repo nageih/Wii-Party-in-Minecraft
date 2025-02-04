@@ -1,0 +1,6 @@
+{
+	"parent": "ouo:item/steps/parent",
+	"textures": {
+		"layer0": "ouo:item/steps/5"
+	}
+}

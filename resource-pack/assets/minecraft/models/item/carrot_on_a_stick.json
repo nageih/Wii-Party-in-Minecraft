@@ -151,6 +151,11 @@
 		{"predicate": {"custom_model_data": 28003},"model": "ouo:item/stopwatch/green"},
 		{"predicate": {"custom_model_data": 28004},"model": "ouo:item/stopwatch/orange"},
 
+		{"predicate": {"custom_model_data": 35001},"model": "ouo:item/steps/1"},
+		{"predicate": {"custom_model_data": 35002},"model": "ouo:item/steps/3"},
+		{"predicate": {"custom_model_data": 35003},"model": "ouo:item/steps/5"},
+
+
 		{"predicate": {"custom_model_data": 36001},"model": "ouo:item/face_flip/blue"},
 		{"predicate": {"custom_model_data": 36002},"model": "ouo:item/face_flip/red"},
 		{"predicate": {"custom_model_data": 36003},"model": "ouo:item/face_flip/green"},

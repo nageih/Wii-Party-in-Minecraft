@@ -1,21 +1,21 @@
 {
-    "main_menu": {
+	"main_menu": {
 		"sounds": [
 			{
 				"name": "music:main_menu",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "main_theme": {
+	"main_theme": {
 		"sounds": [
 			{
 				"name": "music:main_theme",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
 	"main_finish": {
 		"sounds": [
@@ -24,7 +24,7 @@
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
 	"main_victory": {
 		"sounds": [
@@ -33,44 +33,44 @@
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "board_game_island": {
+	"board_game_island": {
 		"sounds": [
 			{
 				"name": "music:board_game_island",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "dicey_descent": {
+	"dicey_descent": {
 		"sounds": [
 			{
 				"name": "music:dicey_descent",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "zombie_tag": {
+	"zombie_tag": {
 		"sounds": [
 			{
 				"name": "music:zombie_tag",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "back_attack_derby_dash": {
+	"back_attack_derby_dash": {
 		"sounds": [
 			{
 				"name": "music:back_attack_derby_dash",
 				"stream": true,
-				"volume":0.66
+				"volume": 0.66
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
 	"lucky_launch": {
 		"sounds": [
@@ -79,141 +79,150 @@
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "chop_chops": {
+	"chop_chops": {
 		"sounds": [
 			{
 				"name": "music:chop_chops",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "popgun_posse": {
+	"popgun_posse": {
 		"sounds": [
 			{
 				"name": "music:popgun_posse",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "flag_fracas": {
+	"flag_fracas": {
 		"sounds": [
 			{
 				"name": "music:flag_fracas",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "friendly_faceoff": {
+	"friendly_faceoff": {
 		"sounds": [
 			{
 				"name": "music:friendly_faceoff",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "goal_getters": {
+	"goal_getters": {
 		"sounds": [
 			{
 				"name": "music:goal_getters",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "risky_railway_loop_960": {
+	"risky_railway_loop_960": {
 		"sounds": [
 			{
 				"name": "music:risky_railway_loop_960",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "maze_daze": {
+	"maze_daze": {
 		"sounds": [
 			{
 				"name": "music:maze_daze",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "hammer_heads_loop_606": {
+	"hammer_heads_loop_606": {
 		"sounds": [
 			{
 				"name": "music:hammer_heads_loop_606",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "face_flip_loop_698": {
+	"face_flip_loop_698": {
 		"sounds": [
 			{
 				"name": "music:face_flip_loop_698",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "stop_watchers": {
+	"stop_watchers": {
 		"sounds": [
 			{
 				"name": "music:stop_watchers",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "shutterpup": {
+	"shutterpup": {
 		"sounds": [
 			{
 				"name": "music:shutterpup",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "walk_off_loop_334": {
+	"walk_off_loop_334": {
 		"sounds": [
 			{
 				"name": "music:walk_off_loop_334",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "channel_changers_loop_323": {
+	"channel_changers_loop_323": {
 		"sounds": [
 			{
 				"name": "music:channel_changers_loop_323",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "hide_n_peek_loop_606": {
+	"hide_n_peek_loop_606": {
 		"sounds": [
 			{
 				"name": "music:hammer_heads_loop_606",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
 	},
-    "tropical_punch_loop_549": {
+	"tropical_punch_loop_549": {
 		"sounds": [
 			{
 				"name": "music:tropical_punch_loop_549",
 				"stream": true
 			}
 		],
-		"category":"voice"
+		"category": "voice"
+	},
+	"strategy_steps_loop_825": {
+		"sounds": [
+			{
+				"name": "music:strategy_steps_loop_825",
+				"stream": true
+			}
+		],
+		"category": "voice"
 	}
 }
