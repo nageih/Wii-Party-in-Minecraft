@@ -1,25 +1,11 @@
 {
-    "test":"test",
-    "test2":"test",
-
+  // Lobby
+  % Keep this as the map name
     "lobby.Name":"Wii Party in Minecraft",
     "lobby.Welcome":"Welcome!",
 
     "control.RightClick":"RIGHT CLICK",
     "control.Release":"RELEASE",
-
-    "game.TropicalPunchName": "Tropical Punch",
-    "game.TropicalPunch": "\n§l§nTropical Punch§r   \n\n§7§lHow To Play:§r   \n§7 - Hold right click to charge your punch  \n - Release to punch players infront of you   \n - The last player standing wins!\n",
-    "game.TropicalPunch.Info.1": "Hold %s to charge!",
-    "game.TropicalPunch.Info.2": "%s to punch!",
-    "deathMessages.TropicalPunch1": "%1$s was tropically punched by %2$s",
-    "deathMessages.TropicalPunch2": "%1$s was thrown overboard by %2$s",
-    "deathMessages.TropicalPunch3": "%s fell and drowned :(",
-    "deathMessages.TropicalPunch4": "%s went WEEEEEEEEEEEEEE",
-    "deathMessages.TropicalPunch5": "%s doesn't know how to swim",
-    "deathMessages.TropicalPunch6": "%s failed to dodge",
-    "deathMessages.TropicalPunch7": "%s is sleeping with the fishes",
-    "deathMessages.TropicalPunch8": "Let's hope %s knows how to swim...",
 
     "board.DiceRoll.NormalDice": "Normal Dice",
     "board.DiceRoll.NormalDice.Info": "Rolls from 1-6.",
@@ -447,6 +433,19 @@
 
     "game.WalkOffName": "Walk-Off",
     "game.WalkOff": "\n§l§nWalk-Off§r   \n\n§7§lHow To Play:§r   \n§7 - Travel the distance listed above and right click once there\n - Use the signs to guide you\n - The player closest to the set distance wins!\n",
+
+    "game.TropicalPunchName": "Tropical Punch",
+    "game.TropicalPunch": "\n§l§nTropical Punch§r   \n\n§7§lHow To Play:§r   \n§7 - Hold right click to charge your punch  \n - Release to punch players infront of you   \n - The last player standing wins!\n",
+    "game.TropicalPunch.Info.1": "Hold %s to charge!",
+    "game.TropicalPunch.Info.2": "%s to punch!",
+    "deathMessages.TropicalPunch1": "%1$s was tropically punched by %2$s",
+    "deathMessages.TropicalPunch2": "%1$s was thrown overboard by %2$s",
+    "deathMessages.TropicalPunch3": "%s fell and drowned :(",
+    "deathMessages.TropicalPunch4": "%s went WEEEEEEEEEEEEEE",
+    "deathMessages.TropicalPunch5": "%s doesn't know how to swim",
+    "deathMessages.TropicalPunch6": "%s failed to dodge",
+    "deathMessages.TropicalPunch7": "%s is sleeping with the fishes",
+    "deathMessages.TropicalPunch8": "Let's hope %s knows how to swim...",
 
     "game.FriendlyFaceOffName": "Friendly Face-Off",
     "game.FriendlyFaceOff": "\n§l§nFriendly Face-Off§r\n\n§7§lHow To Play:§r\n§7 - Rearrange the maps to mimic the image displayed\n - You may need to change both their position and rotation\n - Use right click to pick up and drop, use left click to rotate!\n - First player to finish their map wins!\n",
