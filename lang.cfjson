@@ -592,7 +592,7 @@
 
 
 
-    @instruction=Sign|Bold
+    @skip
     "test":"test",
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
@@ -673,5 +673,6 @@
     "enchantment.level.8": "",
     "enchantment.level.9": "",
     "enchantment.level.10": ""
+    @skip=0
 
 }
