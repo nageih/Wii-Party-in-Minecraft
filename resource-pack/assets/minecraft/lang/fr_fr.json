@@ -16,14 +16,14 @@
     "board.DiceRoll.DinoDice.Info": "Peut obtenir un bon ou mauvais dino.",
     "board.DiceRoll.Dice.Info": "Clic droit pour utiliser.",
 
-    "tiles.Final.Victory":"VICTOIRE !!",
+    "board.Tiles.Final.Victory!":"VICTOIRE !!",
 
     "join.Ingame":"%s a rejoint et reprendra au prochain tour.", 
 
     "lobby.Credits.Translators":"Traducteurs:",
 
-    "select.Selected":"a été choisi !",
-    "select.Choose.Left":"Le sélectionneur a quitté. Un mini-jeu aléatoire a été choisi !",
+    "board.GameSelect.Selected":"a été choisi !",
+    "board.GameSelect.Choose.Left":"Le sélectionneur a quitté. Un mini-jeu aléatoire a été choisi !",
 
     "lobby.EndGame.Info":"Utilisez %s pour voter pour que le jeu se termine plus tôt!",
 
@@ -36,41 +36,41 @@
 
   "board.Scoreboard":"Classement",
 
-  "draw.NewTurn":"C'est au tour %s de lancer le dé.",
-  "draw.Rolled":"%1$s a obtenu %2$s !",
-  "draw.Start":"Plusieurs joueurs ont obtenu la %1$s place !\n%2$s va décider de leurs nouvelles positions.",
+  "board.Draw.NewTurn":"C'est au tour %s de lancer le dé.",
+  "board.Draw.Rolled":"%1$s a obtenu %2$s !",
+  "board.Draw.Start":"Plusieurs joueurs ont obtenu la %1$s place !\n%2$s va décider de leurs nouvelles positions.",
 
-  "select.Choose.Intro":"À partir de maintenant, le joueur en dernière position va choisir le mini-jeu.",
-  "select.Choose.Player":"%s choisit.",
-  "select.Choose.Info":"Utilisez les touches de déplacement et clic droit pour sélectionner le mini-jeu.",
+  "board.GameSelect.Choose.Intro":"À partir de maintenant, le joueur en dernière position va choisir le mini-jeu.",
+  "board.GameSelect.Choose.Player":"%s choisit.",
+  "board.GameSelect.Choose.Info":"Utilisez les touches de déplacement et clic droit pour sélectionner le mini-jeu.",
 
-  "select.Round":"Tour %s",
-  "select.PlayForPosition":"Jouez pour déterminer l'ordre",
+  "board.GameSelect.Round":"Tour %s",
+  "board.GameSelect.PlayForPosition":"Jouez pour déterminer l'ordre",
 
-  "tiles.Dragon.Fail":"Le Dragon survit",
-  "tiles.Dragon.Win":"Le Dragon a été vaincu",
-  "tiles.Dragon.StartHead":"Mur du Dragon !",
-  "tiles.Dragon.StartSub":"Obtenez au moins 4",
+  "board.Tiles.Dragon.Fail":"Le Dragon survit",
+  "board.Tiles.Dragon.Win":"Le Dragon a été vaincu",
+  "board.Tiles.Dragon.Start.Header":"Mur du Dragon !",
+  "board.Tiles.Dragon.Start.Sub":"Obtenez au moins 4",
 
-  "tiles.Final.Start":"Dernier défi !",
-  "tiles.Final.Info":"Obtenez au moins un 6 pour vaincre %s",
-  "tiles.Final.Fail":"ECHEC CRITIQUE",
-  "tiles.Final.NextRound":"Pas d'inquiétude, vous pourrez utiliser votre dé bonus le tour prochain si vous vous placez 1er-3e !",
+  "board.Tiles.Final.Start":"Dernier défi !",
+  "board.Tiles.Final.Info":"Obtenez au moins un 6 pour vaincre %s",
+  "board.Tiles.Final.Fail":"ECHEC CRITIQUE",
+  "board.Tiles.Final.Next":"Pas d'inquiétude, vous pourrez utiliser votre dé bonus le tour prochain si vous vous placez 1er-3e !",
 
-  "tiles.Jump.StartHead":"Sautez !",
-  "tiles.Jump.StartSub":"Ne ratez pas...",
-  "tiles.Jump.Win":"%s a réussi le saut !",
+  "board.Tiles.Jump.Start.Header":"Sautez !",
+  "board.Tiles.Jump.Start.Sub":"Ne ratez pas...",
+  "board.Tiles.Jump.Win":"%s a réussi le saut !",
 
-  "tiles.Ribcage.StartHead":"Choisissez un côté !",
-  "tiles.Ribcage.StartSub":"Choisissez judicieusement...",
+  "board.Tiles.Ribcage.Start.Header":"Choisissez un côté !",
+  "board.Tiles.Ribcage.Start.Sub":"Choisissez judicieusement...",
 
-  "tiles.RopeSwing.Start":"Balencement à la corde !",
-  "tiles.RopeSwing.Rolled":"%1$s a obtenu %2$s cases en plus !",
+  "board.Tiles.RopeSwing.Start":"Balencement à la corde !",
+  "board.Tiles.RopeSwing.Rolled":"%1$s a obtenu %2$s cases en plus !",
 
-  "tiles.SpikeBall.StartHead":"Balle à pics !",
-  "tiles.SpikeBall.StartSub":"Obtenez au moins %s",
-  "tiles.SpikeBall.Fail":"La balle à pic a survécu !",
-  "tiles.SpikeBall.Win":"La balle à pic a été détruite !",
+  "board.Tiles.SpikeBall.Start.Header":"Balle à pics !",
+  "board.Tiles.SpikeBall.Start.Sub":"Obtenez au moins %s",
+  "board.Tiles.SpikeBall.Fail":"La balle à pic a survécu !",
+  "board.Tiles.SpikeBall.Win":"La balle à pic a été détruite !",
 
   "game.FlagFracas.DisqualOne":"%s a été disqualifié(e) !",
   "game.FlagFracas.FaceDirection":"REGARDE CETTE DIRECTION",
@@ -120,7 +120,7 @@
 
   "game.ZombieTag.Tip":"MARCHEZ dans les joueurs pour les infecter",
 
-  "tiles.RopeSwing.Info":"Lancez votre dé !",
+  "board.Tiles.RopeSwing.Info":"Lancez votre dé !",
 
   "lobby.Parkour.Half":"L'entrée du cœur est a moitié ouverte...",
   "lobby.Parkour.Open":"L'entrée du cœur a été ouverte !",
@@ -590,8 +590,8 @@
   "board.DiceRoll.PlayerDice.Name": "Dés de joueurs",
   "board.DiceRoll.PlayerDice.Lore": "Choisis aléatoirement un joueur.",
 
-  "board.GameSelect.Round": "Tour %s",
-  "board.GameSelect.PlayForPosition": "Jouez pour l'ordre",
+  "board.Gameboard.GameSelect.Round": "Tour %s",
+  "board.Gameboard.GameSelect.PlayForPosition": "Jouez pour l'ordre",
   "board.GameSelect.IsChoosing": "%s choisi",
   "board.GameSelect.ClickToPlay": "Cliquez pour jouer à ce mini-jeu !",
   "board.GameSelect.ClickInChat": "Cliquez le message dans le tchat pour choisir ce mini-jeu.",
@@ -600,7 +600,7 @@
 
   "board.Draw.Next": "[SUIVANT]",
   "board.Draw.Intro": "Deux joueurs ou plus ont fait une égalité. Ils vont déterminer leur ordre avec un second lancer !",
-  "board.Draw.Rolled": "%1$s a obtenu un %2$s !",
+  "board.board.Draw.Rolled": "%1$s a obtenu un %2$s !",
   "board.Draw.Same": "Des joueurs ont obtenu le même chiffre ! Ils vont maintenant relancer.",
   "board.Draw.Softlock": "Certains joueurs n'ont pas reçu leur position à cause d'une erreur. Pour éviter de rester bloqué, les joueurs vont avoir une place aléatoire.",
 

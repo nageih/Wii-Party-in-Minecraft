@@ -10,41 +10,41 @@
 
     "board.Scoreboard": "Clasificación",
 
-    "draw.NewTurn": "Es el turno de %s para tirar.",
-    "draw.Rolled": "%1$s ha sacado un %2$s!",
-    "draw.Start": "Varios jugadores han terminado en %1$s puesto!\n%2$s ahora decidirá sus nuevas posiciones.",
+    "board.Draw.NewTurn": "Es el turno de %s para tirar.",
+    "board.Draw.Rolled": "%1$s ha sacado un %2$s!",
+    "board.Draw.Start": "Varios jugadores han terminado en %1$s puesto!\n%2$s ahora decidirá sus nuevas posiciones.",
 
-    "select.Choose.Intro": "El jugador en último lugar elegirá el juego.",
-    "select.Choose.Player": "%s está eligiendo.",
-    "select.Choose.Info": "Usa las teclas de movimiento y haz click derecho para seleccionar.",
+    "board.GameSelect.Choose.Intro": "El jugador en último lugar elegirá el juego.",
+    "board.GameSelect.Choose.Player": "%s está eligiendo.",
+    "board.GameSelect.Choose.Info": "Usa las teclas de movimiento y haz click derecho para seleccionar.",
 
-    "select.Round": "Ronda %s",
-    "select.PlayForPosition": "Juega por Posición",
+    "board.GameSelect.Round": "Ronda %s",
+    "board.GameSelect.PlayForPosition": "Juega por Posición",
 
-    "tiles.Dragon.Fail": "El Dragón vive",
-    "tiles.Dragon.Win": "El Dragón ha sido derrotado!",
-    "tiles.Dragon.StartHead": "El dragón vive",
-    "tiles.Dragon.StartSub": "Saca al menos un 4",
+    "board.Tiles.Dragon.Fail": "El Dragón vive",
+    "board.Tiles.Dragon.Win": "El Dragón ha sido derrotado!",
+    "board.Tiles.Dragon.Start.Header": "El dragón vive",
+    "board.Tiles.Dragon.Start.Sub": "Saca al menos un 4",
 
-    "tiles.Final.Start": "Último reto!",
-    "tiles.Final.Info": "Saca al menos un 6 para derrotar a %s",
-    "tiles.Final.Fail": "FALLO!",
-    "tiles.Final.NextRound": "No te preocupes, podrás usar tu dado extra la próxima ronda si quedas 1º-3º!",
+    "board.Tiles.Final.Start": "Último reto!",
+    "board.Tiles.Final.Info": "Saca al menos un 6 para derrotar a %s",
+    "board.Tiles.Final.Fail": "FALLO!",
+    "board.Tiles.Final.Next": "No te preocupes, podrás usar tu dado extra la próxima ronda si quedas 1º-3º!",
 
-    "tiles.Jump.StartHead": "Salta!",
-    "tiles.Jump.StartSub": "Ten cuidado...",
-    "tiles.Jump.Win": "%s clavó el salto!",
+    "board.Tiles.Jump.Start.Header": "Salta!",
+    "board.Tiles.Jump.Start.Sub": "Ten cuidado...",
+    "board.Tiles.Jump.Win": "%s clavó el salto!",
 
-    "tiles.Ribcage.StartHead": "Elige un lado!",
-    "tiles.Ribcage.StartSub": "Elige con cuidado...",
+    "board.Tiles.Ribcage.Start.Header": "Elige un lado!",
+    "board.Tiles.Ribcage.Start.Sub": "Elige con cuidado...",
 
-    "tiles.RopeSwing.Start": "Salto con cuerda",
-    "tiles.RopeSwing.Rolled": "%1$s sacó un %2$s extra!",
+    "board.Tiles.RopeSwing.Start": "Salto con cuerda",
+    "board.Tiles.RopeSwing.Rolled": "%1$s sacó un %2$s extra!",
 
-    "tiles.SpikeBall.StartHead": "Bola de Pinchos!",
-    "tiles.SpikeBall.StartSub": "Saca al menos un %s",
-    "tiles.SpikeBall.Fail": "La Bola de Pinchos sobrevivió!",
-    "tiles.SpikeBall.Win": "La Bola de Pinchos ha sido destruida!",
+    "board.Tiles.SpikeBall.Start.Header": "Bola de Pinchos!",
+    "board.Tiles.SpikeBall.Start.Sub": "Saca al menos un %s",
+    "board.Tiles.SpikeBall.Fail": "La Bola de Pinchos sobrevivió!",
+    "board.Tiles.SpikeBall.Win": "La Bola de Pinchos ha sido destruida!",
 
     "game.FlagFracas.DisqualOne": "%s fue descalificado!",
     "game.FlagFracas.FaceDirection": "MIRA EN ESTA DIRECCIÓN",
@@ -91,7 +91,7 @@
 
     "game.ZombieTag.Tip": "TOCA a los jugadores para infectarlos!",
 
-    "tiles.RopeSwing.Info": "Tira tu dado!",
+    "board.Tiles.RopeSwing.Info": "Tira tu dado!",
 
     "lobby.Parkour.Half": "La entrada del corazón está medio abierta...",
     "lobby.Parkour.Open": "La entrada del corazón ha sido abierta!",
@@ -542,8 +542,8 @@
     "board.DiceRoll.PlayerDice.Name": "Dado de jugador",
     "board.DiceRoll.PlayerDice.Lore": "Elige un jugador aleatoriamente.",
 
-    "board.GameSelect.Round": "Ronda %s",
-    "board.GameSelect.PlayForPosition": "Juega por posición",
+    "board.Gameboard.GameSelect.Round": "Ronda %s",
+    "board.Gameboard.GameSelect.PlayForPosition": "Juega por posición",
     "board.GameSelect.IsChoosing": "%s está eligiendo",
     "board.GameSelect.ClickToPlay": "Haz click para jugar este minujuego",
     "board.GameSelect.ClickInChat": "Haz click en el mensaje del chat para elegir ese minijuego.",
@@ -552,7 +552,7 @@
 
     "board.Draw.Next": "[SIGUIENTE]",
     "board.Draw.Intro": "Dos o más jugadores han empatado. Decidirán sus posiciones finales con los dados!",
-    "board.Draw.Rolled": "%1$s ha sacado un %2$s!",
+    "board.board.Draw.Rolled": "%1$s ha sacado un %2$s!",
     "board.Draw.Same": "Algunos jugadores han empatado! Ahora tirarán de nuevo",
     "board.Draw.Softlock": "Algunos jugadores no han recibido una posición. Para prevenir errores se les ha asignado una posición al azar",
 

@@ -11,41 +11,41 @@
 
     "board.Scoreboard":"位置",
 
-    "draw.NewTurn":"轮到 %s 掷骰子.",
-    "draw.Rolled":"%1$s 掷出了 %2$s!",
-    "draw.Start":"多名选手以 %1$s 的名次结束比赛!\n现在 %2$s 将决定他们的新位置.",
+    "board.Draw.NewTurn":"轮到 %s 掷骰子.",
+    "board.Draw.Rolled":"%1$s 掷出了 %2$s!",
+    "board.Draw.Start":"多名选手以 %1$s 的名次结束比赛!\n现在 %2$s 将决定他们的新位置.",
 
-    "select.Choose.Intro":"从现在起, 排名最后的玩家将选择小游戏.",
-    "select.Choose.Player":"%s 正在选择.",
-    "select.Choose.Info":"使用移动键和右键点击进行选择.",
+    "board.GameSelect.Choose.Intro":"从现在起, 排名最后的玩家将选择小游戏.",
+    "board.GameSelect.Choose.Player":"%s 正在选择.",
+    "board.GameSelect.Choose.Info":"使用移动键和右键点击进行选择.",
 
-    "select.Round":"回合 %s",
-    "select.PlayForPosition":"争夺位置",
+    "board.GameSelect.Round":"回合 %s",
+    "board.GameSelect.PlayForPosition":"争夺位置",
 
-    "tiles.Dragon.Fail":"龙还活着",
-    "tiles.Dragon.Win":"龙已被击败",
-    "tiles.Dragon.StartHead":"龙炎壁!",
-    "tiles.Dragon.StartSub":"至少掷出一个 4",
+    "board.Tiles.Dragon.Fail":"龙还活着",
+    "board.Tiles.Dragon.Win":"龙已被击败",
+    "board.Tiles.Dragon.Start.Header":"龙炎壁!",
+    "board.Tiles.Dragon.Start.Sub":"至少掷出一个 4",
 
-    "tiles.Final.Start":"最终挑战!",
-    "tiles.Final.Info":"至少掷出 6 才能击败 %s",
-    "tiles.Final.Fail":"大失败",
-    "tiles.Final.NextRound":"别担心, 如果你获得第 1 到第 3 名, 下一回合你就可以使用额外的骰子了!",
+    "board.Tiles.Final.Start":"最终挑战!",
+    "board.Tiles.Final.Info":"至少掷出 6 才能击败 %s",
+    "board.Tiles.Final.Fail":"大失败",
+    "board.Tiles.Final.Next":"别担心, 如果你获得第 1 到第 3 名, 下一回合你就可以使用额外的骰子了!",
 
-    "tiles.Jump.StartHead":"跳跃!",
-    "tiles.Jump.StartSub":"别搞砸了...",
-    "tiles.Jump.Win":"%s 跳得漂亮!",
+    "board.Tiles.Jump.Start.Header":"跳跃!",
+    "board.Tiles.Jump.Start.Sub":"别搞砸了...",
+    "board.Tiles.Jump.Win":"%s 跳得漂亮!",
 
-    "tiles.Ribcage.StartHead":"选边站!",
-    "tiles.Ribcage.StartSub":"明智的选择...",
+    "board.Tiles.Ribcage.Start.Header":"选边站!",
+    "board.Tiles.Ribcage.Start.Sub":"明智的选择...",
 
-    "tiles.RopeSwing.Start":"绳索秋千!",
-    "tiles.RopeSwing.Rolled":"%1$s 额外掷出了 %2$s!",
+    "board.Tiles.RopeSwing.Start":"绳索秋千!",
+    "board.Tiles.RopeSwing.Rolled":"%1$s 额外掷出了 %2$s!",
 
-    "tiles.SpikeBall.StartHead":"尖刺球!",
-    "tiles.SpikeBall.StartSub":"至少掷出 %s",
-    "tiles.SpikeBall.Fail":"尖刺球没被破坏!",
-    "tiles.SpikeBall.Win":"尖刺球已被摧毁!",
+    "board.Tiles.SpikeBall.Start.Header":"尖刺球!",
+    "board.Tiles.SpikeBall.Start.Sub":"至少掷出 %s",
+    "board.Tiles.SpikeBall.Fail":"尖刺球没被破坏!",
+    "board.Tiles.SpikeBall.Win":"尖刺球已被摧毁!",
 
     "game.FlagFracas.DisqualOne":"%s 已被取消资格!",
     "game.FlagFracas.FaceDirection":"朝这个方向",
@@ -95,7 +95,7 @@
 
     "game.ZombieTag.Tip":"接近玩家, 感染他们",
 
-    "tiles.RopeSwing.Info":"掷骰子吧!",
+    "board.Tiles.RopeSwing.Info":"掷骰子吧!",
 
     "lobby.Parkour.Half":"心脏入口已打开一半...",
     "lobby.Parkour.Open":"心脏入口已被打开!",
@@ -575,8 +575,8 @@
     "board.DiceRoll.PlayerDice.Name": "玩家骰子",
     "board.DiceRoll.PlayerDice.Lore": "随机选择一名玩家.",
 
-    "board.GameSelect.Round": "回合 %s",
-    "board.GameSelect.PlayForPosition": "争夺位置",
+    "board.Gameboard.GameSelect.Round": "回合 %s",
+    "board.Gameboard.GameSelect.PlayForPosition": "争夺位置",
     "board.GameSelect.IsChoosing": "%s 正在选择",
     "board.GameSelect.ClickToPlay": "点击玩这个小游戏",
     "board.GameSelect.ClickInChat": "点击聊天中的信息, 选择该小游戏.",
@@ -585,7 +585,7 @@
 
     "board.Draw.Next": "[下一个]",
     "board.Draw.Intro": "两名或两名以上棋手抽签. 他们将通过掷骰子来决定最终位置!",
-    "board.Draw.Rolled": "%1$s 掷出了一个 %2$s!",
+    "board.board.Draw.Rolled": "%1$s 掷出了一个 %2$s!",
     "board.Draw.Same": "有些玩家掷出了相同的数字! 他们现在将再次掷骰子.",
     "board.Draw.Softlock": "由于游戏中的错误, 一些玩家没有获得位置. 为防止出现软锁定, 玩家将随机获得一个位置标签",
 

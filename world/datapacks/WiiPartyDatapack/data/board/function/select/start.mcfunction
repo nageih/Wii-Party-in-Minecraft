@@ -23,17 +23,17 @@ execute as @a[tag=playing] at @e[type=marker,tag=selectMarker] run playsound min
 
 title @a[tag=playing] times 10 40 10
 
-title @a[tag=playing,tag=!ingame] title {"translate":"select.PlayForPosition","color":"light_purple","bold":true}
-title @a[tag=ingame,team=blue] title {"translate":"select.PlayForPosition","color":"#0088ff","bold":true}
-title @a[tag=ingame,team=red] title {"translate":"select.PlayForPosition","color":"red","bold":true}
-title @a[tag=ingame,team=green] title {"translate":"select.PlayForPosition","color":"green","bold":true}
-title @a[tag=ingame,team=orange] title {"translate":"select.PlayForPosition","color":"gold","bold":true}
+title @a[tag=playing,tag=!ingame] title {"translate":"board.GameSelect.PlayForPosition","color":"light_purple","bold":true}
+title @a[tag=ingame,team=blue] title {"translate":"board.GameSelect.PlayForPosition","color":"#0088ff","bold":true}
+title @a[tag=ingame,team=red] title {"translate":"board.GameSelect.PlayForPosition","color":"red","bold":true}
+title @a[tag=ingame,team=green] title {"translate":"board.GameSelect.PlayForPosition","color":"green","bold":true}
+title @a[tag=ingame,team=orange] title {"translate":"board.GameSelect.PlayForPosition","color":"gold","bold":true}
 
-title @a[tag=playing,tag=!ingame] subtitle {"translate":"select.Round","color":"light_purple","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
-title @a[tag=ingame,team=blue] subtitle {"translate":"select.Round","color":"#0088ff","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
-title @a[tag=ingame,team=red] subtitle {"translate":"select.Round","color":"red","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
-title @a[tag=ingame,team=green] subtitle {"translate":"select.Round","color":"green","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
-title @a[tag=ingame,team=orange] subtitle {"translate":"select.Round","color":"gold","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
+title @a[tag=playing,tag=!ingame] subtitle {"translate":"board.GameSelect.Round","color":"light_purple","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
+title @a[tag=ingame,team=blue] subtitle {"translate":"board.GameSelect.Round","color":"#0088ff","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
+title @a[tag=ingame,team=red] subtitle {"translate":"board.GameSelect.Round","color":"red","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
+title @a[tag=ingame,team=green] subtitle {"translate":"board.GameSelect.Round","color":"green","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
+title @a[tag=ingame,team=orange] subtitle {"translate":"board.GameSelect.Round","color":"gold","bold":true,"with":[{"score":{"name": "round=","objective":"game"}}]}
 
 
 # First 10 rounds randomly select

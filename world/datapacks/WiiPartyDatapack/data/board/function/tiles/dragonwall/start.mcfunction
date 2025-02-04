@@ -1,13 +1,13 @@
-title @a[tag=playing,tag=!ingame] title [{"translate":"tiles.Dragon.StartHead","bold":true,"color":"light_purple"}]
-title @a[tag=ingame,team=blue] title [{"translate":"tiles.Dragon.StartHead","bold":true,"color":"#0088FF"}]
-title @a[tag=ingame,team=red] title [{"translate":"tiles.Dragon.StartHead","bold":true,"color":"red"}]
-title @a[tag=ingame,team=green] title [{"translate":"tiles.Dragon.StartHead","bold":true,"color":"green"}]
-title @a[tag=ingame,team=orange] title [{"translate":"tiles.Dragon.StartHead","bold":true,"color":"gold"}]
-title @a[tag=playing,tag=!ingame] subtitle {"translate":"tiles.Dragon.StartSub","color":"light_purple"}
-title @a[tag=ingame,team=blue] subtitle {"translate":"tiles.Dragon.StartSub","color":"#0088FF"}
-title @a[tag=ingame,team=red] subtitle {"translate":"tiles.Dragon.StartSub","color":"red"}
-title @a[tag=ingame,team=green] subtitle {"translate":"tiles.Dragon.StartSub","color":"green"}
-title @a[tag=ingame,team=orange] subtitle {"translate":"tiles.Dragon.StartSub","color":"gold"}
+title @a[tag=playing,tag=!ingame] title [{"translate":"board.Tiles.Dragon.Start.Header","bold":true,"color":"light_purple"}]
+title @a[tag=ingame,team=blue] title [{"translate":"board.Tiles.Dragon.Start.Header","bold":true,"color":"#0088FF"}]
+title @a[tag=ingame,team=red] title [{"translate":"board.Tiles.Dragon.Start.Header","bold":true,"color":"red"}]
+title @a[tag=ingame,team=green] title [{"translate":"board.Tiles.Dragon.Start.Header","bold":true,"color":"green"}]
+title @a[tag=ingame,team=orange] title [{"translate":"board.Tiles.Dragon.Start.Header","bold":true,"color":"gold"}]
+title @a[tag=playing,tag=!ingame] subtitle {"translate":"board.Tiles.Dragon.Start.Sub","color":"light_purple"}
+title @a[tag=ingame,team=blue] subtitle {"translate":"board.Tiles.Dragon.Start.Sub","color":"#0088FF"}
+title @a[tag=ingame,team=red] subtitle {"translate":"board.Tiles.Dragon.Start.Sub","color":"red"}
+title @a[tag=ingame,team=green] subtitle {"translate":"board.Tiles.Dragon.Start.Sub","color":"green"}
+title @a[tag=ingame,team=orange] subtitle {"translate":"board.Tiles.Dragon.Start.Sub","color":"gold"}
 execute at @a[tag=turn] run playsound minecraft:block.note_block.iron_xylophone master @a ~ ~ ~ 20 0.5 1
 
 scoreboard players set global tiles 2

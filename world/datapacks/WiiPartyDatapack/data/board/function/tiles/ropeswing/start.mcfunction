@@ -1,8 +1,8 @@
-title @a[tag=playing,tag=!ingame] title [{"translate":"tiles.RopeSwing.Start","bold":true,"color":"light_purple"}]
-title @a[tag=ingame,team=blue] title [{"translate":"tiles.RopeSwing.Start","bold":true,"color":"#0088FF"}]
-title @a[tag=ingame,team=red] title [{"translate":"tiles.RopeSwing.Start","bold":true,"color":"red"}]
-title @a[tag=ingame,team=green] title [{"translate":"tiles.RopeSwing.Start","bold":true,"color":"green"}]
-title @a[tag=ingame,team=orange] title [{"translate":"tiles.RopeSwing.Start","bold":true,"color":"gold"}]
+title @a[tag=playing,tag=!ingame] title [{"translate":"board.Tiles.RopeSwing.Start","bold":true,"color":"light_purple"}]
+title @a[tag=ingame,team=blue] title [{"translate":"board.Tiles.RopeSwing.Start","bold":true,"color":"#0088FF"}]
+title @a[tag=ingame,team=red] title [{"translate":"board.Tiles.RopeSwing.Start","bold":true,"color":"red"}]
+title @a[tag=ingame,team=green] title [{"translate":"board.Tiles.RopeSwing.Start","bold":true,"color":"green"}]
+title @a[tag=ingame,team=orange] title [{"translate":"board.Tiles.RopeSwing.Start","bold":true,"color":"gold"}]
 title @a subtitle " "
 execute at @a[tag=turn] run playsound minecraft:block.note_block.iron_xylophone master @a ~ ~ ~ 20 0.5 1
 tp @a[tag=turn] -286 21 31

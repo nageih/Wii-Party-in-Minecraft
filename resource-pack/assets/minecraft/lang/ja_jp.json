@@ -16,15 +16,15 @@
   //"board.DiceRoll.DinoDice.Info": "良い恐竜か悪い恐竜が出る。",
   //"board.DiceRoll.Dice.Info": "右クリックで使用する。",
   
-  //"tiles.Final.Victory":"勝利！",
+  //"board.Tiles.Final.Victory!":"勝利！",
   
   "join.Ingame":"%sは再び参加し、次のラウンドから再開します。",
 
   // 1.0.3
   "lobby.Credits.Translators":"翻訳者:",
 
-  "select.Selected":"が選ばれました！",
-  "select.Choose.Left":"選択者が抜けました。ランダムなミニゲームが選ばれました！",
+  "board.GameSelect.Selected":"が選ばれました！",
+  "board.GameSelect.Choose.Left":"選択者が抜けました。ランダムなミニゲームが選ばれました！",
 
   "lobby.EndGame.Info":"%sで投票して、ゲームを早く終わらせます！",
 
@@ -37,41 +37,41 @@
 
   "board.Scoreboard":"順位",
 
-  "draw.NewTurn":"%sのターン。",
-  "draw.Rolled":"%1$sは%2$sを出した！",
-  "draw.Start":"複数のプレイヤーが%1$s位で終わりました！\n%2$sはこれから新しく順位を決めます。",
+  "board.Draw.NewTurn":"%sのターン。",
+  "board.Draw.Rolled":"%1$sは%2$sを出した！",
+  "board.Draw.Start":"複数のプレイヤーが%1$s位で終わりました！\n%2$sはこれから新しく順位を決めます。",
 
-  "select.Choose.Intro":"以降は最下位のプレイヤーがミニゲームを選択します。",
-  "select.Choose.Player":"%sが選択しています。",
-  "select.Choose.Info":"移動キーと右クリックで選択してください。",
+  "board.GameSelect.Choose.Intro":"以降は最下位のプレイヤーがミニゲームを選択します。",
+  "board.GameSelect.Choose.Player":"%sが選択しています。",
+  "board.GameSelect.Choose.Info":"移動キーと右クリックで選択してください。",
 
-  "select.Round":"ラウンド %s",
-  "select.PlayForPosition":"順位争い",
+  "board.GameSelect.Round":"ラウンド %s",
+  "board.GameSelect.PlayForPosition":"順位争い",
 
-  "tiles.Dragon.Fail":"ドラゴンは生きている",
-  "tiles.Dragon.Win":"ドラゴンは倒された",
-  "tiles.Dragon.StartHead":"ドラゴンの壁！",
-  "tiles.Dragon.StartSub":"4以上を出せ",
+  "board.Tiles.Dragon.Fail":"ドラゴンは生きている",
+  "board.Tiles.Dragon.Win":"ドラゴンは倒された",
+  "board.Tiles.Dragon.Start.Header":"ドラゴンの壁！",
+  "board.Tiles.Dragon.Start.Sub":"4以上を出せ",
 
-  "tiles.Final.Start":"ファイナルチャレンジ！",
-  "tiles.Final.Info":"倒すには%s以上を出せ",
-  "tiles.Final.Fail":"EPIC FAIL",
-  "tiles.Final.NextRound":"ご心配なく、1から3位までに入れば余ったサイコロは次のラウンドで使うことができます！",
+  "board.Tiles.Final.Start":"ファイナルチャレンジ！",
+  "board.Tiles.Final.Info":"倒すには%s以上を出せ",
+  "board.Tiles.Final.Fail":"EPIC FAIL",
+  "board.Tiles.Final.Next":"ご心配なく、1から3位までに入れば余ったサイコロは次のラウンドで使うことができます！",
 
-  "tiles.Jump.StartHead":"ジャンプ！",
-  "tiles.Jump.StartSub":"しくじらないで...",
-  "tiles.Jump.Win":"%sがジャンプを決めた！",
+  "board.Tiles.Jump.Start.Header":"ジャンプ！",
+  "board.Tiles.Jump.Start.Sub":"しくじらないで...",
+  "board.Tiles.Jump.Win":"%sがジャンプを決めた！",
 
-  "tiles.Ribcage.StartHead":"どちらかを選べ！",
-  "tiles.Ribcage.StartSub":"賢く選べ...",
+  "board.Tiles.Ribcage.Start.Header":"どちらかを選べ！",
+  "board.Tiles.Ribcage.Start.Sub":"賢く選べ...",
 
-  "tiles.RopeSwing.Start":"ロープスイング！",
-  "tiles.RopeSwing.Rolled":"%1$sは追加で%2$sを出した！",
+  "board.Tiles.RopeSwing.Start":"ロープスイング！",
+  "board.Tiles.RopeSwing.Rolled":"%1$sは追加で%2$sを出した！",
 
-  "tiles.SpikeBall.StartHead":"スパイクボール！",
-  "tiles.SpikeBall.StartSub":"%s以上を出せ",
-  "tiles.SpikeBall.Fail":"スパイクボールは生き残った！",
-  "tiles.SpikeBall.Win":"スパイクボールは破壊された！",
+  "board.Tiles.SpikeBall.Start.Header":"スパイクボール！",
+  "board.Tiles.SpikeBall.Start.Sub":"%s以上を出せ",
+  "board.Tiles.SpikeBall.Fail":"スパイクボールは生き残った！",
+  "board.Tiles.SpikeBall.Win":"スパイクボールは破壊された！",
 
   "game.FlagFracas.DisqualOne":"%sは失格になりました！",
   "game.FlagFracas.FaceDirection":"こっちを向いて",
@@ -121,7 +121,7 @@
 
   "game.ZombieTag.Tip":"プレイヤーに向かって歩いて感染させよう",
 
-  "tiles.RopeSwing.Info":"サイコロを振ろう！",
+  "board.Tiles.RopeSwing.Info":"サイコロを振ろう！",
 
   "lobby.Parkour.Half":"ハートの入り口は半分開いている...",
   "lobby.Parkour.Open":"ハートの入り口が開かれた！",
@@ -591,8 +591,8 @@
   "board.DiceRoll.PlayerDice.Name": "プレイヤーサイコロ",
   "board.DiceRoll.PlayerDice.Lore": "ランダムにプレイヤーを選ぶ。",
 
-  "board.GameSelect.Round": "ラウンド %s",
-  "board.GameSelect.PlayForPosition": "順位決め",
+  "board.Gameboard.GameSelect.Round": "ラウンド %s",
+  "board.Gameboard.GameSelect.PlayForPosition": "順位決め",
   "board.GameSelect.IsChoosing": "%sは選んでいます",
   "board.GameSelect.ClickToPlay": "クリックしてこのミニゲームをプレイ",
   "board.GameSelect.ClickInChat": "ミニゲームを選択するには、チャットのメッセージをクリックしてください。",
@@ -601,7 +601,7 @@
 
   "board.Draw.Next": "[次へ]",
   "board.Draw.Intro": "2人以上のプレイヤーが引き分けになりました。サイコロで最終順位を決めます！",
-  "board.Draw.Rolled": "%1$s rolled a %2$s!",
+  "board.board.Draw.Rolled": "%1$s rolled a %2$s!",
   "board.Draw.Same": "同じ数字を出したプレイヤーがいます！ 再びサイコロを振ります。",
   "board.Draw.Softlock": "ゲーム中のエラーにより、順位を獲得できなかったプレイヤーがいます。 ソフトロックを防ぐため、プレイヤーにはランダムに配置タグが与えられている",
 

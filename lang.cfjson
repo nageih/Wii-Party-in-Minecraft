@@ -4,7 +4,7 @@
     "lobby.Name":"Wii Party in Minecraft",
     "lobby.Welcome":"Welcome!",
 
-    "join.Ingame":"%s has rejoined and will resume next round.",
+    "lobby.Join.Ingame":"%s has rejoined and will resume next round.",
 
     "lobby.Credit.Builder":"Builder",
     "lobby.Credit.MainBuilder":"Main Builder",
@@ -16,7 +16,6 @@
     "lobby.Credit.MoralSupport":"Moral Support",
     "lobby.Credits.Thanks":"Special Thanks:",
     "lobby.Credits.Testers":"Testers:",
-
     "lobby.Credits.Translators":"Translators:",
 
     "lobby.EndGame.Info":"Use %s to vote to end the game early!",
@@ -91,6 +90,14 @@
 
 
 
+    "control.RightClick":"RIGHT CLICK",
+    "control.Release":"RELEASE",
+
+    
+
+
+
+
     "board.Scoreboard":"Placements",
 
     "board.DiceRoll.NormalDice": "Normal Dice",
@@ -105,7 +112,6 @@
     "board.DiceRoll.DinoDice": "Dinosaur Dice",
     "board.DiceRoll.DinoDice.Info": "Rolls a good or bad dinosaur.",
     "board.DiceRoll.Dice.Info": "Right Click to use.",
-  
     "board.DiceRoll.Invalid": "You aren't in a correct position to throw this item.",
     "board.DiceRoll.OutOfBounds": "Please don't go out of bounds of your tile.",
     "board.DiceRoll.MoveTo": "Move to tile %s.",
@@ -129,8 +135,6 @@
     "board.DiceRoll.PlayerDice.Name": "Player Die",
     "board.DiceRoll.PlayerDice.Lore": "Randomly chooses a player.",
 
-    "select.Round":"Round %s",
-    "select.PlayForPosition":"Play for Position",
     "board.GameSelect.Round": "Round %s",
     "board.GameSelect.PlayForPosition": "Play for Position",
     "board.GameSelect.IsChoosing": "%s is choosing",
@@ -138,20 +142,18 @@
     "board.GameSelect.ClickInChat": "Click the message in chat to choose that minigame.",
     "board.GameSelect.WaitFor": "Wait for %s to choose the next minigame.",
     "board.GameSelect.TookTooLong": "%s took too long to decide.",
-    "select.Choose.Intro":"From now on the player in last place will choose the minigame.",
-    "select.Choose.Player":"%s is choosing.",
-    "select.Choose.Info":"Use your movement keys and right click to select.",
-    "select.Selected":"has been chosen!",
-    "select.Choose.Left":"The chooser has left. A random minigame was selected!",
+    "board.GameSelect.Choose.Intro":"From now on the player in last place will choose the minigame.",
+    "board.GameSelect.Choose.Player":"%s is choosing.",
+    "board.GameSelect.Choose.Info":"Use your movement keys and right click to select.",
+    "board.GameSelect.Choose.Left":"The chooser has left. A random minigame was selected!",
+    "board.GameSelect.Selected":"has been chosen!",
 
     "board.Draw.Next": "[NEXT]",
-    "board.Draw.Intro": "Two or more players have drawn. They will decide their final positions with a roll-off!",
-    "board.Draw.Rolled": "%1$s rolled a %2$s!",
     "board.Draw.Same": "Some players rolled the same number! They will now roll again.",
     "board.Draw.Softlock": "Some players have not recieved a position due to a error in the game. To prevent a softlock players have been randomly given a placement tag",
-    "draw.NewTurn":"%s's turn to roll.",
-    "draw.Rolled":"%1$s has rolled a %2$s!",
-    "draw.Start":"Multiple players ended with %1$s place!\n%2$s will now decide on their new positions.",
+    "board.Draw.NewTurn":"%s's turn to roll.",
+    "board.Draw.Rolled":"%1$s has rolled a %2$s!",
+    "board.Draw.Start":"Multiple players ended with %1$s place!\n%2$s will now decide on their new positions.",
     "board.Draw.Failsafe": "Oopsies, something went wrong. Placements have been randomised to prevent everything from breaking :(",
 
     "board.Tiles.Surprise": "Surprise Time!",
@@ -170,16 +172,20 @@
     "board.Tiles.5-6": "5-6: %s",
     "board.Tiles.1-3": "1-3: %s",
     "board.Tiles.4-6": "4-6: %s",
+    
     "board.Tiles.Ufo.Intro": "%1$s will now choose a random player on the island to swap positions with.",
     "board.Tiles.Ufo.IntroLessThan3": "%1$s will now swap positions with %2$s.",
     "board.Tiles.Ufo.NoPlayers": "There are no available players to swap with :(",
+
     "board.Tiles.Tornado.Intro": "%1$s will now choose a random player to move back, as well the number of spaces.",
     "board.Tiles.Tornado.NoPlayers": "There are no available players to move back :(",
     "board.Tiles.Tornado.WillRoll": "%1$s will now roll to decide how far %2$s goes back.",
     "board.Tiles.Tornado.Chosen": "%1$s has been chosen to go back %2$s tiles!",
     "board.Tiles.Tornado.WillMove": "%1$s will move back %2$s tiles!",
+
     "board.Tiles.Volcano.Errupted": "The volcano is errupting!",
     "board.Tiles.Volcano.Normal": "The board has returned to normal!",
+
     "board.Tiles.Dino.Intro": "%1$s will now roll to choose if they go forwards or backwards.\n\nIf they land on the blue dinosaur they go forward.\nIf they land on the red one they go back!",
     "board.Tiles.Dino.Numbers": "Dinosaur Numbers:",
     "board.Tiles.Dino.NumbersBlue": "1-3: Blue Dino",
@@ -189,34 +195,37 @@
     "board.Tiles.Dino.Run": "RUN!!!",
     "board.Tiles.Dino.HoldStill": "Hold still...",
     "board.Tiles.Dino.Eaten": "%s was eaten!",
+
     "board.Tiles.Skull.InVolcano": "%s is now stuck in the volcano!",
+
     "board.Tiles.Shout.Escape": "%s made it out of the volcano!",
-    "tiles.Final.Victory":"VICTORY!",
-    "tiles.Dragon.Fail":"The Dragon lives",
-    "tiles.Dragon.Win":"The Dragon has been defeated",
-    "tiles.Dragon.StartHead":"Dragon Wall!",
-    "tiles.Dragon.StartSub":"Roll at least a 4",
 
-    "tiles.Final.Start":"Final Challenge!",
-    "tiles.Final.Info":"Roll at least a 6 to defeat %s",
-    "tiles.Final.Fail":"EPIC FAIL",
-    "tiles.Final.NextRound":"Dont worry, you will be able to use your extra dice next round if you place 1st-3rd!",
+    "board.Tiles.Dragon.Fail":"The Dragon lives",
+    "board.Tiles.Dragon.Win":"The Dragon has been defeated",
+    "board.Tiles.Dragon.Start.Header":"Dragon Wall!",
+    "board.Tiles.Dragon.Start.Sub":"Roll at least a 4",
 
-    "tiles.Jump.StartHead":"Jump!",
-    "tiles.Jump.StartSub":"Don't mess up...",
-    "tiles.Jump.Win":"%s nailed the jump!",
+    "board.Tiles.Final.Start":"Final Challenge!",
+    "board.Tiles.Final.Info":"Roll at least a 6 to defeat %s",
+    "board.Tiles.Final.Fail":"EPIC FAIL",
+    "board.Tiles.Final.Next":"Dont worry, you will be able to use your extra dice next round if you place 1st-3rd!",
+    "board.Tiles.Final.Victory!":"VICTORY!",
 
-    "tiles.Ribcage.StartHead":"Pick a side!",
-    "tiles.Ribcage.StartSub":"Choose wisely...",
+    "board.Tiles.Jump.Start.Header":"Jump!",
+    "board.Tiles.Jump.Start.Sub":"Don't mess up...",
+    "board.Tiles.Jump.Win":"%s nailed the jump!",
 
-    "tiles.RopeSwing.Start":"Rope Swing!",
-    "tiles.RopeSwing.Rolled":"%1$s rolled an extra %2$s!",
-    "tiles.RopeSwing.Info":"Roll your dice!",
+    "board.Tiles.Ribcage.Start.Header":"Pick a side!",
+    "board.Tiles.Ribcage.Start.Sub":"Choose wisely...",
 
-    "tiles.SpikeBall.StartHead":"Spike Ball!",
-    "tiles.SpikeBall.StartSub":"Roll at least a %s",
-    "tiles.SpikeBall.Fail":"The Spike Ball survived!",
-    "tiles.SpikeBall.Win":"The Spike Ball has been destroyed!",
+    "board.Tiles.RopeSwing.Start":"Rope Swing!",
+    "board.Tiles.RopeSwing.Rolled":"%1$s rolled an extra %2$s!",
+    "board.Tiles.RopeSwing.Info":"Roll your dice!",
+
+    "board.Tiles.SpikeBall.Start.Header":"Spike Ball!",
+    "board.Tiles.SpikeBall.Start.Sub":"Roll at least a %s",
+    "board.Tiles.SpikeBall.Fail":"The Spike Ball survived!",
+    "board.Tiles.SpikeBall.Win":"The Spike Ball has been destroyed!",
 
 
 
@@ -586,14 +595,7 @@
 
 
 
-    "control.RightClick":"RIGHT CLICK",
-    "control.Release":"RELEASE",
 
-
-
-
-    @skip
-    "test":"test",
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
     "mount.onboard": "",

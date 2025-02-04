@@ -15,7 +15,7 @@
     "board.DiceRoll.DinoDice.Info": "Wurfelt einen guten oder bosen Dinosaurier.",
     "board.DiceRoll.Dice.Info": "Zum Benutzen Rechtsklick.",
 
-    "tiles.Final.Victory":"GEWONNEN!",
+    "board.Tiles.Final.Victory!":"GEWONNEN!",
 
     "join.Ingame":"%s ist zurückgekehrt und wird in der nächsten Runde weitermachen.",
 
@@ -28,41 +28,41 @@
 
     "board.Scoreboard":"Plazierung",
 
-    "draw.NewTurn":"%s's zug zu würfeln.",
-    "draw.Rolled":"%1$s hat eine %2$s gewürfelt!",
-    "draw.Start":"Mehrere Spieler endeten mit den %1$s Platz!\n%2$s wird nun über die neuen Positionen entscheiden.",
+    "board.Draw.NewTurn":"%s's zug zu würfeln.",
+    "board.Draw.Rolled":"%1$s hat eine %2$s gewürfelt!",
+    "board.Draw.Start":"Mehrere Spieler endeten mit den %1$s Platz!\n%2$s wird nun über die neuen Positionen entscheiden.",
 
-    "select.Choose.Intro":"Von nun an wählt der Spieler auf dem letzten Platz das Minispiel.",
-    "select.Choose.Player":"%s wählt aus.",
-    "select.Choose.Info":"Verwenden die Bewegungstasten und klicke mit der rechten Maustaste, um auszuwählen.",
+    "board.GameSelect.Choose.Intro":"Von nun an wählt der Spieler auf dem letzten Platz das Minispiel.",
+    "board.GameSelect.Choose.Player":"%s wählt aus.",
+    "board.GameSelect.Choose.Info":"Verwenden die Bewegungstasten und klicke mit der rechten Maustaste, um auszuwählen.",
 
-    "select.Round":"Runde %s",
-    "select.PlayForPosition":"Minispiel um die Zugreihenfolge",
+    "board.GameSelect.Round":"Runde %s",
+    "board.GameSelect.PlayForPosition":"Minispiel um die Zugreihenfolge",
 
-    "tiles.Dragon.Fail":"Der Drache lebt",
-    "tiles.Dragon.Win":"Der Drache ist besiegt",
-    "tiles.Dragon.StartHead":"Drachenwand!",
-    "tiles.Dragon.StartSub":"Würfele mindestens eine 4",
+    "board.Tiles.Dragon.Fail":"Der Drache lebt",
+    "board.Tiles.Dragon.Win":"Der Drache ist besiegt",
+    "board.Tiles.Dragon.Start.Header":"Drachenwand!",
+    "board.Tiles.Dragon.Start.Sub":"Würfele mindestens eine 4",
 
-    "tiles.Final.Start":"Letzte Herausforderung!",
-    "tiles.Final.Info":"Würlfele mindestens eine 6 um %s zu besiegen",
-    "tiles.Final.Fail":"EPIC FAIL",
-    "tiles.Final.NextRound":"Keine Sorge, Du kannst die zusätzlichen Würfel in der nächsten Runde verwenden, wenn du den 1. bis 3. Platz belegst!",
+    "board.Tiles.Final.Start":"Letzte Herausforderung!",
+    "board.Tiles.Final.Info":"Würlfele mindestens eine 6 um %s zu besiegen",
+    "board.Tiles.Final.Fail":"EPIC FAIL",
+    "board.Tiles.Final.Next":"Keine Sorge, Du kannst die zusätzlichen Würfel in der nächsten Runde verwenden, wenn du den 1. bis 3. Platz belegst!",
 
-    "tiles.Jump.StartHead":"Spring!",
-    "tiles.Jump.StartSub":"Vermassel es nicht...",
-    "tiles.Jump.Win":"%s hat den Sprung geschafft!",
+    "board.Tiles.Jump.Start.Header":"Spring!",
+    "board.Tiles.Jump.Start.Sub":"Vermassel es nicht...",
+    "board.Tiles.Jump.Win":"%s hat den Sprung geschafft!",
 
-    "tiles.Ribcage.StartHead":"Wähle eine Seite!",
-    "tiles.Ribcage.StartSub":"Wähle mit Bedacht ...",
+    "board.Tiles.Ribcage.Start.Header":"Wähle eine Seite!",
+    "board.Tiles.Ribcage.Start.Sub":"Wähle mit Bedacht ...",
 
-    "tiles.RopeSwing.Start":"Seilschaukel!",
-    "tiles.RopeSwing.Rolled":"%1$s hat zustälich eine %2$s gewürfelt!",
+    "board.Tiles.RopeSwing.Start":"Seilschaukel!",
+    "board.Tiles.RopeSwing.Rolled":"%1$s hat zustälich eine %2$s gewürfelt!",
 
-    "tiles.SpikeBall.StartHead":"Spike Ball!",
-    "tiles.SpikeBall.StartSub":"Würfle mindestens eine %s",
-    "tiles.SpikeBall.Fail":"Der Spike Ball hat überlebt!",
-    "tiles.SpikeBall.Win":"Der Spike Ball wurde besiegt!",
+    "board.Tiles.SpikeBall.Start.Header":"Spike Ball!",
+    "board.Tiles.SpikeBall.Start.Sub":"Würfle mindestens eine %s",
+    "board.Tiles.SpikeBall.Fail":"Der Spike Ball hat überlebt!",
+    "board.Tiles.SpikeBall.Win":"Der Spike Ball wurde besiegt!",
 
     "game.FlagFracas.DisqualOne":"%s wurde disqualifiziert!",
     "game.FlagFracas.FaceDirection":"SCHAUE IN DIESE RICHTUNG",
@@ -112,7 +112,7 @@
 
     "game.ZombieTag.Tip":"GEHE auf Spieler zu, um sie zu infizieren",
 
-    "tiles.RopeSwing.Info":"Wirf dein Würfel!",
+    "board.Tiles.RopeSwing.Info":"Wirf dein Würfel!",
 
     "lobby.Parkour.Half":"Der Herzeingang ist halb geöffnet...",
     "lobby.Parkour.Open":"Der Herzeingang wurde geöffnet!",
@@ -586,8 +586,8 @@
     "board.DiceRoll.PlayerDice.Name": "Spieler Würfel",
     "board.DiceRoll.PlayerDice.Lore": "Wählt zufällig einen Spieler aus.",
 
-    "board.GameSelect.Round": "Runde %s",
-    "board.GameSelect.PlayForPosition": "Minispiel um die Zugreihenfolge",
+    "board.Gameboard.GameSelect.Round": "Runde %s",
+    "board.Gameboard.GameSelect.PlayForPosition": "Minispiel um die Zugreihenfolge",
     "board.GameSelect.IsChoosing": "%s wählt aus",
     "board.GameSelect.ClickToPlay": "Klicke, um dieses Minispiel zu spielen",
     "board.GameSelect.ClickInChat": "Klicke auf die Nachricht im Chat, um das Minispiel auszuwählen.",
@@ -596,7 +596,7 @@
 
     "board.Draw.Next": "[NEXT]",
     "board.Draw.Intro": "Zwei oder mehr Spieler haben unentschieden gespielt. Ihre endgültigen Positionen werden durch einen Roll-Off entschieden!",
-    "board.Draw.Rolled": "%1$s hat eine %2$s gewürfelt!",
+    "board.board.Draw.Rolled": "%1$s hat eine %2$s gewürfelt!",
     "board.Draw.Same": "Einige Spieler haben die gleiche Zahl gewürfelt! Sie müssen nun erneut würfeln.",
     "board.Draw.Softlock": "Einige Spieler haben aufgrund eines Fehlers im Spiel keine Position erhalten. Um einen Softlock zu verhindern, wurde den Spielern zufällig ein Platzierungs-Tag zugewiesen.",
 

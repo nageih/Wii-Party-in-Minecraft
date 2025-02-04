@@ -29,11 +29,11 @@ execute if score final= minigameSelect matches 16 run data modify storage board:
 execute if score final= minigameSelect matches 17 run data modify storage board:minigame_select name set value "Maze Daze"
 execute if score final= minigameSelect matches 18 run data modify storage board:minigame_select name set value "Walk-Off"
 
-tellraw @a[tag=playing,tag=!ingame] [{"storage":"board:minigame_select","nbt":"name","color":"light_purple","bold":true},{"text":" "},{"translate":"select.Selected"}]
-tellraw @a[tag=ingame,team=blue] [{"storage":"board:minigame_select","nbt":"name","color":"#0088ff","bold":true},{"text":" "},{"translate":"select.Selected"}]
-tellraw @a[tag=ingame,team=red] [{"storage":"board:minigame_select","nbt":"name","color":"red","bold":true},{"text":" "},{"translate":"select.Selected"}]
-tellraw @a[tag=ingame,team=green] [{"storage":"board:minigame_select","nbt":"name","color":"green","bold":true},{"text":" "},{"translate":"select.Selected"}]
-tellraw @a[tag=ingame,team=orange] [{"storage":"board:minigame_select","nbt":"name","color":"gold","bold":true},{"text":" "},{"translate":"select.Selected"}]
+tellraw @a[tag=playing,tag=!ingame] [{"storage":"board:minigame_select","nbt":"name","color":"light_purple","bold":true},{"text":" "},{"translate":"board.GameSelect.Selected"}]
+tellraw @a[tag=ingame,team=blue] [{"storage":"board:minigame_select","nbt":"name","color":"#0088ff","bold":true},{"text":" "},{"translate":"board.GameSelect.Selected"}]
+tellraw @a[tag=ingame,team=red] [{"storage":"board:minigame_select","nbt":"name","color":"red","bold":true},{"text":" "},{"translate":"board.GameSelect.Selected"}]
+tellraw @a[tag=ingame,team=green] [{"storage":"board:minigame_select","nbt":"name","color":"green","bold":true},{"text":" "},{"translate":"board.GameSelect.Selected"}]
+tellraw @a[tag=ingame,team=orange] [{"storage":"board:minigame_select","nbt":"name","color":"gold","bold":true},{"text":" "},{"translate":"board.GameSelect.Selected"}]
 
 title @a[tag=playing] times 0 50 20
 

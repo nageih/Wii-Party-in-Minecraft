@@ -8,7 +8,7 @@ execute unless score ropeswing= tiles matches 3.. run ride @a[tag=turn,limit=1] 
 ride @a[tag=turn,limit=1] mount @e[type=armor_stand,tag=ropestand,limit=1]
 
 # actionbar
-execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=blue] actionbar {"translate":"tiles.RopeSwing.Info","color":"#0088ff"}
-execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=red] actionbar {"translate":"tiles.RopeSwing.Info","color":"red"}
-execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=green] actionbar {"translate":"tiles.RopeSwing.Info","color":"green"}
-execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=orange] actionbar {"translate":"tiles.RopeSwing.Info","color":"gold"}
+execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=blue] actionbar {"translate":"board.Tiles.RopeSwing.Info","color":"#0088ff"}
+execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=red] actionbar {"translate":"board.Tiles.RopeSwing.Info","color":"red"}
+execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=green] actionbar {"translate":"board.Tiles.RopeSwing.Info","color":"green"}
+execute if score ropeswing= tiles matches 1 run title @a[tag=turn,team=orange] actionbar {"translate":"board.Tiles.RopeSwing.Info","color":"gold"}

@@ -1,7 +1,7 @@
 tag @r[tag=drawRoll,tag=!drawRolled] add drawRollNow
 
 # tellraw @a[tag=playing] [{"text":"","color":"gray"},{"selector":"@a[tag=drawRollNow]"},{"text":"'s turn to roll."}]
-tellraw @a[tag=playing] [{"translate":"draw.NewTurn","color":"gray","with":[{"selector":"@a[tag=drawRollNow]"}]}]
+tellraw @a[tag=playing] [{"translate":"board.Draw.NewTurn","color":"gray","with":[{"selector":"@a[tag=drawRollNow]"}]}]
 
 execute as @a[tag=drawRollNow,limit=1,sort=random] run function board:dice_roll/give/normal
 
