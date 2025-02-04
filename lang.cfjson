@@ -593,6 +593,7 @@
 
 
 
+    @skip=true
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
     "mount.onboard": "",
@@ -672,5 +673,6 @@
     "enchantment.level.8": "",
     "enchantment.level.9": "",
     "enchantment.level.10": ""
+    @skip=false
 
 }
