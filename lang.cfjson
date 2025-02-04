@@ -93,7 +93,7 @@
     "control.RightClick":"RIGHT CLICK",
     "control.Release":"RELEASE",
 
-    
+
 
 
 
@@ -266,7 +266,7 @@
     "generic.Hover.ClickTo": "Click Here",
 
 
-
+    "game.HowToPlay":"How To Play:"
 
     "game.ShiftyGiftsName": "Shifty Gifts",
     "game.JumboJumpName": "Jumbo Jump",
@@ -297,7 +297,9 @@
     "game.CommuterCountName": "Commuter Count",
 
     "game.DiceyDescentName": "Dicey Descent",
-    "game.DiceyDescent": "\n§l§nDicey Descent§r   \n\n§7§lHow To Play:§r   \n§7 - Choose a side to fall through   \n - One side will be bad   \n - Make sure to choose the least bad sides to win!\n",
+    "game.DiceyDescent.How.1": "%s Choose a side to fall through",
+    "game.DiceyDescent.How.2": "%s One side will be bad",
+    "game.DiceyDescent.How.3": "%s Make sure to choose the least bad sides to win!",
     "game.DiceyDescent.ChooseSide": "Choose a side!",
     "game.DiceyDescent.OnSide": "You are on the %s side",
     "deathMessages.DiceyDescent1": "%s experienced electricity",
