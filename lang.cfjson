@@ -592,7 +592,7 @@
 
 
 
-
+    @instruction=Sign|Bold
     "test":"test",
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
