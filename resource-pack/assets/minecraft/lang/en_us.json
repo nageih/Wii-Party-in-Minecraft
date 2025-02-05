@@ -112,7 +112,7 @@
 "control.Release": "RELEASE",
 "scoreboard.DiceyDescent.Symbol": "\u26a1",
 "scoreboard.ZombieTag.Symbol": "\u2620",
-"scoreboard.DiceyDescent": "  %1$s %1$s   ",
+"scoreboard.DiceyDescent": "  %1$s %2$s   ",
 "scoreboard.ZombieTag": "        \u2620        ",
 "board.Scoreboard": "Placements",
 "board.DiceRoll.NormalDice": "Normal Dice",

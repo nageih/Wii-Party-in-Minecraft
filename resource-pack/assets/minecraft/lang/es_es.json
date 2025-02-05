@@ -27,7 +27,7 @@
 "lobby.Island.Guide3": "Use  to toggle gamemode spectator",
 "lobby.Island.Actionbar": "Use  to return",
 "lobby.NotEnough.Team": "%1$s: %2$s",
-"scoreboard.DiceyDescent": "  %1$s %1$s   ",
+"scoreboard.DiceyDescent": "  %1$s %2$s   ",
 "scoreboard.ZombieTag": "                  ",
 "board.DiceRoll.MoveTo": "Move to tile %s.",
 "board.DiceRoll.RollResult": "%1$s rolled a %2$s and %3$s.",
