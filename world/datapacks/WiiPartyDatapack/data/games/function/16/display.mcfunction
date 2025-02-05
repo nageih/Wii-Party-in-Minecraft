@@ -32,14 +32,14 @@ execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 16displa
 
 # Displays specific symbols that represent if the player is dead or alive depending on if they have the 16dead tag
     # Blue team
-execute as @a[tag=ingame,tag=!16dead,team=blue] run team modify displayline11 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=!16dead,team=blue] run team modify displayline11 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"gray"}]}
 execute as @a[tag=ingame,tag=16dead,team=blue] run team modify displayline11 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"#0088ff"}]}
     # Red team
-execute as @a[tag=ingame,tag=!16dead,team=red] run team modify displayline8 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=!16dead,team=red] run team modify displayline8 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"gray"}]}
 execute as @a[tag=ingame,tag=16dead,team=red] run team modify displayline8 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"red"}]}
     # Green team
-execute as @a[tag=ingame,tag=!16dead,team=green] run team modify displayline5 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=!16dead,team=green] run team modify displayline5 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"gray"}]}
 execute as @a[tag=ingame,tag=16dead,team=green] run team modify displayline5 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"green"}]}
     # Orange team
-execute as @a[tag=ingame,tag=!16dead,team=orange] run team modify displayline2 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=!16dead,team=orange] run team modify displayline2 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"gray"}]}
 execute as @a[tag=ingame,tag=16dead,team=orange] run team modify displayline2 prefix {"translate":"scoreboard.TropicalPunch","with":[{"text":"scoreboard.TropicalPunch.Symbols","color":"gold"}]}

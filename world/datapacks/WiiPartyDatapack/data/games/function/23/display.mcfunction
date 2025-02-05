@@ -31,14 +31,14 @@ execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 23displa
 
 # Displays specific symbols that represent if the player has dead depending on if they have the dead tag
     # Blue team
-execute as @a[tag=ingame,tag=!dead,team=blue] run team modify displayline11 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=dead,team=blue] run team modify displayline11 prefix {"text":"      ☠","color":"#0088ff"}
+execute as @a[tag=ingame,tag=!dead,team=blue] run team modify displayline11 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,tag=dead,team=blue] run team modify displayline11 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"#0088ff"}]}
     # Red team
-execute as @a[tag=ingame,tag=!dead,team=red] run team modify displayline8 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=dead,team=red] run team modify displayline8 prefix {"text":"      ☠","color":"red"}
+execute as @a[tag=ingame,tag=!dead,team=red] run team modify displayline8 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,tag=dead,team=red] run team modify displayline8 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"red"}]}
     # Green team
-execute as @a[tag=ingame,tag=!dead,team=green] run team modify displayline5 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=dead,team=green] run team modify displayline5 prefix {"text":"      ☠","color":"green"}
+execute as @a[tag=ingame,tag=!dead,team=green] run team modify displayline5 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,tag=dead,team=green] run team modify displayline5 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"green"}]}
     # Orange team
-execute as @a[tag=ingame,tag=!dead,team=orange] run team modify displayline2 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=dead,team=orange] run team modify displayline2 prefix {"text":"      ☠","color":"gold"}
+execute as @a[tag=ingame,tag=!dead,team=orange] run team modify displayline2 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,tag=dead,team=orange] run team modify displayline2 prefix {"translate":"scoreboard.RiskyRailway","with":[{"text":"scoreboard.RiskyRailway.Symbol","color":"gold"}]}

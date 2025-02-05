@@ -376,9 +376,20 @@
     "scoreboard.LuckyLaunch.Symbol":"❌",
     "scoreboard.DerbyDash.Symbol":"🎌",
     "scoreboard.ChopChops.Symbol":" %s  ",
-    "scoreboard.PopgunPosse.Symbol":"%s ",
+    "scoreboard.PopgunPosse.Symbol":" %s ",
     "scoreboard.FlagFracas.Symbol":"🎌",
     "scoreboard.TropicalPunch.Symbol":"❌",
+    "scoreboard.GoalGetters.Symbol":" %s ",
+    "scoreboard.RiskyRailway.Symbol":"☠",
+    "scoreboard.MazeDaze.Symbol":"🎌",
+    "scoreboard.HammerHeads.Symbol":" %s ",
+    "scoreboard.StopWatchers.Symbol":"🎌",
+    "scoreboard.StrategySteps.Symbol":"✓",
+    "scoreboard.FaceFlip.Symbol":"✓",
+    "scoreboard.WalkOff.Symbol":"✓",
+
+
+
     @clear
 
     @instruction=LimitForced|125
@@ -396,6 +407,15 @@
     "scoreboard.PopgunPosse":"@SI;%1$s#scoreboard.PopgunPosse.Symbol@",
     "scoreboard.FlagFracas":"@SI;%1$s#scoreboard.FlagFracas.Symbol@",
     "scoreboard.TropicalPunch":"@SI;%1$s#scoreboard.TropicalPunch.Symbol@",
+    "scoreboard.GoalGetters":"@SI;%1$s#scoreboard.GoalGetters.Symbol@",
+    "scoreboard.RiskyRailway":"@SI;%1$s#scoreboard.RiskyRailway.Symbol@",
+    "scoreboard.MazeDaze":"@SI;%1$s#scoreboard.MazeDaze.Symbol@",
+    "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol@",
+    "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
+    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@",
+    "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
+    "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
+
     @clear
 
     # Dicey Descent

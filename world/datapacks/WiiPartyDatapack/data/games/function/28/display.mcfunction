@@ -29,14 +29,14 @@ execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 28displa
 
 # Displays specific symbols that represent the number of times the player has taken damage by checking their 1damage score
     # Blue team
-execute as @a[tag=ingame,team=blue,tag=!28stopped] run team modify displayline11 prefix {"text":"      🕑","color":"dark_gray"}
-execute as @a[tag=ingame,team=blue,tag=28stopped] run team modify displayline11 prefix {"text":"      🕑","color":"#0088ff"}
+execute as @a[tag=ingame,team=blue,tag=!28stopped] run team modify displayline11 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,team=blue,tag=28stopped] run team modify displayline11 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"#0088ff"}]}
     # Red team
-execute as @a[tag=ingame,team=red,tag=!28stopped] run team modify displayline8 prefix {"text":"      🕑","color":"dark_gray"}
-execute as @a[tag=ingame,team=red,tag=28stopped] run team modify displayline8 prefix {"text":"      🕑","color":"red"}
+execute as @a[tag=ingame,team=red,tag=!28stopped] run team modify displayline8 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,team=red,tag=28stopped] run team modify displayline8 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"red"}]}
     # Green team
-execute as @a[tag=ingame,team=green,tag=!28stopped] run team modify displayline5 prefix {"text":"      🕑","color":"dark_gray"}
-execute as @a[tag=ingame,team=green,tag=28stopped] run team modify displayline5 prefix {"text":"      🕑","color":"green"}
+execute as @a[tag=ingame,team=green,tag=!28stopped] run team modify displayline5 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,team=green,tag=28stopped] run team modify displayline5 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"green"}]}
     # Orange team
-execute as @a[tag=ingame,team=orange,tag=!28stopped] run team modify displayline2 prefix {"text":"      🕑","color":"dark_gray"}
-execute as @a[tag=ingame,team=orange,tag=28stopped] run team modify displayline2 prefix {"text":"      🕑","color":"gold"}
+execute as @a[tag=ingame,team=orange,tag=!28stopped] run team modify displayline2 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,team=orange,tag=28stopped] run team modify displayline2 prefix {"translate":"scoreboard.StopWatchers","with":[{"text":"scoreboard.StopWatchers.Symbol","color":"gold"}]}
