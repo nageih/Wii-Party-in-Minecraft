@@ -387,6 +387,7 @@
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
+    "scoreboard.ChopChops":"@SI;%1$s#scoreboard.ChopChops.Symbol@",
     @clear
 
     # Dicey Descent
