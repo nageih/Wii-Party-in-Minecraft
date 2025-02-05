@@ -97,7 +97,7 @@
 
     # Sidebar
     @instruction=LimitForced|75|Bold
-    "lobby.Display.Welcome.1|2":"Welcome To|@SI;%s#generic.Name@",
+    "lobby.Display.Welcome.1|2":"Welcome To|@T;generic.Name@",
     @clear
     @instruction=LimitForced|75
     "lobby.Display.Join1":"Join a Team",
@@ -183,8 +183,8 @@
     "scoreboard.ZombieTag.Symbol":"☠",
 
     @instruction=LimitForced|75
-    "scoreboard.DiceyDescent":"%1$s %2$s",
-    "scoreboard.ZombieTag":"%s",
+    "scoreboard.DiceyDescent":"@T;scoreboard.DiceyDescent.Symbol@ @T;scoreboard.DiceyDescent.Symbol@",
+    "scoreboard.ZombieTag":"@T;scoreboard.ZombieTag.Symbol@",
     @clear
 
 
