@@ -173,19 +173,6 @@
     % Stop holding the input
     "control.Release":"RELEASE",
 
-
-
-    # Scoreboard Icons
-    @skip
-    "scoreboard.DiceyDescent.Symbol":"⚡",
-    "scoreboard.ZombieTag.Symbol":"☠",
-    @clear
-    @instruction=LimitForced|75
-    "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
-    "scoreboard.ZombieTag":"@T;scoreboard.ZombieTag.Symbol@",
-    @clear
-
-
     # Main Scoreboard
     "board.Scoreboard":"Placements",
 
@@ -363,6 +350,34 @@
     "game.SpotlightFightName": "Spotlight Fight",
     "game.SpaceBrawlName": "Space Brawl",
     "game.CommuterCountName": "Commuter Count",
+
+    # Scoreboard Icons
+    @skip
+    "scoreboard.DiceyDescent.Symbol":"⚡",
+    "scoreboard.ZombieTag.Symbol":"☠",
+    "scoreboard.BarrelDaredevil.Symbols.0":"",
+    "scoreboard.BarrelDaredevil.Symbols.1":"|",
+    "scoreboard.BarrelDaredevil.Symbols.2":"||",
+    "scoreboard.BarrelDaredevil.Symbols.3":"|||",
+    "scoreboard.BarrelDaredevil.Symbols.4":"||||",
+    "scoreboard.BarrelDaredevil.Symbols.5":"|||||",
+    "scoreboard.BarrelDaredevil.Symbols.6":"||||||",
+    "scoreboard.BarrelDaredevil.Symbols.7":"|||||||",
+    "scoreboard.BarrelDaredevil.Symbols.8":"||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.9":"|||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.10":"||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.11":"|||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.12":"||||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.13":"|||||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.14":"||||||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.15":"|||||||||||||||",
+    "scoreboard.BarrelDaredevil.Symbols.16":"||||||||||||||||",
+
+    @instruction=LimitForced|75
+    "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
+    "scoreboard.ZombieTag":"@T;scoreboard.ZombieTag.Symbol@",
+    "scoreboard.BarrelDaredevil":"@T;scoreboard.BarrelDaredevil.Symbols.8@@T;scoreboard.BarrelDaredevil.Symbols.8@",
+    @clear
 
     # Dicey Descent
     "game.DiceyDescentName": "Dicey Descent",

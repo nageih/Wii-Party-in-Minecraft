@@ -55,7 +55,7 @@ schedule function games:3/starttitle 5s
 
 # Updates the scoreboard
 scoreboard objectives setdisplay sidebar 3display
-function games:3/set_display
+function games:3/display
 
 team add 4.displaySpace
 team modify 4.displaySpace prefix {"text":"\uF833\uF831","font":"minecraft:space"}
