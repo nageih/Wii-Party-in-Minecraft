@@ -94,8 +94,7 @@
     "lobby.Parkour.Beward":"Beware...",
 
     # Sidebar
-    "lobby.Display.Welcome.1":"Welcome To",
-    "lobby.Display.Welcome.2":"@SI;%s#generic.Name@",
+    "lobby.Display.Welcome.1|2":"Welcome To|@SI;%s#generic.Name@",
     "lobby.Display.Join1":"Join a Team",
     "lobby.Display.Join2":"To Play!",
 
@@ -766,11 +765,11 @@
 
 
 
-
+    @skip
     "container.isLocked": "",
     "key.mouse.right": "Right Click",
     "mount.onboard": "",
-        "gui.advancements": "",
+    "gui.advancements": "",
     "gui.recipebook.moreRecipes": "",
     "gui.recipebook.search_hint": "",
     "gui.recipebook.toggleRecipes.all": "",
@@ -792,10 +791,8 @@
     "commands.trigger.add.success": "",
     "commands.trigger.set.success": "",
     "book.pageIndicator": "",
-
     "advancements.sad_label": "",
     "advancements.empty": "",
-
   "effect.duration.infinite": "",
     "effect.minecraft.speed": "",
     "effect.minecraft.slowness": "",
@@ -829,7 +826,6 @@
     "effect.minecraft.dolphins_grace": "",
     "effect.minecraft.bad_omen": "",
     "effect.minecraft.hero_of_the_village": "",
-
     "potion.potency.0": "",
     "potion.potency.1": "",
     "potion.potency.2": "",
@@ -846,5 +842,6 @@
     "enchantment.level.8": "",
     "enchantment.level.9": "",
     "enchantment.level.10": ""
+    @clear
 
 }
