@@ -6,7 +6,33 @@
 # Resets the scoreboard and all the scores
 scoreboard players reset * 3display
 
-function general:scoreboard_init
+# If there is an entity on the team, it will add the teams name to the scoreboard
+team join t.Blue §l
+execute as @a[tag=ingame,team=blue] run scoreboard players set §l 3display 12
+team join t.Red §l§l
+execute as @a[tag=ingame,team=red] run scoreboard players set §l§l 3display 9
+team join t.Green §l§l§l
+execute as @a[tag=ingame,team=green] run scoreboard players set §l§l§l 3display 6
+team join t.Orange §l§l§l§l
+execute as @a[tag=ingame,team=orange] run scoreboard players set §l§l§l§l 3display 3
+
+# Adds the blank lines in the scoreboard depending on if teams are present
+scoreboard players set §r 3display 13
+execute as @a[tag=ingame,team=blue] run scoreboard players set §r§r 3display 10
+execute as @a[tag=ingame,team=red] run scoreboard players set §r§r§r 3display 7
+execute as @a[tag=ingame,team=green] run scoreboard players set §r§r§r§r 3display 4
+execute as @a[tag=ingame,team=orange] run scoreboard players set §r§r§r§r§r 3display 1
+
+execute as @a[tag=ingame,team=blue] run scoreboard players set §1§r 3display 11
+execute as @a[tag=ingame,team=red] run scoreboard players set §2§r 3display 8
+execute as @a[tag=ingame,team=green] run scoreboard players set §3§r 3display 5
+execute as @a[tag=ingame,team=orange] run scoreboard players set §4§r 3display 2
+
+
+team join displayline11 §1§r
+team join displayline8 §2§r
+team join displayline5 §3§r
+team join displayline2 §4§r
 
 # Displays the | symbol to represent how far the players barrel has fell
     # Blue team

@@ -375,19 +375,27 @@
     "scoreboard.BackAttack.Symbol":"❌",
     "scoreboard.LuckyLaunch.Symbol":"❌",
     "scoreboard.DerbyDash.Symbol":"🎌",
-    "scoreboard.ChopChops.Symbol":"%%s  ",
+    "scoreboard.ChopChops.Symbol":" %s  ",
+    "scoreboard.PopgunPosse.Symbol":"%s ",
+    "scoreboard.FlagFracas.Symbol":"🎌",
+    "scoreboard.TropicalPunch.Symbol":"❌",
     @clear
 
     @instruction=LimitForced|125
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
+    @clear
     @instruction=LimitForced|125|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
+    @clear
     @instruction=LimitForced|125
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
     "scoreboard.ChopChops":"@SI;%1$s#scoreboard.ChopChops.Symbol@",
+    "scoreboard.PopgunPosse":"@SI;%1$s#scoreboard.PopgunPosse.Symbol@",
+    "scoreboard.FlagFracas":"@SI;%1$s#scoreboard.FlagFracas.Symbol@",
+    "scoreboard.TropicalPunch":"@SI;%1$s#scoreboard.TropicalPunch.Symbol@",
     @clear
 
     # Dicey Descent
