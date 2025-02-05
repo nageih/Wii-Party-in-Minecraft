@@ -515,7 +515,7 @@
     # Hammer Heads
     "game.HammerHeadsName": "Hammer Heads",
     %%%% How To Play
-    "game.HammerHeads.How.1|2|3|3": "@EI;%s#Bullet Point (-)@ Whack the moles as they pop up|@EI;%s#Bullet Point (-)@ Regular moles grant 1 point, golden moles grant 3, sus moles lose 3|@EI;%s#Bullet Point (-)@ Whack other players to slow them down|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
+    "game.HammerHeads.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Whack the moles as they pop up|@EI;%s#Bullet Point (-)@ Regular moles grant 1 point, golden moles grant 3, sus moles lose 3|@EI;%s#Bullet Point (-)@ Whack other players to slow them down|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
     %% Hammer Item
     "game.HammerHeads.HammerName": "Whack Hammer",
     "game.HammerHeads.HammerLore": "It's comically large!",
