@@ -372,11 +372,16 @@
     "scoreboard.BarrelDaredevil.Symbols.14":"||||||||||||||",
     "scoreboard.BarrelDaredevil.Symbols.15":"|||||||||||||||",
     "scoreboard.BarrelDaredevil.Symbols.16":"||||||||||||||||",
+    "scoreboard.BackAttack.Symbol":"❌",
+    "scoreboard.LuckyLaunch.Symbol":"❌",
 
     @instruction=LimitForced|75
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
-    "scoreboard.ZombieTag":"@T;scoreboard.ZombieTag.Symbol@",
-    "scoreboard.BarrelDaredevil":"@T;scoreboard.BarrelDaredevil.Symbols.8@@T;scoreboard.BarrelDaredevil.Symbols.8@",
+    "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
+    @instruction=LimitForced|75|Bold
+    "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
+    @instruction=LimitForced|75
+    "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     @clear
 
     # Dicey Descent
