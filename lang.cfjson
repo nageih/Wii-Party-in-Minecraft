@@ -96,10 +96,8 @@
     "lobby.Parkour.Beward":"Beware...",
 
     # Sidebar
-    @instruction=LimitForced|150|Bold
-    "lobby.Display.Welcome.1|2":"Welcome To|@T;generic.Name@",
-    @clear
     @instruction=LimitForced|150
+    "lobby.Display.Welcome.1|2":"Welcome To|@T;generic.Name@",
     "lobby.Display.Join1":"Join a Team",
     "lobby.Display.Join2":"To Play!",
     @clear
