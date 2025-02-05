@@ -24,14 +24,14 @@ execute if score lives 12scores matches 3 run team modify displayline7 prefix {"
 execute if score lives 12scores matches 2 run team modify displayline7 prefix {"text":"         ❤❤","color":"red"}
 execute if score lives 12scores matches 1 run team modify displayline7 prefix {"text":"          ❤","color":"red"}
 
-team modify t.12b suffix ["    ",{"translate":"generic.BlueTeam","bold":true,"color":"#0088ff"}]
-team modify t.12r suffix ["    ",{"translate":"generic.RedTeam","bold":true,"color":"red"}]
-team modify t.12g suffix ["    ",{"translate":"generic.GreenTeam","bold":true,"color":"green"}]
-team modify t.12o suffix ["    ",{"translate":"generic.OrangeTeam","bold":true,"color":"gold"}]
-execute as @a[tag=caught,team=blue] run team modify t.12b suffix ["    ",{"translate":"generic.BlueTeam","bold":true,"color":"dark_gray"}]
-execute as @a[tag=caught,team=red] run team modify t.12r suffix ["    ",{"translate":"generic.RedTeam","bold":true,"color":"dark_gray"}]
-execute as @a[tag=caught,team=green] run team modify t.12g suffix ["    ",{"translate":"generic.GreenTeam","bold":true,"color":"dark_gray"}]
-execute as @a[tag=caught,team=orange] run team modify t.12o suffix ["    ",{"translate":"generic.OrangeTeam","bold":true,"color":"dark_gray"}]
+team modify t.12b suffix ["    ",{"translate":"generic.Blue","bold":true,"color":"#0088ff"}]
+team modify t.12r suffix ["    ",{"translate":"generic.Red","bold":true,"color":"red"}]
+team modify t.12g suffix ["    ",{"translate":"generic.Green","bold":true,"color":"green"}]
+team modify t.12o suffix ["    ",{"translate":"generic.Orange","bold":true,"color":"gold"}]
+execute as @a[tag=caught,team=blue] run team modify t.12b suffix ["    ",{"translate":"generic.Blue","bold":true,"color":"dark_gray"}]
+execute as @a[tag=caught,team=red] run team modify t.12r suffix ["    ",{"translate":"generic.Red","bold":true,"color":"dark_gray"}]
+execute as @a[tag=caught,team=green] run team modify t.12g suffix ["    ",{"translate":"generic.Green","bold":true,"color":"dark_gray"}]
+execute as @a[tag=caught,team=orange] run team modify t.12o suffix ["    ",{"translate":"generic.Orange","bold":true,"color":"dark_gray"}]
 
 
 #If there is an entity on the team, it will add the teams name to the scoreboard

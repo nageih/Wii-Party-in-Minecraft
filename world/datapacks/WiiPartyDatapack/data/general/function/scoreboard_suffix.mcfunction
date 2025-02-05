@@ -1,4 +1,4 @@
-team modify t.Blue suffix [{"text":""},{"text":"\uF839","font":"minecraft:space"},{"translate":"generic.BlueTeam","color":"#0088ff","bold":true},{"text":"\uF839","font":"minecraft:space"}]
-team modify t.Red suffix [{"text":""},{"text":"\uF839\uF831","font":"minecraft:space"},{"translate":"generic.RedTeam","color":"red","bold":true},{"text":"\uF839","font":"minecraft:space"}]
-team modify t.Green suffix [{"text":""},{"text":"\uF838\uF832","font":"minecraft:space"},{"translate":"generic.GreenTeam","color":"green","bold":true},{"text":"\uF839","font":"minecraft:space"}]
-team modify t.Orange suffix [{"text":""},{"text":"\uF836\uF831","font":"minecraft:space"},{"translate":"generic.OrangeTeam","color":"gold","bold":true},{"text":"\uF839","font":"minecraft:space"}]
+team modify t.Blue suffix [{"text":""},{"text":"\uF839","font":"minecraft:space"},{"translate":"generic.Blue.Scoreboard","color":"#0088ff","bold":true},{"text":"\uF839","font":"minecraft:space"}]
+team modify t.Red suffix [{"text":""},{"text":"\uF839\uF831","font":"minecraft:space"},{"translate":"generic.Red.Scoreboard","color":"red","bold":true},{"text":"\uF839","font":"minecraft:space"}]
+team modify t.Green suffix [{"text":""},{"text":"\uF838\uF832","font":"minecraft:space"},{"translate":"generic.Green.Scoreboard","color":"green","bold":true},{"text":"\uF839","font":"minecraft:space"}]
+team modify t.Orange suffix [{"text":""},{"text":"\uF836\uF831","font":"minecraft:space"},{"translate":"generic.Orange.Scoreboard","color":"gold","bold":true},{"text":"\uF839","font":"minecraft:space"}]

@@ -12,10 +12,7 @@ tellraw @a [{"text":"Map Reloaded [","color":"green","type":"text"},{"score":{"n
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 
 # Edit team suffix spaces
-team modify t.Blue suffix [{"text":""},{"text":"\uF839","font":"minecraft:space"},{"translate":"generic.BlueTeam","color":"#0088ff","bold":true}]
-team modify t.Red suffix [{"text":""},{"text":"\uF839\uF831","font":"minecraft:space"},{"translate":"generic.RedTeam","color":"red","bold":true}]
-team modify t.Green suffix [{"text":""},{"text":"\uF838\uF832","font":"minecraft:space"},{"translate":"generic.GreenTeam","color":"green","bold":true}]
-team modify t.Orange suffix [{"text":""},{"text":"\uF836\uF831","font":"minecraft:space"},{"translate":"generic.OrangeTeam","color":"gold","bold":true}]
+function general:scoreboard_suffix
 
 team add black
 team modify black color black

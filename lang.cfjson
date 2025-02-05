@@ -19,14 +19,16 @@
     "generic.green": "green",
     "generic.orange": "orange",
     @clear
-    "generic.RedTeam": "Red",
-    "generic.BlueTeam": "Blue",
-    "generic.GreenTeam": "Green",
-    "generic.OrangeTeam": "Orange",
     "generic.Blue": "Blue",
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
+    @instruction=Limit|50|Bold
+    "generic.Red.Scoreboard": "Red",
+    "generic.Blue.Scoreboard": "Blue",
+    "generic.Green.Scoreboard": "Green",
+    "generic.Orange.Scoreboard": "Orange",
+    @clear
     @instruction=Text|3
     "generic.BlueCap": "BLUE",
     "generic.RedCap": "RED",

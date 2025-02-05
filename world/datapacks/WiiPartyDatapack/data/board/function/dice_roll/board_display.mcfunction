@@ -23,10 +23,7 @@ execute as @a[tag=ingame,team=red] run scoreboard players set §0§0§0§0§0§0
 execute as @a[tag=ingame,team=green] run scoreboard players set §0§0§0§0§0 boardDisplay 5
 execute as @a[tag=ingame,team=orange] run scoreboard players set §0§0 boardDisplay 2
 
-team modify t.Blue suffix [{"text":""},{"text":"\uF839","font":"minecraft:space"},{"text":"    "},{"translate":"generic.BlueTeam","color":"#0088ff","bold":true}]
-team modify t.Red suffix [{"text":""},{"text":"\uF839\uF831","font":"minecraft:space"},{"text":"    "},{"translate":"generic.RedTeam","color":"red","bold":true}]
-team modify t.Green suffix [{"text":""},{"text":"\uF838\uF832","font":"minecraft:space"},{"text":"    "},{"translate":"generic.GreenTeam","color":"green","bold":true}]
-team modify t.Orange suffix [{"text":""},{"text":"\uF836\uF831","font":"minecraft:space"},{"text":"    "},{"translate":"generic.OrangeTeam","color":"gold","bold":true}]
+function general:scoreboard_suffix
 
 # Displays specific symbols that represent the number of times the player has taken damage by checking their boardPos score
     # Blue team

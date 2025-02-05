@@ -39,8 +39,4 @@ team modify displayline7 prefix [{"text":"      ","color":"gray"},{"text":"\uF83
 
 
 
-# team modify t.Blue suffix [{"text":""},{"text":"\uF839","font":"minecraft:space"},{"text":"    "},{"translate":"generic.BlueTeam","color":"#0088ff","bold":true}]
-# team modify t.Red suffix [{"text":""},{"text":"\uF839\uF831","font":"minecraft:space"},{"text":"    "},{"translate":"generic.RedTeam","color":"red","bold":true}]
-# team modify t.Green suffix [{"text":""},{"text":"\uF838\uF832","font":"minecraft:space"},{"text":"    "},{"translate":"generic.GreenTeam","color":"green","bold":true}]
-# team modify t.Orange suffix [{"text":""},{"text":"\uF836\uF831","font":"minecraft:space"},{"text":"    "},{"translate":"generic.OrangeTeam","color":"gold","bold":true}]
 
