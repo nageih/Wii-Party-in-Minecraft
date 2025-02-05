@@ -23,3 +23,5 @@ execute if score launchTimer= 5scores matches 165 if entity @s[team=blue] run sc
 execute if score launchTimer= 5scores matches 165 if entity @s[team=red] run scoreboard players set @a[tag=ingame,team=red] 5scores 3
 execute if score launchTimer= 5scores matches 165 if entity @s[team=green] run scoreboard players set @a[tag=ingame,team=green] 5scores 3
 execute if score launchTimer= 5scores matches 165 if entity @s[team=orange] run scoreboard players set @a[tag=ingame,team=orange] 5scores 3
+
+function games:5/display

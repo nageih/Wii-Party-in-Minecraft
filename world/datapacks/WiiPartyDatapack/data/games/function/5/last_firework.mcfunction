@@ -12,3 +12,5 @@ schedule function games:5/end_game 3s
 scoreboard players set ingame= 5scores 6
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Duration:-1,WaitTime:-2147483648,Tags:["finalFirework"]}
+
+function games:5/display

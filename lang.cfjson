@@ -374,6 +374,8 @@
     "scoreboard.BarrelDaredevil.Symbols.16":"||||||||||||||||",
     "scoreboard.BackAttack.Symbol":"❌",
     "scoreboard.LuckyLaunch.Symbol":"❌",
+    "scoreboard.DerbyDash.Symbol":"🎌",
+    "scoreboard.ChopChops.Symbol":"%%s  ",
     @clear
 
     @instruction=LimitForced|125
@@ -383,6 +385,8 @@
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
     @instruction=LimitForced|125
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
+    "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
+    "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
     @clear
 
     # Dicey Descent

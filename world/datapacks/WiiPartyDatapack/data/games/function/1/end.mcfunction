@@ -43,3 +43,11 @@ schedule clear general:fade/main
 schedule clear games:1/newround
 schedule clear games:1/endgame
 schedule clear games:1/endround
+schedule clear games:1/countdown/1
+schedule clear games:1/countdown/2
+schedule clear games:1/countdown/3
+schedule clear games:1/countdown/4
+schedule clear games:1/countdown/5
+schedule clear games:1/countdown/6
+schedule clear games:1/countdown/7
+schedule clear games:1/countdown/8

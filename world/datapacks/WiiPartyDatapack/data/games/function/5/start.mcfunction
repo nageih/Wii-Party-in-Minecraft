@@ -63,3 +63,5 @@ execute as @a[tag=ingame] run function games:5/give_id
 scoreboard players reset @a 5scores
 
 time set midnight
+
+function games:5/display
