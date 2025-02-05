@@ -1,6 +1,6 @@
 {
-  "lobby.Name":"Wii Party in Minecraft",
-  "lobby.Welcome":"ようこそ！",
+  "generic.Name":"Wii Party in Minecraft",
+  "generic.Welcome":"ようこそ！",
 
   // 1.0.4
   //"board.DiceRoll.NormalDice": "普通のサイコロ",
@@ -126,7 +126,7 @@
   "lobby.Parkour.Half":"ハートの入り口は半分開いている...",
   "lobby.Parkour.Open":"ハートの入り口が開かれた！",
 
-  "lobby.Visit.Guide":"ミニゲームへようこそ！",
+  "lobby.Minigames.Guide":"ミニゲームへようこそ！",
 
   "lobby.Parkour.Guide":"パルクールへようこそ！",
   "lobby.Parkour.Finish":"島のコアが破壊された！",

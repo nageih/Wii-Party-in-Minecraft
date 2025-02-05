@@ -34,9 +34,6 @@ execute if score players= tiles matches 3.. run tellraw @a[tag=playing] ""
 # Gives the player dice
 # Normal
 execute as @a[tag=turn,tag=tornadoBoth] run function board:dice_roll/give/normal
-### give @a[tag=turn,tag=tornadoBoth] carrot_on_a_stick[lore=['["{\\\\\\"translate\\\\\\":\\\\\\"board.DiceRoll.RollFrom1-6\\\\\\",\\\\\\"color\\\\\\":\\\\\\"gray\\\\\\",\\\\\\"italic\\\\\\":false} ","{\\\\\\"translate\\\\\\":\\\\\\"board.DiceRoll.RightClick\\\\\\",\\\\\\"color\\\\\\":\\\\\\"gray\\\\\\",\\\\\\"italic\\\\\\":false} "]'],unbreakable={show_in_tooltip:false},custom_model_data=101,custom_data={dice:1b}] 1
-# Negative Space
-### give @a[tag=turn] carrot_on_a_stick[lore=['["{\\\\\\"translate\\\\\\":\\\\\\"board.DiceRoll.RollFrom1-6\\\\\\",\\\\\\"color\\\\\\":\\\\\\"yellow\\\\\\",\\\\\\"italic\\\\\\":false} ","{\\\\\\"translate\\\\\\":\\\\\\"board.DiceRoll.RightClick\\\\\\",\\\\\\"color\\\\\\":\\\\\\"yellow\\\\\\",\\\\\\"italic\\\\\\":false} "]'],unbreakable={show_in_tooltip:false},custom_model_data=151,custom_data={dice:1b}] 1
 execute as @a[tag=turn] run function board:dice_roll/give/negative
 
 scoreboard players set eventRoll= tiles 1

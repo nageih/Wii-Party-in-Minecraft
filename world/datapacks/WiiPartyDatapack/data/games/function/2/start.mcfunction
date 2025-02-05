@@ -73,7 +73,7 @@ team modify 1zombie prefix "[☠] "
 team modify 1zombie friendlyFire false
 
 # Sets a sign infront of the main big grave, and says 'Here lies' and then the name of a random player
-setblock 1993 11 2010 minecraft:oak_wall_sign[facing=west]{front_text:{messages:['""','{"nbt":"colors.base","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ZombieTag.HereLies","bold":true}],"source":"storage","type":"nbt"}','{"selector":"@r","color":"red","underlined":true,"type":"selector"}','""']}} destroy
+setblock 1993 11 2010 minecraft:oak_wall_sign[facing=west]{front_text:{messages:['""','{"nbt":"colors.base","storage":"minecraft:config","interpret":true,"extra":[{"translate":"game.ZombieTag.HereLies.1","bold":true}],"source":"storage","type":"nbt"}','{"translate":"game.ZombieTag.HereLies.2","bold":true,"with":[{"selector":"@r[tag=ingame]","color":"red","underlined":true,"type":"selector"}]}','""']}} destroy
 
 # Makes the scoreboard visible and updates it
 scoreboard objectives setdisplay sidebar 2display

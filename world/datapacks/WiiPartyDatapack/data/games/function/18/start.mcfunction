@@ -73,4 +73,5 @@ tellraw @a[tag=playing] [{"translate":"game.HowToPlay","color":"gray","bold":tru
 tellraw @a[tag=playing] [{"translate":"game.FriendlyFaceOff.How.1","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] [{"translate":"game.FriendlyFaceOff.How.2","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] [{"translate":"game.FriendlyFaceOff.How.3","color":"gray","with":[{"text":"-"}]}]
+tellraw @a[tag=playing] [{"translate":"game.FriendlyFaceOff.How.4","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] ""

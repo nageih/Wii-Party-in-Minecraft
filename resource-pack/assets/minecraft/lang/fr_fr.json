@@ -1,6 +1,6 @@
 {
-  "lobby.Name":"Wii Party dans Minecraft",
-  "lobby.Welcome":"Bienvenue !",
+  "generic.Name":"Wii Party dans Minecraft",
+  "generic.Welcome":"Bienvenue !",
 
   // 1.0.4 / 1.0.3
   "board.DiceRoll.NormalDice": "De Normal",
@@ -125,7 +125,7 @@
   "lobby.Parkour.Half":"L'entrée du cœur est a moitié ouverte...",
   "lobby.Parkour.Open":"L'entrée du cœur a été ouverte !",
 
-  "lobby.Visit.Guide":"Bienvenue dans le mini-jeu !",
+  "lobby.Minigames.Guide":"Bienvenue dans le mini-jeu !",
 
   "lobby.Parkour.Guide":"Bienvenue dans le parkour !",
   "lobby.Parkour.Finish":"Le cœur de l'île a été détruit !",

@@ -1,11 +1,60 @@
 {
-  # Lobby
-  % Keep this as the map name
-    "lobby.Name":"Wii Party in Minecraft",
-    "lobby.Welcome":"Welcome!",
+    # Generic Translations
+    % Keep this as the map name
+    "generic.Name":"Wii Party in Minecraft",
+    "generic.Welcome":"Welcome!",
+    # Minigame Notifications
+    "generic.Finish": "FINISH!",
+    "generic.Ready": "Ready?",
+    %% BOTH OF THESE NEED TO SAY 'START' IDK WHY
+    "generic.Start": "Start!",
+    "generic.Go": "Start!",
+    "generic.OnYourMarks": "On Your Marks...",
+    "generic.GetSet": "Get Set...",
+    "generic.Almost": "Almost There...",
+    # Colors
+    @instruction=Text|2
+    "generic.blue": "blue",
+    "generic.red": "red",
+    "generic.green": "green",
+    "generic.orange": "orange",
+    @clear
+    "generic.RedTeam": "Red",
+    "generic.BlueTeam": "Blue",
+    "generic.GreenTeam": "Green",
+    "generic.OrangeTeam": "Orange",
+    "generic.Blue": "Blue",
+    "generic.Red": "Red",
+    "generic.Green": "Green",
+    "generic.Orange": "Orange",
+    @instruction=Text|3
+    "generic.BlueCap": "BLUE",
+    "generic.RedCap": "RED",
+    "generic.GreenCap": "GREEN",
+    "generic.OrangeCap": "ORANGE",
+    @clear
+    # Placements
+    %% Titles
+    "generic.Placement": "Final Standings:",
+    "generic.NewPlacement": "New Standings:",
+    
+    "generic.First": "1st: @EI;%s#Player Name@",
+    "generic.Second": "2nd: @EI;%s#Player Name@",
+    "generic.Third": "3rd: @EI;%s#Player Name@",
+    "generic.Fourth": "4th: @EI;%s#Player Name@",
+    "generic.Winner": "Winner: @EI;%s#Player Name@",
+    "generic.Winners": "Winners: @EI;%s#Player Names@",
+    "generic.Loser": "Loser: @EI;%s#Player Name@",
+    "generic.Losers": "Losers: @EI;%s#Player Names@",
 
-    "lobby.Join.Ingame":"%s has rejoined and will resume next round.",
+    # Misc
+    % Used as the bossbar name
+    "generic.TimeLeft": "Time Left",
+    "generic.Error.Alone": "You can't play this game alone",
+    "generic.Hover.ClickTo": "Click Here",
+    "generic.Join.Ingame":"%s has rejoined and will resume next round.",
 
+    # Credit Roles
     "lobby.Credit.Builder":"Builder",
     "lobby.Credit.MainBuilder":"Main Builder",
     "lobby.Credit.Developer":"Developer",
@@ -16,258 +65,262 @@
     "lobby.Credit.MoralSupport":"Moral Support",
     "lobby.Credits.Thanks":"Special Thanks:",
     "lobby.Credits.Testers":"Testers:",
+    % omg thats u!!!
     "lobby.Credits.Translators":"Translators:",
 
+    # Endgame Voting
     "lobby.EndGame.Info":"Use %s to vote to end the game early!",
-    "lobby.EndGame.Start":"%1$s has started a vote to end the game. (%2$s/%3$s)",
+    "lobby.EndGame.Start":"@EI;%1$s#Player Name@ has started a vote to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
     "lobby.EndGame.StartInfo":"Do %s to vote yes",
-    "lobby.EndGame.Vote":"%1$s has voted to end the game. (%2$s/%3$s)",
+    "lobby.EndGame.Vote":"@EI;%1$s#Player Name@ has voted to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
     "lobby.EndGame.VoteEnd":"The game has been voted to end early.",
     "lobby.EndGame.NoPlayers":"The game has ended as there are not enough players.",
 
-    "lobby.Minigames.Click":"Click Me!",
-
-    "lobby.Teams.Join":"Join %s",
+    # Team Joining
+    "lobby.Teams.Join":"Join @EI;%s#Team Color@",
     "lobby.Teams.Leave":"Leave Team",
-    "lobby.Teams.Joined":"%1$s has joined the %2$s team.",
-    "lobby.Teams.Left":"%1$s left their team.",
-    "lobby.Teams.Error.Already":"You are already on the %s team.",
-    "lobby.Teams.Error.Full":"The %s team is taken.",
+    "lobby.Teams.Joined":"@EI;%1$s#Player Name@ has joined the @EI;%2$s#Team Color@ team.",
+    "lobby.Teams.Left":"@EI;%1$s#Player Name@ left their team.",
+    "lobby.Teams.Error.Already":"You are already on the @EI;%s#Team Color@ team.",
+    "lobby.Teams.Error.Full":"The @EI;%s#Team Color@ team is taken.",
     "lobby.Teams.Error.NoTeam":"You are not in a team.",
 
+    # Lobby Parkour
     "lobby.Parkour.Half":"The heart entrance is halfway open...",
     "lobby.Parkour.Open":"The heart entrance has been opened!",
     "lobby.Parkour.Guide":"Welcome to the parkour!",
     "lobby.Parkour.Finish":"The islands core has been destroyed!",
     "lobby.Parkour.Beward":"Beware...",
 
-    "lobby.Visit.Guide":"Welcome to the minigame!",
-
-    "lobby.Display.Welcome":"Welcome To",
+    # Sidebar
+    "lobby.Display.Welcome.1":"Welcome To",
+    "lobby.Display.Welcome.2":"@SI;%s#generic.Name@",
     "lobby.Display.Join1":"Join a Team",
     "lobby.Display.Join2":"To Play!",
 
+    # Play Portal Text
     "lobby.Play":"Play!",
     "lobby.BGI":"Board Game Island",
 
-    "lobby.SP.Header":"Play on StickyPiston!",
+    # StickyPiston Billboard
+    "?lobby.SP.Name": "StickyPiston",
+    "lobby.SP.Header":"Play on @T;lobby.SP.Name@!",
     "lobby.SP.Subheader":"Click to visit!",
 
-    "lobby.Discord.Header1":"Join our discord",
+    # Discord Billboard
+    "?lobby.Discord.Name": "Discord",
+    "lobby.Discord.Header1":"Join our @T;lobby.Discord.Name@",
     "lobby.Discord.Header2":"Report bugs or find other players",
     "lobby.Discord.Subheader":"Click to join!",
 
+    # Music Info
     "lobby.Music.Info":"Adjust music volume in your settings!",
 
+    # Graph Area
     "lobby.Graph.TP":"Click to view graph",
+    % Returns player back to the main area
     "lobby.Graph.Back":"Return",
 
+    # Game Start Titles
+    % When a full game is starting
     "lobby.GameStarting":"Game Starting",
+    % When only a minigame is starting
     "lobby.MinigameStarting":"Minigame Starting",
+    % When the game/minigame is cancelled
     "lobby.Cancelled":"Cancelled",
 
+    # Island Visiting
     "lobby.Island.Visit":"Explore Island",
     "lobby.Island.Guide1":"Welcome to the island!",
     "lobby.Island.Guide2":"Use %s to return to the island",
     "lobby.Island.Guide3":"Use %s to toggle gamemode spectator",
     "lobby.Island.Actionbar":"Use %s to return",
-
+    
+    # Minigame Visiting
     "lobby.Minigames.Visit":"Explore Minigames",
     "lobby.Minigames.Select":"Select A Minigame!",
+    % Switch to the new page
     "lobby.Minigames.Next":"Next",
+    % Switch to the previous page
     "lobby.Minigames.Back":"Back",
+    "lobby.Minigames.Click":"Click Me!",
+    "lobby.Minigames.Guide":"Welcome to the Minigame!",
 
+    # Play Error Messages
     "lobby.NotEnough":"Not enough players.",
     "lobby.TooMany":"Too many players.",
     "lobby.NotEnough.Team":"%1$s: %2$s",
     "lobby.NotEnough.Empty":"Empty",
 
+    % Switch to the previous minigame
     "lobby.Select.Previous":"Previous",
+    % Switch to the new minigame
     "lobby.Select.Next":"Next",
     "lobby.Select.Play":"Play",
 
 
 
 
-
+    # Controls
     "control.RightClick":"RIGHT CLICK",
+    % Stop holding the input
     "control.Release":"RELEASE",
 
 
 
 
 
-
+    # Main Scoreboard
     "board.Scoreboard":"Placements",
 
+    # Dice Names
     "board.DiceRoll.NormalDice": "Normal Dice",
-    "board.DiceRoll.NormalDice.Info": "Rolls from 1-6.",
     "board.DiceRoll.GoldenDice": "Golden Dice",
     "board.DiceRoll.SilverDice": "Silver Dice",
-    "board.DiceRoll.SilverDice.Info": "Rolls from 1-3.",
     "board.DiceRoll.BronzeDice": "Bronze Dice",
-    "board.DiceRoll.BronzeDice.Info": "Rolls from 1-2.",
     "board.DiceRoll.NegativeDice": "Negative Dice",
-    "board.DiceRoll.NegativeDice.Info": "Rolls from negative 1-6.",
     "board.DiceRoll.DinoDice": "Dinosaur Dice",
+    # Dice Descriptions
+    "board.DiceRoll.NormalDice.Info": "Rolls from 1-6.",
+    "board.DiceRoll.SilverDice.Info": "Rolls from 1-3.",
+    "board.DiceRoll.BronzeDice.Info": "Rolls from 1-2.",
+    "board.DiceRoll.NegativeDice.Info": "Rolls from negative 1-6.",
     "board.DiceRoll.DinoDice.Info": "Rolls a good or bad dinosaur.",
+    # Dice Intructions
     "board.DiceRoll.Dice.Info": "Right Click to use.",
     "board.DiceRoll.Invalid": "You aren't in a correct position to throw this item.",
     "board.DiceRoll.OutOfBounds": "Please don't go out of bounds of your tile.",
+    # Dice Results
     "board.DiceRoll.MoveTo": "Move to tile %s.",
     "board.DiceRoll.RollResult": "%1$s rolled a %2$s and %3$s.",
     "board.DiceRoll.RollResult4th": "%1$s rolled a %2$s.",
     "board.DiceRoll.RollResultDouble": "%1$s rolled a %2$s, %3$s and %4$s.",
-    "board.DiceRoll.RollFrom1-6": "Can roll from 1-6.",
-    "board.DiceRoll.RollFrom1-3": "Can roll from 1-3.",
-    "board.DiceRoll.RollFrom1-2": "Can roll from 1-2.",
-    "board.DiceRoll.RollDino": "Can be good or bad...",
-    "board.DiceRoll.RightClick": "Right click to use.",
+    # Rolling Titles
     "board.DiceRoll.Turn": "%s's turn!",
     "board.DiceRoll.Double": "Double!",
     "board.DiceRoll.RollAgain": "Roll Again",
     "board.DiceRoll.TurnOver": "Turn over!",
     "board.DiceRoll.YouRolled": "You got %s in total!",
-    "board.DiceRoll.Skip": "Skip to Tile",
-    "board.DiceRoll.TeleportTo": "Teleports you to your tile",
-    "board.DiceRoll.IfTooLazy": "if you are too lazy to walk.",
+    # Skipping
+    "board.DiceRoll.Skip.Name": "Skip to Tile",
+    "board.DiceRoll.Skip.Info.1": "Teleports you to your tile",
+    "board.DiceRoll.Skip.Info.2": "if you are too lazy to walk.",
     "board.DiceRoll.TookTooLong": "%s took too long.",
-    "board.DiceRoll.PlayerDice.Name": "Player Die",
-    "board.DiceRoll.PlayerDice.Lore": "Randomly chooses a player.",
 
+  # Game Selection
     "board.GameSelect.Round": "Round %s",
+    % Taken from game, meaning 'play the minigame to determine the order you roll in'
     "board.GameSelect.PlayForPosition": "Play for Position",
-    "board.GameSelect.IsChoosing": "%s is choosing",
-    "board.GameSelect.ClickToPlay": "Click to play this minigame",
-    "board.GameSelect.ClickInChat": "Click the message in chat to choose that minigame.",
-    "board.GameSelect.WaitFor": "Wait for %s to choose the next minigame.",
-    "board.GameSelect.TookTooLong": "%s took too long to decide.",
     "board.GameSelect.Choose.Intro":"From now on the player in last place will choose the minigame.",
     "board.GameSelect.Choose.Player":"%s is choosing.",
     "board.GameSelect.Choose.Info":"Use your movement keys and right click to select.",
     "board.GameSelect.Choose.Left":"The chooser has left. A random minigame was selected!",
-    "board.GameSelect.Selected":"has been chosen!",
+    "board.GameSelect.Selected":"%s has been chosen!",
 
-    "board.Draw.Next": "[NEXT]",
-    "board.Draw.Same": "Some players rolled the same number! They will now roll again.",
-    "board.Draw.Softlock": "Some players have not recieved a position due to a error in the game. To prevent a softlock players have been randomly given a placement tag",
+  # Drawing
     "board.Draw.NewTurn":"%s's turn to roll.",
     "board.Draw.Rolled":"%1$s has rolled a %2$s!",
     "board.Draw.Start":"Multiple players ended with %1$s place!\n%2$s will now decide on their new positions.",
     "board.Draw.Failsafe": "Oopsies, something went wrong. Placements have been randomised to prevent everything from breaking :(",
 
+  # Generic Tiles
     "board.Tiles.Surprise": "Surprise Time!",
     "board.Tiles.UpdatedPositionsText": "Updated Positions:",
     "board.Tiles.UpdatedPositions": "%1$s: %2$s §l> %3$s",
     "board.Tiles.Difference+": " [+%s]",
     "board.Tiles.Difference-": " [%s]",
+    @clear
     "board.Tiles.WentForward": "%1$s went forwards %2$s tiles. Nice!",
     "board.Tiles.WentBack": "%1$s went backwards %2$s tiles. Yikes!",
     "board.Tiles.SkipSegment": "This segment will be skipped",
     "board.Tiles.HasBeenChosen": "%s has been chosen!",
     "board.Tiles.HasBeenChosenDefault": "%s has been chosen by default!",
-    "board.Tiles.PlayerNumbers": "Player Numbers",
+    "board.Tiles.PlayerNumbers": "Player Numbers:",
     "board.Tiles.1-2": "1-2: %s",
     "board.Tiles.3-4": "3-4: %s",
     "board.Tiles.5-6": "5-6: %s",
     "board.Tiles.1-3": "1-3: %s",
     "board.Tiles.4-6": "4-6: %s",
+    @clear
     
+    # UFO Tile
     "board.Tiles.Ufo.Intro": "%1$s will now choose a random player on the island to swap positions with.",
     "board.Tiles.Ufo.IntroLessThan3": "%1$s will now swap positions with %2$s.",
     "board.Tiles.Ufo.NoPlayers": "There are no available players to swap with :(",
 
+    # Tornado Tile
     "board.Tiles.Tornado.Intro": "%1$s will now choose a random player to move back, as well the number of spaces.",
     "board.Tiles.Tornado.NoPlayers": "There are no available players to move back :(",
     "board.Tiles.Tornado.WillRoll": "%1$s will now roll to decide how far %2$s goes back.",
     "board.Tiles.Tornado.Chosen": "%1$s has been chosen to go back %2$s tiles!",
     "board.Tiles.Tornado.WillMove": "%1$s will move back %2$s tiles!",
 
+    # Volcano Tile
     "board.Tiles.Volcano.Errupted": "The volcano is errupting!",
     "board.Tiles.Volcano.Normal": "The board has returned to normal!",
 
-    "board.Tiles.Dino.Intro": "%1$s will now roll to choose if they go forwards or backwards.\n\nIf they land on the blue dinosaur they go forward.\nIf they land on the red one they go back!",
-    "board.Tiles.Dino.Numbers": "Dinosaur Numbers:",
-    "board.Tiles.Dino.NumbersBlue": "1-3: Blue Dino",
-    "board.Tiles.Dino.NumbersRed": "4-6: Red Dino",
+    # Dino Tile
+    "board.Tiles.Dino.Intro.1": "%s will now roll to choose if they go forwards or backwards.",
+    "board.Tiles.Dino.Intro.2": "If they land on the blue dinosaur they go forward.",
+    "board.Tiles.Dino.Intro.3": "If they land on the red one they go back!",
     "board.Tiles.Dino.LandGood": "Nice!",
     "board.Tiles.Dino.LandBad": "Uh Oh...",
+    @instruction=Text|3
     "board.Tiles.Dino.Run": "RUN!!!",
+    @clear
     "board.Tiles.Dino.HoldStill": "Hold still...",
     "board.Tiles.Dino.Eaten": "%s was eaten!",
 
+    # Skull Tile
     "board.Tiles.Skull.InVolcano": "%s is now stuck in the volcano!",
 
+    # Shout Tile
     "board.Tiles.Shout.Escape": "%s made it out of the volcano!",
 
-    "board.Tiles.Dragon.Fail":"The Dragon lives",
-    "board.Tiles.Dragon.Win":"The Dragon has been defeated",
+    # Dragon Challenge
+    "board.Tiles.Dragon.Fail":"The Dragon lives!",
+    "board.Tiles.Dragon.Win":"The Dragon has been defeated!",
     "board.Tiles.Dragon.Start.Header":"Dragon Wall!",
+    % Minimum number the player needs to roll on the dice
     "board.Tiles.Dragon.Start.Sub":"Roll at least a 4",
 
+    # Final Challenge
     "board.Tiles.Final.Start":"Final Challenge!",
+    % Minimum number the player needs to roll on the dice
     "board.Tiles.Final.Info":"Roll at least a 6 to defeat %s",
-    "board.Tiles.Final.Fail":"EPIC FAIL",
     "board.Tiles.Final.Next":"Dont worry, you will be able to use your extra dice next round if you place 1st-3rd!",
+    @instruction=Text|3
+    "board.Tiles.Final.Fail":"EPIC FAIL",
     "board.Tiles.Final.Victory!":"VICTORY!",
+    @clear
 
+    # Jump Challenge
     "board.Tiles.Jump.Start.Header":"Jump!",
     "board.Tiles.Jump.Start.Sub":"Don't mess up...",
     "board.Tiles.Jump.Win":"%s nailed the jump!",
 
+    # Ribcage Challenge
     "board.Tiles.Ribcage.Start.Header":"Pick a side!",
     "board.Tiles.Ribcage.Start.Sub":"Choose wisely...",
 
+    # Rope Swing Challenge
     "board.Tiles.RopeSwing.Start":"Rope Swing!",
     "board.Tiles.RopeSwing.Rolled":"%1$s rolled an extra %2$s!",
     "board.Tiles.RopeSwing.Info":"Roll your dice!",
 
+    # Spikewall Challenge
     "board.Tiles.SpikeBall.Start.Header":"Spike Ball!",
+    % Minimum number the player needs to roll on the dice
     "board.Tiles.SpikeBall.Start.Sub":"Roll at least a %s",
     "board.Tiles.SpikeBall.Fail":"The Spike Ball survived!",
     "board.Tiles.SpikeBall.Win":"The Spike Ball has been destroyed!",
 
 
 
-
-
-    "generic.Placement": "Final Standings!",
-    "generic.NewPlacement": "New Standings!",
-    "generic.Finish": "FINISH!",
-    "generic.Ready": "Ready?",
-    "generic.Start": "Start!",
-    "generic.blue": "blue",
-    "generic.red": "red",
-    "generic.green": "green",
-    "generic.orange": "orange",
-    "generic.RedTeam": "Red",
-    "generic.BlueTeam": "Blue",
-    "generic.GreenTeam": "Green",
-    "generic.OrangeTeam": "Orange",
-    "generic.Red": "Red",
-    "generic.Blue": "Blue",
-    "generic.RedCap": "RED",
-    "generic.BlueCap": "BLUE",
-    "generic.First": "1st: %s",
-    "generic.Second": "2nd: %s",
-    "generic.Third": "3rd: %s",
-    "generic.Fourth": "4th: %s",
-    "generic.Winner": "Winner: %s",
-    "generic.Winners": "Winners: %s",
-    "generic.Loser": "Loser: %s",
-    "generic.Losers": "Losers: %s",
-    "generic.OnYourMarks": "On Your Marks...",
-    "generic.GetSet": "Get Set...",
-    "generic.Go": "Start!",
-    "generic.Almost": "Almost There...",
-    "generic.Placeholder": "%s",
-    "generic.TimeLeft": "Time Left",
-    "generic.Error.Alone": "You can't play this game alone",
-    "generic.Hover.ClickTo": "Click Here",
-
-
+    # How To Play Title
     "game.HowToPlay":"How To Play:",
 
+    # Unused Minigame Names
     "game.ShiftyGiftsName": "Shifty Gifts",
     "game.JumboJumpName": "Jumbo Jump",
     "game.HurdleHoverName": "Hurdle Hover",
@@ -296,12 +349,15 @@
     "game.SpaceBrawlName": "Space Brawl",
     "game.CommuterCountName": "Commuter Count",
 
+    # Dicey Descent
     "game.DiceyDescentName": "Dicey Descent",
+    %%% How To Play
     "game.DiceyDescent.How.1": "%s Choose a side to fall through",
     "game.DiceyDescent.How.2": "%s One side will be bad",
     "game.DiceyDescent.How.3": "%s Make sure to choose the least bad sides to win!",
     "game.DiceyDescent.ChooseSide": "Choose a side!",
     "game.DiceyDescent.OnSide": "You are on the %s side",
+    %%%%%%%% Death Messages
     "deathMessages.DiceyDescent1": "%s experienced electricity",
     "deathMessages.DiceyDescent2": "%s was too good of a conducter!",
     "deathMessages.DiceyDescent3": "%s was §oshocked§r §7at how good this map is...",
@@ -311,14 +367,18 @@
     "deathMessages.DiceyDescent7": "%s was very unlucky...",
     "deathMessages.DiceyDescent8": "%s was disintegrated!",
 
+    # Zombie Tag
     "game.ZombieTagName": "Zombie Tag",
-    "game.ZombieTagTeam": "[Zombie]",
+    %%% How To Play
     "game.ZombieTag.How.1": "%s Avoid the zombies touching you",
     "game.ZombieTag.How.2": "%s If a zombie attacks you, you will turn into a zombie too",
     "game.ZombieTag.How.3": "%s Last player standing wins!",
     "game.ZombieTag.Infected": "You have been infected!",
-    "game.ZombieTag.HereLies": "Here Lies",
+    "game.ZombieTag.HereLies.1": "Here Lies",
+    "game.ZombieTag.HereLies.2": "%s",
+    "game.ZombieTagTeam": "[Zombie]",
     "game.ZombieTag.EnterTheGraveyard": "Enter the graveyard!",
+    %%%%%%%% Zombie Armor
     "game.ZombieTag.NameHead": "Zombie Mask",
     "game.ZombieTag.LoreHead": "You don't wanna know what's underneath",
     "game.ZombieTag.NameChest": "Zombie Jumper",
@@ -328,6 +388,7 @@
     "game.ZombieTag.NameFeet": "Zombie Shoes",
     "game.ZombieTag.LoreFeet": "Definitely the worst smelling",
     "game.ZombieTag.Tip":"WALK into players to infect them",
+    %%%%%%%% Death Messages
     "deathMessages.ZombieTag1": "%s became smelly",
     "deathMessages.ZombieTag2": "%s was infected",
     "deathMessages.ZombieTag3": "%s lost his brain!",
@@ -337,10 +398,13 @@
     "deathMessages.ZombieTag7": "%s is tagged!",
     "deathMessages.ZombieTag8": "%s wants braaaaaains...",
 
+    # Barrel Daredevil
     "game.BarrelDaredevilName": "Barrel Daredevil",
+    %%% How To Play
     "game.BarrelDaredevil.How.1": "%s Wait for the barrels to start falling",
     "game.BarrelDaredevil.How.2": "%s Click the button as late as you can to win",
-    "game.BarrelDaredevil.How.3": "%s If you don't press the button in time you will automatically lose!",
+    "game.BarrelDaredevil.How.3": "%s If you don't press the button in time you will lose!",
+    %%%%%%%% Death Messages
     "deathMessages.BarrelDaredevil1": "%s has permanent brain damage...",
     "deathMessages.BarrelDaredevil2": "%s hit their head, §oreally§r §7hard",
     "deathMessages.BarrelDaredevil3": "%s is seeing double",

@@ -1,6 +1,6 @@
 {
-    "lobby.Name":"Minecraft Wii 派对",
-    "lobby.Welcome":"欢迎!",
+    "generic.Name":"Minecraft Wii 派对",
+    "generic.Welcome":"欢迎!",
 
     // new
     "lobby.EndGame.Start":"%1$s 已开始投票结束游戏. (%2$s/%3$s)",
@@ -100,7 +100,7 @@
     "lobby.Parkour.Half":"心脏入口已打开一半...",
     "lobby.Parkour.Open":"心脏入口已被打开!",
 
-    "lobby.Visit.Guide":"欢迎参加小游戏!",
+    "lobby.Minigames.Guide":"欢迎参加小游戏!",
 
     "lobby.Parkour.Guide":"欢迎来到跑酷!",
     "lobby.Parkour.Finish":"岛屿核心已被摧毁!",

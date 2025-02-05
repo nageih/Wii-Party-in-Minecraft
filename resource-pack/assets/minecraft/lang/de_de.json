@@ -1,6 +1,6 @@
 {
-    "lobby.Name":"Wii Party in Minecraft",
-    "lobby.Welcome":"Wilkommen!",
+    "generic.Name":"Wii Party in Minecraft",
+    "generic.Welcome":"Wilkommen!",
 
     "board.DiceRoll.NormalDice": "Normaler Wurfel",
     "board.DiceRoll.NormalDice.Info": "Wufelt von 1-6.",
@@ -117,7 +117,7 @@
     "lobby.Parkour.Half":"Der Herzeingang ist halb geöffnet...",
     "lobby.Parkour.Open":"Der Herzeingang wurde geöffnet!",
 
-    "lobby.Visit.Guide":"Willkommen beim Minispiel!",
+    "lobby.Minigames.Guide":"Willkommen beim Minispiel!",
 
     "lobby.Parkour.Guide":"Willkommen beim Parkour!",
     "lobby.Parkour.Finish":"Der Inselkern wurde zerstört!",

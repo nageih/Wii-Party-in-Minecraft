@@ -1,19 +1,6 @@
 
 
 
-### # Displays blank line in chat
-### tellraw @a[tag=playing] ""
-### 
-### # Displays 'Player Numbers' in chat
-### tellraw @a[tag=playing] {"translate":"board.Tiles.Dino.Numbers","color":"gray","bold":true}
-### 
-### # Displays what each dinosaur represents as numbers
-### tellraw @a[tag=playing] {"translate":"board.Tiles.Dino.NumbersRed","color":"red","bold":true}
-### tellraw @a[tag=playing] {"translate":"board.Tiles.Dino.NumbersBlue","color":"#0088ff","bold":true}
-### 
-### # Displays blank line in chat
-### tellraw @a[tag=playing] ""
-
 # Gives the player a dice
 execute as @a[tag=turn] run function board:dice_roll/give/dino
 

@@ -21,7 +21,6 @@ title @a[team=orange] subtitle {"translate":"board.DiceRoll.RollAgain","color":"
 
 # Gives the player a new normal dice to roll
 execute as @a[tag=turn] run function board:dice_roll/give/normal
-#give @a[tag=turn] minecraft:carrot_on_a_stick[minecraft:custom_model_data=101,minecraft:custom_name='{"translate":"board.DiceRoll.NormalDice","bold":true,"italic":false,"color":"white"}',minecraft:lore=['{"translate":"board.DiceRoll.RightClick","italic":false,"color":"gray"}'],minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_data={dice:1b,normal:1b}] 1
 
 # Advancement
 advancement grant @a[tag=turn] only advancements:island/double

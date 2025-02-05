@@ -1,6 +1,6 @@
 {
-    "lobby.Name": "Wii Party en Minecraft",
-    "lobby.Welcome": "Bienvenido!",
+    "generic.Name": "Wii Party en Minecraft",
+    "generic.Welcome": "Bienvenido!",
 
     "lobby.EndGame.Start": "%1$s ha empezado una votación para terminar el juego. (%2$s/%3$s)",
     "lobby.EndGame.StartInfo": "Haz %s para votar a favor",
@@ -96,7 +96,7 @@
     "lobby.Parkour.Half": "La entrada del corazón está medio abierta...",
     "lobby.Parkour.Open": "La entrada del corazón ha sido abierta!",
 
-    "lobby.Visit.Guide": "Bienvenido al minijuego!",
+    "lobby.Minigames.Guide": "Bienvenido al minijuego!",
 
     "lobby.Parkour.Guide": "Bienvenido al parkour!",
     "lobby.Parkour.Finish": "El núcleo de la isla ha sido destruido!",

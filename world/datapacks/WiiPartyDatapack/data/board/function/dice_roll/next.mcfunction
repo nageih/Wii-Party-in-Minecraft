@@ -38,7 +38,7 @@ execute as @a[tag=playing] at @s run playsound minecraft:entity.player.levelup m
 execute unless score dino= tiles matches 1.. run scoreboard players set moving= dice 1
 
 # Gives the player the skip item in their last slot
-item replace entity @a[tag=turn] hotbar.8 with minecraft:carrot_on_a_stick[minecraft:custom_model_data=141,minecraft:custom_name='{"translate":"board.DiceRoll.Skip","bold":true,"italic":false,"color":"white"}',minecraft:lore=['{"translate":"board.DiceRoll.TeleportTo","italic":false,"color":"gray"}','{"translate":"board.DiceRoll.IfTooLazy","italic":false,"color":"gray"}','{"text":"","type":"text"}','{"translate":"board.DiceRoll.RightClick","italic":false,"color":"gray"}'],minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_data={skip:1b}] 1
+execute as @a[tag=turn] run function board:dice_roll/give/skip
 
 # Runs the glowing_tile function as the player, which spawns a glowing tile at the tile location the player has to go
 execute as @a[tag=turn] run function board:dice_roll/glowing_tile

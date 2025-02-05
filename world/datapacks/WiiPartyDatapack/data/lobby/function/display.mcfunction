@@ -30,8 +30,8 @@ scoreboard players set §l§r§r§r§r lobbyDisplay 92
 
 
 
-team modify displayline10 prefix [{"text":"      ","color":"light_purple"},{"translate":"lobby.Display.Welcome","bold":true,"underlined":false}]
-team modify displayline9 prefix [{"text":"","color":"light_purple"},{"translate":"lobby.Name","bold":false}]
+team modify displayline10 prefix [{"text":"      ","color":"light_purple"},{"translate":"lobby.Display.Welcome.1","bold":true,"underlined":false}]
+team modify displayline9 prefix [{"text":"","color":"light_purple"},{"translate":"lobby.Display.Welcome.2","with":[{"translate":"generic.Name","bold":false}]}]
 
 team modify displayline8 prefix [{"text":"      ","color":"gray"},{"translate":"lobby.Display.Join1"}]
 team modify displayline7 prefix [{"text":"      ","color":"gray"},{"text":"\uF838\uF833","font":"minecraft:space"},{"translate":"lobby.Display.Join2"}]

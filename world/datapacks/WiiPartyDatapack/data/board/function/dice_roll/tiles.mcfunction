@@ -26,7 +26,7 @@ scoreboard players reset temp= newBoardPos
 
 # Makes sure the player can't move their skip item, or drop it
 execute unless score eventRoll= tiles matches 1.. unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},Slot:8b}]}] run clear @s minecraft:carrot_on_a_stick[minecraft:custom_data={skip:1b}]
-execute unless score eventRoll= tiles matches 1.. unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},Slot:8b}]}] run item replace entity @s hotbar.8 with minecraft:carrot_on_a_stick[minecraft:custom_model_data=141,minecraft:custom_name='{"translate":"board.DiceRoll.Skip","bold":true,"italic":false,"color":"white"}',minecraft:lore=['{"translate":"board.DiceRoll.TeleportTo","italic":false,"color":"gray"}','{"translate":"board.DiceRoll.IfTooLazy","italic":false,"color":"gray"}','{"text":"","type":"text"}','{"translate":"board.DiceRoll.RightClick","italic":false,"color":"gray"}'],minecraft:unbreakable={show_in_tooltip:0b},minecraft:custom_data={skip:1b}] 1
+execute unless score eventRoll= tiles matches 1.. unless entity @s[nbt={Inventory:[{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},Slot:8b}]}] run function board:dice_roll/give/skip
 kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_data":{skip:1b}},count:1}}]
 
 # If the player right clicks with the skip carrot on a stick, then it runs the skip function
