@@ -354,7 +354,7 @@
     # Dicey Descent
     "game.DiceyDescentName": "Dicey Descent",
     %%% How To Play
-    "game.DiceyDescent.How.1|2|2": "@EI;%s#Bullet Point (-)@ Choose a side to fall through|@EI;%s#Bullet Point (-)@ One side will be bad|@EI;%s#Bullet Point (-)@ Make sure to choose the least bad sides to win!",
+    "game.DiceyDescent.How.1|2|3": "@EI;%s#Bullet Point (-)@ Choose a side to fall through|@EI;%s#Bullet Point (-)@ One side will be bad|@EI;%s#Bullet Point (-)@ Make sure to choose the least bad sides to win!",
     "game.DiceyDescent.ChooseSide": "Choose a side!",
     "game.DiceyDescent.OnSide": "You are on the @EI;%s#Color@ side",
     %%%%%%%% Death Messages
