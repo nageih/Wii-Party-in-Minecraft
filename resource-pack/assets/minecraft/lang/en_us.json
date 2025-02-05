@@ -262,6 +262,7 @@
 "scoreboard.BackAttack": "              %1$s               ",
 "scoreboard.LuckyLaunch": "              %1$s               ",
 "scoreboard.DerbyDash": "               %1$s                ",
+"scoreboard.ChopChops": "            %1$s            ",
 "game.DiceyDescentName": "Dicey Descent",
 "game.DiceyDescent.How.1": "%s Choose a side to fall through",
 "game.DiceyDescent.How.2": "%s One side will be bad",
