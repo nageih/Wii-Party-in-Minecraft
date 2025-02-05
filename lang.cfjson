@@ -23,7 +23,7 @@
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
-    @instruction=LimitForced|50|Bold
+    @instruction=LimitForced|75|Bold
     "generic.Red.Scoreboard": "Red",
     "generic.Blue.Scoreboard": "Blue",
     "generic.Green.Scoreboard": "Green",
