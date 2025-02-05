@@ -9,7 +9,7 @@ execute if score countdownMinigame= lobby matches 1 run function lobby:select/co
 
 
 # Island visiting actionbar
-title @a[tag=islandVisit] actionbar {"translate":"lobby.Island.Actionbar","color":"gray","with":[{"text":"/trigger islandReturn","color":"light_purple","bold":true}]}
+title @a[tag=islandVisit] actionbar {"translate":"lobby.Island.Actionbar","color":"gray","with":[{"translate":"command.islandReturn","color":"light_purple","bold":true}]}
 # Return to island trigger
 execute as @a run trigger islandReturn set 0
 scoreboard players enable @a[tag=islandVisit] islandReturn

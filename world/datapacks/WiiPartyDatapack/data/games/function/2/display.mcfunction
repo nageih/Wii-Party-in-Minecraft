@@ -29,14 +29,14 @@ execute as @a[tag=ingame,tag=orange] run scoreboard players set §0§0 2display 
 
 # Displays specific symbols that represent the number of times the player has taken damage by checking their 1damage score
     # Blue team
-execute as @a[tag=ingame,tag=blue,tag=!dead] run team modify displayline11 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=blue,tag=dead] run team modify displayline11 prefix {"text":"      ☠","color":"#0088ff"}
+execute as @a[tag=ingame,tag=blue,tag=!dead] run team modify displayline11 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=blue,tag=dead] run team modify displayline11 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"#0088ff"}]}
     # Red team
-execute as @a[tag=ingame,tag=red,tag=!dead] run team modify displayline8 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=red,tag=dead] run team modify displayline8 prefix {"text":"      ☠","color":"red"}
+execute as @a[tag=ingame,tag=red,tag=!dead] run team modify displayline8 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=red,tag=dead] run team modify displayline8 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"red"}]}
     # Green team
-execute as @a[tag=ingame,tag=green,tag=!dead] run team modify displayline5 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=green,tag=dead] run team modify displayline5 prefix {"text":"      ☠","color":"green"}
+execute as @a[tag=ingame,tag=green,tag=!dead] run team modify displayline5 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=green,tag=dead] run team modify displayline5 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"green"}]}
     # Orange team
-execute as @a[tag=ingame,tag=orange,tag=!dead] run team modify displayline2 prefix {"text":"      ☠","color":"dark_gray"}
-execute as @a[tag=ingame,tag=orange,tag=dead] run team modify displayline2 prefix {"text":"      ☠","color":"gold"}
+execute as @a[tag=ingame,tag=orange,tag=!dead] run team modify displayline2 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"dark_gray"}]}
+execute as @a[tag=ingame,tag=orange,tag=dead] run team modify displayline2 prefix {"translate":"scoreboard.ZombieTag","with":[{"translate":"scoreboard.ZombieTag.Symbol","color":"gold"}]}

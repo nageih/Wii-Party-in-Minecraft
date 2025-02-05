@@ -40,4 +40,4 @@ scoreboard players set playing= lobby 2
 
 schedule clear lobby:play_menu
 
-tellraw @a[tag=playing] {"translate":"lobby.EndGame.Info","color":"light_purple","with":[{"text":"/trigger endGame","bold":true}]}
+tellraw @a[tag=playing] {"translate":"lobby.EndGame.Info","color":"light_purple","with":[{"translate":"command.endGame","bold":true}]}

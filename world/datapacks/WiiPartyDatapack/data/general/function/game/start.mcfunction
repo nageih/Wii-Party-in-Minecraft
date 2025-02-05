@@ -73,7 +73,7 @@ schedule clear lobby:play_menu
 
 stopsound @a voice
 
-tellraw @a[tag=playing] {"translate":"lobby.EndGame.Info","color":"light_purple","with":[{"text":"/trigger endGame","bold":true}]}
+tellraw @a[tag=playing] {"translate":"lobby.EndGame.Info","color":"light_purple","with":[{"translate":"command.endGame","bold":true}]}
 
 execute as @a run attribute @s player.entity_interaction_range base set 3
 tag @a remove lobbyParkour

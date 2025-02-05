@@ -57,5 +57,7 @@ schedule clear games:4/end
 schedule clear general:fade/main 
 schedule clear games:4/new_powerup
 schedule clear games:4/play_song
+schedule clear games:4/starttitle
+schedule clear games:4/begin
 
 effect clear @a[tag=ingame] haste 

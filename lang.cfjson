@@ -71,7 +71,7 @@
     "lobby.Credits.Translators":"Translators:",
 
     # Endgame Voting
-    "?command.endGame":"/trigger endGame",
+    "command.endGame":"/trigger endGame",
     "lobby.EndGame.Info":"Use @T;command.endGame@ to vote to end the game early!",
     "lobby.EndGame.Start":"@EI;%1$s#Player Name@ has started a vote to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
     "lobby.EndGame.StartInfo":"Do @T;command.endGame@ to vote yes",
@@ -96,9 +96,13 @@
     "lobby.Parkour.Beward":"Beware...",
 
     # Sidebar
+    @instruction=LimitForced|75|Bold
     "lobby.Display.Welcome.1|2":"Welcome To|@SI;%s#generic.Name@",
+    @clear
+    @instruction=LimitForced|75
     "lobby.Display.Join1":"Join a Team",
     "lobby.Display.Join2":"To Play!",
+    @clear
 
     # Play Portal Text
     "lobby.Play":"Play!",
@@ -132,8 +136,8 @@
     "lobby.Cancelled":"Cancelled",
 
     # Island Visiting
-    "?command.islandReturn":"/trigger islandReturn",
-    "?command.islandSpectate":"/trigger islandSpectate",
+    "command.islandReturn":"/trigger islandReturn",
+    "command.islandSpectate":"/trigger islandSpectate",
     "lobby.Island.Visit":"Explore Island",
     "lobby.Island.Guide1":"Welcome to the island!",
     "lobby.Island.Guide2":"Use @T;command.islandReturn@ to return to the island",
@@ -173,6 +177,15 @@
 
 
 
+    # Scoreboard Icons
+    @skip
+    "scoreboard.DiceyDescent.Symbol":"⚡",
+    "scoreboard.ZombieTag.Symbol":"☠",
+
+    @instruction=LimitForced|75
+    "scoreboard.DiceyDescent":"%1$s %2$s",
+    "scoreboard.ZombieTag":"%s",
+    @clear
 
 
     # Main Scoreboard

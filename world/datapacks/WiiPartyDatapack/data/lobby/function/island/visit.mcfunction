@@ -10,9 +10,9 @@ execute at @s run playsound block.note_block.pling master @s ~ ~ ~ 10
 tellraw @s ""
 tellraw @s {"translate":"lobby.Island.Guide1","color":"gray"}
 tellraw @s ""
-tellraw @s {"translate":"lobby.Island.Guide2","color":"gray","with":[{"text":"/trigger islandReturn","color":"light_purple","bold":true}]}
+tellraw @s {"translate":"lobby.Island.Guide2","color":"gray","with":[{"translate":"command.islandReturn","color":"light_purple","bold":true}]}
 tellraw @s ""
-tellraw @s {"translate":"lobby.Island.Guide3","color":"gray","with":[{"text":"/trigger islandSpectate","color":"light_purple","bold":true}]}
+tellraw @s {"translate":"lobby.Island.Guide3","color":"gray","with":[{"translate":"command.islandSpectate","color":"light_purple","bold":true}]}
 tellraw @s ""
 
 attribute @s player.entity_interaction_range base set 0
