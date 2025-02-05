@@ -11,10 +11,10 @@ execute store result bossbar minecraft:48orangetimer value run scoreboard player
 execute store result bossbar minecraft:48spectimer value run scoreboard players get timer= 48scores
 
 # Title for right click
-execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=blue,tag=!48locked] actionbar {"color":"#0088ff","translate":"game.WalkOff.Lock.Info"}
-execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=red,tag=!48locked] actionbar {"color":"red","translate":"game.WalkOff.Lock.Info"}
-execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=green,tag=!48locked] actionbar {"color":"green","translate":"game.WalkOff.Lock.Info"}
-execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=orange,tag=!48locked] actionbar {"color":"gold","translate":"game.WalkOff.Lock.Info"}
+execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=blue,tag=!48locked] actionbar {"color":"#0088ff","translate":"game.WalkOff.Lock.Info","with":[{"keybind":"key.use","underlined":true,"type":"keybind"}]}
+execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=red,tag=!48locked] actionbar {"color":"red","translate":"game.WalkOff.Lock.Info","with":[{"keybind":"key.use","underlined":true,"type":"keybind"}]}
+execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=green,tag=!48locked] actionbar {"color":"green","translate":"game.WalkOff.Lock.Info","with":[{"keybind":"key.use","underlined":true,"type":"keybind"}]}
+execute if score ingame= 48scores matches 2 run title @a[tag=ingame,team=orange,tag=!48locked] actionbar {"color":"gold","translate":"game.WalkOff.Lock.Info","with":[{"keybind":"key.use","underlined":true,"type":"keybind"}]}
 
 # Check lock
 execute if score ingame= 48scores matches 2 as @a[tag=ingame,tag=!48locked] at @s if score @s rightClick matches 1.. run function games:48/lock

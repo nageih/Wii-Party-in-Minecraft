@@ -22,7 +22,10 @@ execute if score ingame= 18scores matches 1.. if score notfinished= 18scores mat
 execute if score ingame= 18scores matches 1.. if score notfinished= 18scores matches 1 if score endtime= 18scores matches -2 run scoreboard players set endtime= 18scores 299
 execute if score ingame= 18scores matches 1.. if score endtime= 18scores matches 0 run scoreboard players set endtime= 18scores -1
 
-execute if score ingame= 18scores matches 1.. run title @a[tag=ingame] actionbar {"translate":"game.FriendlyFaceOff.Info","color":"gray"}
+execute if score ingame= 18scores matches 1.. run title @a[tag=ingame,team=blue] actionbar {"translate":"game.FriendlyFaceOff.Info","color":"gray","with":[{"translate":"control.RightClick","color":"#0088ff"},{"translate":"control.LeftClick","color":"#0088ff"}]}
+execute if score ingame= 18scores matches 1.. run title @a[tag=ingame,team=red] actionbar {"translate":"game.FriendlyFaceOff.Info","color":"gray","with":[{"translate":"control.RightClick","color":"red"},{"translate":"control.LeftClick","color":"red"}]}
+execute if score ingame= 18scores matches 1.. run title @a[tag=ingame,team=green] actionbar {"translate":"game.FriendlyFaceOff.Info","color":"gray","with":[{"translate":"control.RightClick","color":"green"},{"translate":"control.LeftClick","color":"green"}]}
+execute if score ingame= 18scores matches 1.. run title @a[tag=ingame,team=orange] actionbar {"translate":"game.FriendlyFaceOff.Info","color":"gray","with":[{"translate":"control.RightClick","color":"gold"},{"translate":"control.LeftClick","color":"gold"}]}
 
 # Handles the tutorial
 #execute if score ingame= 18scores matches 0 run function games:18/main_start
