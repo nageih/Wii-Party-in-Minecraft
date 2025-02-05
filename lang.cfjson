@@ -206,8 +206,7 @@
     "board.DiceRoll.YouRolled": "You got @EI;%s#Total Roll@ in total!",
     # Skipping
     "board.DiceRoll.Skip.Name": "Skip to Tile",
-    "board.DiceRoll.Skip.Info.1": "Teleports you to your tile",
-    "board.DiceRoll.Skip.Info.2": "if you are too lazy to walk.",
+    "board.DiceRoll.Skip.Info.1|2": "Teleports you to your tile|if you are too lazy to walk.",
     "board.DiceRoll.TookTooLong": "@EI;%s#Player Name@ took too long.",
 
   # Game Selection
@@ -223,8 +222,7 @@
   # Drawing
     "board.Draw.NewTurn":"@EI;%s#Player Name@'s turn to roll.",
     "board.Draw.Rolled":"@EI;%1$s#Player Name@ has rolled a @EI;%2$s#Roll Number@!",
-    "board.Draw.Start.1":"Multiple players ended with @EI;%s#Placement Position@ place!",
-    "board.Draw.Start.2":"@EI;%s#Player Name@ will now decide on their new positions.",
+    "board.Draw.Start.1|2":"Multiple players ended with @EI;%s#Placement Position@ place!|@EI;%s#Player Name@ will now decide on their new positions.",
     "board.Draw.Failsafe": "Oopsies, something went wrong. Placements have been randomised to prevent everything from breaking :(",
 
   # Generic Tiles
@@ -266,9 +264,7 @@
     "board.Tiles.Volcano.Normal": "The board has returned to normal!",
 
     # Dino Tile
-    "board.Tiles.Dino.Intro.1": "@EI;%s#Player Name@ will now roll to choose if they go forwards or backwards.",
-    "board.Tiles.Dino.Intro.2": "If they land on the blue dinosaur they go forward.",
-    "board.Tiles.Dino.Intro.3": "If they land on the red one they go back!",
+    "board.Tiles.Dino.Intro.1|2|3": "@EI;%s#Player Name@ will now roll to choose if they go forwards or backwards.|If they land on the blue dinosaur they go forward.|If they land on the red one they go back!",
     "board.Tiles.Dino.LandGood": "Nice!",
     "board.Tiles.Dino.LandBad": "Uh Oh...",
     @instruction=Text|3
@@ -358,9 +354,7 @@
     # Dicey Descent
     "game.DiceyDescentName": "Dicey Descent",
     %%% How To Play
-    "game.DiceyDescent.How.1": "@EI;%s#Bullet Point (-)@ Choose a side to fall through",
-    "game.DiceyDescent.How.2": "@EI;%s#Bullet Point (-)@ One side will be bad",
-    "game.DiceyDescent.How.3": "@EI;%s#Bullet Point (-)@ Make sure to choose the least bad sides to win!",
+    "game.DiceyDescent.How.1|2|2": "@EI;%s#Bullet Point (-)@ Choose a side to fall through|@EI;%s#Bullet Point (-)@ One side will be bad|@EI;%s#Bullet Point (-)@ Make sure to choose the least bad sides to win!",
     "game.DiceyDescent.ChooseSide": "Choose a side!",
     "game.DiceyDescent.OnSide": "You are on the @EI;%s#Color@ side",
     %%%%%%%% Death Messages
@@ -377,12 +371,9 @@
     # Zombie Tag
     "game.ZombieTagName": "Zombie Tag",
     %%% How To Play
-    "game.ZombieTag.How.1": "@EI;%s#Bullet Point (-)@ Avoid the zombies touching you",
-    "game.ZombieTag.How.2": "@EI;%s#Bullet Point (-)@ If a zombie attacks you, you will turn into a zombie too",
-    "game.ZombieTag.How.3": "@EI;%s#Bullet Point (-)@ Last player standing wins!",
+    "game.ZombieTag.How.1|2|3": "@EI;%s#Bullet Point (-)@ Avoid the zombies touching you|@EI;%s#Bullet Point (-)@ If a zombie attacks you, you will turn into a zombie too|@EI;%s#Bullet Point (-)@ Last player standing wins!",
     "game.ZombieTag.Infected": "You have been infected!",
-    "game.ZombieTag.HereLies.1": "Here Lies",
-    "game.ZombieTag.HereLies.2": "@EI;%s#Player Name@",
+    "game.ZombieTag.HereLies.1|2": "Here Lies|@EI;%s#Player Name@",
     % Keep the square brackets
     "game.ZombieTagTeam": "[Zombie]",
     "game.ZombieTag.EnterTheGraveyard": "Enter the graveyard!",
@@ -409,9 +400,7 @@
     # Barrel Daredevil
     "game.BarrelDaredevilName": "Barrel Daredevil",
     %%% How To Play
-    "game.BarrelDaredevil.How.1": "@EI;%s#Bullet Point (-)@ Wait for the barrels to start falling",
-    "game.BarrelDaredevil.How.2": "@EI;%s#Bullet Point (-)@ Click the button as late as you can to win",
-    "game.BarrelDaredevil.How.3": "@EI;%s#Bullet Point (-)@ If you don't press the button in time you will lose!",
+    "game.BarrelDaredevil.How.1|2|3": "@EI;%s#Bullet Point (-)@ Wait for the barrels to start falling|@EI;%s#Bullet Point (-)@ Click the button as late as you can to win|@EI;%s#Bullet Point (-)@ If you don't press the button in time you will lose!",
     %%%%%%%% Death Messages
     "deathMessages.BarrelDaredevil1": "@EI;%s#Player Name@ has permanent brain damage...",
     "deathMessages.BarrelDaredevil2": "@EI;%s#Player Name@ hit their head, §oreally§r §7hard",
@@ -425,9 +414,7 @@
     # Back Attack
     "game.BackAttackName": "Back Attack",
     %%% How To Play
-    "game.BackAttack.How.1": "@EI;%s#Bullet Point (-)@ Move left or right to change directions at the next turn",
-    "game.BackAttack.How.2": "@EI;%s#Bullet Point (-)@ Click to shoot, try to hit the back of your opponents",
-    "game.BackAttack.How.3": "@EI;%s#Bullet Point (-)@ The last player standing wins!",
+    "game.BackAttack.How.1|2|3": "@EI;%s#Bullet Point (-)@ Move left or right to change directions at the next turn|@EI;%s#Bullet Point (-)@ Click to shoot, try to hit the back of your opponents|@EI;%s#Bullet Point (-)@ The last player standing wins!",
     "game.BackAttack.Turning": "You are turning @EI;%s#Direction (Left/Right)@",
     %% Directions
     "game.BackAttack.Left": "LEFT",
@@ -445,9 +432,7 @@
     # Lucky Launch
     "game.LuckyLaunchName": "Lucky Launch",
     %%% How To Play
-    "game.LuckyLaunch.How.1": "@EI;%s#Bullet Point (-)@ Choose your firework and activate it",
-    "game.LuckyLaunch.How.2": "@EI;%s#Bullet Point (-)@ Each firework will randomly explode at different times",
-    "game.LuckyLaunch.How.3": "@EI;%s#Bullet Point (-)@ The player whos firework explodes last wins!",
+    "game.LuckyLaunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Choose your firework and activate it|@EI;%s#Bullet Point (-)@ Each firework will randomly explode at different times|@EI;%s#Bullet Point (-)@ The player whos firework explodes last wins!",
     "game.LuckyLaunch.ToSelectFirework": "@EI;%s#Key Bind@ to select this firework!",
     "game.LuckyLaunch.ChosenFirework": "Everyone has chosen their fireworks",
     "game.LuckyLaunch.RightClickToLight": "Go to your firework and @EI;%s#Key Bind@ to light it!",
@@ -455,10 +440,7 @@
     # Derby Dash
     "game.DerbyDashName": "Derby Dash",
     %%%% How To Play
-    "game.DerbyDash.How.1": "@EI;%s#Bullet Point (-)@ Right click to whip your horse, giving it a speed boost",
-    "game.DerbyDash.How.2": "@EI;%s#Bullet Point (-)@ If you run out of stamina your speed will be reduced",
-    "game.DerbyDash.How.3": "@EI;%s#Bullet Point (-)@ Your stamina generates quicker the longer it generates",
-    "game.DerbyDash.How.4": "@EI;%s#Bullet Point (-)@ First horse to reach the end wins!",
+    "game.DerbyDash.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Right click to whip your horse, giving it a speed boost|@EI;%s#Bullet Point (-)@ If you run out of stamina your speed will be reduced|@EI;%s#Bullet Point (-)@ Your stamina generates quicker the longer it generates|@EI;%s#Bullet Point (-)@ First horse to reach the end wins!",
     "game.DerbyDash.Whip": "Whip",
     % Time Result
     "game.DerbyDash.Finish": "@EI;%1$s#Player Name@ finished in @EI;%2$s#Seconds@:@EI;%2$s#Miliseconds@!",
@@ -466,8 +448,7 @@
     # Chop Chops
     "game.ChopChopsName": "Chop Chops",
     %% How To Play
-    "game.ChopChops.How.1": "@EI;%s#Bullet Point (-)@ Left click your carrot to chop as quickly as you can",
-    "game.ChopChops.How.2": "@EI;%s#Bullet Point (-)@ The first person to fully chop their carrot wins!",
+    "game.ChopChops.How.1|2": "@EI;%s#Bullet Point (-)@ Left click your carrot to chop as quickly as you can|@EI;%s#Bullet Point (-)@ The first person to fully chop their carrot wins!",
     "game.ChopChops.Knife": "Knife",
     "game.ChopChops.Finish": "@EI;%s#Player Name@ has finished chopping!",
     "game.ChopChops.Start":"Get Chopping!",
@@ -476,9 +457,7 @@
     # Popgun Posse
     "game.PopgunPosseName": "Popgun Posse",
     %%% How To Play
-    "game.PopgunPosse.How.1": "@EI;%s#Bullet Point (-)@ Right click to shoot",
-    "game.PopgunPosse.How.2": "@EI;%s#Bullet Point (-)@ Shoot your can to keep it in the air and gain points",
-    "game.PopgunPosse.How.3": "@EI;%s#Bullet Point (-)@ Dont let your can touch the ground!",
+    "game.PopgunPosse.How.1|2|3": "@EI;%s#Bullet Point (-)@ Right click to shoot|@EI;%s#Bullet Point (-)@ Shoot your can to keep it in the air and gain points|@EI;%s#Bullet Point (-)@ Dont let your can touch the ground!",
     "game.PopgunPosse.Aim": "Aim...",
     @instruction=Text|3
     "game.PopgunPosse.Shoot": "SHOOT!",
@@ -489,11 +468,8 @@
     # Flag Fracas
     "game.FlagFracasName": "Flag Fracas",
     %%% How To Play
-    "game.FlagFracas.How.1": "@EI;%s#Bullet Point (-)@ Look away from the flag until the game starts or you will be disqualified",
-    "game.FlagFracas.How.2": "@EI;%s#Bullet Point (-)@ On go, turn around and sprint and jump to the flag as fast as you can",
-    "game.FlagFracas.How.3": "@EI;%s#Bullet Point (-)@ First player to reach the flag wins!",
-    "game.FlagFracas.Disqual.1": "All player except @EI;%s#Player Name@ have been disqualified!",
-    "game.FlagFracas.Disqual.2": "They win by default.",
+    "game.FlagFracas.How.1|2|3": "@EI;%s#Bullet Point (-)@ Look away from the flag until the game starts or you will be disqualified|@EI;%s#Bullet Point (-)@ On go, turn around and sprint and jump to the flag as fast as you can|@EI;%s#Bullet Point (-)@ First player to reach the flag wins!",
+    "game.FlagFracas.Disqual.1|2": "All player except @EI;%s#Player Name@ have been disqualified!|They win by default.",
     "game.FlagFracas.DisqualOne":"@EI;%s#Player Name@ was disqualified!",
     @instruction=Text|3
     "game.FlagFracas.FaceDirection":"FACE THIS DIRECTION",
@@ -507,16 +483,12 @@
     # Goal Getters
     "game.GoalGettersName": "Goal Getters",
     %%% How To Play
-    "game.GoalGetters.How.1": "@EI;%s#Bullet Point (-)@ Balls of different sizes will be flung at you",
-    "game.GoalGetters.How.2": "@EI;%s#Bullet Point (-)@ Make sure you kick/punch the ball into the goal",
-    "game.GoalGetters.How.3": "@EI;%s#Bullet Point (-)@ The player with the most goals wins!",
+    "game.GoalGetters.How.1|2|3": "@EI;%s#Bullet Point (-)@ Balls of different sizes will be flung at you|@EI;%s#Bullet Point (-)@ Make sure you kick/punch the ball into the goal|@EI;%s#Bullet Point (-)@ The player with the most goals wins!",
 
     # Risky Railway
     "game.RiskyRailwayName": "Risky Railway",
     %%% How To Play
-    "game.RiskyRailway.How.1": "@EI;%s#Bullet Point (-)@ Use your movement keys to choose a direction",
-    "game.RiskyRailway.How.2": "@EI;%s#Bullet Point (-)@ One random direction will be blocked off",
-    "game.RiskyRailway.How.3": "@EI;%s#Bullet Point (-)@ Reach the end to win!",
+    "game.RiskyRailway.How.1|2|3": "@EI;%s#Bullet Point (-)@ Use your movement keys to choose a direction|@EI;%s#Bullet Point (-)@ One random direction will be blocked off|@EI;%s#Bullet Point (-)@ Reach the end to win!",
     "game.RiskyRailway.ChooseSide": "Choose a direction!",
     "game.RiskyRailway.Direction": "You have selected @EI;%s#Direction (Left/Right)@",
     %%% Directions
@@ -536,19 +508,14 @@
     # Maze Daze
     "game.MazeDazeName": "Maze Daze",
     %%% How To Play
-    "game.MazeDaze.How.1": "@EI;%s#Bullet Point (-)@ Find your way through the maze",
-    "game.MazeDaze.How.2": "@EI;%s#Bullet Point (-)@ Be careful as pads on the floor can change your controls",
-    "game.MazeDaze.How.3": "@EI;%s#Bullet Point (-)@ First player to get to the centre wins!",
+    "game.MazeDaze.How.1|2|3": "@EI;%s#Bullet Point (-)@ Find your way through the maze|@EI;%s#Bullet Point (-)@ Be careful as pads on the floor can change your controls|@EI;%s#Bullet Point (-)@ First player to get to the centre wins!",
     % Use scroll wheel
     "game.MazeDaze.Scroll":"Scroll to zoom IN or OUT",
 
     # Hammer Heads
     "game.HammerHeadsName": "Hammer Heads",
     %%%% How To Play
-    "game.HammerHeads.How.1": "@EI;%s#Bullet Point (-)@ Whack the moles as they pop up",
-    "game.HammerHeads.How.2": "@EI;%s#Bullet Point (-)@ Regular moles grant 1 point, golden moles grant 3, sus moles lose 3",
-    "game.HammerHeads.How.3": "@EI;%s#Bullet Point (-)@ Whack other players to slow them down",
-    "game.HammerHeads.How.4": "@EI;%s#Bullet Point (-)@ The player with the most points wins!",
+    "game.HammerHeads.How.1|2|3|3": "@EI;%s#Bullet Point (-)@ Whack the moles as they pop up|@EI;%s#Bullet Point (-)@ Regular moles grant 1 point, golden moles grant 3, sus moles lose 3|@EI;%s#Bullet Point (-)@ Whack other players to slow them down|@EI;%s#Bullet Point (-)@ The player with the most points wins!",
     %% Hammer Item
     "game.HammerHeads.HammerName": "Whack Hammer",
     "game.HammerHeads.HammerLore": "It's comically large!",
@@ -556,25 +523,19 @@
     # Stop Watchers
     "game.StopWatchersName": "Stop Watchers",
     %%% How To Play
-    "game.StopWatchers.How.1": "@EI;%s#Bullet Point (-)@ Wait for your timer to disappear",
-    "game.StopWatchers.How.2": "@EI;%s#Bullet Point (-)@ Right click once the specified time has passed",
-    "game.StopWatchers.How.3": "@EI;%s#Bullet Point (-)@ The player closest to the target time wins!",
+    "game.StopWatchers.How.1|2|3": "@EI;%s#Bullet Point (-)@ Wait for your timer to disappear|@EI;%s#Bullet Point (-)@ Right click once the specified time has passed|@EI;%s#Bullet Point (-)@ The player closest to the target time wins!",
 
     # Face Flip
     "game.FaceFlipName": "Face Flip",
     %%% How To Play
-    "game.FaceFlip.How.1": "@EI;%s#Bullet Point (-)@ Choose a random card to flip",
-    "game.FaceFlip.How.2": "@EI;%s#Bullet Point (-)@ If the card is yours, progress to the next line",
-    "game.FaceFlip.How.3": "@EI;%s#Bullet Point (-)@ The first person to reach the last line wins!",
+    "game.FaceFlip.How.1|2|3": "@EI;%s#Bullet Point (-)@ Choose a random card to flip|@EI;%s#Bullet Point (-)@ If the card is yours, progress to the next line|@EI;%s#Bullet Point (-)@ The first person to reach the last line wins!",
     "game.FaceFlip.NewTurn": "@EI;%s#Player Name@'s turn!",
     "game.FaceFlip.Finish": "@EI;%s#Player Name@ has finished!",
 
     # Walk-Off
     "game.WalkOffName": "Walk-Off",
     %%% How To Play
-    "game.WalkOff.How.1": "@EI;%s#Bullet Point (-)@ Travel the distance listed above and right click once there",
-    "game.WalkOff.How.2": "@EI;%s#Bullet Point (-)@ Use the signs to guide you",
-    "game.WalkOff.How.3": "@EI;%s#Bullet Point (-)@ The player closest to the set distance wins!",
+    "game.WalkOff.How.1|2|3": "@EI;%s#Bullet Point (-)@ Travel the distance listed above and right click once there|@EI;%s#Bullet Point (-)@ Use the signs to guide you|@EI;%s#Bullet Point (-)@ The player closest to the set distance wins!",
     "game.WalkOff.Unlock":"@EI;%s#Player Name@ has unset their position.",
     "game.WalkOff.Lock":"@EI;%s#Player Name@ has chosen their position.",
     "game.WalkOff.Lock.Info":"@EI;%s#Key Bind@ to lock in position",
@@ -583,9 +544,7 @@
     # Tropical Punch
     "game.TropicalPunchName": "Tropical Punch",
     %%% How To Play
-    "game.TropicalPunch.How.1": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch",
-    "game.TropicalPunch.How.2": "@EI;%s#Bullet Point (-)@ Release to punch players infront of you",
-    "game.TropicalPunch.How.3": "@EI;%s#Bullet Point (-)@ The last player standing wins!",
+    "game.TropicalPunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch|@EI;%s#Bullet Point (-)@ Release to punch players infront of you|@EI;%s#Bullet Point (-)@ The last player standing wins!",
     %%% Instructions
     "game.TropicalPunch.Info.1": "Hold @EI;%s#Key Bind@ to charge!",
     "game.TropicalPunch.Info.2": "@EI;%s#Key Bind@ to punch!",
@@ -602,10 +561,7 @@
     # Friendly Face-Off
     "game.FriendlyFaceOffName": "Friendly Face-Off",
     %%%% How To Play
-    "game.FriendlyFaceOff.How.1": "@EI;%s#Bullet Point (-)@ Rearrange the maps to mimic the image displayed",
-    "game.FriendlyFaceOff.How.2": "@EI;%s#Bullet Point (-)@ You may need to change both their position and rotation",
-    "game.FriendlyFaceOff.How.3": "@EI;%s#Bullet Point (-)@ Use right click to pick up and drop, use left click to rotate",
-    "game.FriendlyFaceOff.How.4": "@EI;%s#Bullet Point (-)@ First player to finish their puzzle wins!",
+    "game.FriendlyFaceOff.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Rearrange the maps to mimic the image displayed|@EI;%s#Bullet Point (-)@ You may need to change both their position and rotation|@EI;%s#Bullet Point (-)@ Use right click to pick up and drop, use left click to rotate|@EI;%s#Bullet Point (-)@ First player to finish their puzzle wins!",
     "game.FriendlyFaceOff.StillGoing": " Still going...",
     %%%%% Finish Messages
     "game.FriendlyFaceOff.Finish1": "@EI;%1$s#Player Name@ finished! (@EI;%2$s#Seconds@s)",
@@ -620,14 +576,10 @@
     # Hide N Peek
     "game.HideNPeekName": "Hide-and-Peek",
     %%% How To Play - Hiders
-    "game.HideNPeek.How.Main.1": "@EI;%s#Bullet Point (-)@ You have 1 minute to get the best spot",
-    "game.HideNPeek.How.Main.2": "@EI;%s#Bullet Point (-)@ Your objective is not to get caught by the seeker, so you can consider the rocking horses your safest bet",
     % Ignore the § symbols cba to change them
-    "game.HideNPeek.How.Main.3": "@EI;%s#Bullet Point (-)@ The symbol '§c⚠§7' means you're too far from the structure, so you'll get teleported back",
+    "game.HideNPeek.How.Main.1|2|3": "@EI;%s#Bullet Point (-)@ You have 1 minute to get the best spot|@EI;%s#Bullet Point (-)@ Your objective is not to get caught by the seeker, so you can consider the rocking horses your safest bet|@EI;%s#Bullet Point (-)@ The symbol '§c⚠§7' means you're too far from the structure, so you'll get teleported back",
     %%% How To Play - Seeker
-    "game.HideNPeek.How.Solo.1": "@EI;%s#Bullet Point (-)@ The hiders will have 1 minute to choose a spot",
-    "game.HideNPeek.How.Solo.2": "@EI;%s#Bullet Point (-)@ Once that timer is over you will have 5 chances to find them",
-    "game.HideNPeek.How.Solo.3": "@EI;%s#Bullet Point (-)@ To search in a structure drop your Seeker's Tool near it. If you catch someone they'll start glowing",
+    "game.HideNPeek.How.Solo.1|2|3": "@EI;%s#Bullet Point (-)@ The hiders will have 1 minute to choose a spot|@EI;%s#Bullet Point (-)@ Once that timer is over you will have 5 chances to find them|@EI;%s#Bullet Point (-)@ To search in a structure drop your Seeker's Tool near it. If you catch someone they'll start glowing",
     "game.HideNPeek.HidersReleased": "The hider has been released",
     "game.HideNPeek.SeekerReleased": "The seeker has been released",
     "game.HideNPeek.HiderWins": "The hider won!",
@@ -711,9 +663,7 @@
     # Channel Changers
     "game.ChannelChangersName": "Channel Changers",
     %%% How To Play
-    "game.ChannelChangers.How.1": "@EI;%s#Bullet Point (-)@ Right click a TV to change the channel",
-    "game.ChannelChangers.How.2": "@EI;%s#Bullet Point (-)@ Match each channel to the one displayed at the top",
-    "game.ChannelChangers.How.3": "@EI;%s#Bullet Point (-)@ Match all the channels to win!",
+    "game.ChannelChangers.How.1|2|3": "@EI;%s#Bullet Point (-)@ Right click a TV to change the channel|@EI;%s#Bullet Point (-)@ Match each channel to the one displayed at the top|@EI;%s#Bullet Point (-)@ Match all the channels to win!",
     %% Camera Item
     "game.ChannelChangers.RemoteName": "Remote",
     "game.ChannelChangers.RemoteLore": "WiiMart™",
@@ -721,9 +671,7 @@
     # Shutterpup
     "game.ShutterpupName": "Shutterpup",
     %%% How To Play
-    "game.Shutterpup.How.1": "@EI;%s#Bullet Point (-)@ Follow the glowing dog",
-    "game.Shutterpup.How.2": "@EI;%s#Bullet Point (-)@ Right click to take as many photos of the animal as you can",
-    "game.Shutterpup.How.3": "@EI;%s#Bullet Point (-)@ The player with the most photos containing the animal wins!",
+    "game.Shutterpup.How.1|2|3": "@EI;%s#Bullet Point (-)@ Follow the glowing dog|@EI;%s#Bullet Point (-)@ Right click to take as many photos of the animal as you can|@EI;%s#Bullet Point (-)@ The player with the most photos containing the animal wins!",
     %% Camera Item
     "game.Shutterpup.CameraName": "Camera",
     "game.Shutterpup.CameraLore": "Right click to shoot",
@@ -756,7 +704,9 @@
 
     # Music Options
     %%% These are renamed versions of th buttons usually in the main menu
+    @skip
     "generic.PinkColor":"§d",
+    @clear
     "menu.options": "@T;generic.PinkColor@Options...",
     "options.sounds": "@T;generic.PinkColor@Music & Sounds...",
     "soundCategory.voice": "@T;generic.PinkColor@Wii Party Music",
