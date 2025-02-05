@@ -181,7 +181,7 @@
     "scoreboard.ZombieTag.Symbol":"☠",
 
     @instruction=LimitForced|75
-    "scoreboard.DiceyDescent":"@T;scoreboard.DiceyDescent.Symbol@ @T;scoreboard.DiceyDescent.Symbol@",
+    "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%1$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@T;scoreboard.ZombieTag.Symbol@",
     @clear
 
