@@ -48,6 +48,7 @@ scoreboard objectives setdisplay sidebar 35display
 function games:35/display
 
 scoreboard players reset countdown= 35scores
+scoreboard players set show= 35scores 0
 
 # Create scoreboards
 scoreboard objectives add 35step dummy
