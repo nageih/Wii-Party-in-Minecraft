@@ -374,13 +374,14 @@
     "scoreboard.BarrelDaredevil.Symbols.16":"||||||||||||||||",
     "scoreboard.BackAttack.Symbol":"❌",
     "scoreboard.LuckyLaunch.Symbol":"❌",
+    @clear
 
-    @instruction=LimitForced|75
+    @instruction=LimitForced|125
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
-    @instruction=LimitForced|75|Bold
+    @instruction=LimitForced|125|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
-    @instruction=LimitForced|75
+    @instruction=LimitForced|125
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     @clear
 
