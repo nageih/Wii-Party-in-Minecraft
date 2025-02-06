@@ -1,0 +1,7 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/popgun/parent",
+	"textures": {
+		"0": "ouo:o/popgun/popgun_blue"
+	}
+}

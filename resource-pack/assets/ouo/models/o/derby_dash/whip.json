@@ -1,0 +1,13 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "ouo:o/derby_dash/whip"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -91, 0],
+			"translation": [5, 0, -7.5]
+		}
+	}
+}

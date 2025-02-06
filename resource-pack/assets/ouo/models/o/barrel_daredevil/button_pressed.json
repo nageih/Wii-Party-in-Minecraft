@@ -1,0 +1,46 @@
+{
+	"credit": "OuO Studio Creation",
+	"textures": {
+		"0": "ouo:o/barrel_daredevil/button",
+		"particle": "ouo:o/barrel_daredevil/button"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 4, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [10.032, 0.032, 13.968, 9.968], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [10.032, 0.032, 13.968, 9.968], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.032, 0.032, 13.968, 9.968], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [10.032, 0.032, 13.968, 9.968], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [12.032, 9.032, 12.968, 9.968], "texture": "#0"},
+				"down": {"uv": [0.032, 15.032, 0.968, 15.968], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 2.5, 4],
+			"to": [12, 5.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 8]},
+			"faces": {
+				"north": {"uv": [0.032, 13.032, 7.968, 15.968], "texture": "#0"},
+				"east": {"uv": [0.032, 13.032, 7.968, 15.968], "texture": "#0"},
+				"south": {"uv": [0.032, 13.032, 7.968, 15.968], "texture": "#0"},
+				"west": {"uv": [0.032, 13.032, 7.968, 15.968], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 5.5, 3],
+			"to": [13, 9.5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.5, 8]},
+			"faces": {
+				"north": {"uv": [0.032, 9.032, 9.968, 12.968], "texture": "#0"},
+				"east": {"uv": [0.032, 9.032, 9.968, 12.968], "texture": "#0"},
+				"south": {"uv": [0.032, 9.032, 9.968, 12.968], "texture": "#0"},
+				"west": {"uv": [0.032, 9.032, 9.968, 12.968], "texture": "#0"},
+				"up": {"uv": [0.032, 0.032, 9.968, 9.968], "texture": "#0"},
+				"down": {"uv": [0.032, 12.032, 0.968, 12.968], "texture": "#0"}
+			}
+		}
+	]
+}

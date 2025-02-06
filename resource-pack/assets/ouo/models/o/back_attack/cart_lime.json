@@ -1,0 +1,9 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/back_attack/parent",
+	"texture_size": [32, 32],
+	"textures": {
+		"3": "ouo:o/back_attack/cart_lime",
+		"particle": "ouo:o/back_attack/cart_lime"
+	}
+}

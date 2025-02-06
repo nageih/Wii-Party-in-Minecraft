@@ -1,0 +1,8 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/dice/parent/5",
+	"textures": {
+		"1": "ouo:o/dice/silver",
+		"particle": "ouo:o/dice/silver"
+	}
+}

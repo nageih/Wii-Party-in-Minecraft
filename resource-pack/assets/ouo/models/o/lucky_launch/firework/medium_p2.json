@@ -1,0 +1,9 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/lucky_launch/firework/parent_firework_medium",
+	"textures": {
+		"0": "ouo:o/lucky_launch/firework/firework_part",
+		"4": "ouo:o/lucky_launch/firework/firework_p2",
+		"particle": "ouo:o/lucky_launch/firework/firework_part"
+	}
+}
