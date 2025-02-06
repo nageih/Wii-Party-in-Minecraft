@@ -22,4 +22,4 @@ execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead] at @s 
 
 # End logic
 execute store result score alive= 16scores if entity @a[tag=ingame,tag=!16dead]
-execute if score ingame= 16scores matches 2 if score alive= 16scores matches ..1 run function games:16/finish
+execute if score ingame= 16scores matches 2 if score alive= 16scores matches ..1 run function games:16/finish 
