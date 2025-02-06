@@ -3,7 +3,7 @@ scoreboard players operation mod= 35scores %= 20 Numbers
 scoreboard players operation sec= 35scores = timer= 35scores
 scoreboard players operation sec= 35scores /= 20 Numbers
 scoreboard players set display= 35scores 10
-scoreboard players operation display= 35scores -= sec= Numbers
+scoreboard players operation display= 35scores -= sec= 35scores
 
 
 execute if score mod= 35scores matches 0 run title @a[tag=playing] title " "

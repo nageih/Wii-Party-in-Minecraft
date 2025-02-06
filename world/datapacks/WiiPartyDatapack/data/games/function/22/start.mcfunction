@@ -51,4 +51,4 @@ execute if score players= 22scores matches 4 run scoreboard players set balls= 2
 # Schedules the next segment, which will display a title
 schedule function games:22/title1 3s
 
-function games:22/display
+scoreboard objectives setdisplay sidebar

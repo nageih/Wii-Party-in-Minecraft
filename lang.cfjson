@@ -340,7 +340,6 @@
     "game.TimberToppleName": "Timber Topple",
     "game.SherpardScrambleName": "Shepard Scramble",
     "game.PoppinPilotsName": "Poppin' Pilots",
-    "game.StrategyStepsName": "Strategy Steps",
     "game.SpringTimeName": "Spring Time",
     "game.BalloonBuggiesName": "Balloon Buggies",
     "game.LunarLandersName": "Lunar Landers",
@@ -383,10 +382,10 @@
     "scoreboard.RiskyRailway.Symbol":"☠",
     "scoreboard.MazeDaze.Symbol":"🎌",
     "scoreboard.HammerHeads.Symbol":" %s ",
-    "scoreboard.StopWatchers.Symbol":"🎌",
-    "scoreboard.StrategySteps.Symbol":"✓",
-    "scoreboard.FaceFlip.Symbol":"✓",
-    "scoreboard.WalkOff.Symbol":"✓",
+    "scoreboard.StopWatchers.Symbol":"⏱",
+    "scoreboard.StrategySteps.Symbol":"✔",
+    "scoreboard.FaceFlip.Symbol":"✔",
+    "scoreboard.WalkOff.Symbol":"✔",
 
 
 
@@ -412,9 +411,12 @@
     "scoreboard.MazeDaze":"@SI;%1$s#scoreboard.MazeDaze.Symbol@",
     "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
+    @instruction=LimitForced|125|Bold
     "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@",
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
+    @clear
+    @instruction=LimitForced|125
 
     @clear
 
@@ -624,6 +626,16 @@
     "deathMessages.TropicalPunch6": "@EI;%s#Player Name@ failed to dodge",
     "deathMessages.TropicalPunch7": "@EI;%s#Player Name@ is sleeping with the fishes",
     "deathMessages.TropicalPunch8": "Let's hope @EI;%s#Player Name@ knows how to swim...",
+
+    # Strategy Steps
+    "game.StrategyStepsName": "Strategy Steps",
+    %%% How To Play
+    "game.StrategySteps.How.1|2|3": "@EI;%s#Bullet Point (-)@ Right Click to a number to select it|@EI;%s#Bullet Point (-)@ If no one else chooses your number, move up the steps based on the chosen number|@EI;%s#Bullet Point (-)@ First player to the top wins!!",
+    "game.StrategySteps.Results.Title":"Results!",
+    "game.StrategySteps.Results.Value":"@EI;%2$s#Number@: @EI;%1$s#Player Names@",
+    "game.StrategySteps.Travel.Start":"Travel up @EI;%s#Step Count@ steps!",
+    "game.StrategySteps.Travel.Info":"@EI;%s#Player Names@ will now travel their steps!",
+
 
     # Friendly Face-Off
     "game.FriendlyFaceOffName": "Friendly Face-Off",

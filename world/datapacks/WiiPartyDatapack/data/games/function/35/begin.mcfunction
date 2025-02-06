@@ -16,7 +16,8 @@ execute as @a[tag=playing] at @s run playsound ouo:start master @s ~ ~ ~ 3 1
 scoreboard players set ingame= 35scores 2
 
 
-title @a[tag=playing] times 0 60 20
+title @a[tag=playing] times 10 60 20
+
 
 function games:35/play_song
 
