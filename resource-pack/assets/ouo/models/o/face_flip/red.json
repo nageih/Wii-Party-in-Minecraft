@@ -1,0 +1,6 @@
+{
+	"parent": "ouo:o/face_flip/parent",
+	"textures": {
+		"1": "ouo:o/face_flip/red"
+	}
+}

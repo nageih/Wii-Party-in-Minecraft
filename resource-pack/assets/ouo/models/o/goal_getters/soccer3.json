@@ -1,0 +1,10 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/goal_getters/parent",
+	"display": {
+		"head": {
+			"translation": [0, -19, 0],
+			"scale": [3, 3, 3]
+		}
+	}
+}

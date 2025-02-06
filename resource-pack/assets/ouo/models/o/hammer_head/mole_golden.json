@@ -1,0 +1,7 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/hammer_head/mole_parent",
+	"textures": {
+		"0": "ouo:o/hammer_head/mole_golden"
+	}
+}

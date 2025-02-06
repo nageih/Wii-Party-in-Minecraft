@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "custom/border",
-		"particle": "block/texture"
+		"1": "custom/border"
 	},
 	"elements": [
 		{

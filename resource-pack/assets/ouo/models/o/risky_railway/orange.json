@@ -1,0 +1,8 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/risky_railway/parent",
+	"textures": {
+		"0": "ouo:o/risky_railway/orange",
+		"particle": "ouo:o/risky_railway/orange"
+	}
+}

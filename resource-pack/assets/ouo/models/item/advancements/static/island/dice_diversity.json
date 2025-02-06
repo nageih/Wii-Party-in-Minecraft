@@ -1,13 +1,13 @@
 {
 	"credit": "Made by OuO and T4Bl3rUs",
-	"parent": "ouo:dice/parent/1",
+	"parent": "ouo:o/dice/parent/1",
 	"textures": {
-		"1": "ouo:dice/bronze",
-		"2": "ouo:dice/dino",
-		"3": "ouo:dice/golden",
-		"4": "ouo:dice/negative",
-		"5": "ouo:dice/silver",
-		"particle": "ouo:dice/normal"
+		"1": "ouo:o/dice/bronze",
+		"2": "ouo:o/dice/dino",
+		"3": "ouo:o/dice/golden",
+		"4": "ouo:o/dice/negative",
+		"5": "ouo:o/dice/silver",
+		"particle": "ouo:o/dice/white"
 	},
 	"elements": [
 		{

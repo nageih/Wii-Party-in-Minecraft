@@ -1,0 +1,9 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/maze_daze/parent",
+	"textures": {
+		"0": "ouo:o/maze_daze/spinframe",
+		"1": "ouo:o/maze_daze/spin_fast",
+		"particle": "ouo:o/maze_daze/spinframe"
+	}
+}

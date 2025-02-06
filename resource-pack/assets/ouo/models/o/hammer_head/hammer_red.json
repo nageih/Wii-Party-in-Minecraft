@@ -1,0 +1,8 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/hammer_head/parent",
+	"textures": {
+		"0": "ouo:o/hammer_head/hammer_red",
+		"particle": "ouo:o/hammer_head/hammer_red"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/back_attack/parent_alt",
+	"textures": {
+		"3": "ouo:o/back_attack/normal_alt"
+	}
+}

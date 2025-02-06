@@ -4,36 +4,34 @@
 		"layer0": "minecraft:item/leather_horse_armor"
 	},
 	"overrides": [
-		{"predicate": {"custom_model_data": 1},"model": "ouo:target_cart/normal"},
-		{"predicate": {"custom_model_data": 2},"model": "ouo:target_cart/animated"},
-		{"predicate": {"custom_model_data": 3},"model": "ouo:target_cart/normal_alt"},
+		{"predicate": {"custom_model_data": 1},"model": "ouo:o/back_attack/normal"},
+		{"predicate": {"custom_model_data": 2},"model": "ouo:o/back_attack/animated"},
+		{"predicate": {"custom_model_data": 3},"model": "ouo:o/back_attack/normal_alt"},
 	
 		
 
-		{"predicate": {"custom_model_data": 501},"model": "ouo:block/firework/long_thin_bottom_p1"},
-		{"predicate": {"custom_model_data": 502},"model": "ouo:block/firework/long_thin_bottom_p2"},
-		{"predicate": {"custom_model_data": 503},"model": "ouo:block/firework/long_thin_bottom_p3"},
-		{"predicate": {"custom_model_data": 504},"model": "ouo:block/firework/long_thin_top_p1"},
-		{"predicate": {"custom_model_data": 505},"model": "ouo:block/firework/long_thin_top_p2"},
-		{"predicate": {"custom_model_data": 506},"model": "ouo:block/firework/long_thin_top_p3"},
+		{"predicate": {"custom_model_data": 501},"model": "ouo:o/lucky_launch/firework/long_thin_bottom_p1"},
+		{"predicate": {"custom_model_data": 502},"model": "ouo:o/lucky_launch/firework/long_thin_bottom_p2"},
+		{"predicate": {"custom_model_data": 503},"model": "ouo:o/lucky_launch/firework/long_thin_bottom_p3"},
+		{"predicate": {"custom_model_data": 504},"model": "ouo:o/lucky_launch/firework/long_thin_top_p1"},
+		{"predicate": {"custom_model_data": 505},"model": "ouo:o/lucky_launch/firework/long_thin_top_p2"},
+		{"predicate": {"custom_model_data": 506},"model": "ouo:o/lucky_launch/firework/long_thin_top_p3"},
 
-		{"predicate": {"custom_model_data": 511},"model": "ouo:block/firework/long-medium_fat_p1"},
-		{"predicate": {"custom_model_data": 512},"model": "ouo:block/firework/long-medium_fat_p2"},
-		{"predicate": {"custom_model_data": 513},"model": "ouo:block/firework/long-medium_fat_p3"},
+		{"predicate": {"custom_model_data": 511},"model": "ouo:o/lucky_launch/firework/long-medium_fat_p1"},
+		{"predicate": {"custom_model_data": 512},"model": "ouo:o/lucky_launch/firework/long-medium_fat_p2"},
+		{"predicate": {"custom_model_data": 513},"model": "ouo:o/lucky_launch/firework/long-medium_fat_p3"},
 
-		{"predicate": {"custom_model_data": 521},"model": "ouo:block/firework/medium_p1"},
-		{"predicate": {"custom_model_data": 522},"model": "ouo:block/firework/medium_p2"},
-		{"predicate": {"custom_model_data": 523},"model": "ouo:block/firework/medium_p3"},
+		{"predicate": {"custom_model_data": 521},"model": "ouo:o/lucky_launch/firework/medium_p1"},
+		{"predicate": {"custom_model_data": 522},"model": "ouo:o/lucky_launch/firework/medium_p2"},
+		{"predicate": {"custom_model_data": 523},"model": "ouo:o/lucky_launch/firework/medium_p3"},
 	
-		{"predicate": {"custom_model_data": 531},"model": "ouo:block/firework/short_thin_p1"},
-		{"predicate": {"custom_model_data": 532},"model": "ouo:block/firework/short_thin_p2"},
-		{"predicate": {"custom_model_data": 533},"model": "ouo:block/firework/short_thin_p3"},
+		{"predicate": {"custom_model_data": 531},"model": "ouo:o/lucky_launch/firework/short_thin_p1"},
+		{"predicate": {"custom_model_data": 532},"model": "ouo:o/lucky_launch/firework/short_thin_p2"},
+		{"predicate": {"custom_model_data": 533},"model": "ouo:o/lucky_launch/firework/short_thin_p3"},
 
-		{"predicate": {"custom_model_data": 1001},"model": "ouo:item/popgun"},
+		{"predicate": {"custom_model_data": 2301},"model": "ouo:o/risky_railway/parent"},
 
-		{"predicate": {"custom_model_data": 2301},"model": "ouo:item/minecart/risky_railway"},
-
-		{"predicate": {"custom_model_data": 2501},"model": "ouo:misc/hammer"}
+		{"predicate": {"custom_model_data": 2501},"model": "ouo:o/hammer_head/hammer"}
 
 	]
 }
