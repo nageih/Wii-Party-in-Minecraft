@@ -34,13 +34,17 @@ data modify storage minecraft:graphing tempvalues set from storage minecraft:gra
 #function graphing:highestlowest
 scoreboard players set lowest= graphing 0
 scoreboard players set highest= graphing 90
+scoreboard players set value_diff= graphing 90
+#scoreboard players operation value_diff= graphing = highest= graphing
+#scoreboard players operation value_diff= graphing -= lowest= graphing
 
 # Get every height
 data modify storage minecraft:graphing tempvalues set from storage minecraft:graphing values
 data modify storage minecraft:graphing heights set value []
+data modify storage minecraft:graphing diffs set value []
 scoreboard players operation h= graphing = highest= graphing
 scoreboard players operation h= graphing -= lowest= graphing
-execute store result score h2= graphing run data get storage minecraft:graphing config.maxheight
+execute store result score h2= graphing run data get storage minecraft:graphing config.height
 scoreboard players operation h= graphing *= 1000 Numbers
 scoreboard players operation h2= graphing *= 1000 Numbers
 scoreboard players operation h= graphing /= h2= graphing

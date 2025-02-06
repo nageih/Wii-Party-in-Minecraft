@@ -9,12 +9,13 @@ execute if score playing= lobby matches 1 if score testing options matches 0 run
 execute if score playing= lobby matches 2 run schedule function lobby:return_to_lobby 1t
 
 # Resets scores
-scoreboard players set ingame= 35scores 0
+scoreboard players reset ingame= 35scores
 scoreboard players reset countdown= 35scores
 scoreboard players reset @a 35num
 
 # Removes all tags
 tag @a remove 35move
+tag @a remove 35lock
 
 # Kills all entities
 kill @e[type=marker,tag=35step]

@@ -6,19 +6,22 @@
 data modify entity @s Pos[1] set from storage minecraft:graphing heights[0]
 data remove storage minecraft:graphing heights[0]
 
-# Draw the point
-execute at @s if score colour= graphing matches 1 run particle dust{"color":[0.125,0.361,0.792],"scale":0.75} ~ ~ ~ 0 0 0 0.1 1 force
-#execute at @s if score colour= graphing matches 1 run particle dust{"color":[0.125,0.361,0.792],"scale":0.5} ~ ~ ~ 0 0 0 0.1 1 force
-execute at @s if score colour= graphing matches 2 run particle dust{"color":[0.792,0.224,0.125],"scale":0.75} ~ ~ ~ 0 0 0 0.1 1 force
-#execute at @s if score colour= graphing matches 2 run particle dust{"color":[0.792,0.224,0.125],"scale":0.5} ~ ~ ~ 0 0 0 0.1 1 force
-execute at @s if score colour= graphing matches 3 run particle dust{"color":[0.125,0.792,0.361],"scale":0.75} ~ ~ ~ 0 0 0 0.1 1 force
-#execute at @s if score colour= graphing matches 3 run particle dust{"color":[0.125,0.792,0.361],"scale":0.5} ~ ~ ~ 0 0 0 0.1 1 force
-execute at @s if score colour= graphing matches 4 run particle dust{"color":[0.792,0.58,0.125],"scale":0.75} ~ ~ ~ 0 0 0 0.1 1 force
-#execute at @s if score colour= graphing matches 4 run particle dust{"color":[0.792,0.58,0.125],"scale":0.5} ~ ~ ~ 0 0 0 0.1 1 force
+# Move forward and store X, Z for interpolation
+execute store result score current_x= graphing run data get entity @s Pos[0] 1000
+execute store result score current_z= graphing run data get entity @s Pos[2] 1000
+scoreboard players set test= graphing 1
+execute at @s rotated ~ 0 run tp @s ^ ^ ^0.1565
 
+# Set interpolate based on diff_percent
+execute store result score diff_percent= graphing run data get storage minecraft:graphing diffs[0]
+data remove storage minecraft:graphing diffs[0]
+execute if score diff_percent= graphing matches ..24 run scoreboard players set interpolate= graphing 1
+execute if score diff_percent= graphing matches 25..49 run scoreboard players set interpolate= graphing 3
+execute if score diff_percent= graphing matches 50.. run scoreboard players set interpolate= graphing 5
 
-execute at @s run tp @s ^ ^ ^.1565
+# Call interpolate function
+execute at @s rotated ~ 0 run function graphing:interpolate
 
 # Decide if it should continue
 execute store success score #continue graphing run data get storage minecraft:graphing heights[0]
-execute if score #continue graphing matches 1 at @s run function graphing:renderpoint
+execute if score #continue graphing matches 1 at @s rotated ~ 0 run function graphing:renderpoint

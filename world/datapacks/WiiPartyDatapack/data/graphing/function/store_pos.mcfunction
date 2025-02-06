@@ -10,4 +10,4 @@ execute unless entity @a[tag=ingame,team=orange] unless entity @a[tag=inactive,t
 # Increase datapoints
 execute store result score temp graphing run data get storage minecraft:graphing config.datapoints 1
 scoreboard players add temp graphing 1
-execute store result storage minecraft:graphing config.datapoints int 1 run scoreboard players get temp graphing
+execute store result storage minecraft:graphing config.datapoints int 1 run scoreboard players get temp graphingz

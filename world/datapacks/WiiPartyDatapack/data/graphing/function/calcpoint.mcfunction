@@ -11,5 +11,7 @@ scoreboard players operation val= graphing += start= graphing
 execute store result storage minecraft:graphing temp double 0.001 run scoreboard players get val= graphing
 data modify storage minecraft:graphing heights append from storage minecraft:graphing temp
 
+data modify storage minecraft:graphing diffs append from storage minecraft:graphing temp3
+
 scoreboard players add #continue2 graphing 1
 execute if score #continue2 graphing < ppv= graphing run function graphing:calcpoint

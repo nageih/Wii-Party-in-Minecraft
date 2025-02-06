@@ -12,7 +12,7 @@ function graphing:calc
 
 # Render
 execute store result score colour= graphing run data get storage minecraft:graphing config.colour
-execute as @e[tag=temppos] at @s rotated as @s run function graphing:renderpoint
+execute as @e[tag=temppos] at @s rotated ~ 0 run function graphing:renderpoint
 
 # Delete the entity
 kill @e[tag=temppos]

@@ -1,5 +1,5 @@
 scoreboard players set show= 35scores 0
-scoreboard players set travel= 35scores 0
+scoreboard players set travel= 35scores 1
 clear @a[tag=ingame]
 
 execute as @a[tag=playing] at @s run playsound entity.player.levelup master @s ~ ~ ~ 1 1.25

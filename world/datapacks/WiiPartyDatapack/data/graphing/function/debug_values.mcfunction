@@ -1,5 +1,2 @@
-data modify storage minecraft:graphing blue set value [0, 15, 30, 50, 80, 65, 65, 75, 83, 80, 90]
-data modify storage minecraft:graphing red set value [0, 20, 20, 45, 50, 65, 70, 40, 25, 60, 70]
-data modify storage minecraft:graphing green set value [0, 10, 20, 30, 35, 40, 43, 45, 48, 60, 60]
-data modify storage minecraft:graphing orange set value [0, 5, 20, 30, 45, 50, 60, 65, 63, 76, 80]
-data modify storage minecraft:graphing config.datapoints set value 11
+data merge storage minecraft:graphing {red:[0,10,10,10,40,100,20],orange:[0,10,30,50,70,90,100],green:[0,20,0,40,0,80,0],blue:[0,100,0,60,0,20,0],config:{resolution:70,height:6}}
+#data merge storage minecraft:graphing {red:[0,0,0,0,0],orange:[0,0,0,0,0],green:[0,0,0,0,0],blue:[0,0,0,0,0],config:{resolution:70,height:6}}
