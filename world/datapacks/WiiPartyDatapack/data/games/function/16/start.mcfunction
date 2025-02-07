@@ -66,3 +66,5 @@ tag @a remove 16charging
 tag @a remove 16dead
 
 execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 0
+
+effect give @a[tag=ingame] haste infinite 255 true

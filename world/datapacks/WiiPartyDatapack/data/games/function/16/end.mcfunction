@@ -18,6 +18,7 @@ tag @a remove 16dead
 tag @a remove 16charged
 
 # Kills all entities
+kill @e[type=interaction,tag=16interact]
 
 # Puts all players who have died back into adventure
 gamemode adventure @a[tag=ingame]
@@ -35,3 +36,5 @@ schedule clear games:16/play_song
 # Enable movement
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0.1
 execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
+
+effect clear @a[tag=ingame] haste

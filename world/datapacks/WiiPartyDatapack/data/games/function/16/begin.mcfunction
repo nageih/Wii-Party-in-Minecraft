@@ -22,3 +22,9 @@ execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base
 title @a[tag=playing] times 0 60 20
 
 function games:16/play_song
+
+# Interaction entities
+execute as @a[tag=ingame,team=blue] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","blue"],width:1f, response:1b, height:1f}
+execute as @a[tag=ingame,team=red] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","red"],width:1f, response:1b, height:1f}
+execute as @a[tag=ingame,team=green] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","green"],width:1f, response:1b, height:1f}
+execute as @a[tag=ingame,team=orange] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["16interact","orange"],width:1f, response:1b, height:1f}

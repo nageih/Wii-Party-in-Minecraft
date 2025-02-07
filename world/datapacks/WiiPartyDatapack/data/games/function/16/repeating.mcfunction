@@ -1,16 +1,23 @@
-# execute as @a[tag=16punched] run function games:16/punch_replace
-tag @a remove 16punched
+# Tp interactions
+execute as @a[tag=ingame,team=blue,tag=16charged] at @s anchored eyes run tp @e[type=interaction,tag=blue,tag=16interact] ^ ^ ^0.5
+execute as @a[tag=ingame,team=red,tag=16charged] at @s anchored eyes run tp @e[type=interaction,tag=red,tag=16interact] ^ ^ ^0.5
+execute as @a[tag=ingame,team=green,tag=16charged] at @s anchored eyes run tp @e[type=interaction,tag=green,tag=16interact] ^ ^ ^0.5
+execute as @a[tag=ingame,team=orange,tag=16charged] at @s anchored eyes run tp @e[type=interaction,tag=orange,tag=16interact] ^ ^ ^0.5
+execute as @a[tag=ingame,team=blue,tag=!16charged] at @s anchored eyes run tp @e[type=interaction,tag=blue,tag=16interact] ~ ~-10 ~
+execute as @a[tag=ingame,team=red,tag=!16charged] at @s anchored eyes run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-10 ~
+execute as @a[tag=ingame,team=green,tag=!16charged] at @s anchored eyes run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-10 ~
+execute as @a[tag=ingame,team=orange,tag=!16charged] at @s anchored eyes run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-10 ~
 
 # Charge logic
 scoreboard players remove @a[tag=ingame,scores={16cooldown=1..}] 16cooldown 1
 scoreboard players add @a[tag=16charging] 16charge 1
-execute as @a[scores={16charge=20},tag=!16charged] at @s run function games:16/charged
+execute as @a[scores={16charge=19},tag=!16charged] at @s run function games:16/charged
 # execute as @a[scores={16charge=20..}] at @s run function games:16/punch
 scoreboard players reset @a[tag=!16charging] 16charge
 tag @a remove 16charging
 
 # Use Punch
-execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=16charged] at @s anchored eyes if predicate games:16punched unless score @s 16cooldown matches 1.. run function games:16/punch
+# execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=16charged] at @s anchored eyes if predicate games:16punched unless score @s 16cooldown matches 1.. run function games:16/punch
 
 # Give/Kill items
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16punched,tag=!16charged] unless predicate games:16crossbow run function games:16/give_crossbow
