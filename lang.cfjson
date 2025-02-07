@@ -635,7 +635,7 @@
     "game.StrategySteps.Results.Value":"@EI;%2$s#Number@: @EI;%1$s#Player Names@",
     "game.StrategySteps.Travel.Start":"Travel up @EI;%s#Step Count@ steps!",
     "game.StrategySteps.Travel.Info":"@EI;%s#Player Names@ will now travel their steps!",
-    "game.StrategySteps.Lock":"You have selected @EI;%2$s#Number@!",
+    "game.StrategySteps.Lock":"You have selected @EI;%2$s#Number@!", 
 
 
     # Friendly Face-Off
