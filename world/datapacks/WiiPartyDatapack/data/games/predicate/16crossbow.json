@@ -8,11 +8,11 @@
                 "equipment": {
                     "mainhand": {
                         "item": "minecraft:crossbow",
-                        "components": {
-                            "minecraft:charged_projectiles": []
-                        },
                         "predicates": {
                             "minecraft:custom_data": "{16punch:1b}"
+                        },
+                        "components": {
+                            "minecraft:custom_model_data": 1
                         }
                     }
                 }

@@ -14,8 +14,8 @@ scoreboard players reset @a 16charge
 
 # Removes all tags
 tag @a remove 16charging
-tag @a remove 16charged
 tag @a remove 16dead
+tag @a remove 16charged
 
 # Kills all entities
 

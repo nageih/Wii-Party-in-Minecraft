@@ -18,7 +18,6 @@ scoreboard players set ingame= 16scores 2
 
 # Enable movement
 execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base set 0.1
-execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
 
 title @a[tag=playing] times 0 60 20
 

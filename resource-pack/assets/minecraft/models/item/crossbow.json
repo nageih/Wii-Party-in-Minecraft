@@ -33,10 +33,11 @@
         {"predicate": {"charged": 1,"firework": 1},"model": "item/crossbow_firework"},
 
         {"predicate": {"custom_model_data": 1},"model": "ouo:o/tropical_punch/punch_out"},
-        {"predicate": {"custom_model_data": 1,"pulling": 1, "pull": 0.01},"model": "ouo:o/tropical_punch/punch_out_0"},
+        {"predicate": {"custom_model_data": 1,"pulling": 1, "pull": 0.0},"model": "ouo:o/tropical_punch/punch_out_0"},
         {"predicate": {"custom_model_data": 1,"pulling": 1, "pull": 0.25},"model": "ouo:o/tropical_punch/punch_pulling_0"},
         {"predicate": {"custom_model_data": 1,"pulling": 1,"pull": 0.5},"model": "ouo:o/tropical_punch/punch_pulling_1"},
         {"predicate": {"custom_model_data": 1,"pulling": 1,"pull": 0.75},"model": "ouo:o/tropical_punch/punch_pulling_2"},
-        {"predicate": {"custom_model_data": 1,"charged": 1},"model": "ouo:o/tropical_punch/punch_charged"}
+        {"predicate": {"custom_model_data": 1,"charged": 1},"model": "ouo:o/tropical_punch/punch_pulling_2"},
+        {"predicate": {"custom_model_data": 2},"model": "ouo:o/tropical_punch/punch_pulling_2"}
     ]
 }

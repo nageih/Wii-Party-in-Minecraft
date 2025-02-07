@@ -57,8 +57,12 @@ execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base 
 # Create scoreboards
 scoreboard objectives add 16arrow dummy
 scoreboard objectives add 16charge dummy
+scoreboard objectives add 16cooldown dummy
+scoreboard objectives add 16boost dummy
+scoreboard players reset @a 16boost
 
 # Removes all tags
 tag @a remove 16charging
-tag @a remove 16charged
 tag @a remove 16dead
+
+execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 0
