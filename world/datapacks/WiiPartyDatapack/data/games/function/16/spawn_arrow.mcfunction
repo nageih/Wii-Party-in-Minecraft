@@ -1,6 +1,6 @@
 execute anchored eyes run place template games:16/knockback_arrow ^ ^ ^-.5
 
-execute positioned 0.0 0 0.0 run summon marker ^ ^ ^7 {Tags:["direction"]}
+execute positioned 0.0 0 0.0 run summon marker ^ ^ ^5 {Tags:["direction"]}
 execute as @e[type=marker,tag=direction] at @s run tp @s ~ 0 ~
 
 tag @n[type=arrow] add 16temp

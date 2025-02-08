@@ -20,6 +20,7 @@ function games:48/end
 function games:27/end
 function games:12/end
 function games:16/end
+function games:35/end
 
 schedule clear games:1/start
 schedule clear games:2/start
@@ -42,6 +43,7 @@ schedule clear games:48/start
 schedule clear games:27/start
 schedule clear games:12/start
 schedule clear games:16/start
+schedule clear games:35/start
 
 function board:draw/end
 function board:dice_roll/end
@@ -130,6 +132,8 @@ schedule clear games:12/play_song
 schedule clear games:4/play_song
 schedule clear games:27/play_song
 schedule clear games:48/play_song
+schedule clear games:16/play_song
+schedule clear games:35/play_song
 schedule clear lobby:play_menu
 
 execute as @a run attribute @s player.entity_interaction_range base set 3

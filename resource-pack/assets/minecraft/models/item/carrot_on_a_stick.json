@@ -155,9 +155,9 @@
 		{"predicate": {"custom_model_data": 35001},"model": "ouo:item/steps/1"},
 		{"predicate": {"custom_model_data": 35002},"model": "ouo:item/steps/3"},
 		{"predicate": {"custom_model_data": 35003},"model": "ouo:item/steps/5"},
-		{"predicate": {"custom_model_data": 35001},"model": "ouo:item/steps/show_1"},
-		{"predicate": {"custom_model_data": 35002},"model": "ouo:item/steps/show_3"},
-		{"predicate": {"custom_model_data": 35003},"model": "ouo:item/steps/show_5"},
+		{"predicate": {"custom_model_data": 35004},"model": "ouo:item/steps/show_1"},
+		{"predicate": {"custom_model_data": 35005},"model": "ouo:item/steps/show_3"},
+		{"predicate": {"custom_model_data": 35006},"model": "ouo:item/steps/show_5"},
 
 
 		{"predicate": {"custom_model_data": 36001},"model": "ouo:o/face_flip/blue"},

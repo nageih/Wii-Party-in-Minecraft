@@ -8,7 +8,7 @@ playsound minecraft:entity.wind_charge.wind_burst master @s ~ ~ ~ 1 1
 function games:16/punch_replace
 
 # Check if hitting player from front
-scoreboard players set maxDelta= 16scores 160
+scoreboard players set maxDelta= 16scores 100
 scoreboard players operation halfDelta= 16scores = maxDelta= 16scores
 scoreboard players operation halfDelta= 16scores /= 2 Numbers
 

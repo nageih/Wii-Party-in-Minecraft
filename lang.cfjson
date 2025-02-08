@@ -23,11 +23,12 @@
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
-    @instruction=LimitForcedJevin|75|Bold
-    "generic.Red.Scoreboard": "Red",
-    "generic.Blue.Scoreboard": "Blue",
-    "generic.Green.Scoreboard": "Green",
-    "generic.Orange.Scoreboard": "Orange",
+    @skip
+    @instruction=LimitForcedJevin|100|Bold
+    "generic.Red.Scoreboard": "@T;generic.Red@",
+    "generic.Blue.Scoreboard": "@T;generic.Blue@",
+    "generic.Green.Scoreboard": "@T;generic.Green@",
+    "generic.Orange.Scoreboard": "@T;generic.Orange@",
     @clear
     @instruction=Text|3
     "generic.BlueCap": "BLUE",
@@ -391,16 +392,16 @@
 
 
 
-    @instruction=LimitForcedJevin|75
+    @instruction=LimitForcedJevin|100
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
     @clear
     @skip
-    @instruction=LimitForcedJevin|75|Bold
+    @instruction=LimitForcedJevin|100|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
     @clear
     @skip
-    @instruction=LimitForcedJevin|75
+    @instruction=LimitForcedJevin|100
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
@@ -413,13 +414,13 @@
     "scoreboard.MazeDaze":"@SI;%1$s#scoreboard.MazeDaze.Symbol@",
     "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
-    @instruction=LimitForcedJevin|75|Bold
+    @instruction=LimitForcedJevin|100|Bold
     "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@",
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
     @clear
     @skip
-    @instruction=LimitForcedJevin|75
+    @instruction=LimitForcedJevin|100
 
     @clear
 
@@ -638,7 +639,7 @@
     "game.StrategySteps.Results.Value":"@EI;%2$s#Number@: @EI;%1$s#Player Names@",
     "game.StrategySteps.Travel.Start":"Travel up @EI;%s#Step Count@ steps!",
     "game.StrategySteps.Travel.Info":"@EI;%s#Player Names@ will now travel their steps!",
-    "game.StrategySteps.Lock":"You have selected @EI;%2$s#Number@!", 
+    "game.StrategySteps.Lock":"You have selected @EI;%s#Number@!", 
 
 
     # Friendly Face-Off
