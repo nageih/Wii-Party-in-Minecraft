@@ -214,6 +214,7 @@
     "board.DiceRoll.TurnOver": "Turn over!",
     "board.DiceRoll.YouRolled": "You got @EI;%s#Total Roll@ in total!",
     # Skipping
+    % Confusing phrasing, meaning 'use this item to move to your tile'
     "board.DiceRoll.Skip.Name": "Skip to Tile",
     "board.DiceRoll.Skip.Info.1|2": "Teleports you to your tile|if you are too lazy to walk.",
     "board.DiceRoll.TookTooLong": "@EI;%s#Player Name@ took too long.",
@@ -653,7 +654,7 @@
     # Friendly Face-Off
     "game.FriendlyFaceOffName": "Friendly Face-Off",
     % How To Play
-    "game.FriendlyFaceOff.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Rearrange the maps to mimic the image displayed|@EI;%s#Bullet Point (-)@ You may need to change both their position and rotation|@EI;%s#Bullet Point (-)@ Use right click to pick up and drop, use left click to rotate|@EI;%s#Bullet Point (-)@ First player to finish their puzzle wins!",
+    "game.FriendlyFaceOff.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Rearrange the pieces to mimic the image displayed|@EI;%s#Bullet Point (-)@ You may need to change both their position and rotation|@EI;%s#Bullet Point (-)@ Use right click to pick up and drop, use left click to rotate|@EI;%s#Bullet Point (-)@ First player to finish their puzzle wins!",
     "game.FriendlyFaceOff.StillGoing": " Still going...",
     %%%%% Finish Messages
     "game.FriendlyFaceOff.Finish1": "@EI;%1$s#Player Name@ finished! (@EI;%2$s#Seconds@s)",
