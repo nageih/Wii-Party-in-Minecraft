@@ -1,0 +1,8 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/strategy_steps/pad_hide",
+	"textures": {
+		"0": "ouo:o/strategy_steps/red",
+		"1": "ouo:o/strategy_steps/3"
+	}
+}
