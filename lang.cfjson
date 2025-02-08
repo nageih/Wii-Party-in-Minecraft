@@ -73,11 +73,11 @@
 
     # Endgame Voting
     @skip
-    "command.endGame":"/trigger endGame",
+    "?command.endGame":"/trigger endGame",
     @clear
-    "lobby.EndGame.Info":"Use @T;command.endGame@ to vote to end the game early!",
+    "lobby.EndGame.Info":"Use @T;?command.endGame@ to vote to end the game early!",
     "lobby.EndGame.Start":"@EI;%1$s#Player Name@ has started a vote to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
-    "lobby.EndGame.StartInfo":"Do @T;command.endGame@ to vote yes",
+    "lobby.EndGame.StartInfo":"Do @T;?command.endGame@ to vote yes",
     "lobby.EndGame.Vote":"@EI;%1$s#Player Name@ has voted to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
     "lobby.EndGame.VoteEnd":"The game has been voted to end early.",
     "lobby.EndGame.NoPlayers":"The game has ended as there are not enough players.",
@@ -110,12 +110,16 @@
     "lobby.BGI":"Board Game Island",
 
     # StickyPiston Billboard
+    @skip
     "?lobby.SP.Name": "StickyPiston",
+    @clear
     "lobby.SP.Header":"Play on @T;?lobby.SP.Name@!",
     "lobby.SP.Subheader":"Click to visit!",
 
     # Discord Billboard
+    @skip
     "?lobby.Discord.Name": "Discord",
+    @clear
     "lobby.Discord.Header1":"Join our @T;?lobby.Discord.Name@",
     "lobby.Discord.Header2":"Report bugs or find other players",
     "lobby.Discord.Subheader":"Click to join!",
@@ -138,14 +142,14 @@
 
     # Island Visiting
     @skip
-    "command.islandReturn":"/trigger islandReturn",
-    "command.islandSpectate":"/trigger islandSpectate",
+    "?command.islandReturn":"/trigger islandReturn",
+    "?command.islandSpectate":"/trigger islandSpectate",
     @clear
     "lobby.Island.Visit":"Explore Island",
     "lobby.Island.Guide1":"Welcome to the island!",
-    "lobby.Island.Guide2":"Use @T;command.islandReturn@ to return to the island",
-    "lobby.Island.Guide3":"Use @T;command.islandSpectate@ to toggle gamemode spectator",
-    "lobby.Island.Actionbar":"Use @T;command.islandReturn@ to return",
+    "lobby.Island.Guide2":"Use @T;?command.islandReturn@ to return to the island",
+    "lobby.Island.Guide3":"Use @T;?command.islandSpectate@ to toggle gamemode spectator",
+    "lobby.Island.Actionbar":"Use @T;?command.islandReturn@ to return",
     
     # Minigame Visiting
     "lobby.Minigames.Visit":"Explore Minigames",
