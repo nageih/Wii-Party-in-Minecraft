@@ -1,22 +1,6 @@
 {
   "generic.Name":"Wii Party in Minecraft",
   "generic.Welcome":"ようこそ！",
-
-  // 1.0.4
-  //"board.DiceRoll.NormalDice": "普通のサイコロ",
-  //"board.DiceRoll.NormalDice.Info": "1~6が出る。",
-  //"board.DiceRoll.GoldenDice": "金のサイコロ",
-  //"board.DiceRoll.SilverDice": "銀のサイコロ",
-  //"board.DiceRoll.SilverDice.Info": "1~3が出る。",
-  //"board.DiceRoll.BronzeDice": "銅のサイコロ",
-  //"board.DiceRoll.BronzeDice.Info": "1-2が出る。",
-  //"board.DiceRoll.NegativeDice": "ネガティブサイコロ",
-  //"board.DiceRoll.NegativeDice.Info": "-6~-1が出る。",
-  //"board.DiceRoll.DinoDice": "恐竜サイコロ",
-  //"board.DiceRoll.DinoDice.Info": "良い恐竜か悪い恐竜が出る。",
-  //"board.DiceRoll.Dice.Info": "右クリックで使用する。",
-  
-  //"board.Tiles.Final.Victory!":"勝利！",
   
   "join.Ingame":"%sは再び参加し、次のラウンドから再開します。",
 

@@ -23,7 +23,7 @@
     "generic.Red": "Red",
     "generic.Green": "Green",
     "generic.Orange": "Orange",
-    @instruction=LimitForcedJevin|125|Bold
+    @instruction=LimitForcedJevin|75|Bold
     "generic.Red.Scoreboard": "Red",
     "generic.Blue.Scoreboard": "Blue",
     "generic.Green.Scoreboard": "Green",
@@ -96,7 +96,7 @@
     "lobby.Parkour.Beward":"Beware...",
 
     # Sidebar
-    @instruction=LimitForcedJevin|125
+    @instruction=LimitForcedJevin|115
     "lobby.Display.Welcome.1|2":"Welcome To|@T;generic.Name@",
     "lobby.Display.Join1":"Join a Team",
     "lobby.Display.Join2":"To Play!",
@@ -389,16 +389,18 @@
 
 
 
-    @clear
 
-    @instruction=LimitForcedJevin|125
+
+    @instruction=LimitForcedJevin|75
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
     @clear
-    @instruction=LimitForcedJevin|125|Bold
+    @skip
+    @instruction=LimitForcedJevin|75|Bold
     "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
     @clear
-    @instruction=LimitForcedJevin|125
+    @skip
+    @instruction=LimitForcedJevin|75
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
@@ -411,12 +413,13 @@
     "scoreboard.MazeDaze":"@SI;%1$s#scoreboard.MazeDaze.Symbol@",
     "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
-    @instruction=LimitForcedJevin|125|Bold
+    @instruction=LimitForcedJevin|75|Bold
     "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@",
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
     @clear
-    @instruction=LimitForcedJevin|125
+    @skip
+    @instruction=LimitForcedJevin|75
 
     @clear
 
@@ -679,7 +682,7 @@
     "game.HideNPeek.RockingHorses": "the rocking horses",
     "game.HideNPeek.Tube": "the tube",
     @clear
-    %%%%%%% Locations (With Cap)
+    %%%%%%% Locations (With 'The')
     "game.HideNPeek.Castle.Caps": "The castle",
     "game.HideNPeek.Dome.Caps": "The dome",
     "game.HideNPeek.Statue.Caps": "The statue",
@@ -698,46 +701,54 @@
     %% Seeker Item
     "game.HideNPeek.SeekerTool.Name": "Seeker's Tool",
     "game.HideNPeek.SeekerTool.Lore": "Drop to search",
+    %%%%% If a hider gets caught
     "deathMessages.HideNPeek1": "@EI;%1$s#Player Name@ was caught by @EI;%2$s#Player Name@",
     "deathMessages.HideNPeek2": "@EI;%1$s#Player Name@ doesn't know how to hide",
     "deathMessages.HideNPeek3": "@EI;%2$s#Player Name@'s detective skills guided him to @EI;%1$s#Player Name@",
     "deathMessages.HideNPeek4": "@EI;%2$s#Player Name@ caught @EI;%1$s#Player Name@",
     "deathMessages.HideNPeek5": "Even cows are better hiders than @EI;%1$s#Player Name@",
-    "game.HideNPeek.messages.0L0P1": "%s ran out of lives =(",
-    "game.HideNPeek.messages.0L0P2": "%s was unlucky this round",
-    "game.HideNPeek.messages.0L0P3": "%s lost",
-    "game.HideNPeek.messages.0L0P4": "%s couldn't catch everyone",
-    "game.HideNPeek.messages.0L0P5": "The hiders were too good for %s",
-    "game.HideNPeek.messages.1L0P1": "%1$s found nothing in the %2$s and now has only §c1§7 life left",
-    "game.HideNPeek.messages.1L0P2": "%1$s couldn't find anyone near %2$s and is on his last life",
-    "game.HideNPeek.messages.1L0P3": "%2$s wasn't a good choice for %1$s (§c1§7 life left)",
-    "game.HideNPeek.messages.1L0P4": "%1$s didn't catch anyone in %2$s (§c1§7 life remaining)",
-    "game.HideNPeek.messages.1L0P5": "%2$s was empty, and %1$s's lives just dropped to §c1",
-    "game.HideNPeek.messages.1L1P1": "%1$s found 1 player in %2$s but now has only §c1§7 life left",
-    "game.HideNPeek.messages.1L1P2": "%1$s managed to find 1 player near the %2$s and is on his last life",
-    "game.HideNPeek.messages.1L1P3": "%2$s was a good choice for %1$s (§c1§7 life left)",
-    "game.HideNPeek.messages.1L1P4": "%1$s caught 1 player in %2$s (§c1§7 life remaining)",
-    "game.HideNPeek.messages.1L1P5": "%2$s had 1 player, but %1$s's lives just dropped to §c1",
-    "game.HideNPeek.messages.1LPs1": "%1$s found %3$s players in %2$s but now has only §c1§7 life left",
-    "game.HideNPeek.messages.1LPs2": "%1$s managed to find %3$s players near %2$s and is on his last life",
-    "game.HideNPeek.messages.1LPs3": "%2$s was a very good choice for %1$s (§c1§7 life left)",
-    "game.HideNPeek.messages.1LPs4": "%1$s caught %3$s players in %2$s (§c1§7 life remaining)",
-    "game.HideNPeek.messages.1LPs5": "%2$s had %3$s players, but %1$s's lives just dropped to §c1",
-    "game.HideNPeek.messages.Ls0P1": "%1$s found nothing in %2$s but still has §c%3$s§7 lives left",
-    "game.HideNPeek.messages.Ls0P2": "%1$s couldn't find anyone near %2$s but has §c%3$s§7 lives left",
-    "game.HideNPeek.messages.Ls0P3": "%2$s wasn't a good choice for %1$s (§c%3$s§7 lives left)",
-    "game.HideNPeek.messages.Ls0P4": "%1$s didn't catch anyone in %2$s (§c%3$s§7 lives remaining)",
-    "game.HideNPeek.messages.Ls0P5": "%2$s was empty, but %1$s still has §c%3$s§7 lives remaining",
-    "game.HideNPeek.messages.Ls1P1": "%1$s found 1 player in %2$s and still has §c%3$s§7 lives left",
-    "game.HideNPeek.messages.Ls1P2": "%1$s managed to find 1 player near %2$s and has §c%3$s§7 lives",
-    "game.HideNPeek.messages.Ls1P3": "%2$s was a good choice for %1$s (§c%3$s§7 lives left)",
-    "game.HideNPeek.messages.Ls1P4": "%1$s caught 1 player in %2$s (§c%3$s§7 lives remaining)",
-    "game.HideNPeek.messages.Ls1P5": "%2$s had 1 player, but %1$s's lifes just dropped to §c%3$s",
-    "game.HideNPeek.messages.LsPs1": "%1$s found %3$s players in %2$s and still has §c%4$s§7 lives left",
-    "game.HideNPeek.messages.LsPs2": "%1$s managed to find %3$s players near %2$s and has §c%4$s§7 lives",
-    "game.HideNPeek.messages.LsPs3": "%2$s was a very good choice for %1$s (§c%3$s§7 lives left)",
-    "game.HideNPeek.messages.LsPs4": "%1$s caught %3$s players in %2$s (§c%4$s§7 lives remaining)",
-    "game.HideNPeek.messages.LsPs5": "%2$s had %3$s players, but %1$s's lives just dropped to §c%4$s",
+    %%%%% If the seeker fails to find everyone
+    "game.HideNPeek.messages.0L0P1": "@EI;%s#Seeker@ ran out of lives =(",
+    "game.HideNPeek.messages.0L0P2": "@EI;%s#Seeker@ was unlucky this round",
+    "game.HideNPeek.messages.0L0P3": "@EI;%s#Seeker@ lost",
+    "game.HideNPeek.messages.0L0P4": "@EI;%s#Seeker@ couldn't catch everyone",
+    "game.HideNPeek.messages.0L0P5": "The hiders were too good for @EI;%s#Seeker@",
+    %%%%% Seeker misses with 1 life left
+    "game.HideNPeek.messages.1L0P1": "@EI;%1$s#Seeker@ found nothing in the @EI;%2$s#Hiding Spot@ and now has only §c1§7 life left",
+    "game.HideNPeek.messages.1L0P2": "@EI;%1$s#Seeker@ couldn't find anyone near @EI;%2$s#Hiding Spot@ and is on his last life",
+    "game.HideNPeek.messages.1L0P3": "@EI;%2$s#Hiding Spot@ wasn't a good choice for @EI;%1$s#Seeker@ (§c1§7 life left)",
+    "game.HideNPeek.messages.1L0P4": "@EI;%1$s#Seeker@ didn't catch anyone in @EI;%2$s#Hiding Spot@ (§c1§7 life remaining)",
+    "game.HideNPeek.messages.1L0P5": "@EI;%2$s#Hiding Spot@ was empty, and @EI;%1$s#Seeker@'s lives just dropped to §c1",
+    %%%%% Seeker finds one player with 1 life left
+    "game.HideNPeek.messages.1L1P1": "@EI;%1$s#Seeker@ found 1 player in @EI;%2$s#Hiding Spot@ but now has only §c1§7 life left",
+    "game.HideNPeek.messages.1L1P2": "@EI;%1$s#Seeker@ managed to find 1 player near the @EI;%2$s#Hiding Spot@ and is on his last life",
+    "game.HideNPeek.messages.1L1P3": "@EI;%2$s#Hiding Spot@ was a good choice for @EI;%1$s#Seeker@ (§c1§7 life left)",
+    "game.HideNPeek.messages.1L1P4": "@EI;%1$s#Seeker@ caught 1 player in @EI;%2$s#Hiding Spot@ (§c1§7 life remaining)",
+    "game.HideNPeek.messages.1L1P5": "@EI;%2$s#Hiding Spot@ had 1 player, but @EI;%1$s#Seeker@'s lives just dropped to §c1",
+    %%%%% Seeker finds multiple players with 1 life left
+    "game.HideNPeek.messages.1LPs1": "@EI;%1$s#Seeker@ found @EI;%3$s#Number of players found@ players in @EI;%2$s#Hiding Spot@ but now has only §c1§7 life left",
+    "game.HideNPeek.messages.1LPs2": "@EI;%1$s#Seeker@ managed to find @EI;%3$s#Number of players found@ players near @EI;%2$s#Hiding Spot@ and is on his last life",
+    "game.HideNPeek.messages.1LPs3": "@EI;%2$s#Hiding Spot@ was a very good choice for @EI;%1$s#Seeker@ (§c1§7 life left)",
+    "game.HideNPeek.messages.1LPs4": "@EI;%1$s#Seeker@ caught @EI;%3$s#Number of players found@ players in @EI;%2$s#Hiding Spot@ (§c1§7 life remaining)",
+    "game.HideNPeek.messages.1LPs5": "@EI;%2$s#Hiding Spot@ had @EI;%3$s#Number of players found@ players, but @EI;%1$s#Seeker@'s lives just dropped to §c1",
+    %%%%% Seeker misses with multiple lives left
+    "game.HideNPeek.messages.Ls0P1": "@EI;%1$s#Seeker@ found nothing in @EI;%2$s#Hiding Spot@ but still has §c@EI;%3$s#Number of lives remaining@§7 lives left",
+    "game.HideNPeek.messages.Ls0P2": "@EI;%1$s#Seeker@ couldn't find anyone near @EI;%2$s#Hiding Spot@ but has §c@EI;%3$s#Number of lives remaining@§7 lives left",
+    "game.HideNPeek.messages.Ls0P3": "@EI;%2$s#Hiding Spot@ wasn't a good choice for @EI;%1$s#Seeker@ (§c@EI;%3$s#Number of lives remaining@§7 lives left)",
+    "game.HideNPeek.messages.Ls0P4": "@EI;%1$s#Seeker@ didn't catch anyone in @EI;%2$s#Hiding Spot@ (§c@EI;%3$s#Number of lives remaining@§7 lives remaining)",
+    "game.HideNPeek.messages.Ls0P5": "@EI;%2$s#Hiding Spot@ was empty, but @EI;%1$s#Seeker@ still has §c@EI;%3$s#Number of lives remaining@§7 lives remaining",
+    %%%%% Seeker finds one player with multiple lives left
+    "game.HideNPeek.messages.Ls1P1": "@EI;%1$s#Seeker@ found 1 player in @EI;%2$s#Hiding Spot@ and still has §c@EI;%3$s#Number of lives remaining@§7 lives left",
+    "game.HideNPeek.messages.Ls1P2": "@EI;%1$s#Seeker@ managed to find 1 player near @EI;%2$s#Hiding Spot@ and has §c@EI;%3$s#Number of lives remaining@§7 lives",
+    "game.HideNPeek.messages.Ls1P3": "@EI;%2$s#Hiding Spot@ was a good choice for @EI;%1$s#Seeker@ (§c@EI;%3$s#Number of lives remaining@§7 lives left)",
+    "game.HideNPeek.messages.Ls1P4": "@EI;%1$s#Seeker@ caught 1 player in @EI;%2$s#Hiding Spot@ (§c@EI;%3$s#Number of lives remaining@§7 lives remaining)",
+    "game.HideNPeek.messages.Ls1P5": "@EI;%2$s#Hiding Spot@ had 1 player, but @EI;%1$s#Seeker@'s lifes just dropped to §c@EI;%3$s#Number of lives remaining@",
+    %%%%% Seeker finds multiple players with multiple life left
+    "game.HideNPeek.messages.LsPs1": "@EI;%1$s#Seeker@ found @EI;%3$s#Number of players found@ players in @EI;%2$s#Hiding Spot@ and still has §c@EI;%4$s#Number of lives remaining@§7 lives left",
+    "game.HideNPeek.messages.LsPs2": "@EI;%1$s#Seeker@ managed to find @EI;%3$s#Number of players found@ players near @EI;%2$s#Hiding Spot@ and has §c@EI;%4$s#Number of lives remaining@§7 lives",
+    "game.HideNPeek.messages.LsPs3": "@EI;%2$s#Hiding Spot@ was a very good choice for @EI;%1$s#Seeker@ (§c@EI;%3$s#Number of lives remaining@§7 lives left)",
+    "game.HideNPeek.messages.LsPs4": "@EI;%1$s#Seeker@ caught @EI;%3$s#Number of players found@ players in @EI;%2$s#Hiding Spot@ (§c@EI;%4$s#Number of lives remaining@§7 lives remaining)",
+    "game.HideNPeek.messages.LsPs5": "@EI;%2$s#Hiding Spot@ had @EI;%3$s#Number of players found@ players, but @EI;%1$s#Seeker@'s lives just dropped to §c@EI;%4$s#Number of lives remaining@",
     "game.HideNPeek.Error.NoSeeker": "The game can't start (no seeker has been selected)",
 
     # Channel Changers

@@ -30,7 +30,7 @@ scoreboard players set §l§r§r§r§r lobbyDisplay 92
 
 
 
-team modify displayline10 prefix [{"translate":"lobby.Display.Welcome.1","color":"light_purple","bold":true}]
+team modify displayline10 prefix [{"translate":"lobby.Display.Welcome.1","color":"light_purple"}]
 team modify displayline9 prefix [{"translate":"lobby.Display.Welcome.2","color":"light_purple"}]
 
 team modify displayline8 prefix [{"translate":"lobby.Display.Join1","color":"gray"}]
