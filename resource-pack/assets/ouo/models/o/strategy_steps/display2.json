@@ -1,0 +1,39 @@
+{
+    "credit": "OuO Studio Creation",
+    "display": {
+		"thirdperson_righthand": {
+			"rotation": [63.75, -23.86, -8.79],
+			"translation": [-0.75, -3, 6],
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [63.75, -23.86, -8.79],
+			"translation": [-0.75, -3, 6],
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, 116, 0],
+			"translation": [9.5, -7.75, -5.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-9, 116, 0],
+			"translation": [9.5, -7.75, -5.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 0, 4.8],
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -15.9, 0]
+		},
+		"head": {
+			"translation": [0, 0, 0]
+		},
+		"fixed": {
+			"translation": [0, -8, 6.5]
+		}
+	}
+}
