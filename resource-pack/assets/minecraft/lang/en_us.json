@@ -468,7 +468,7 @@
 "game.StrategySteps.Travel.Info": "%s will now travel their steps!",
 "game.StrategySteps.Lock": "You have selected %s!",
 "game.FriendlyFaceOffName": "Friendly Face-Off",
-"game.FriendlyFaceOff.How.1": "%s Rearrange the maps to mimic the image displayed",
+"game.FriendlyFaceOff.How.1": "%s Rearrange the pieces to mimic the image displayed",
 "game.FriendlyFaceOff.How.2": "%s You may need to change both their position and rotation",
 "game.FriendlyFaceOff.How.3": "%s Use right click to pick up and drop, use left click to rotate",
 "game.FriendlyFaceOff.How.4": "%s First player to finish their puzzle wins!",
