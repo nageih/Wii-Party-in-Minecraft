@@ -72,7 +72,9 @@
     "lobby.Credits.Translators":"Translators:",
 
     # Endgame Voting
+    @skip
     "command.endGame":"/trigger endGame",
+    @clear
     "lobby.EndGame.Info":"Use @T;command.endGame@ to vote to end the game early!",
     "lobby.EndGame.Start":"@EI;%1$s#Player Name@ has started a vote to end the game. (@EI;%2$s#Vote Number@/@EI;%3$s#Vote Max Number@)",
     "lobby.EndGame.StartInfo":"Do @T;command.endGame@ to vote yes",
@@ -135,8 +137,10 @@
     "lobby.Cancelled":"Cancelled",
 
     # Island Visiting
+    @skip
     "command.islandReturn":"/trigger islandReturn",
     "command.islandSpectate":"/trigger islandSpectate",
+    @clear
     "lobby.Island.Visit":"Explore Island",
     "lobby.Island.Guide1":"Welcome to the island!",
     "lobby.Island.Guide2":"Use @T;command.islandReturn@ to return to the island",
