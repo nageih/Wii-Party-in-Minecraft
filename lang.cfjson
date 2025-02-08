@@ -109,12 +109,12 @@
 
     # StickyPiston Billboard
     "?lobby.SP.Name": "StickyPiston",
-    "lobby.SP.Header":"Play on @T;lobby.SP.Name@!",
+    "lobby.SP.Header":"Play on @T;?lobby.SP.Name@!",
     "lobby.SP.Subheader":"Click to visit!",
 
     # Discord Billboard
     "?lobby.Discord.Name": "Discord",
-    "lobby.Discord.Header1":"Join our @T;lobby.Discord.Name@",
+    "lobby.Discord.Header1":"Join our @T;?lobby.Discord.Name@",
     "lobby.Discord.Header2":"Report bugs or find other players",
     "lobby.Discord.Subheader":"Click to join!",
 
