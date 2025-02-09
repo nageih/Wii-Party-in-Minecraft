@@ -38,7 +38,7 @@
         {"predicate": {"custom_model_data": 1,"pulling": 1,"pull": 0.5},"model": "ouo:o/tropical_punch/blue1"},
         {"predicate": {"custom_model_data": 1,"pulling": 1,"pull": 0.75},"model": "ouo:o/tropical_punch/blue2"},
         {"predicate": {"custom_model_data": 1,"charged": 1},"model": "ouo:o/tropical_punch/blue2"},
-        {"predicate": {"custom_model_data": 2},"model": "ouo:o/tropical_punch/blue2"},
+        {"predicate": {"custom_model_data": 2},"model": "ouo:o/tropical_punch/blue_out"},
 
         {"predicate": {"custom_model_data": 3},"model": "ouo:o/tropical_punch/punch_out"},
         {"predicate": {"custom_model_data": 3,"pulling": 1, "pull": 0.0},"model": "ouo:o/tropical_punch/punch_out_0"},
@@ -46,7 +46,7 @@
         {"predicate": {"custom_model_data": 3,"pulling": 1,"pull": 0.5},"model": "ouo:o/tropical_punch/punch_pulling_1"},
         {"predicate": {"custom_model_data": 3,"pulling": 1,"pull": 0.75},"model": "ouo:o/tropical_punch/punch_pulling_2"},
         {"predicate": {"custom_model_data": 3,"charged": 1},"model": "ouo:o/tropical_punch/punch_pulling_2"},
-        {"predicate": {"custom_model_data": 4},"model": "ouo:o/tropical_punch/punch_pulling_2"},
+        {"predicate": {"custom_model_data": 4},"model": "ouo:o/tropical_punch/punch_out"},
 
         {"predicate": {"custom_model_data": 5},"model": "ouo:o/tropical_punch/lime_out"},
         {"predicate": {"custom_model_data": 5,"pulling": 1, "pull": 0.0},"model": "ouo:o/tropical_punch/lime00"},
@@ -54,7 +54,7 @@
         {"predicate": {"custom_model_data": 5,"pulling": 1,"pull": 0.5},"model": "ouo:o/tropical_punch/lime1"},
         {"predicate": {"custom_model_data": 5,"pulling": 1,"pull": 0.75},"model": "ouo:o/tropical_punch/lime2"},
         {"predicate": {"custom_model_data": 5,"charged": 1},"model": "ouo:o/tropical_punch/lime2"},
-        {"predicate": {"custom_model_data": 6},"model": "ouo:o/tropical_punch/lime2"},
+        {"predicate": {"custom_model_data": 6},"model": "ouo:o/tropical_punch/lime_out"},
 
         {"predicate": {"custom_model_data": 7},"model": "ouo:o/tropical_punch/orange_out"},
         {"predicate": {"custom_model_data": 7,"pulling": 1, "pull": 0.0},"model": "ouo:o/tropical_punch/orange00"},
@@ -62,6 +62,6 @@
         {"predicate": {"custom_model_data": 7,"pulling": 1,"pull": 0.5},"model": "ouo:o/tropical_punch/orange1"},
         {"predicate": {"custom_model_data": 7,"pulling": 1,"pull": 0.75},"model": "ouo:o/tropical_punch/orange2"},
         {"predicate": {"custom_model_data": 7,"charged": 1},"model": "ouo:o/tropical_punch/orange2"},
-        {"predicate": {"custom_model_data": 8},"model": "ouo:o/tropical_punch/orange2"}
+        {"predicate": {"custom_model_data": 8},"model": "ouo:o/tropical_punch/orange_out"}
     ]
 }

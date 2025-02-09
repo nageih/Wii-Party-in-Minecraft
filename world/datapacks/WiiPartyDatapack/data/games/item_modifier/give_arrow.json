@@ -1,0 +1,12 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:charged_projectiles": [
+        {
+          "id": "minecraft:arrow"
+        }
+      ],
+      "minecraft:custom_data": "{16punch:2}"
+    },
+    "conditions": []
+  }

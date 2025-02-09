@@ -67,4 +67,8 @@ tag @a remove 16dead
 
 execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 0
 
-effect give @a[tag=ingame] haste infinite 255 true
+# effect give @a[tag=ingame] haste infinite 255 true
+# effect give @a[tag=ingame] mining_fatigue infinite 255 true
+
+
+execute as @a[tag=ingame] run attribute @s generic.attack_speed base set 0

@@ -7,9 +7,9 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "item": "minecraft:carrot_on_a_stick",
+                        "item": "minecraft:crossbow",
                         "predicates": {
-                            "minecraft:custom_data": "{16punch:1b}"
+                            "minecraft:custom_data": "{16punch:2}"
                         }
                     }
                 }

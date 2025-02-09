@@ -121,6 +121,7 @@ scoreboard players reset eventRoll= tiles
 # Enable movement
 execute as @a run attribute @s minecraft:generic.movement_speed base set 0.1
 execute as @a run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
+execute as @a run attribute @s minecraft:generic.attack_speed base set 4.0
 
 stopsound @a voice
 
