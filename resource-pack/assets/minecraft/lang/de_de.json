@@ -105,6 +105,9 @@
 "control.RightClick": "RECHTSKLICK\n\n",
 "control.LeftClick": "LINKSKLICK",
 "control.Release": "Loslassen!",
+"control.RightClick": "RECHTSKLICK\n\n",
+"control.LeftClick": "LINKSKLICK",
+"control.Release": "Loslassen!",
 "board.Scoreboard": "Plazierung",
 "board.DiceRoll.NormalDice": "Normaler Wurfel",
 "board.DiceRoll.GoldenDice": "Goldener Wurfel",
@@ -140,6 +143,9 @@
 "board.DiceRoll.Skip.Info.1": "Teleportiert dich zu deinem Feld,",
 "board.DiceRoll.Skip.Info.2": "falls du zu faul zum Gehen bist.\n",
 >>>>>>> Stashed changes
+"board.DiceRoll.Skip.Name": "Spring zum Feld",
+"board.DiceRoll.Skip.Info.1": "Teleportiert dich zu deinem Feld,",
+"board.DiceRoll.Skip.Info.2": "falls du zu faul zum Gehen bist.\n",
 "board.DiceRoll.TookTooLong": "%s brauchte zu lange",
 "board.GameSelect.Round": "Runde %s",
 "board.GameSelect.PlayForPosition": "Minispiel um die Zugreihenfolge",
@@ -439,23 +445,10 @@
 "game.StrategySteps.Travel.Info": "%s geht jetzt seine Schritte!",
 "game.StrategySteps.Lock": "Du hast %s gew\u00e4hlt!",
 "game.FriendlyFaceOffName": "Portrait-Puzzel",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-"game.FriendlyFaceOff.How.1": "%s Rearrange the pieces to mimic the image displayed",
-"game.FriendlyFaceOff.How.2": "%s You may need to change both their position and rotation",
-"game.FriendlyFaceOff.How.3": "%s Use right click to pick up and drop, use left click to rotate",
-"game.FriendlyFaceOff.How.4": "%s First player to finish their puzzle wins!",
-=======
-=======
->>>>>>> Stashed changes
 "game.FriendlyFaceOff.How.1": "%s Ordne die einzelnen Teile neu an um das vorgegebene Bild darzustellen ",
 "game.FriendlyFaceOff.How.2": "%s Es ist m\u00f6glich, dass du die Position und die Rotation von Puzzleteilen \u00e4ndern musst",
 "game.FriendlyFaceOff.How.3": "%s Benutze Rechtsklick um Teile aufzuheben und wieder abzulegen, benutze Linksklick um es zu drehen ",
 "game.FriendlyFaceOff.How.4": "%s Der Spieler, der sein Puzzle als erstes vollendet, gewinnt!",
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 "game.FriendlyFaceOff.StillGoing": " noch am puzzeln",
 "game.FriendlyFaceOff.Finish1": "%1$s ist fertig! (%2$ss)",
 "game.FriendlyFaceOff.Finish2": "%1$s hat es geschafft, das Bild fertigzustellen in %2$s Sekunden",
