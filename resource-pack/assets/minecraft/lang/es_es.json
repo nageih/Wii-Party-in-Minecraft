@@ -430,6 +430,7 @@
 "game.StrategySteps.Travel.Start": "Sube %s escalones!",
 "game.StrategySteps.Travel.Info": "%s ahora subir\u00e1 sus escalones!",
 "game.StrategySteps.Lock": "Has seleccionado %s!",
+"game.StrategySteps.Reach": "%s reached their step!",
 "game.FriendlyFaceOffName": "Puzle de Caras",
 "game.FriendlyFaceOff.How.1": "%s Reordena las piezas para recrear la cara mostrada",
 "game.FriendlyFaceOff.How.2": "%s Puede que necesites ajustar tanto su posici\u00f3n como su rotaci\u00f3n",

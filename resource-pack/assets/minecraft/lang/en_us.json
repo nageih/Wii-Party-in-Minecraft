@@ -467,6 +467,7 @@
 "game.StrategySteps.Travel.Start": "Travel up %s steps!",
 "game.StrategySteps.Travel.Info": "%s will now travel their steps!",
 "game.StrategySteps.Lock": "You have selected %s!",
+"game.StrategySteps.Reach": "%s reached their step!",
 "game.FriendlyFaceOffName": "Friendly Face-Off",
 "game.FriendlyFaceOff.How.1": "%s Rearrange the pieces to mimic the image displayed",
 "game.FriendlyFaceOff.How.2": "%s You may need to change both their position and rotation",
