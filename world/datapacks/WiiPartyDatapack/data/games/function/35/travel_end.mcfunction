@@ -1,4 +1,4 @@
-
+tag @a remove 35move
 scoreboard players set travel= 35scores 0
 schedule clear games:35/travel_end
 

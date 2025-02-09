@@ -1,0 +1,13 @@
+{
+"menu.options": "Options...",
+"options.sounds": "Music & Sounds...",
+"key.mouse.right": "Right Click",
+"gui.recipebook.moreRecipes": "",
+"gui.recipebook.toggleRecipes.all": "",
+"gui.recipebook.toggleRecipes.craftable": "",
+"gui.recipebook.toggleRecipes.smeltable": "",
+"gui.recipebook.toggleRecipes.blastable": "",
+"gui.recipebook.toggleRecipes.smokable": "",
+"effect.minecraft.bad_omen": "",
+"effect.minecraft.hero_of_the_village": ""
+}

@@ -643,7 +643,7 @@
     # Strategy Steps
     "game.StrategyStepsName": "Strategy Steps",
     % How To Play
-    "game.StrategySteps.How.1|2|3": "@EI;%s#Bullet Point (-)@ Right Click to a number to select it|@EI;%s#Bullet Point (-)@ If no one else chooses your number, move up the steps based on the chosen number|@EI;%s#Bullet Point (-)@ First player to the top wins!!",
+    "game.StrategySteps.How.1|2|3": "@EI;%s#Bullet Point (-)@ Right Click to a number to select it|@EI;%s#Bullet Point (-)@ If no one else chooses your number, move up the steps based on the chosen number|@EI;%s#Bullet Point (-)@ First player to the top wins!",
     "game.StrategySteps.Results.Title":"Results!",
     "game.StrategySteps.Results.Value":"@EI;%2$s#Number@: @EI;%1$s#Player Names@",
     "game.StrategySteps.Travel.Start":"Travel up @EI;%s#Step Count@ steps!",

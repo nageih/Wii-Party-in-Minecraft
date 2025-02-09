@@ -1,0 +1,20 @@
+{
+"menu.options": "Options...",
+"options.sounds": "Music & Sounds...",
+"soundCategory.voice": "Wii Party Music",
+"key.mouse.right": "Right Click",
+"gui.recipebook.moreRecipes": "",
+"gui.recipebook.toggleRecipes.all": "",
+"gui.recipebook.toggleRecipes.craftable": "",
+"gui.recipebook.toggleRecipes.smeltable": "",
+"gui.recipebook.toggleRecipes.blastable": "",
+"gui.recipebook.toggleRecipes.smokable": "",
+"block.minecraft.bed.occupied": "",
+"block.minecraft.bed.obstructed": "",
+"block.minecraft.bed.too_far_away": "",
+"block.minecraft.bed.not_safe": "",
+"book.pageIndicator": "",
+"effect.minecraft.saturation": "",
+"effect.minecraft.bad_omen": "",
+"effect.minecraft.hero_of_the_village": ""
+}

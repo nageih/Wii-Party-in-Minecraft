@@ -1,0 +1,17 @@
+{
+"menu.options": "Options...",
+"options.sounds": "Music & Sounds...",
+"soundCategory.voice": "Wii Party Music",
+"container.isLocked": "",
+"gui.recipebook.moreRecipes": "",
+"gui.recipebook.toggleRecipes.all": "",
+"gui.recipebook.toggleRecipes.craftable": "",
+"gui.recipebook.toggleRecipes.smeltable": "",
+"gui.recipebook.toggleRecipes.blastable": "",
+"gui.recipebook.toggleRecipes.smokable": "",
+"effect.minecraft.hunger": "",
+"effect.minecraft.weakness": "",
+"effect.minecraft.poison": "",
+"effect.minecraft.bad_omen": "",
+"effect.minecraft.hero_of_the_village": ""
+}
