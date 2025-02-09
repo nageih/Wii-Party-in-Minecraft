@@ -1,0 +1,7 @@
+{
+	"credit": "OuO Studio Creation",
+	"parent": "ouo:o/tropical_punch/punch_out",
+	"textures": {
+		"0": "ouo:o/tropical_punch/orange"
+	}
+}
