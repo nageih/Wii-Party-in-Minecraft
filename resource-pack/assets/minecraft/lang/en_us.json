@@ -461,7 +461,7 @@
 "game.StrategyStepsName": "Strategy Steps",
 "game.StrategySteps.How.1": "%s Right Click to a number to select it",
 "game.StrategySteps.How.2": "%s If no one else chooses your number, move up the steps based on the chosen number",
-"game.StrategySteps.How.3": "%s First player to the top wins!!",
+"game.StrategySteps.How.3": "%s First player to the top wins!",
 "game.StrategySteps.Results.Title": "Results!",
 "game.StrategySteps.Results.Value": "%2$s: %1$s",
 "game.StrategySteps.Travel.Start": "Travel up %s steps!",
