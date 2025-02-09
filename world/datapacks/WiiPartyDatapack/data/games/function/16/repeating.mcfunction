@@ -1,5 +1,9 @@
 kill @e[type=spectral_arrow]
 
+scoreboard players remove @a[tag=ingame,scores={16punchtimer=0..}] 16punchtimer 1
+execute as @a[tag=ingame,scores={16punchtimer=0}] run attribute @s generic.attack_speed base set 0.0
+
+
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16punched,tag=16charged] unless predicate games:16punch run function games:16/give_punch
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16punched,tag=16charged] if predicate games:16punch unless data entity @s SelectedItem.components.minecraft:charged_projectiles run function games:16/give_punch
 

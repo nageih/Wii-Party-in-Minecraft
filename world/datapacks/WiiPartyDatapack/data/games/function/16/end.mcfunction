@@ -11,6 +11,7 @@ execute if score playing= lobby matches 2 run schedule function lobby:return_to_
 # Resets scores
 scoreboard players set ingame= 16scores 0
 scoreboard players reset @a 16charge
+scoreboard players reset @a 16punchtimer
 
 # Removes all tags
 tag @a remove 16charging
@@ -38,6 +39,5 @@ execute as @a[tag=ingame] run attribute @s minecraft:generic.movement_speed base
 execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
 
 effect clear @a[tag=ingame] haste
-effect clear @a[tag=ingame] mining_fatigue
 
 execute as @a[tag=ingame] run attribute @s generic.attack_speed base set 4.0

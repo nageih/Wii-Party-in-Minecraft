@@ -59,6 +59,7 @@ scoreboard objectives add 16arrow dummy
 scoreboard objectives add 16charge dummy
 scoreboard objectives add 16cooldown dummy
 scoreboard objectives add 16boost dummy
+scoreboard objectives add 16punchtimer dummy
 scoreboard players reset @a 16boost
 
 # Removes all tags
@@ -67,7 +68,7 @@ tag @a remove 16dead
 
 execute as @a[tag=ingame] run attribute @s generic.jump_strength base set 0
 
-# effect give @a[tag=ingame] haste infinite 255 true
+effect give @a[tag=ingame] haste infinite 255 true
 # effect give @a[tag=ingame] mining_fatigue infinite 255 true
 
 
