@@ -41,5 +41,5 @@ execute as @a[tag=ingame,tag=35finished,team=red] run team modify displayline8 p
 execute as @a[tag=ingame,tag=!35finished,team=green] run team modify displayline5 prefix {"bold":true,"translate":"scoreboard.StrategySteps","with":[{"translate":"scoreboard.StrategySteps.Symbol","color":"gray"}]}
 execute as @a[tag=ingame,tag=35finished,team=green] run team modify displayline5 prefix {"bold":true,"translate":"scoreboard.StrategySteps","with":[{"translate":"scoreboard.StrategySteps.Symbol","color":"green"}]}
     # Orange team
-execute as @a[tag=ingame,tag=!35finished,team=orange] run team modify displayline2 prefix {"bold":true,"translate":"      ✓","color":"gray"}
+execute as @a[tag=ingame,tag=!35finished,team=orange] run team modify displayline2 prefix {"bold":true,"translate":"scoreboard.StrategySteps","with":[{"translate":"scoreboard.StrategySteps.Symbol","color":"gray"}]}
 execute as @a[tag=ingame,tag=35finished,team=orange] run team modify displayline2 prefix {"bold":true,"translate":"scoreboard.StrategySteps","with":[{"translate":"scoreboard.StrategySteps.Symbol","color":"gold"}]}

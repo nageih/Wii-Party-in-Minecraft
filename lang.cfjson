@@ -393,9 +393,11 @@
     "scoreboard.MazeDaze.Symbol":"🎌",
     "scoreboard.HammerHeads.Symbol":" %s ",
     "scoreboard.StopWatchers.Symbol":"⏱",
+    @instruction=LimitForcedJevin|100|Bold
     "scoreboard.StrategySteps.Symbol":"✔",
     "scoreboard.FaceFlip.Symbol":"✔",
     "scoreboard.WalkOff.Symbol":"✔",
+    @clear
 
 
 
