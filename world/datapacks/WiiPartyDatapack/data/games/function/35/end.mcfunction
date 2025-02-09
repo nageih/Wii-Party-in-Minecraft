@@ -11,6 +11,8 @@ execute if score playing= lobby matches 2 run schedule function lobby:return_to_
 # Resets scores
 scoreboard players reset ingame= 35scores
 scoreboard players reset countdown= 35scores
+scoreboard players reset travel= 35scores
+scoreboard players reset show= 35scores
 scoreboard players reset @a 35num
 
 # Removes all tags

@@ -6,14 +6,14 @@ execute store result score unfinished= 35scores if entity @a[tag=ingame,tag=!35f
 execute if score ingame= 35scores matches 2 if score unfinished= 35scores matches ..1 run function games:35/finish
 
 # Step prevention
-execute if score ingame= 35scores matches 0.. as @e[type=marker,tag=35step] at @s run function games:35/step_prevention_f
+execute if score ingame= 35scores matches 0.. as @e[type=marker,tag=35step,scores={35step=..11}] at @s run function games:35/step_prevention_f
 execute if score ingame= 35scores matches 0.. as @e[type=marker,tag=35step,scores={35step=1..}] at @s run function games:35/step_prevention_b
 
 # Travelling
-execute if score travel= 35scores matches 1 as @e[type=marker,tag=35step] at @s positioned ~-1 ~-3 ~-20 as @a[dx=1,dy=10,dz=40] run tag @s remove 35move
+execute if score travel= 35scores matches 1 as @e[type=marker,tag=35step] at @s run function games:35/travelling
 execute if score travel= 35scores matches 1 unless entity @a[tag=ingame,tag=35move] run function games:35/travel_end
 # Step indication
-execute as @a[tag=ingame,tag=35move] at @s run function games:35/step_particles
+execute if score travel= 35scores matches 1 as @a[tag=ingame,tag=35move] at @s run function games:35/step_particles
 
 # Give items
 execute as @a[tag=ingame] if score countdown= 35scores matches 1 run function games:35/give_choose

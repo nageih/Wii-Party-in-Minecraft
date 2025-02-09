@@ -25,7 +25,7 @@ schedule function general:fade/main 88t
 # Sets the ingame score to 0 to signify that the game has ended
 scoreboard players set ingame= 35scores 0
 
-# tag @a[tag=ingame,tag=!35dead] add 1st
+function games:35/give_score
 
 # Runs the function that shows where the players placed
 function general:placements
