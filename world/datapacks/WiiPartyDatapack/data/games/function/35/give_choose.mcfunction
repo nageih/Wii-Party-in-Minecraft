@@ -1,12 +1,22 @@
-item replace entity @s hotbar.0 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
-item replace entity @s hotbar.1 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
-item replace entity @s hotbar.2 with carrot_on_a_stick[custom_model_data=35001,custom_data={35step:1b,35num:1b}] 1 
-item replace entity @s hotbar.3 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
-item replace entity @s hotbar.4 with carrot_on_a_stick[custom_model_data=35002,custom_data={35step:1b,35num:3b}] 1 
-item replace entity @s hotbar.5 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
-item replace entity @s hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:5b}] 1 
-item replace entity @s hotbar.7 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
-item replace entity @s hotbar.8 with arrow[custom_model_data=1,custom_data={35step:1b}] 1 
+item replace entity @s hotbar.0 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
+item replace entity @s hotbar.1 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
+item replace entity @s[team=blue] hotbar.2 with carrot_on_a_stick[custom_model_data=35001,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"1","color":"#0088ff"}]}'] 1
+item replace entity @s[team=red] hotbar.2 with carrot_on_a_stick[custom_model_data=35001,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"1","color":"red"}]}'] 1
+item replace entity @s[team=green] hotbar.2 with carrot_on_a_stick[custom_model_data=35001,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"1","color":"green"}]}'] 1
+item replace entity @s[team=orange] hotbar.2 with carrot_on_a_stick[custom_model_data=35001,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"1","color":"gold"}]}'] 1
+item replace entity @s hotbar.3 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
+item replace entity @s[team=blue] hotbar.4 with carrot_on_a_stick[custom_model_data=35002,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"3","color":"#0088ff"}]}'] 1
+item replace entity @s[team=red] hotbar.4 with carrot_on_a_stick[custom_model_data=35002,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"3","color":"red"}]}'] 1
+item replace entity @s[team=green] hotbar.4 with carrot_on_a_stick[custom_model_data=35002,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"3","color":"green"}]}'] 1
+item replace entity @s[team=orange] hotbar.4 with carrot_on_a_stick[custom_model_data=35002,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"3","color":"gold"}]}'] 1
+item replace entity @s hotbar.5 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
+item replace entity @s hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:5b}] 1
+item replace entity @s[team=blue] hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"5","color":"#0088ff"}]}'] 1
+item replace entity @s[team=red] hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"5","color":"red"}]}'] 1
+item replace entity @s[team=green] hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"5","color":"green"}]}'] 1
+item replace entity @s[team=orange] hotbar.6 with carrot_on_a_stick[custom_model_data=35003,custom_data={35step:1b,35num:1b},custom_name='{"translate":"game.StrategySteps.Item.Info","color":"gray","with":[{"translate":"control.RightClick","bold":true},{"text":"5","color":"gold"}]}'] 1 
+item replace entity @s hotbar.7 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
+item replace entity @s hotbar.8 with arrow[custom_model_data=1,custom_data={35step:1b},custom_name='""'] 1 
 
 item replace entity @s inventory.0 with air
 item replace entity @s inventory.1 with air
@@ -35,3 +45,4 @@ item replace entity @s inventory.23 with air
 item replace entity @s inventory.24 with air
 item replace entity @s inventory.25 with air
 item replace entity @s inventory.26 with air
+item replace entity @s weapon.offhand with air
