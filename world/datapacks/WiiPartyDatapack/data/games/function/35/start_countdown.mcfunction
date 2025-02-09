@@ -5,5 +5,6 @@ scoreboard players set timer= 35scores 0
 scoreboard players set show= 35scores 0
 scoreboard players set travel= 35scores 0
 tag @a remove 35move
+scoreboard players set @a 35num 0
 
 clear @a[tag=ingame]

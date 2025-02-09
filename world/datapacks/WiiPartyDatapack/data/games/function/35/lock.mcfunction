@@ -7,5 +7,5 @@ scoreboard players operation @s 35num = temp= 35num
 tag @s add 35lock
 
 execute if score @s 35num matches 1.. run tellraw @s {"translate":"game.StrategySteps.Lock","color":"gray","with":[{"score":{"name": "@s","objective": "35num"},"bold":true}]}
-execute if score @s 35num matches 1.. run tellraw @s {"translate":"game.StrategySteps.Lock","color":"gray","with":[{"score":{"name": "@s","objective": "35num"},"bold":true}]}
+execute unless score @s 35num matches 1.. run tellraw @s {"translate":"game.StrategySteps.Lock","color":"gray","with":[{"translate":"game.StrategySteps.Nothing","bold":true}]}
 execute at @s run playsound block.note_block.pling master @s ~ ~ ~
