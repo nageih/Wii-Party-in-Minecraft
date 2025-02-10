@@ -431,14 +431,14 @@
     "scoreboard.BackAttack":"@SI;%1$s#scoreboard.BackAttack.Symbol@",
     "scoreboard.LuckyLaunch":"@SI;%1$s#scoreboard.LuckyLaunch.Symbol@",
     "scoreboard.DerbyDash":"@SI;%1$s#scoreboard.DerbyDash.Symbol@",
-    "scoreboard.ChopChops":"@SI;%1$s#scoreboard.ChopChops.Symbol.1@",
-    "scoreboard.PopgunPosse":"@SI;%1$s#scoreboard.PopgunPosse.Symbol.1@",
+    "scoreboard.ChopChops":"@SI;%1$s#scoreboard.ChopChops.Symbol.3@",
+    "scoreboard.PopgunPosse":"@SI;%1$s#scoreboard.PopgunPosse.Symbol.2@",
     "scoreboard.FlagFracas":"@SI;%1$s#scoreboard.FlagFracas.Symbol@",
     "scoreboard.TropicalPunch":"@SI;%1$s#scoreboard.TropicalPunch.Symbol@",
-    "scoreboard.GoalGetters":"@SI;%1$s#scoreboard.GoalGetters.Symbol.1@",
+    "scoreboard.GoalGetters":"@SI;%1$s#scoreboard.GoalGetters.Symbol.2@",
     "scoreboard.RiskyRailway":"@SI;%1$s#scoreboard.RiskyRailway.Symbol@",
     "scoreboard.MazeDaze":"@SI;%1$s#scoreboard.MazeDaze.Symbol@",
-    "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol.1@",
+    "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol.2@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
     @clear
     @instruction=LimitForcedJevin|125|Bold
