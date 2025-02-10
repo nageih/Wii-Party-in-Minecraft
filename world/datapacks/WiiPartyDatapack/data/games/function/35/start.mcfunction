@@ -41,6 +41,12 @@ effect give @a[tag=ingame] minecraft:weakness infinite 255 true
 # Removes all players position tags, just for debugging purposes
 function general:reset_tags
 
+# Create scoreboards
+scoreboard objectives add 35step dummy
+scoreboard objectives add 35prev dummy
+scoreboard players set @a[tag=ingame] 35step 0
+scoreboard objectives add 35num dummy
+
 # Updates the scoreboard
 scoreboard objectives add 35display dummy {"translate":"game.StrategyStepsName","bold":true}
 scoreboard players set @a[tag=ingame] 48score 0
@@ -50,11 +56,7 @@ function games:35/display
 scoreboard players reset countdown= 35scores
 scoreboard players set show= 35scores 0
 
-# Create scoreboards
-scoreboard objectives add 35step dummy
-scoreboard objectives add 35prev dummy
-scoreboard players set @a[tag=ingame] 35step 0
-scoreboard objectives add 35num dummy
+
 
 # Removes all tags
 
