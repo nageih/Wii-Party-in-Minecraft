@@ -366,9 +366,9 @@
 
     # Scoreboard Icons
     @skip
-    "scoreboard.Board.Symbol.1":"\udb00\udc010",
-    "scoreboard.Board.Symbol.2":"\udb00\udc0100",
-    "scoreboard.Board.Symbol.V":"\udb00\udc01🌋",
+    "scoreboard.Board.Symbol.1":"0",
+    "scoreboard.Board.Symbol.2":"00",
+    "scoreboard.Board.Symbol.V":"🌋",
     "scoreboard.DiceyDescent.Symbol":"⚡",
     "scoreboard.ZombieTag.Symbol":"☠",
     "scoreboard.BarrelDaredevil.Symbols.0":"",
