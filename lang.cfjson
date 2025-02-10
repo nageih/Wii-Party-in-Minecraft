@@ -303,12 +303,14 @@
     # Final Challenge
     "board.Tiles.Final.Start":"Final Challenge!",
     % Minimum number the player needs to roll on the dice
-    "board.Tiles.Final.Info":"Roll at least a 6 to defeat @EI;%s#Party Phil!!!!@",
+    "board.Tiles.Final.Info":"Roll at least a 6 to defeat @T;board.Tiles.Final.Phil@!!!",
     "board.Tiles.Final.Next":"Dont worry, you will be able to use your extra dice next round if you place 1st-3rd!",
     @instruction=Text|3
     "board.Tiles.Final.Fail":"EPIC FAIL",
     "board.Tiles.Final.Victory!":"VICTORY!",
-    "board.Tiles.Final.Defeat":"PARTY PHIL HAS BEEN DEFEATED!",
+    "board.Tiles.Final.Defeat":"@T;board.Tiles.Final.Phil@ HAS BEEN DEFEATED!",
+    @instruction=Text|3
+    "board.Tiles.Final.Phil": "Pirate Phil",
     @clear
 
     # Jump Challenge

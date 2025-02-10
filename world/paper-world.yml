@@ -4,5 +4,8 @@
 # World: ghast_Wii_Party_in_Minecraft (minecraft:overworld)
 
 _version: 31
+misc:
+  disable-relative-projectile-velocity: true
 scoreboards:
   allow-non-player-entities-on-scoreboards: true
+  use-vanilla-world-scoreboard-name-coloring: true
