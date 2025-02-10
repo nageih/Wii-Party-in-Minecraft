@@ -17,6 +17,7 @@ execute if score travel= 35scores matches 1 as @a[tag=ingame,tag=35move] at @s r
 
 # Give items
 execute as @a[tag=ingame] if score countdown= 35scores matches 1 run function games:35/give_choose
+execute as @a[tag=ingame] if score @s 35num matches 1.. if score countdown= 35scores matches 1 run function games:35/display_choose
 execute as @a[tag=ingame] if score show= 35scores matches 1 if score @s 35num matches 1..5 unless predicate games:35show run function games:35/give_show
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{35step:1b}}}}]
 

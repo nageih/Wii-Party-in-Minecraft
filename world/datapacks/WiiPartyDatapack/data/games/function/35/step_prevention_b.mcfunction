@@ -1,4 +1,4 @@
-scoreboard players operation cur= 35step = @s 35step
+scoreboard players operation cur= 35step = @s 35prev
 scoreboard players operation prev= 35step = cur= 35step
 scoreboard players remove prev= 35step 1
 execute store result storage game35 step.x double 1 as @e[type=marker,tag=35step] if score @s 35step = prev= 35step run tag @s add 35prev

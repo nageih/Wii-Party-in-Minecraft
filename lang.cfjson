@@ -393,11 +393,21 @@
     "scoreboard.MazeDaze.Symbol":"🎌",
     "scoreboard.HammerHeads.Symbol":" %s ",
     "scoreboard.StopWatchers.Symbol":"⏱",
-    @instruction=LimitForcedJevin|100|Bold
-    "scoreboard.StrategySteps.Symbol":"✔",
     "scoreboard.FaceFlip.Symbol":"✔",
     "scoreboard.WalkOff.Symbol":"✔",
-    @clear
+    "scoreboard.StrategySteps.Symbols.0":"",
+    "scoreboard.StrategySteps.Symbols.1":"|",
+    "scoreboard.StrategySteps.Symbols.2":"||",
+    "scoreboard.StrategySteps.Symbols.3":"|||",
+    "scoreboard.StrategySteps.Symbols.4":"||||",
+    "scoreboard.StrategySteps.Symbols.5":"|||||",
+    "scoreboard.StrategySteps.Symbols.6":"||||||",
+    "scoreboard.StrategySteps.Symbols.7":"|||||||",
+    "scoreboard.StrategySteps.Symbols.8":"||||||||",
+    "scoreboard.StrategySteps.Symbols.9":"|||||||||",
+    "scoreboard.StrategySteps.Symbols.10":"||||||||||",
+    "scoreboard.StrategySteps.Symbols.11":"|||||||||||",
+    "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
 
 
 
@@ -426,14 +436,14 @@
     "scoreboard.HammerHeads":"@SI;%1$s#scoreboard.HammerHeads.Symbol@",
     "scoreboard.StopWatchers":"@SI;%1$s#scoreboard.StopWatchers.Symbol@",
     @instruction=LimitForcedJevin|100|Bold
-    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@",
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
+    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@@SI;%2$s#scoreboard.StrategySteps.Symbol@",
     @clear
-    @skip
-    @instruction=LimitForcedJevin|100
 
-    @clear
+
+
+
 
     # Dicey Descent
     "game.DiceyDescentName": "Dicey Descent",
@@ -654,6 +664,8 @@
     "game.StrategySteps.Nothing":"Nothing", 
     "game.StrategySteps.Item.Info":"@SI;%1$s#control.RightClick@ to choose @EI;%2$s#Number@!", 
     "game.StrategySteps.Reach":"@EI;%s#Player@ reached their step!",
+    "game.StrategySteps.Selecting":"You have selected @EI;%s#Number@.",
+    "game.StrategySteps.RoundOver":"Round Over",
 
 
     # Friendly Face-Off

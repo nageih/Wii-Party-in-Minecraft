@@ -1,0 +1,4 @@
+title @s[team=blue] actionbar {"translate":"game.StrategySteps.Selecting","color":"gray","with":[{"score":{"name": "@s","objective":"35num"},"color":"#0088ff","bold":true}]}
+title @s[team=red] actionbar {"translate":"game.StrategySteps.Selecting","color":"gray","with":[{"score":{"name": "@s","objective":"35num"},"color":"red","bold":true}]}
+title @s[team=green] actionbar {"translate":"game.StrategySteps.Selecting","color":"gray","with":[{"score":{"name": "@s","objective":"35num"},"color":"green","bold":true}]}
+title @s[team=orange] actionbar {"translate":"game.StrategySteps.Selecting","color":"gray","with":[{"score":{"name": "@s","objective":"35num"},"color":"gold","bold":true}]}

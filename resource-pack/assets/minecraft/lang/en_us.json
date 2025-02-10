@@ -470,6 +470,7 @@
 "game.StrategySteps.Nothing": "Nothing",
 "game.StrategySteps.Item.Info": "%1$s to choose %2$s!",
 "game.StrategySteps.Reach": "%s reached their step!",
+"game.StrategySteps.Selecting":"You have selected %s.",
 "game.FriendlyFaceOffName": "Friendly Face-Off",
 "game.FriendlyFaceOff.How.1": "%s Rearrange the pieces to mimic the image displayed",
 "game.FriendlyFaceOff.How.2": "%s You may need to change both their position and rotation",

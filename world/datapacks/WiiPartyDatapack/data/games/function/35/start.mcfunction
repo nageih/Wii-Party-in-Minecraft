@@ -52,7 +52,11 @@ scoreboard players set show= 35scores 0
 
 # Create scoreboards
 scoreboard objectives add 35step dummy
+scoreboard objectives add 35prev dummy
 scoreboard players set @a[tag=ingame] 35step 0
 scoreboard objectives add 35num dummy
 
 # Removes all tags
+
+
+execute as @a[tag=ingame] run attribute @s generic.step_height base set 1

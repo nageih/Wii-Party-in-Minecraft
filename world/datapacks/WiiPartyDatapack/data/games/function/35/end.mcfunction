@@ -18,6 +18,7 @@ scoreboard players reset @a 35num
 # Removes all tags
 tag @a remove 35move
 tag @a remove 35lock
+tag @a remove 35finished
 
 # Kills all entities
 kill @e[type=marker,tag=35step]
@@ -38,3 +39,5 @@ schedule clear games:35/travel_start
 schedule clear games:35/travel_end
 schedule clear games:35/results_register
 schedule clear games:35/results_show
+
+execute as @a run attribute @s generic.step_height base set 0.6
