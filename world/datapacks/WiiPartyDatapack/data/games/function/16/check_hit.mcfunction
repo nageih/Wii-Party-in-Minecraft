@@ -31,6 +31,8 @@ scoreboard players operation result= 16scores %= 360 Numbers
 tag @s add 16attacker
 execute if score result= 16scores >= 0 Numbers if score result= 16scores <= maxDelta= 16scores as @p[tag=16rayHit] at @s run function games:16/miss
 execute if score result= 16scores >= 0 Numbers if score result= 16scores <= maxDelta= 16scores at @s run function games:16/miss_self
+execute if score result= 16scores < 0 Numbers as @p[tag=16rayHit] at @s run function games:16/hit
+execute if score result= 16scores > maxDelta= 16scores as @p[tag=16rayHit] at @s run function games:16/hit
 tag @s remove 16attacker
 
 tag @a remove 16rayHit

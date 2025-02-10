@@ -24,10 +24,10 @@ tellraw @a[tag=playing] [{"translate":"game.TropicalPunch.How.3","color":"gray",
 tellraw @a[tag=playing] ""
 
 # Teleport all players to the minigame
-tp @a[tag=ingame,team=blue] 16900 18 16992 -90 0
-tp @a[tag=ingame,team=red] 16906 18 16986 0 0 
-tp @a[tag=ingame,team=green] 16912 18 16992 90 0
-tp @a[tag=ingame,team=orange] 16906 18 16998 180 0
+tp @a[tag=ingame,team=blue] 16898.0 18 16984.0 -90 0
+tp @a[tag=ingame,team=red] 16904.0 18 16978.0 0 0 
+tp @a[tag=ingame,team=green] 16910.0 18 16984.0 90 0
+tp @a[tag=ingame,team=orange] 16904.0 18 16990.0 180 0
 
 spreadplayers 16906.0 16992.0 5 10 true @a[tag=playing,tag=!ingame]
 

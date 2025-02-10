@@ -30,4 +30,6 @@ tag @a[tag=ingame,tag=!16dead] add 1st
 # Runs the function that shows where the players placed
 function general:placements
 
+schedule clear games:16/play_song
 stopsound @a[tag=playing] voice
+

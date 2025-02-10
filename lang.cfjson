@@ -41,10 +41,14 @@
     "generic.Placement": "Final Standings:",
     "generic.NewPlacement": "New Standings:",
     
-    "generic.First": "1st: @EI;%s#Player Name@",
-    "generic.Second": "2nd: @EI;%s#Player Name@",
-    "generic.Third": "3rd: @EI;%s#Player Name@",
-    "generic.Fourth": "4th: @EI;%s#Player Name@",
+    "generic.1st": "1st",
+    "generic.2nd": "2nd",
+    "generic.3rd": "3rd",
+    "generic.4th": "4th",
+    "generic.First": "@T;generic.1st@: @EI;%s#Player Name@",
+    "generic.Second": "@T;generic.2nd@: @EI;%s#Player Name@",
+    "generic.Third": "@T;generic.3rd@: @EI;%s#Player Name@",
+    "generic.Fourth": "@T;generic.4th@: @EI;%s#Player Name@",
     "generic.Winner": "Winner: @EI;%s#Player Name@",
     "generic.Winners": "Winners: @EI;%s#Player Names@",
     "generic.Loser": "Loser: @EI;%s#Player Name@",
@@ -362,6 +366,7 @@
 
     # Scoreboard Icons
     @skip
+    "scoreboard.Board.Symbol":"🌋",
     "scoreboard.DiceyDescent.Symbol":"⚡",
     "scoreboard.ZombieTag.Symbol":"☠",
     "scoreboard.BarrelDaredevil.Symbols.0":"",
@@ -413,11 +418,16 @@
     "scoreboard.StrategySteps.Symbols.10":"||||||||||",
     "scoreboard.StrategySteps.Symbols.11":"|||||||||||",
     "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
+    @instruction=LimitForcedJevin|125|Bold
+    "scoreboard.Board.1":"%s ",
+    "scoreboard.Board.2":"%s",
+    "scoreboard.Board.S":"@SI;%1$s#scoreboard.Board.Symbol@",
+    @clear
 
 
 
 
-
+    @skip
     @instruction=LimitForcedJevin|125
     "scoreboard.DiceyDescent":"@SI;%1$s#scoreboard.DiceyDescent.Symbol@ @SI;%2$s#scoreboard.DiceyDescent.Symbol@",
     "scoreboard.ZombieTag":"@SI;%1$s#scoreboard.ZombieTag.Symbol@",
@@ -544,6 +554,7 @@
     "game.DerbyDash.Whip": "Whip",
     % Time Result
     "game.DerbyDash.Finish": "@EI;%1$s#Player Name@ finished in @EI;%2$s#Seconds@:@EI;%2$s#Miliseconds@!",
+    "game.DerbyDash.Stamina": "Stamina:",
 
     # Chop Chops
     "game.ChopChopsName": "Chop Chops",
@@ -669,6 +680,7 @@
     "game.StrategySteps.Lock":"You have selected @EI;%s#Number/Nothing@!", 
     "game.StrategySteps.Nothing":"Nothing", 
     "game.StrategySteps.Item.Info":"@SI;%1$s#control.RightClick@ to choose @EI;%2$s#Number@!", 
+    % At the end of each round the player moves up to their new step and it displays this message
     "game.StrategySteps.Reach":"@EI;%s#Player@ reached their step!",
     "game.StrategySteps.Selecting":"You have selected @EI;%s#Number@.",
     "game.StrategySteps.RoundOver":"Round Over",

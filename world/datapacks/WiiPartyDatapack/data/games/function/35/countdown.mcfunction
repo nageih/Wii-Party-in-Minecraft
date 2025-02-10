@@ -26,6 +26,7 @@ execute if score timer= 35scores matches 180 as @a[tag=playing] at @s run playso
 execute if score timer= 35scores matches 200 as @a[tag=playing] at @s run playsound minecraft:block.note_block.bit master @s ~ ~ ~ 1 1
 
 # Force all players to lock in
+execute if score timer= 35scores matches 0..200 unless entity @a[tag=ingame,tag=!35lock] run function games:35/stop_countdown
 execute if score timer= 35scores matches 201 as @a[tag=ingame,tag=!35lock] at @s run function games:35/lock
 execute if score timer= 35scores matches 201 run function games:35/stop_countdown
 

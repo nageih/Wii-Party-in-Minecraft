@@ -27,6 +27,10 @@ bossbar set minecraft:6bluestamina visible true
 bossbar set minecraft:6redstamina visible true
 bossbar set minecraft:6greenstamina visible true
 bossbar set minecraft:6orangestamina visible true
+bossbar set minecraft:6bluestamina name {"translate":"game.DerbyDash.Stamina","color":"#0088ff","bold":true}
+bossbar set minecraft:6redstamina name {"translate":"game.DerbyDash.Stamina","color":"red","bold":true}
+bossbar set minecraft:6greenstamina name {"translate":"game.DerbyDash.Stamina","color":"green","bold":true}
+bossbar set minecraft:6orangestamina name {"translate":"game.DerbyDash.Stamina","color":"gold","bold":true}
 summon minecraft:firework_rocket 6036 14 5972 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;16731469,16764766,16775787,7536494,8450815,12095487,16555263],has_trail:1b,has_twinkle:1b}]}},count:1}}
 summon minecraft:firework_rocket 6026 14 5972 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;16731469,16764766,16775787,7536494,8450815,12095487,16555263],has_trail:1b,has_twinkle:1b}]}},count:1}}
 summon minecraft:firework_rocket 6036 14 5986 {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",components:{"minecraft:fireworks":{explosions:[{shape:"star",colors:[I;16731469,16764766,16775787,7536494,8450815,12095487,16555263],has_trail:1b,has_twinkle:1b}]}},count:1}}

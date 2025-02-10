@@ -8,3 +8,5 @@ tag @s remove ignore
 tag @s[scores={35step=12..}] add 35finished
 
 execute if entity @s[scores={35step=12..}] run schedule function games:35/finish 10t
+
+scoreboard players operation @s 35prev = @s 35step

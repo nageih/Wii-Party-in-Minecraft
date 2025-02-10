@@ -30,6 +30,7 @@ function games:35/give_score
 # Runs the function that shows where the players placed
 function general:placements
 
+schedule clear games:35/play_song
 stopsound @a[tag=playing] voice
 
 tag @a remove 35move
