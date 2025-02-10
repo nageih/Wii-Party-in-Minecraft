@@ -419,7 +419,7 @@
     @clear
     @skip
     @instruction=LimitForcedJevin|125|Bold
-    "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbol@@SI;%2$s#scoreboard.BarrelDaredevil.Symbol@",
+    "scoreboard.BarrelDaredevil":"@SI;%1$s#scoreboard.BarrelDaredevil.Symbols.8@@SI;%2$s#scoreboard.BarrelDaredevil.Symbols.8@",
     @clear
     @skip
     @instruction=LimitForcedJevin|125
@@ -439,7 +439,7 @@
     @instruction=LimitForcedJevin|125|Bold
     "scoreboard.FaceFlip":"@SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@ @SI;%1$s#scoreboard.FaceFlip.Symbol@",
     "scoreboard.WalkOff":"@SI;%1$s#scoreboard.WalkOff.Symbol@",
-    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbol@@SI;%2$s#scoreboard.StrategySteps.Symbol@",
+    "scoreboard.StrategySteps":"@SI;%1$s#scoreboard.StrategySteps.Symbols.6@@SI;%2$s#scoreboard.StrategySteps.Symbols.6@",
     @clear
 
 
