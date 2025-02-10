@@ -25,10 +25,10 @@
     "generic.Orange": "Orange",
     @skip
     @instruction=LimitForcedJevin|75|Bold
-    "generic.Red.Scoreboard": "@T;generic.Red@",
-    "generic.Blue.Scoreboard": "@T;generic.Blue@",
-    "generic.Green.Scoreboard": "@T;generic.Green@",
-    "generic.Orange.Scoreboard": "@T;generic.Orange@",
+    "generic.Red.Scoreboard": "Red",
+    "generic.Blue.Scoreboard": "Blue",
+    "generic.Green.Scoreboard": "Red",
+    "generic.Orange.Scoreboard": "Orange",
     @clear
     @instruction=Text|3
     "generic.BlueCap": "BLUE",
