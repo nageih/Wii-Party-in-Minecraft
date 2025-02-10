@@ -366,7 +366,9 @@
 
     # Scoreboard Icons
     @skip
-    "scoreboard.Board.Symbol":"🌋",
+    "scoreboard.Board.Symbol.1":"0",
+    "scoreboard.Board.Symbol.2":"10",
+    "scoreboard.Board.Symbol.V":"🌋",
     "scoreboard.DiceyDescent.Symbol":"⚡",
     "scoreboard.ZombieTag.Symbol":"☠",
     "scoreboard.BarrelDaredevil.Symbols.0":"",
@@ -419,9 +421,9 @@
     "scoreboard.StrategySteps.Symbols.11":"|||||||||||",
     "scoreboard.StrategySteps.Symbols.12":"||||||||||||",
     @instruction=LimitForcedJevin|125|Bold
-    "scoreboard.Board.1":"%s ",
-    "scoreboard.Board.2":"%s",
-    "scoreboard.Board.S":"@SI;%1$s#scoreboard.Board.Symbol@",
+    "scoreboard.Board.1":"@SI;%1$s#scoreboard.Board.Symbol.1@",
+    "scoreboard.Board.2":"@SI;%1$s#scoreboard.Board.Symbol.2@",
+    "scoreboard.Board.V":"@SI;%1$s#scoreboard.Board.Symbol.V@",
     @clear
 
 

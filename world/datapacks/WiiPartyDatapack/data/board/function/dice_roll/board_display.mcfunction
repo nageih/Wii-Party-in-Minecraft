@@ -119,7 +119,7 @@ execute as @a[tag=ingame,team=blue] if score @s boardPos matches 87 run team mod
 execute as @a[tag=ingame,team=blue] if score @s boardPos matches 88 run team modify displayline11 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"88","color":"#0088ff","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=blue] if score @s boardPos matches 89 run team modify displayline11 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"89","color":"#0088ff","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=blue] if score @s boardPos matches 90 run team modify displayline11 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"90","color":"#0088ff","bold":true,"underlined":true}]}]
-execute as @a[tag=ingame,team=blue] if score @s boardPos matches 100..110 run team modify displayline11 prefix [{"translate":"scoreboard.Board.S","bold":true,"with":[{"translate":"scoreboard.Board.S","color":"#0088ff","bold":true,"underlined":true}]}]
+execute as @a[tag=ingame,team=blue] if score @s boardPos matches 100..110 run team modify displayline11 prefix [{"translate":"scoreboard.Board.V","bold":true,"with":[{"translate":"scoreboard.Board.Symbol.V","color":"#0088ff","bold":true,"underlined":true}]}]
     # Red team
 execute as @a[tag=ingame,team=red] if score @s boardPos matches 0 run team modify displayline8 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"0","color":"red","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=red] if score @s boardPos matches 1 run team modify displayline8 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"1","color":"red","bold":true,"underlined":true}]}]
@@ -212,7 +212,7 @@ execute as @a[tag=ingame,team=red] if score @s boardPos matches 87 run team modi
 execute as @a[tag=ingame,team=red] if score @s boardPos matches 88 run team modify displayline8 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"88","color":"red","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=red] if score @s boardPos matches 89 run team modify displayline8 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"89","color":"red","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=red] if score @s boardPos matches 90 run team modify displayline8 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"90","color":"red","bold":true,"underlined":true}]}]
-execute as @a[tag=ingame,team=red] if score @s boardPos matches 100..110 run team modify displayline8 prefix [{"translate":"scoreboard.Board.S","bold":true,"with":[{"translate":"scoreboard.Board.S","color":"red","bold":true,"underlined":true}]}]
+execute as @a[tag=ingame,team=red] if score @s boardPos matches 100..110 run team modify displayline8 prefix [{"translate":"scoreboard.Board.V","bold":true,"with":[{"translate":"scoreboard.Board.Symbol.V","color":"red","bold":true,"underlined":true}]}]
     # Green team
 execute as @a[tag=ingame,team=green] if score @s boardPos matches 0 run team modify displayline5 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"0","color":"green","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=green] if score @s boardPos matches 1 run team modify displayline5 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"1","color":"green","bold":true,"underlined":true}]}]
@@ -305,7 +305,7 @@ execute as @a[tag=ingame,team=green] if score @s boardPos matches 87 run team mo
 execute as @a[tag=ingame,team=green] if score @s boardPos matches 88 run team modify displayline5 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"88","color":"green","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=green] if score @s boardPos matches 89 run team modify displayline5 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"89","color":"green","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=green] if score @s boardPos matches 90 run team modify displayline5 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"90","color":"green","bold":true,"underlined":true}]}]
-execute as @a[tag=ingame,team=green] if score @s boardPos matches 100..110 run team modify displayline5 prefix [{"translate":"scoreboard.Board.S","bold":true,"with":[{"translate":"scoreboard.Board.S","color":"green","bold":true,"underlined":true}]}]
+execute as @a[tag=ingame,team=green] if score @s boardPos matches 100..110 run team modify displayline5 prefix [{"translate":"scoreboard.Board.V","bold":true,"with":[{"translate":"scoreboard.Board.Symbol.V","color":"green","bold":true,"underlined":true}]}]
     # Orange team
 execute as @a[tag=ingame,team=orange] if score @s boardPos matches 0 run team modify displayline2 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"0","color":"gold","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=orange] if score @s boardPos matches 1 run team modify displayline2 prefix [{"translate":"scoreboard.Board.1","bold":true,"with":[{"text":"1","color":"gold","bold":true,"underlined":true}]}]
@@ -398,4 +398,4 @@ execute as @a[tag=ingame,team=orange] if score @s boardPos matches 87 run team m
 execute as @a[tag=ingame,team=orange] if score @s boardPos matches 88 run team modify displayline2 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"88","color":"gold","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=orange] if score @s boardPos matches 89 run team modify displayline2 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"89","color":"gold","bold":true,"underlined":true}]}]
 execute as @a[tag=ingame,team=orange] if score @s boardPos matches 90 run team modify displayline2 prefix [{"translate":"scoreboard.Board.2","bold":true,"with":[{"text":"90","color":"gold","bold":true,"underlined":true}]}]
-execute as @a[tag=ingame,team=orange] if score @s boardPos matches 100..110 run team modify displayline2 prefix [{"translate":"scoreboard.Board.S","bold":true,"with":[{"translate":"scoreboard.Board.S","color":"gold","bold":true,"underlined":true}]}]
+execute as @a[tag=ingame,team=orange] if score @s boardPos matches 100..110 run team modify displayline2 prefix [{"translate":"scoreboard.Board.V","bold":true,"with":[{"translate":"scoreboard.Board.Symbol.V","color":"gold","bold":true,"underlined":true}]}]
