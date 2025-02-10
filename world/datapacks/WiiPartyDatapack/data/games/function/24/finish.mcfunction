@@ -9,6 +9,7 @@ execute if entity @s[team=blue] run tag @a[tag=ingame,team=blue] add tempFinishe
 execute if entity @s[team=red] run tag @a[tag=ingame,team=red] add tempFinished
 execute if entity @s[team=green] run tag @a[tag=ingame,team=green] add tempFinished
 execute if entity @s[team=orange] run tag @a[tag=ingame,team=orange] add tempFinished
+title @a[tag=playing] times 20 60 20
 
 
 execute at @s run particle minecraft:firework ~ ~1 ~ 1.5 1.5 1.5 0.1 70 force

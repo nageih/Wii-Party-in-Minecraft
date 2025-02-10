@@ -20,6 +20,7 @@ tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.1","color":"gray","with
 tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.2","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] [{"translate":"game.MazeDaze.How.3","color":"gray","with":[{"text":"-"}]}]
 tellraw @a[tag=playing] ""
+title @a[tag=playing] times 10 20 10
 
 #Generate the maze
 scoreboard players set mazeCreated= 24scores 0

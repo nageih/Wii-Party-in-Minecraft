@@ -6,11 +6,11 @@ scoreboard players set global tiles 0
 # title @a[tag=ingame,team=red] title [{"selector":"@a[tag=turn]","color":"red"},{"text":" rolled a ","color":"red"},{"score":{"name":"eventRoll=","objective":"diceRoll"},"color":"red","bold":true},{"text":"!","color":"red"}]
 # title @a[tag=ingame,team=green] title [{"selector":"@a[tag=turn]","color":"green"},{"text":" rolled a ","color":"green"},{"score":{"name":"eventRoll=","objective":"diceRoll"},"color":"green","bold":true},{"text":"!","color":"green"}]
 # title @a[tag=ingame,team=orange] title [{"selector":"@a[tag=turn]","color":"gold"},{"text":" rolled a ","color":"gold"},{"score":{"name":"eventRoll=","objective":"diceRoll"},"color":"gold","bold":true},{"text":"!","color":"gold"}]
-title @a[tag=playing,tag=!ingame] subtitle {"text":"PARTY PHIL HAS BEEN DEFEATED","color":"light_purple","bold":true}
-title @a[tag=ingame,team=blue] subtitle {"text":"PARTY PHIL HAS BEEN DEFEATED","color":"#0088FF","bold":true}
-title @a[tag=ingame,team=red] subtitle {"text":"PARTY PHIL HAS BEEN DEFEATED","color":"red","bold":true}
-title @a[tag=ingame,team=green] subtitle {"text":"PARTY PHIL HAS BEEN DEFEATED","color":"green","bold":true}
-title @a[tag=ingame,team=orange] subtitle {"text":"PARTY PHIL HAS BEEN DEFEATED","color":"gold","bold":true}
+title @a[tag=playing,tag=!ingame] subtitle {"translate":"board.Tiles.Final.Defeat","color":"light_purple","bold":true}
+title @a[tag=ingame,team=blue] subtitle {"translate":"board.Tiles.Final.Defeat","color":"#0088FF","bold":true}
+title @a[tag=ingame,team=red] subtitle {"translate":"board.Tiles.Final.Defeat","color":"red","bold":true}
+title @a[tag=ingame,team=green] subtitle {"translate":"board.Tiles.Final.Defeat","color":"green","bold":true}
+title @a[tag=ingame,team=orange] subtitle {"translate":"board.Tiles.Final.Defeat","color":"gold","bold":true}
 title @a[tag=playing] title ""
 execute at @a[tag=turn] run playsound entity.wither.death master @a ~ ~ ~ 20 0.75 1
 

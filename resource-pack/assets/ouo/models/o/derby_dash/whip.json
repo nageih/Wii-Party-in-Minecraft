@@ -5,6 +5,10 @@
 		"layer0": "ouo:o/derby_dash/whip"
 	},
 	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -90, 50],
+			"translation": [0, 4.25, 0]
+		},
 		"firstperson_righthand": {
 			"rotation": [0, -91, 0],
 			"translation": [5, 0, -7.5]

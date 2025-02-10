@@ -2,6 +2,10 @@ execute if score wasFinal= lobby matches 1 run function lobby:play_victory
 execute unless score wasFinal= lobby matches 1 as @a at @s run playsound music:main_menu voice @s
 scoreboard players reset wasFinal= lobby
 
+execute if score playing= lobby matches 2 as @a run spreadplayers -584 557 3 3 under 13 false @s
+execute if score playing= lobby matches 2 as @a at @s run tp @s ~ ~ ~ 90 0
+execute unless score playing= lobby matches 2 as @a run function lobby:teleport
+
 scoreboard players set playing= lobby 0
 scoreboard players reset global minigame
 
@@ -26,8 +30,6 @@ effect clear @a night_vision
 execute as @a run trigger endGame set 0
 
 clear @a
-
-execute as @a run function lobby:teleport
 
 function lobby:display
 scoreboard objectives setdisplay sidebar lobbyDisplay
