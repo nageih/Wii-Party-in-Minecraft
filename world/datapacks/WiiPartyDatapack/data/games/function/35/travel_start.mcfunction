@@ -11,3 +11,5 @@ execute as @a[tag=ingame,tag=35move] run scoreboard players operation @s 35step 
 execute as @a[tag=ingame,tag=35move] if score @s 35step matches 13.. run scoreboard players set @s 35step 12
 
 schedule function games:35/travel_end 8s
+
+function games:35/display

@@ -46,6 +46,8 @@ scoreboard objectives add 35step dummy
 scoreboard objectives add 35prev dummy
 scoreboard players set @a[tag=ingame] 35step 0
 scoreboard objectives add 35num dummy
+scoreboard players set @a[tag=ingame] 35num 0
+scoreboard players reset @a[tag=ingame] 35prev
 
 # Updates the scoreboard
 scoreboard objectives add 35display dummy {"translate":"game.StrategyStepsName","bold":true}

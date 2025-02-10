@@ -3,7 +3,7 @@
     "components": {
       "minecraft:charged_projectiles": [
         {
-          "id": "minecraft:arrow"
+          "id": "minecraft:spectral_arrow"
         }
       ],
       "minecraft:custom_data": "{16punch:2}"

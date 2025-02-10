@@ -1,9 +1,6 @@
 # Init
 execute if score ingame= 35scores matches -1 if loaded 35088 68 35024 if loaded 35118 80 35024 run function games:35/init
 
-# End logic
-execute store result score unfinished= 35scores if entity @a[tag=ingame,tag=!35finished]
-execute if score ingame= 35scores matches 2 if score unfinished= 35scores matches ..1 run function games:35/finish
 
 # Step prevention
 execute if score ingame= 35scores matches 0.. as @e[type=marker,tag=35step,scores={35step=..11}] at @s run function games:35/step_prevention_f

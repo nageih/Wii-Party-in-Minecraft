@@ -6,4 +6,4 @@ execute as @e[type=marker,tag=35cur] store result storage game35 step.y double 1
 execute as @e[type=marker,tag=35cur] store result storage game35 step.z double 1 run random value -1..1
 function games:35/step_tp_auto with storage game35 step
 
-tag @s remove 35cur
+tag @e remove 35cur

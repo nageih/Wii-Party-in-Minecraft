@@ -22,6 +22,7 @@ tag @a remove 16charging
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16punched,tag=!16charged] unless predicate games:16crossbow run function games:16/give_crossbow
 execute if score ingame= 16scores matches 2 as @a[tag=ingame,tag=!16dead,tag=!16charged] unless score @s 16cooldown matches 1.. unless predicate games:16arrow run function games:16/give_arrow
 kill @e[type=item,nbt={Item:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{16punch:1b}}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{16punch:2}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:custom_data":{16temp:1b}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:arrow",count:1,components:{"minecraft:custom_data":{16punch:1b}}}}]
 
@@ -51,3 +52,5 @@ execute as @a[tag=ingame,team=blue,tag=!16charged] unless score @s 16charge matc
 execute as @a[tag=ingame,team=red,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=red,tag=16interact] ~ ~-10 ~
 execute as @a[tag=ingame,team=green,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-10 ~
 execute as @a[tag=ingame,team=orange,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-10 ~
+
+advancement revoke @a only games:16/left_click

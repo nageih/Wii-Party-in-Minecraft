@@ -14,6 +14,8 @@ scoreboard players reset countdown= 35scores
 scoreboard players reset travel= 35scores
 scoreboard players reset show= 35scores
 scoreboard players reset @a 35num
+scoreboard players reset @a 35prev
+scoreboard players reset @a 35step
 
 # Removes all tags
 tag @a remove 35move

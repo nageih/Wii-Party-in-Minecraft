@@ -25,9 +25,9 @@
     "generic.Orange": "Orange",
     @skip
     @instruction=LimitForcedJevin|125|Bold
-    "generic.Red.Scoreboard": "Red",
     "generic.Blue.Scoreboard": "Blue",
-    "generic.Green.Scoreboard": "Red",
+    "generic.Red.Scoreboard": "Red",
+    "generic.Green.Scoreboard": "Green",
     "generic.Orange.Scoreboard": "Orange",
     @clear
     @instruction=Text|3
