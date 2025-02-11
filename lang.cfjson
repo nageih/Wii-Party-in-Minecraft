@@ -404,8 +404,8 @@
     "scoreboard.GoalGetters.Symbol":"0",
     "scoreboard.RiskyRailway.Symbol":"☠",
     "scoreboard.MazeDaze.Symbol":"🎌",
-    "scoreboard.HammerHeads.Symbol.1":" 0",
-    "scoreboard.HammerHeads.Symbol.2":" 00",
+    "scoreboard.HammerHeads.Symbol.1":"0",
+    "scoreboard.HammerHeads.Symbol.2":"00",
     "scoreboard.StopWatchers.Symbol":"🕒",
     "scoreboard.FaceFlip.Symbol":"✔",
     "scoreboard.WalkOff.Symbol":"✔",
@@ -665,8 +665,8 @@
     % How To Play
     "game.TropicalPunch.How.1|2|3": "@EI;%s#Bullet Point (-)@ Hold right click to charge your punch|@EI;%s#Bullet Point (-)@ Release to punch players infront of you|@EI;%s#Bullet Point (-)@ The last player standing wins!",
     %% Instructions
-    "game.TropicalPunch.Info.1": "Hold @EI;%s#Key Bind@ to charge!",
-    "game.TropicalPunch.Info.2": "@EI;%s#Key Bind@ to punch!",
+    "game.TropicalPunch.Info.1": "Hold @SI;%1$s#control.RightClick@ to charge!",
+    "game.TropicalPunch.Info.2": "@SI;%1$s#control.LeftClick@ to punch!",
     %%%%%%%% Death Messages
     "deathMessages.TropicalPunch1": "@EI;%1$s#Player Name@ was tropically punched by @EI;%2$s#Player Name@",
     "deathMessages.TropicalPunch2": "@EI;%1$s#Player Name@ was thrown overboard by @EI;%2$s#Player Name@",
@@ -707,7 +707,7 @@
     "game.FriendlyFaceOff.Finish5": "@EI;%1$s#Player Name@ has finished! (@EI;%2$s#Seconds@s)",
     "game.FriendlyFaceOff.15sec": "You're the last player. You now has 15 seconds to finish your puzzle!",
     "game.FriendlyFaceOff.15secOther": "The last player now have 15 seconds to finish their puzzle!",
-    "game.FriendlyFaceOff.Info":"@EI;%1$s#Key Bind@ = Pickup / @EI;%2$s#Key Bind@ = Rotate",
+    "game.FriendlyFaceOff.Info":"@EI;%2$s#Key Bind@ = Rotate / @EI;%1$s#Key Bind@ = Pickup",
 
     # Hide N Peek
     "game.HideNPeekName": "Hide-and-Peek",
@@ -829,12 +829,8 @@
 
 
     @skip
-    "To play this map you must enable the resoucepack. ": "%s",
-    "[DOWNLOAD]": "%s",
-    "general.rpInstalled": "Thanks for installing the resourcepack. ",
-    "general.rpContinue": "[CONTINUE]",
-    "You need to enable the resourcepack to proceed.": "%s",
-    " Resourcepack: [DOWNLOAD]": "%s",
+    "\n§lTo play this map you must enable the resoucepack.": "",
+    "You can find it inside the world file as §l'resources.zip'\n\n": "",
     @clear
 
 

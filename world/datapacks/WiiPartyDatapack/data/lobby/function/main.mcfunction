@@ -114,6 +114,14 @@ execute if score pParkour= lobby matches 1 if score pMaze= lobby matches 1 unles
 execute as @a[tag=lobbyParkour] at @s unless score pFinish= lobby matches 1 if score @s finishParkour matches 1.. run function lobby:parkour/finish
 
 
+# Lobby boosts
+execute as @a[x=-530,y=10,z=544,dx=0,dy=0.1,dz=0] at @s unless score @s lobbyBoostDelay matches 1.. run function lobby:boost_pad
+scoreboard players remove @a[scores={lobbyBoostDelay=1..}] lobbyBoostDelay 1
+
+# Respawn visiting cart
+execute positioned -585 13.2 566 unless entity @e[type=chest_minecart,tag=lobbyMinigames,distance=..1] run function lobby:visit/spawn_cart
+
+
 # Particles
 # Portal
 particle portal -548 11 581 1.5 1 1.5 0.5 2 normal

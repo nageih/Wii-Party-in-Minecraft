@@ -12,7 +12,7 @@ execute if score ingame= 18scores matches 1.. if score start= 18scores matches 1
 execute as @a[x=19157,y=45,z=19154,distance=..100,tag=playing,tag=ingame,scores={coas=1..}] at @s run function games:18/controls/click
 scoreboard players set @a coas 0
 
-execute unless entity @a[tag=playing,tag=!finished] if score endtime= 18scores matches 1.. run scoreboard players set endtime= 18scores 0
+execute unless entity @a[tag=ingame,tag=!finished] if score endtime= 18scores matches 1.. run scoreboard players set endtime= 18scores 0
 execute if score endtime= 18scores matches -1 run function games:18/endrace
 
 execute store result score notfinished= 18scores if entity @a[tag=ingame,tag=!finished]

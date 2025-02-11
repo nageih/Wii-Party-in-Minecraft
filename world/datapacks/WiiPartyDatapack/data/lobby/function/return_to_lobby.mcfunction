@@ -33,3 +33,5 @@ clear @a
 
 function lobby:display
 scoreboard objectives setdisplay sidebar lobbyDisplay
+
+schedule function graphing:set_key 10t

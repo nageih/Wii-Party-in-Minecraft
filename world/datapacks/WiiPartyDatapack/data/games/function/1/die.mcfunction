@@ -31,5 +31,3 @@ execute if score random= 1scores matches 7 run tellraw @s {"color":"gray","trans
 execute if score random= 1scores matches 8 run tellraw @s {"color":"gray","translate":"deathMessages.DiceyDescent8","with":[{"selector":"@s","bold":true,"type":"selector"}],"bold":false}
 
 tag @s remove this
-
-scoreboard players remove @s 1score 1

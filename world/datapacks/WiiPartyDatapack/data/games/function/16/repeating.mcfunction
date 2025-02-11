@@ -53,4 +53,14 @@ execute as @a[tag=ingame,team=red,tag=!16charged] unless score @s 16charge match
 execute as @a[tag=ingame,team=green,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=green,tag=16interact] ~ ~-10 ~
 execute as @a[tag=ingame,team=orange,tag=!16charged] unless score @s 16charge matches 1.. at @s anchored eyes run tp @e[type=interaction,tag=orange,tag=16interact] ~ ~-10 ~
 
+# Actionbar controls
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=blue,tag=!16charged] actionbar {"translate":"game.TropicalPunch.Info.1","color":"gray","with":[{"translate":"control.RightClick","color":"#0088ff","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=red,tag=!16charged] actionbar {"translate":"game.TropicalPunch.Info.1","color":"gray","with":[{"translate":"control.RightClick","color":"red","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=green,tag=!16charged] actionbar {"translate":"game.TropicalPunch.Info.1","color":"gray","with":[{"translate":"control.RightClick","color":"green","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=orange,tag=!16charged] actionbar {"translate":"game.TropicalPunch.Info.1","color":"gray","with":[{"translate":"control.RightClick","color":"gold","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=blue,tag=16charged] actionbar {"translate":"game.TropicalPunch.Info.2","color":"gray","with":[{"translate":"control.LeftClick","color":"#0088ff","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=red,tag=16charged] actionbar {"translate":"game.TropicalPunch.Info.2","color":"gray","with":[{"translate":"control.LeftClick","color":"red","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=green,tag=16charged] actionbar {"translate":"game.TropicalPunch.Info.2","color":"gray","with":[{"translate":"control.LeftClick","color":"green","bold":true}]}
+execute if score ingame= 16scores matches 2 run title @a[tag=ingame,team=orange,tag=16charged] actionbar {"translate":"game.TropicalPunch.Info.2","color":"gray","with":[{"translate":"control.LeftClick","color":"gold","bold":true}]}
+
 advancement revoke @a only games:16/left_click

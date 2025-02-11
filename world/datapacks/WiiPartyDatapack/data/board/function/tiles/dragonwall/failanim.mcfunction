@@ -2,3 +2,5 @@ execute positioned -230 12 -17 run playsound minecraft:entity.ender_dragon.growl
 particle minecraft:lava -230 12 -17 2 2 2 0.1 20
 particle minecraft:lava -226 13 -20 2 2 2 0.1 20
 particle minecraft:lava -233 13 -14 2 2 2 0.1 20
+
+execute as @a[tag=turn] at @s run function board:tiles/dragonwall/scare

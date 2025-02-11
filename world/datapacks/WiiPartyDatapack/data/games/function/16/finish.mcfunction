@@ -11,6 +11,8 @@ title @a[tag=ingame,team=green] title {"nbt":"colors.green","storage":"minecraft
 title @a[tag=ingame,team=orange] title {"nbt":"colors.orange","storage":"minecraft:config","interpret":true,"extra":[{"translate":"generic.Finish","bold":true}],"source":"storage","type":"nbt"}
 title @a[tag=playing,tag=!ingame] title {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"generic.Finish","bold":true}],"source":"storage","type":"nbt"}
 
+title @a[tag=ingame] actionbar ""
+
 # Ping sound effect
 execute as @a[tag=playing] at @s run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 0.5
 execute as @a[tag=playing] at @s run playsound ouo:finish master @s ~ ~ ~ 1 1

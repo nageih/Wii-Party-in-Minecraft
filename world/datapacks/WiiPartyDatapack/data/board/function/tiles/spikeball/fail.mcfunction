@@ -19,7 +19,7 @@ execute at @a[tag=turn] run playsound minecraft:block.note_block.iron_xylophone 
 function general:island/barrierstostruct
 function board:dice_roll/prevent/clear_back
 function board:dice_roll/prevent/clear_too_far
-execute at @e[tag=turn] run function board:tiles/spikeball/knockback
+execute as @a[tag=turn] at @s run function board:tiles/spikeball/knockback
 
 execute if score spikeRoll= tiles matches 3.. run scoreboard players remove spikeRoll= tiles 1
 function board:tiles/spikeball/setdisplay

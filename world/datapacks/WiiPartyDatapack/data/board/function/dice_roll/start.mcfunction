@@ -51,11 +51,10 @@ scoreboard players reset @s sprintDistance
 title @s times 10 40 10
 
 # Title saying whos turn it is
-title @a[tag=playing] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"light_purple"}],"color":"light_purple","bold":true}]
-title @a[team=blue] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"#0088ff"}],"color":"#0088ff","bold":true}]
-title @a[team=red] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"red"}],"color":"red","bold":true}]
-title @a[team=green] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"green"}],"color":"green","bold":true}]
-title @a[team=orange] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"gold"}],"color":"gold","bold":true}] 
+execute if entity @a[tag=turn,team=blue] run title @a[tag=playing] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"#0088ff"}],"color":"#0088ff","bold":true}]
+execute if entity @a[tag=turn,team=red] run title @a[tag=playing] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"red"}],"color":"red","bold":true}]
+execute if entity @a[tag=turn,team=green] run title @a[tag=playing] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"green"}],"color":"green","bold":true}]
+execute if entity @a[tag=turn,team=orange] run title @a[tag=playing] title [{"translate":"board.DiceRoll.Turn","with":[{"selector":"@s","color":"gold"}],"color":"gold","bold":true}] 
 
 # Puts the player into adventure mode
 gamemode adventure @s

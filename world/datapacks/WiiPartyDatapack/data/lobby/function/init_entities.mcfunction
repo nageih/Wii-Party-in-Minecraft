@@ -30,7 +30,7 @@ summon slime -588.89 13.37 567.07 {NoAI:1b, Silent:1b, Invulnerable:1b,Size:3,Ta
 summon slime -534 14 548 {NoAI:1b, Silent:1b, Invulnerable:1b,Size:5,Tags:["lobbyMinigames"],PersistenceRequired:1b}
 team join noCollision @e[type=slime,tag=lobbyMinigames]
 effect give @e[type=slime,tag=lobbyMinigames] invisibility infinite 1 true
-summon chest_minecart -585 13.2 566 {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["lobbyMinigames"],DisplayState:{Name:"minecraft:air"},CustomDisplayTile:1b,DisplayState:{Name:"minecraft:air"}}
+function lobby:visit/spawn_cart
 
 
 
@@ -94,7 +94,7 @@ summon text_display -524 13.75 554 {shadow:1b,alignment:"center",Tags:["lobbyMai
 summon interaction -524 13.5 554 {Tags:["lobbyMain","stickypiston"], width:1f, response:1b, height:1f}
 
 setblock -556 11 521 air
-setblock -556 11 521 lectern[facing=south,has_book=true]{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:"",pages:['[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Thanks","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"Roudium\\nHalftroller\\nTakumi\\nAsspoo\\nDominexis\\nDuckable\\nMarattine\\nMusemory\\nIestyn\\nVilder50"}]','[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Translators","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"mkessler_ (DE-DE)\\nZeroIceBear (ZH-CN)\\nklexium (FR-FR)\\ntai_zazanek (JA-JP)"}]','[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Testers","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"aspookabie\\nP2ime\\nFatalVortex\\nCompleteCircuit\\nIntvrlvde\\nAlex_Succeroni\\nJGIA\\nKchouky\\nChhistenn\\nRaph9213\\nPikminFan1"}]','[{"text":"","color":"dark_gray"},{"text":"Toluro\\ncloudtapz\\nLorenOLoren\\niWacky\\nGreatBreakerBob\\nMatasse\\nAgourk\\nQu1nten\\npoyotoyt\\nbl4z30815\\nThatisThomas\\nTheWorfer27\\nCosmicCortex\\nJohn Glacious\\n"}]','[{"text":"","color":"dark_gray"},{"text":"kiwott\\nxavilr\\nojichanoziichiya\\nnewratou\\nWheety\\naspidcatowo\\nElCrepe\\nPixelMario1105\\ndragon_tornado\\nPartyPiratePhil\\nBansed\\nCaptainCool02\\nflcme"}]','[{"text":"","color":"dark_gray"},{"text":"ErrorCraft\\nRedChaos173\\nCreamyYT\\nDragonMarc\\nMegafaust\\nTheVoid357\\nGaming_RB\\nGloriousGlider8"}]']}}}} replace
+setblock -556 11 521 lectern[facing=south,has_book=true]{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:"",pages:['[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Thanks","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"McTsts (Crowdford)\\nMulvX (PlayerMotion)\\nstr4ky (Icon)\\nRoudium\\nHalftroller\\nTakumi\\nAsdru\\nDominexis\\nDuckable\\nMarattine\\nMusemory\\nIestyn\\nVilder50"}]','[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Translators","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"mkessler_ (DE-DE)\\nZeroIceBear (ZH-CN)\\nklexium (FR-FR)\\ntai_zazanek (JA-JP)"}]','[{"text":"","color":"dark_gray"},{"translate":"lobby.Credits.Testers","color":"light_purple","bold":true},{"text":"\\n\\n"},{"text":"aspookabie\\nP2ime\\nFatalVortex\\nCompleteCircuit\\nIntvrlvde\\nAlex_Succeroni\\nJGIA\\nKchouky\\nChhistenn\\nRaph9213\\nPikminFan1"}]','[{"text":"","color":"dark_gray"},{"text":"Toluro\\ncloudtapz\\nLorenOLoren\\niWacky\\nGreatBreakerBob\\nMatasse\\nAgourk\\nQu1nten\\npoyotoyt\\nbl4z30815\\nThatisThomas\\nTheWorfer27\\nCosmicCortex\\nJohn Glacious\\n"}]','[{"text":"","color":"dark_gray"},{"text":"kiwott\\nxavilr\\nojichanoziichiya\\nnewratou\\nWheety\\naspidcatowo\\nElCrepe\\nPixelMario1105\\ndragon_tornado\\nPartyPiratePhil\\nBansed\\nCaptainCool02\\nflcme"}]','[{"text":"","color":"dark_gray"},{"text":"ErrorCraft\\nRedChaos173\\nCreamyYT\\nDragonMarc\\nMegafaust\\nTheVoid357\\nGaming_RB\\nGloriousGlider8"}]']}}}} replace
 
 
 # Discord Promo
@@ -105,10 +105,18 @@ summon text_display -520 13.2875 538 {shadow:1b,alignment:"center",Tags:["lobbyM
 summon text_display -520 13.0 538 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Discord.Subheader","color":"#5865F2"}',background:-2113929216,Rotation:[45f,0f]}
 summon interaction -520 12.5 538 {Tags:["lobbyMain","discord"], width:1f, response:1b, height:2f}
 
-# Graph TP
+
+
+# Graph
 tp @e[tag=lobbyGraph] 0 -150 0
 kill @e[tag=lobbyGraph]
 summon text_display -568 13 553 {shadow:1b,alignment:"center",Tags:["lobbyGraph"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},text:'{"translate":"lobby.Graph.TP","color":"#f25858"}',background:0,Rotation:[-45f,0f]}
 summon interaction -568 13 553 {Tags:["lobbyGraph","graphTP"],Rotation:[-90f,0f], width:1f, response:1b, height:1f}
 summon text_display -570 26 552 {shadow:1b,alignment:"center",Tags:["lobbyGraph","graphBack"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},text:'{"translate":"lobby.Graph.Back","color":"#f25858"}',background:0,Rotation:[-45f,0f]}
 summon interaction -570 26 552 {Tags:["lobbyGraph","graphBack"],Rotation:[-90f,0f], width:1f, response:1b, height:1f}
+
+kill @e[type=text_display,tag=graphKey]
+summon text_display -575 31.5 562.0 {Tags:["graphKey","blue"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
+summon text_display -575 31 562.0 {Tags:["graphKey","red"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
+summon text_display -575 30.5 562.0 {Tags:["graphKey","green"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
+summon text_display -575 30 562.0 {Tags:["graphKey","orange"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}

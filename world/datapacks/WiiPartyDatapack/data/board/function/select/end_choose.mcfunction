@@ -10,30 +10,26 @@ execute if score selected= minigameSelect matches 2 run scoreboard players opera
 execute if score selected= minigameSelect matches 3 run scoreboard players operation final= minigameSelect = game3= minigameSelect
 
 
-execute if score final= minigameSelect matches 1 run data modify storage board:minigame_select name set value "Dicey Descent"
-execute if score final= minigameSelect matches 2 run data modify storage board:minigame_select name set value "Zombie Tag"
-execute if score final= minigameSelect matches 3 run data modify storage board:minigame_select name set value "Barrel Daredevil"
-execute if score final= minigameSelect matches 4 run data modify storage board:minigame_select name set value "Back Attack"
-execute if score final= minigameSelect matches 5 run data modify storage board:minigame_select name set value "Lucky Launch"
-execute if score final= minigameSelect matches 6 run data modify storage board:minigame_select name set value "Derby Dash"
-execute if score final= minigameSelect matches 7 run data modify storage board:minigame_select name set value "Chop Chops"
-execute if score final= minigameSelect matches 8 run data modify storage board:minigame_select name set value "Popgun Posse"
-execute if score final= minigameSelect matches 9 run data modify storage board:minigame_select name set value "Flag Fracas"
-execute if score final= minigameSelect matches 10 run data modify storage board:minigame_select name set value "Friendly Face-Off"
-execute if score final= minigameSelect matches 11 run data modify storage board:minigame_select name set value "Goal Getters"
-execute if score final= minigameSelect matches 12 run data modify storage board:minigame_select name set value "Risky Railway"
-execute if score final= minigameSelect matches 13 run data modify storage board:minigame_select name set value "Hammer Heads"
-execute if score final= minigameSelect matches 14 run data modify storage board:minigame_select name set value "Stop Watchers"
-execute if score final= minigameSelect matches 15 run data modify storage board:minigame_select name set value "Face Flip"
+execute if score final= minigameSelect matches 1 run data modify storage board:minigame_select name set value "DiceyDescent"
+execute if score final= minigameSelect matches 2 run data modify storage board:minigame_select name set value "ZombieTag"
+execute if score final= minigameSelect matches 3 run data modify storage board:minigame_select name set value "BarrelDaredevil"
+execute if score final= minigameSelect matches 4 run data modify storage board:minigame_select name set value "BackAttack"
+execute if score final= minigameSelect matches 5 run data modify storage board:minigame_select name set value "LuckyLaunch"
+execute if score final= minigameSelect matches 6 run data modify storage board:minigame_select name set value "DerbyDash"
+execute if score final= minigameSelect matches 7 run data modify storage board:minigame_select name set value "ChopChops"
+execute if score final= minigameSelect matches 8 run data modify storage board:minigame_select name set value "PopgunPosse"
+execute if score final= minigameSelect matches 9 run data modify storage board:minigame_select name set value "FlagFracas"
+execute if score final= minigameSelect matches 10 run data modify storage board:minigame_select name set value "FriendlyFaceOff"
+execute if score final= minigameSelect matches 11 run data modify storage board:minigame_select name set value "GoalGetters"
+execute if score final= minigameSelect matches 12 run data modify storage board:minigame_select name set value "RiskyRailway"
+execute if score final= minigameSelect matches 13 run data modify storage board:minigame_select name set value "HammerHeads"
+execute if score final= minigameSelect matches 14 run data modify storage board:minigame_select name set value "StopWatchers"
+execute if score final= minigameSelect matches 15 run data modify storage board:minigame_select name set value "FaceFlip"
 execute if score final= minigameSelect matches 16 run data modify storage board:minigame_select name set value "Shutterpup"
-execute if score final= minigameSelect matches 17 run data modify storage board:minigame_select name set value "Maze Daze"
-execute if score final= minigameSelect matches 18 run data modify storage board:minigame_select name set value "Walk-Off"
+execute if score final= minigameSelect matches 17 run data modify storage board:minigame_select name set value "MazeDaze"
+execute if score final= minigameSelect matches 18 run data modify storage board:minigame_select name set value "WalkOff"
 
-tellraw @a[tag=playing,tag=!ingame] [{"translate":"board.GameSelect.Selected","with":[{"storage":"board:minigame_select","nbt":"name","color":"light_purple","bold":true}]}]
-tellraw @a[tag=ingame,team=blue] [{"translate":"board.GameSelect.Selected","with":[{"storage":"board:minigame_select","nbt":"name","color":"#0088ff","bold":true}]}]
-tellraw @a[tag=ingame,team=red] [{"translate":"board.GameSelect.Selected","with":[{"storage":"board:minigame_select","nbt":"name","color":"red","bold":true}]}]
-tellraw @a[tag=ingame,team=green] [{"translate":"board.GameSelect.Selected","with":[{"storage":"board:minigame_select","nbt":"name","color":"green","bold":true}]}]
-tellraw @a[tag=ingame,team=orange] [{"translate":"board.GameSelect.Selected","with":[{"storage":"board:minigame_select","nbt":"name","color":"gold","bold":true}]}]
+function board:select/get_name with storage board:minigame_select
 
 title @a[tag=playing] times 0 50 20
 

@@ -4,11 +4,10 @@
 
 
 # Displays title for everyone saying that the turn is over
-title @a[tag=playing] title [{"translate":"board.DiceRoll.TurnOver","color":"light_purple"}]
-title @a[team=blue] title [{"translate":"board.DiceRoll.TurnOver","color":"#0088ff"}]
-title @a[team=red] title [{"translate":"board.DiceRoll.TurnOver","color":"red"}]
-title @a[team=green] title [{"translate":"board.DiceRoll.TurnOver","color":"green"}]
-title @a[team=orange] title [{"translate":"board.DiceRoll.TurnOver","color":"gold"}]
+execute if entity @a[tag=turn,team=blue] run title @a[tag=playing] title [{"translate":"board.DiceRoll.TurnOver","color":"#0088ff"}]
+execute if entity @a[tag=turn,team=red] run title @a[tag=playing] title [{"translate":"board.DiceRoll.TurnOver","color":"red"}]
+execute if entity @a[tag=turn,team=green] run title @a[tag=playing] title [{"translate":"board.DiceRoll.TurnOver","color":"green"}]
+execute if entity @a[tag=turn,team=orange] run title @a[tag=playing] title [{"translate":"board.DiceRoll.TurnOver","color":"gold"}]
 
 # Clears all the players subtitle so that the previous one doesnt show up
 title @a[tag=playing] subtitle ""
@@ -86,3 +85,5 @@ team modify blue collisionRule never
 team modify red collisionRule never
 team modify green collisionRule never
 team modify orange collisionRule never
+
+effect clear @a[tag=ingame] levitation

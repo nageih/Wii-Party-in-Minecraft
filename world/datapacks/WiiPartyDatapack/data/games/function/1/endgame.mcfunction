@@ -24,6 +24,8 @@ scoreboard players set ingame 1scores 0
 # Gives all the players weakness forever to disable PvP
 effect give @a[tag=ingame] minecraft:weakness infinite 255 true
 
+scoreboard players add @a[tag=ingame,tag=!1beenDamaged,tag=!dead] 1score 1
+
 # Runs the score function that gives all the players the 1st, 2nd and 3rd and 4th tags depending on how high their score was
 function games:1/give_score
 

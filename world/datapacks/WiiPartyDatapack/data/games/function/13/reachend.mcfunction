@@ -47,6 +47,7 @@ function general:placements
 function games:13/display
 
 
+execute as @a[tag=ingame] run tp @s @s
 
 
 execute as @a[tag=ingame] at @s align y run summon minecraft:area_effect_cloud ~ ~ ~ {Duration:2147483647,Tags:["13end"]}

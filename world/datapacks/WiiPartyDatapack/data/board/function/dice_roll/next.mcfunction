@@ -14,11 +14,10 @@ scoreboard players set @a[tag=turn,scores={newBoardPos=91..},tag=!volcano] newBo
 #scoreboard players set @a[tag=turn,scores={newBoardPos=111..}] newBoardPos 110
 
 # Displays title for everyone, saying the total number the player scored
-title @a[tag=playing] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"light_purple"}]
-title @a[team=blue] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"#0088ff"}]
-title @a[team=red] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"red"}]
-title @a[team=green] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"green"}]
-title @a[team=orange] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"gold"}]
+execute if entity @a[tag=turn,team=blue] run title @a[tag=playing] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"#0088ff"}]
+execute if entity @a[tag=turn,team=red] run title @a[tag=playing] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"red"}]
+execute if entity @a[tag=turn,team=green] run title @a[tag=playing] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"green"}]
+execute if entity @a[tag=turn,team=orange] run title @a[tag=playing] title [{"score":{"name":"@a[tag=turn,limit=1]","objective":"diceRoll"},"color":"gold"}]
 
 # With that title, it also displays a subitle with the numbers that the players rolled 
 # Not Double

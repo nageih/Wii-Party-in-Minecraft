@@ -16,6 +16,7 @@ function lobby:init_entities
 
 scoreboard objectives add islandReturn trigger
 scoreboard objectives add islandSpectate trigger
+scoreboard objectives add lobbyBoostDelay dummy
 
 gamerule reducedDebugInfo true
 gamerule sendCommandFeedback false

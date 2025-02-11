@@ -1,0 +1,5 @@
+$tellraw @a[tag=playing,tag=!ingame] [{"color":"gray","translate":"board.GameSelect.Selected","with":[{"translate":"game.$(name)Name","color":"light_purple","bold":true}]}]
+$tellraw @a[tag=ingame,team=blue] [{"color":"gray","translate":"board.GameSelect.Selected","with":[{"translate":"game.$(name)Name","color":"#0088ff","bold":true}]}]
+$tellraw @a[tag=ingame,team=red] [{"color":"gray","translate":"board.GameSelect.Selected","with":[{"translate":"game.$(name)Name","color":"red","bold":true}]}]
+$tellraw @a[tag=ingame,team=green] [{"color":"gray","translate":"board.GameSelect.Selected","with":[{"translate":"game.$(name)Name","color":"green","bold":true}]}]
+$tellraw @a[tag=ingame,team=orange] [{"color":"gray","translate":"board.GameSelect.Selected","with":[{"translate":"game.$(name)Name","color":"gold","bold":true}]}]

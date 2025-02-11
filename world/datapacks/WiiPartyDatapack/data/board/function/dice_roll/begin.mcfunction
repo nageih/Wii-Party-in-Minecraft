@@ -1,6 +1,12 @@
 
 scoreboard players add round= game 1
 
+execute if score round= game matches 3 run data merge entity @n[type=text_display,tag=graphKey,tag=blue] {text:'{"bold":true,"color":"#0088FF","selector":"@r[tag=ingame,team=blue]"}'}
+execute if score round= game matches 3 run data merge entity @n[type=text_display,tag=graphKey,tag=red] {text:'{"bold":true,"color":"red","selector":"@r[tag=ingame,team=red]"}'}
+execute if score round= game matches 3 run data merge entity @n[type=text_display,tag=graphKey,tag=green] {text:'{"bold":true,"color":"green","selector":"@r[tag=ingame,team=green]"}'}
+execute if score round= game matches 3 run data merge entity @n[type=text_display,tag=graphKey,tag=orange] {text:'{"bold":true,"color":"gold","selector":"@r[tag=ingame,team=orange]"}'}
+
+
 scoreboard objectives add boardDisplay dummy {"translate":"board.Scoreboard","color":"light_purple","bold":true,"underlined": true}
 scoreboard objectives setdisplay sidebar boardDisplay
 

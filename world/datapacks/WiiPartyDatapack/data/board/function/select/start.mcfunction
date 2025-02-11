@@ -14,8 +14,7 @@ scoreboard players reset valid= minigameSelect
 gamemode spectator @a[tag=playing]
 tp @a[tag=playing] -218 68 56
 
-summon marker -218 68 56 {Tags:["selectMarker"],"Rotation":[0f,0f]}
-summon magma_cube -218 68 56 {Tags:["selectSpectate"],NoAI:1b, Size:6b, Invulnerable:1b, Silent:1b,wasOnGround:1b, NoGravity:1b, HasVisualFire:0b}
+schedule function board:spawn_spec 3t
 
 
 
@@ -50,3 +49,8 @@ scoreboard players reset timer= minigameSelect
 scoreboard players reset final= minigameSelect
 scoreboard players reset choosing= minigameSelect
 scoreboard players reset cooldown= minigameSelect
+
+execute if score round= game matches 1 run data merge entity @n[type=text_display,tag=graphKey,tag=blue] {text:'""'}
+execute if score round= game matches 1 run data merge entity @n[type=text_display,tag=graphKey,tag=red] {text:'""'}
+execute if score round= game matches 1 run data merge entity @n[type=text_display,tag=graphKey,tag=green] {text:'""'}
+execute if score round= game matches 1 run data merge entity @n[type=text_display,tag=graphKey,tag=orange] {text:'""'}

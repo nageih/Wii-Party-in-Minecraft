@@ -18,6 +18,10 @@ execute if score ingame 2scores matches 3 if score alive= 2scores matches 0..1 r
 # Runs the endanimation function every tick while the ingame score is set to 4
 execute if score ingame 2scores matches 4 run function games:2/endanimation
 
+# Return to arena if escape
+execute if score ingame 2scores matches 3 as @a[tag=ingame,x=1979,y=11,z=2003,dx=9,dy=5,dz=12] positioned 1990 11 2010 run playsound entity.player.teleport master @s
+execute if score ingame 2scores matches 3 as @a[tag=ingame,x=1979,y=11,z=2003,dx=9,dy=5,dz=12] at @s run tp @s 1990 11 2010 -90 0
+
 # Advancement
 execute as @a[tag=dead] at @s if entity @a[distance=..1.4,tag=ingame,tag=!dead] run scoreboard players add @s advancements 1
 
@@ -33,7 +37,7 @@ execute if score ingame 2scores matches 4 as @e[type=minecraft:zombie,tag=zombie
 # Runs a function that controls the players hunger to make sure they stop sprinting when they turn into a zombie
 execute if score ingame 2scores matches 1..3 run function games:2/hunger
 
-execute as @e[type=minecraft:zombie,tag=zombietag] store result entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Base double 0.000191666667 run scoreboard players get time= 2scores
+execute as @e[type=minecraft:zombie,tag=zombietag] store result entity @s attributes[{id:"minecraft:generic.movement_speed"}].base double 0.000191666667 run scoreboard players get time= 2scores
 
 title @a[tag=ingame,tag=dead,tag=blue] actionbar {"translate":"game.ZombieTag.Tip","color":"#0088ff"}
 title @a[tag=ingame,tag=dead,tag=red] actionbar {"translate":"game.ZombieTag.Tip","color":"red"}

@@ -6,11 +6,10 @@
 execute at @a[tag=turn] run playsound minecraft:block.note_block.bell master @a ~ ~ ~ 2 0.5 1
 
 # Displays title saying that the player got a double
-title @a[tag=playing] title {"translate":"board.DiceRoll.Double","color":"light_purple","bold":true}
-title @a[team=blue] title {"translate":"board.DiceRoll.Double","color":"#0088ff","bold":true}
-title @a[team=red] title {"translate":"board.DiceRoll.Double","color":"red","bold":true}
-title @a[team=green] title {"translate":"board.DiceRoll.Double","color":"green","bold":true}
-title @a[team=orange] title {"translate":"board.DiceRoll.Double","color":"gold","bold":true}
+execute if entity @a[tag=turn,team=blue] run title @a[tag=playing] title {"translate":"board.DiceRoll.Double","color":"#0088ff","bold":true}
+execute if entity @a[tag=turn,team=red] run title @a[tag=playing] title {"translate":"board.DiceRoll.Double","color":"red","bold":true}
+execute if entity @a[tag=turn,team=green] run title @a[tag=playing] title {"translate":"board.DiceRoll.Double","color":"green","bold":true}
+execute if entity @a[tag=turn,team=orange] run title @a[tag=playing] title {"translate":"board.DiceRoll.Double","color":"gold","bold":true}
 
 # Displays subtitle telling the player to roll again
 title @a[tag=playing] subtitle {"translate":"board.DiceRoll.RollAgain","color":"gray","bold":true}
