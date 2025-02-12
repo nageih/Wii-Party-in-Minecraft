@@ -1,10 +1,4 @@
 {
-  "games:3/left_click": {
-    "criteria": {
-      "requirement": "2025-02-12 21:30:54 +0000"
-    },
-    "done": true
-  },
   "games:26/hit": {
     "criteria": {
       "requirement": "2025-02-12 21:41:01 +0000"
