@@ -178,8 +178,8 @@
     "lobby.Select.Play":"Play",
   
     # add book and sign translate key (-496,16,553 in the game)
-    @instruction=Book|5,5,3
-    "lobby.Parkour.Book.1|2|3":"You are about to enter a Wii Party Parkour experience.|For the full lore experience I recommend heading into the Sandstone building and clicking Explore Island and find a lectern in a shipwreck.|If you get stuck dm @PiemelPiraat",
+    @instruction=Book|5,5,5,3
+    "lobby.Parkour.Book.1|2|3|4":"You are about to enter a Wii Party Parkour experience.|We recommend getting the full lore experience on the island before playing.|Head into the Sandstone building and clicking Explore Island and find a lectern in a shipwreck.|If you get stuck dm @PiemelPiraat",
     @clear
     "lobby.Parkour.Warning.1|2":"CAUTION|DO NOT ENTER",
     "lobby.Parkour.Sign.1|2":"Complete Parkour|to Continue",

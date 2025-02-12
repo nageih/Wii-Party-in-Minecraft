@@ -120,3 +120,11 @@ summon text_display -575 31.5 562.0 {Tags:["graphKey","blue"],background:0,shado
 summon text_display -575 31 562.0 {Tags:["graphKey","red"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
 summon text_display -575 30.5 562.0 {Tags:["graphKey","green"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
 summon text_display -575 30 562.0 {Tags:["graphKey","orange"],background:0,shadow:1b,alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},text:'""',Rotation:[-90f,0f]}
+
+
+
+# Lobby Parkour Info
+setblock -495 16 553 lectern[facing=west,has_book=true]{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:"",pages:['[{"translate":"lobby.Parkour.Book.1"},{"text":"\\n\\n"},"lobby.Parkour.Book.2"]','["lobby.Parkour.Book.3",{"text":"\\n\\n"},"lobby.Parkour.Book.4"]']}}}} replace
+setblock -493 16 549 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"translate":"lobby.Parkour.Warning.1"}','{"translate":"lobby.Parkour.Warning.2"}','{"text":""}','{"text":""}']},is_waxed:0b}
+setblock -493 16 551 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"translate":"lobby.Parkour.Warning.1"}','{"translate":"lobby.Parkour.Warning.2"}','{"text":""}','{"text":""}']},is_waxed:0b}
+setblock -493 16 550 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['[{"translate":"lobby.Parkour.Sign.1"},{"translate":"lobby.Parkour.Sign.2"}]','{"text":""}','{"text":""}','{"text":""}']},is_waxed:0b}
