@@ -624,12 +624,9 @@
 "game.Shutterpup.Remaining": "Remaining",
 "game.Shutterpup.Cooldown": "Cooldown",
 "To play this map you must enable the resoucepack. ": "%s",
-"
-§lTo play this map you must enable the resoucepack.": "",
+"§lTo play this map you must enable the resoucepack.": "",
 "[DOWNLOAD]": "%s",
-"You can find it inside the world file as §l'resources.zip'
-
-": "",
+"You can find it inside the world file as §l'resources.zip'": "",
 "general.rpInstalled": "Thanks for installing the resourcepack. ",
 "general.rpContinue": "[CONTINUE]",
 "You need to enable the resourcepack to proceed.": "%s",
