@@ -45,3 +45,5 @@ function games:13/display
 gamemode adventure @a[tag=ingame]
 
 summon text_display 13971 14.0 13976 {alignment:"center",shadow:1b,Tags:["13info"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.5f,2.5f,2.5f]},text:'{"color":"light_purple","translate":"game.FlagFracas.FaceDirection"}',background:0}
+
+schedule function games:13/play_intro 30t

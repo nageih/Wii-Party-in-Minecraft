@@ -52,3 +52,5 @@ execute if score players= 22scores matches 4 run scoreboard players set balls= 2
 schedule function games:22/title1 3s
 
 scoreboard objectives setdisplay sidebar
+
+schedule function games:22/play_intro 69t

@@ -37,7 +37,6 @@ execute if score start= 2scores matches 90 run title @a[team=orange] title {"nbt
 execute if score start= 2scores matches 90 run title @a[tag=playing,tag=!ingame] title {"nbt":"colors.spectator","storage":"minecraft:config","interpret":true,"extra":[{"translate":"generic.Start","bold":true}],"source":"storage","type":"nbt"}
 execute if score start= 2scores matches 90 as @a[tag=playing] at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 3 1
 execute if score start= 2scores matches 90 as @a[tag=playing] at @s run playsound ouo:start master @s ~ ~ ~ 3 1
-execute if score start= 2scores matches 90 as @a[tag=playing] at @s run playsound music:zombie_tag voice @s
 
 
 # At 90 ticks, it spawns the 3 starting zombies in different positioned, underground
@@ -60,6 +59,7 @@ execute if score start= 2scores matches 90..110 run effect clear @a[tag=ingame] 
 execute if score start= 2scores matches 90 run execute as @a[tag=ingame] run attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
 execute if score start= 2scores matches 90 run kill @e[type=minecraft:armor_stand,tag=2freeze]
 
+execute if score start= 2scores matches 111 run function games:2/play_song
 # Sets the ingame score to 3 to show that the gameplay has started
 execute if score start= 2scores matches 111 run scoreboard players set ingame 2scores 3
 

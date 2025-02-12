@@ -57,3 +57,5 @@ function general:reset_tags
 # Updates the scoreboard
 scoreboard objectives setdisplay sidebar 1display
 function games:1/display
+
+schedule function games:1/play_intro 82t

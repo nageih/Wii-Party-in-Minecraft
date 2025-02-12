@@ -94,3 +94,5 @@ function games:48/remove_signs
 function games:48/set_signs
 
 gamerule reducedDebugInfo true
+
+schedule function games:48/play_intro 3s

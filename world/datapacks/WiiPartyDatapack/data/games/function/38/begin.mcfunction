@@ -40,4 +40,4 @@ scoreboard players set ingame= 38scores 2
 team leave @e[tag=game38]
 effect give @e[tag=game38] minecraft:glowing infinite 0 true
 
-execute as @a[tag=playing] at @s run playsound music:shutterpup voice @s
+function games:38/play_song

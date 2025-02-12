@@ -29,3 +29,5 @@ summon minecraft:armor_stand 2002 11 2005 {NoGravity:1b,Invulnerable:1b,Invisibl
 
 # Summons an invisible armor stand at each player, to teleport them to it during the animations so they cant move
 execute at @a[tag=ingame] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:["2freeze"],DisabledSlots:4144959,Silent:1b}
+
+function games:2/play_intro

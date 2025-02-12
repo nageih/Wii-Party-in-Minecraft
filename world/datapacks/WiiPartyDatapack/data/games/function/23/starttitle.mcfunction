@@ -16,4 +16,4 @@ execute as @a[tag=playing] at @s run playsound minecraft:block.note_block.banjo 
 schedule function games:23/start_choose 2s
 
 
-function games:23/play_song
+schedule function games:23/play_song 46t

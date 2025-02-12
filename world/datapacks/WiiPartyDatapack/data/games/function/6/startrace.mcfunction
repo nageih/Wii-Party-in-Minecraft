@@ -38,4 +38,4 @@ summon minecraft:firework_rocket 6026 14 5986 {LifeTime:30,FireworksItem:{id:"mi
 
 scoreboard players set ingame 6scores 2
 
-execute as @a[tag=playing] at @s run playsound music:back_attack_derby_dash voice @s
+function games:6/play_song

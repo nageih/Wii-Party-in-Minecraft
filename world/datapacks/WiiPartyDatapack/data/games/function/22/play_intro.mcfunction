@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:goal_getters_71 voice @s

@@ -98,3 +98,5 @@ bossbar set 24greentimer players @a[team=green]
 bossbar set 24greentimer visible true
 bossbar set 24orangetimer players @a[team=orange]
 bossbar set 24orangetimer visible true
+
+schedule function games:24/play_intro 123t

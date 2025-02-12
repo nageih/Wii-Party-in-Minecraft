@@ -25,5 +25,8 @@ execute if score wintimer= tiles matches 155 positioned -202 60 56 run function 
 execute if score wintimer= tiles matches 158 positioned -202 61 56 run function board:tiles/final/stages/set {"pitch":"1.3"}
 execute if score wintimer= tiles matches 161 positioned -202 62 56 run function board:tiles/final/stages/set {"pitch":"1.35"}
 
+execute if score wintimer= tiles matches 181 run function board:tiles/final/play_song
+
+
 
 execute positioned -222 53 56 as @a[tag=turn,distance=..7] run function board:tiles/final/complete

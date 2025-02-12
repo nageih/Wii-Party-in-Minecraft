@@ -57,3 +57,5 @@ tag @a[tag=playing] remove green
 tag @a[tag=playing] remove orange
 
 effect clear @a[tag=ingame] haste
+
+schedule clear games:2/play_song

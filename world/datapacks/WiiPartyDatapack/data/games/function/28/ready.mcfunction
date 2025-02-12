@@ -15,4 +15,7 @@ title @a[tag=playing,tag=!ingame] subtitle {"nbt":"colors.spectator","storage":"
 # Plays countdown sound
 execute as @a[tag=playing] at @s run playsound minecraft:block.note_block.banjo master @s ~ ~ ~ 3 0.7
 
-schedule function games:28/begin 2s
+schedule function games:28/begin 3s
+
+function games:28/play_intro
+schedule function games:28/play_song 95t

@@ -3,7 +3,7 @@
 #   Called By     =   games:2/start + games:2/ifhit
 
 # Resets the scoreboard and all the scores
-execute if score ingame= 8scores matches 1 run scoreboard players reset * 8display
+execute if score ingame 8scores matches 1 run scoreboard players reset * 8display
 
 # If there is an entity on the team, it will add the teams name to the scoreboard
 team join t.Blue §l

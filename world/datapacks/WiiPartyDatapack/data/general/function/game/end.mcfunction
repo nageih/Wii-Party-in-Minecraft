@@ -138,6 +138,41 @@ schedule clear games:16/play_song
 schedule clear games:35/play_song
 schedule clear lobby:play_menu
 
+schedule clear board:dice_roll/play_song
+schedule clear games:1/play_song
+schedule clear games:2/play_song
+schedule clear games:5/play_song
+schedule clear games:6/play_song
+schedule clear games:8/play_song
+schedule clear games:10/play_song
+schedule clear games:18/play_song
+schedule clear games:22/play_song
+schedule clear games:24/play_song
+schedule clear games:28/play_song
+schedule clear games:38/play_song
+schedule clear board:tiles/final/play_song
+
+# Clear intros
+schedule clear games:1/play_intro
+schedule clear games:2/play_intro
+schedule clear games:3/play_intro
+schedule clear games:4/play_intro
+schedule clear games:5/play_intro
+schedule clear games:8/play_intro
+schedule clear games:10/play_intro
+schedule clear games:13/play_intro
+schedule clear games:16/play_intro
+schedule clear games:18/play_intro
+schedule clear games:22/play_intro
+schedule clear games:23/play_intro
+schedule clear games:24/play_intro
+schedule clear games:26/play_intro
+schedule clear games:28/play_intro
+schedule clear games:35/play_intro
+schedule clear games:36/play_intro
+schedule clear games:38/play_intro
+schedule clear games:48/play_intro
+
 execute as @a run attribute @s player.entity_interaction_range base set 3
 tag @a remove lobbyParkour
 tag @a remove islandVisit

@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:back_attack_74 voice @s

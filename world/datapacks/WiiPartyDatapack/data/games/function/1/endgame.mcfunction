@@ -36,4 +36,5 @@ function general:placements
 advancement grant @a[tag=1st,scores={advancements=1}] only advancements:dicey_descent/clutch
 advancement grant @a[scores={1damage=0}] only advancements:dicey_descent/perfect
 
+schedule clear games:1/play_song
 stopsound @a[tag=playing] voice

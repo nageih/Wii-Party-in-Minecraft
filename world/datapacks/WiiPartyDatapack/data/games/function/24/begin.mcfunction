@@ -15,4 +15,4 @@ tag @e[type=armor_stand,tag=24player] add 24move
 
 scoreboard players set ingame= 24scores 2
 
-execute as @a[tag=playing] at @s run playsound music:maze_daze voice @s
+function games:24/play_song

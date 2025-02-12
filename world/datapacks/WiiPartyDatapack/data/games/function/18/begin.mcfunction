@@ -21,4 +21,4 @@ scoreboard players set @a coas 0
 effect clear @a[tag=ingame] minecraft:weakness
 effect give @a[tag=playing] minecraft:strength infinite 1 true
 
-execute as @a[tag=playing] at @s run playsound music:friendly_faceoff voice @s
+function games:18/play_song

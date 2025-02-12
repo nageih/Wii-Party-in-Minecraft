@@ -14,4 +14,4 @@ execute as @a[tag=playing] at @s run playsound ouo:start master @s ~ ~ ~ 3 1
 ### bossbar set minecraft:8greenchop players @a[team=green]
 ### bossbar set minecraft:8orangechop players @a[team=orange]
 
-execute as @a[tag=playing] at @s run playsound music:chop_chops voice @s
+function games:8/play_song

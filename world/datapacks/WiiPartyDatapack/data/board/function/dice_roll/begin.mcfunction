@@ -23,5 +23,6 @@ scoreboard players reset @a diceRoll
 
 tag @a[scores={newBoardPos=100..}] add volcano
 
-execute as @a[tag=playing] at @s run playsound music:board_game_island voice @s
+
+function board:dice_roll/play_song
 

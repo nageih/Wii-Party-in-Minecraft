@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:zombie_tag_111 voice @s

@@ -37,7 +37,7 @@ execute as @a[tag=playing] at @s run playsound minecraft:entity.experience_orb.p
 effect give @a[tag=ingame] minecraft:weakness infinite 255 true
 
 # Schedules the next segment, which will display a title
-schedule function games:36/begin 5s
+schedule function games:36/begin 6s
 
 # Removes all players position tags, just for debugging purposes
 function general:reset_tags
@@ -58,3 +58,5 @@ execute as @a[tag=ingame,sort=random] run function games:36/set_order
 
 
 function games:36/setup_cards
+
+schedule function games:36/play_intro 33t

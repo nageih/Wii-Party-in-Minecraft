@@ -41,4 +41,5 @@ function general:placements
 
 scoreboard players set ingame= 24scores 3
 
+schedule clear games:24/play_song
 stopsound @a[tag=playing] voice

@@ -38,4 +38,5 @@ execute as @a[tag=ingame,tag=1st] at @s run tag @e[type=armor_stand,tag=28player
 effect give @e[type=armor_stand,tag=1st] glowing infinite 1 true
 execute if entity @a[tag=ingame,tag=1st] as @e[type=armor_stand,tag=28player,tag=!1st] at @s run function games:28/loot_at_winner
 
+schedule clear games:28/play_song
 stopsound @a[tag=playing] voice

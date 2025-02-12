@@ -1,6 +1,7 @@
-execute if score wasFinal= lobby matches 1 run function lobby:play_victory
-execute unless score wasFinal= lobby matches 1 as @a at @s run playsound music:main_menu voice @s
+# execute if score wasFinal= lobby matches 1 run function lobby:play_victory
+# execute unless score wasFinal= lobby matches 1 as @a at @s run function lobby:play_menu
 scoreboard players reset wasFinal= lobby
+execute as @a at @s run function lobby:play_menu
 
 execute if score playing= lobby matches 2 as @a run spreadplayers -584 557 3 3 under 13 false @s
 execute if score playing= lobby matches 2 as @a at @s run tp @s ~ ~ ~ 90 0

@@ -50,3 +50,5 @@ scoreboard objectives setdisplay sidebar 23display
 execute positioned 24200 11 24017 run function games:23/set_carts
 
 scoreboard players set phase= 23scores 0
+
+schedule function games:23/play_intro 60t

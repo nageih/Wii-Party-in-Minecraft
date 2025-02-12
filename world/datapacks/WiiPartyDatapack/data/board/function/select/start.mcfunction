@@ -16,10 +16,6 @@ tp @a[tag=playing] -218 68 56
 
 schedule function board:spawn_spec 3t
 
-
-
-execute as @a[tag=playing] at @e[type=marker,tag=selectMarker] run playsound minecraft:block.beacon.power_select master @s ~ ~ ~ 100000 0.75
-
 title @a[tag=playing] times 10 40 10
 
 title @a[tag=playing,tag=!ingame] title {"translate":"board.GameSelect.PlayForPosition","color":"light_purple","bold":true}

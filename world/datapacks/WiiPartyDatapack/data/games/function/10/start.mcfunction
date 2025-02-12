@@ -76,3 +76,5 @@ scoreboard objectives add 10score dummy
 scoreboard objectives add 10lifetime dummy
 scoreboard objectives add 10airdelay dummy
 scoreboard objectives add 10cooldown dummy
+
+schedule function games:10/play_intro 20t

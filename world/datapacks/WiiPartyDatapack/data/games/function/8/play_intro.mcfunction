@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:chop_chops_85 voice @s

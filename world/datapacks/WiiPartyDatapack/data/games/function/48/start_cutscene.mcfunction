@@ -24,6 +24,3 @@ execute as @a[tag=ingame,team=red,limit=1] run function games:48/place_player
 execute as @a[tag=ingame,team=green,limit=1] run function games:48/place_player
 execute as @a[tag=ingame,team=orange,limit=1] run function games:48/place_player
 function games:48/set_heads
-
-schedule clear games:48/play_song
-stopsound @a voice

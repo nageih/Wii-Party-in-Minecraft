@@ -46,6 +46,7 @@ schedule clear games:8/end
 schedule clear games:8/countdown/start
 schedule clear games:8/startchopping
 schedule clear games:6/countdown/end
+schedule clear games:8/play_song
 
 
 # Gets rid of all the bossbars

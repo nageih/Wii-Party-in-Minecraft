@@ -44,6 +44,7 @@ schedule clear games:6/countdown/middle
 schedule clear games:6/countdown/end
 schedule clear games:6/startrace
 schedule clear games:6/end
+schedule clear games:6/play_song
 
 bossbar set minecraft:6bluestamina players
 bossbar set minecraft:6redstamina players

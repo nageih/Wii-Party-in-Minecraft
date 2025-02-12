@@ -33,4 +33,5 @@ effect give @a[tag=ingame] minecraft:weakness infinite 255 true
 # Runs the function that shows where the players placed
 function general:placements
 
+schedule clear games:6/play_song
 stopsound @a[tag=playing] voice

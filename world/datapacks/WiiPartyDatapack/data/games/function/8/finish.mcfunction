@@ -20,4 +20,5 @@ scoreboard players set ingame 8scores 0
 # Runs the function that shows where the players placed
 function general:placements
 
+schedule clear games:8/play_song
 stopsound @a[tag=playing] voice

@@ -36,6 +36,7 @@ schedule clear games:38/gallery/internal/orange
 schedule clear games:38/camera/enddisplay
 schedule clear games:38/gallery/internal/red 
 schedule clear games:38/gallery/green
+schedule clear games:38/play_song
 
 # Clears effects
 effect clear @a[tag=ingame] minecraft:invisibility

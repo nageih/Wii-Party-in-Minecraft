@@ -46,6 +46,7 @@ schedule clear games:28/begin
 schedule clear games:28/ready
 schedule clear games:28/end
 schedule clear games:28/set_heads
+schedule clear games:28/play_song
 
 
 

@@ -32,4 +32,5 @@ scoreboard players set ingame= 48scores 0
 # Runs the function that shows where the players placed
 function general:placements
 
-stopsound @a[tag=playing] voice
+schedule clear games:48/play_song
+stopsound @a voice
