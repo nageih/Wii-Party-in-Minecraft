@@ -73,3 +73,5 @@ effect give @a[tag=ingame] haste infinite 255 true
 
 
 execute as @a[tag=ingame] run attribute @s generic.attack_speed base set 0
+
+schedule function games:16/play_intro 16t

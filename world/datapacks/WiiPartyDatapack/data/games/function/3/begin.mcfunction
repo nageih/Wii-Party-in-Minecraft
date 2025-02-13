@@ -5,3 +5,5 @@
 
 # Sets the ingame score to 2 to signify the barrels need to start going up
 scoreboard players set ingame 3scores 2
+
+function games:3/play_intro

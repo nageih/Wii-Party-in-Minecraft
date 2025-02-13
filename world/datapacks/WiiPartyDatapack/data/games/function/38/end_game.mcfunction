@@ -48,3 +48,6 @@ execute if score practice= 38scores matches 1 run schedule function games:38/sta
 
 # Clears the players
 clear @a[tag=ingame]
+
+schedule clear games:38/play_song
+stopsound @a[tag=playing] voice

@@ -20,4 +20,4 @@ scoreboard players set ingame= 10scores 2
 
 #execute as @a[tag=ingame] at @s run function games:4/set_villager
 
-execute as @a[tag=playing] at @s run playsound music:popgun_posse voice @s
+function games:10/play_song

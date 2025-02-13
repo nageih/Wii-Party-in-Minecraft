@@ -37,4 +37,5 @@ function general:placements
 scoreboard players reset @a 5scores
 scoreboard players reset endTimer= 5scores
 
+schedule clear games:5/play_song
 stopsound @a[tag=playing] voice

@@ -64,3 +64,4 @@ schedule clear general:fade/main
 schedule clear games:5/end_game
 schedule clear games:5/begin
 schedule clear games:5/spawn_fireworks 
+schedule clear games:5/play_song

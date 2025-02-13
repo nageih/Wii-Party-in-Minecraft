@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:face_flip_87 voice @s

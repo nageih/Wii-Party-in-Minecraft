@@ -44,6 +44,7 @@ schedule clear games:6/countdown/middle
 schedule clear games:6/countdown/end
 schedule clear games:6/startrace
 schedule clear games:6/end
+schedule clear games:6/play_song
 
 bossbar set minecraft:6bluestamina players
 bossbar set minecraft:6redstamina players
@@ -64,3 +65,5 @@ ride @a[team=blue,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=red,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=green,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=orange,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
+
+kill @e[type=interaction,tag=6interact]

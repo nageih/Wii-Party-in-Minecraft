@@ -6,7 +6,7 @@
 #function general:fade/main
 
 # Schedule next part
-schedule function games:18/start_title 3s
+schedule function games:18/start_title 5s
 
 # If the players voted on a practice round, then the practice= score is set to 1 to indicate that. This means the game will repeat again at the end
 scoreboard players set practice= 18scores 0
@@ -27,3 +27,5 @@ execute store result score ingame= 18scores if entity @a[tag=ingame]
 
 # Clears actionbar title
 title @a[tag=playing] actionbar ""
+
+schedule function games:18/play_intro 12t

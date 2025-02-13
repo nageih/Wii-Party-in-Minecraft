@@ -104,3 +104,5 @@ bossbar set minecraft:26blue visible true
 bossbar set minecraft:26red visible true
 bossbar set minecraft:26green visible true
 bossbar set minecraft:26orange visible true
+
+schedule function games:26/play_intro 65t

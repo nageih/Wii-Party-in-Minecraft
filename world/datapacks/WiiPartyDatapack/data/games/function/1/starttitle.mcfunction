@@ -39,4 +39,4 @@ execute as @a[tag=playing] at @s run playsound ouo:start master @s ~ ~ ~ 3 1
 # Schedules the start of the game in 2 seconds
 schedule function games:1/newround 2s
 
-execute as @a[tag=playing] at @s run playsound music:dicey_descent voice @s
+schedule function games:1/play_song 2s

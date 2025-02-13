@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:hammer_heads_76 voice @s

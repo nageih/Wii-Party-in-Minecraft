@@ -21,6 +21,7 @@ schedule clear board:select/start_select
 schedule clear board:select/display_minigames
 schedule clear board:select/choose_intro
 schedule clear board:select/choose_left
+schedule clear board:dice_roll/play_song
 
 stopsound @a[tag=playing] voice
 

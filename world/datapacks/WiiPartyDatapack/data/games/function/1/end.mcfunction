@@ -51,3 +51,4 @@ schedule clear games:1/countdown/5
 schedule clear games:1/countdown/6
 schedule clear games:1/countdown/7
 schedule clear games:1/countdown/8
+schedule clear games:1/play_song

@@ -37,3 +37,4 @@ schedule clear games:18/end
 schedule clear games:18/start_title
 schedule clear games:18/begin
 schedule clear games:18/start_play
+schedule clear games:18/play_song

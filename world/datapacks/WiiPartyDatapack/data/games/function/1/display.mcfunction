@@ -39,3 +39,4 @@ execute as @a[tag=ingame,team=green] if score @s 1damage matches 2 run team modi
     # Orange team
 execute as @a[tag=ingame,team=orange] if score @s 1damage matches 0 run team modify displayline2 prefix {"translate":"scoreboard.DiceyDescent","with":[{"translate":"scoreboard.DiceyDescent.Symbol","color":"gray"},{"translate":"scoreboard.DiceyDescent.Symbol","color":"gray"}]}
 execute as @a[tag=ingame,team=orange] if score @s 1damage matches 1 run team modify displayline2 prefix {"translate":"scoreboard.DiceyDescent","with":[{"translate":"scoreboard.DiceyDescent.Symbol","color":"gold"},{"translate":"scoreboard.DiceyDescent.Symbol","color":"gray"}]}
+execute as @a[tag=ingame,team=orange] if score @s 1damage matches 2 run team modify displayline2 prefix {"translate":"scoreboard.DiceyDescent","with":[{"translate":"scoreboard.DiceyDescent.Symbol","color":"gold"},{"translate":"scoreboard.DiceyDescent.Symbol","color":"gold"}]}

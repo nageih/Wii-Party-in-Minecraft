@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:walk_off_68 voice @s

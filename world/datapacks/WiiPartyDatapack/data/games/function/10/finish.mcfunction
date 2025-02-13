@@ -43,4 +43,5 @@ function general:placements
 ### execute if score players 10scores matches 3 run function games:10/highscore3
 ### execute if score players 10scores matches 2 run function games:10/highscore2
 
+schedule clear games:10/play_song
 stopsound @a[tag=playing] voice

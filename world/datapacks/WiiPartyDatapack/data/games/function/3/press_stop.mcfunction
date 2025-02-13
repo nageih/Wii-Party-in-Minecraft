@@ -1,3 +1,4 @@
+advancement revoke @s only games:3/left_click
 advancement revoke @s only games:3/right_click
 
 execute unless score ingame 3scores matches 3 run return fail

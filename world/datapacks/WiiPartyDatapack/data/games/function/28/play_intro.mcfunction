@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:stop_watchers_95 voice @s

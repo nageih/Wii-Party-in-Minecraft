@@ -25,4 +25,4 @@ scoreboard objectives setdisplay sidebar 22display
 # Runs the function that tps the next player to take the next shot
 function games:22/new_shot
 
-execute as @a[tag=playing] at @s run playsound music:goal_getters voice @s
+function games:22/play_song

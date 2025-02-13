@@ -37,6 +37,7 @@ schedule clear games:10/begin
 schedule clear games:10/end
 schedule clear general:fade/main
 schedule clear games:10/spawn_cans
+schedule clear games:10/play_song
 
 # Gets rid of all the bossbars
 bossbar set minecraft:10bluetimer visible false

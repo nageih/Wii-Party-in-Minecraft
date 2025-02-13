@@ -44,6 +44,15 @@
             "height": 256,
             "ascent": 128,
             "type": "bitmap"
+        },
+        {
+            "file": "font/globe.png",
+            "chars": [
+                "f"
+            ],
+            "height": 256,
+            "ascent": 128,
+            "type": "bitmap"
         }
     ]
 }

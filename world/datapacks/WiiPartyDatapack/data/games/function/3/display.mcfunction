@@ -4,7 +4,7 @@
 
 
 # Resets the scoreboard and all the scores
-scoreboard players reset * 3display
+execute if score ingame 3scores matches 1 run scoreboard players reset * 3display
 
 # If there is an entity on the team, it will add the teams name to the scoreboard
 team join t.Blue §l

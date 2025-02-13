@@ -58,4 +58,5 @@ execute if score practice= 18scores matches 1 run schedule function games:18/sta
 # Clears the players
 clear @a[tag=ingame]
 
+schedule clear games:18/play_song
 stopsound @a[tag=playing] voice

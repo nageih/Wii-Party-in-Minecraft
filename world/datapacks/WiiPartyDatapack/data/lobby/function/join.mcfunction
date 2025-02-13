@@ -1,4 +1,5 @@
 #say joined
+stopsound @s voice
 
 scoreboard players reset @s leave
 tag @s add joined
@@ -52,7 +53,7 @@ execute as @s[tag=inactive] run function lobby:join_ingame
 attribute @s minecraft:generic.movement_speed base set 0.1
 attribute @s minecraft:generic.jump_strength base set 0.41999998688697815
 
-playsound music:main_menu voice @s[tag=firstJoined] -525 11 541
+execute as @s[tag=firstJoined] at @s run function lobby:play_menu
 
 tellraw @s ""
 tellraw @s ""

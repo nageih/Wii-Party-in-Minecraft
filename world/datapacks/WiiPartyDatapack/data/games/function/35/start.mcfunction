@@ -36,7 +36,7 @@ execute as @a[tag=playing] at @s run playsound minecraft:entity.experience_orb.p
 effect give @a[tag=ingame] minecraft:weakness infinite 255 true
 
 # Schedules the next segment, which will display a title
-# schedule function games:35/start_title 5s
+schedule function games:35/start_title 5s
 
 # Removes all players position tags, just for debugging purposes
 function general:reset_tags
@@ -64,3 +64,5 @@ scoreboard players set show= 35scores 0
 
 
 execute as @a[tag=ingame] run attribute @s generic.step_height base set 1
+
+schedule function games:35/play_intro 54t

@@ -1,0 +1,1 @@
+execute as @a[tag=playing] at @s run playsound music:strategy_steps_risky_railway_86 voice @s

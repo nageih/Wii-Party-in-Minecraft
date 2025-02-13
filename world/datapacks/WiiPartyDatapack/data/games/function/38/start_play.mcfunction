@@ -6,7 +6,7 @@
 #function general:fade/main
 
 # Schedule next part
-schedule function games:38/start_title 3s
+schedule function games:38/start_title 5s
 
 # If the players voted on a practice round, then the practice= score is set to 1 to indicate that. This means the game will repeat again at the end
 scoreboard players set practice= 38scores 0
@@ -38,3 +38,5 @@ item replace entity @a[tag=ingame,team=blue] armor.feet with minecraft:leather_b
 item replace entity @a[tag=ingame,team=red] armor.feet with minecraft:leather_boots[minecraft:custom_name='{"text":" ","type":"text"}',minecraft:dyed_color={rgb:16733525,show_in_tooltip:0b},minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:hide_additional_tooltip={}]
 item replace entity @a[tag=ingame,team=green] armor.feet with minecraft:leather_boots[minecraft:custom_name='{"text":" ","type":"text"}',minecraft:dyed_color={rgb:5635925,show_in_tooltip:0b},minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:hide_additional_tooltip={}]
 item replace entity @a[tag=ingame,team=orange] armor.feet with minecraft:leather_boots[minecraft:custom_name='{"text":" ","type":"text"}',minecraft:dyed_color={rgb:16755200,show_in_tooltip:0b},minecraft:enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:0b},minecraft:unbreakable={show_in_tooltip:0b},minecraft:hide_additional_tooltip={}]
+
+schedule function games:38/play_intro 60t

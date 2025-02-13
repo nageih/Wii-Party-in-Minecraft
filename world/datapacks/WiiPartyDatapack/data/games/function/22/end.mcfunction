@@ -43,3 +43,4 @@ schedule clear games:22/spawn_balls
 schedule clear games:22/title1
 schedule clear games:22/title2
 schedule clear games:22/begin
+schedule clear games:22/play_song

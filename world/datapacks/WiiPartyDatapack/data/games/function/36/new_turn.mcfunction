@@ -1,5 +1,7 @@
 scoreboard players add cur= 36order 1
 
+
+
 tag @a[tag=ingame] remove 36turn
 
 execute as @e[type=item_display,tag=36card,tag=36finish] run data merge entity @s {Glowing:0b}

@@ -29,4 +29,5 @@ function games:22/give_score
 
 function general:placements
 
+schedule clear games:22/play_song
 stopsound @a[tag=playing] voice

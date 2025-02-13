@@ -15,4 +15,4 @@ execute as @a[tag=playing] at @s run playsound ouo:start master @s ~ ~ ~ 3 1
 # Sets the ingame score to 2, this signifies that the game has actually started
 scoreboard players set ingame= 28scores 2
 
-execute as @a[tag=playing] at @s run playsound music:stop_watchers voice @s
+function games:28/play_song

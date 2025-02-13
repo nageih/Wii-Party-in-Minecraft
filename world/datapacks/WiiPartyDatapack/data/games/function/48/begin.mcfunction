@@ -26,4 +26,4 @@ execute store result score distance= 48scores run random value 65..110
 
 title @a[tag=playing] times 0 60 20
 
-function games:48/play_song
+schedule function games:48/play_song 28t

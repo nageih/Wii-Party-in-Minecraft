@@ -29,4 +29,5 @@ effect give @a[tag=playing] minecraft:saturation 10 1 true
 # Summons an invisible armor stand at each player, to teleport them to it during the animations so they cant move
 execute at @a[tag=ingame] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Tags:["2freeze"],DisabledSlots:4144959,Silent:1b}
 
+schedule clear games:2/play_song
 stopsound @a[tag=playing] voice

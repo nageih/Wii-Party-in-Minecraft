@@ -71,3 +71,5 @@ function games:4/spawn_carts
 
 # Gives the player an invisible carrot on a stick in the offhand
 item replace entity @a[tag=ingame] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data=1,minecraft:custom_name='{"text":"","type":"text"}',minecraft:custom_data={4shoot:1b}]
+
+schedule function games:4/play_intro 66t

@@ -1,6 +1,5 @@
 {
 	"values": [ 
-		"general:load",
-		"music:load"
+		"general:load"
 	]
 }

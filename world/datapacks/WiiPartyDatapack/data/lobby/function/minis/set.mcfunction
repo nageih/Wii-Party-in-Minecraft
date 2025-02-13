@@ -22,3 +22,5 @@ execute if score minigame= lobby matches 19 run function lobby:minis/channel_cha
 execute if score minigame= lobby matches 20 run function lobby:minis/hide_n_peek
 
 execute as @e[type=armor_stand,x=-596,y=0,z=548,dx=-40,dy=30,dz=40] run data merge entity @s {DisabledSlots:4144959}
+execute as @e[type=item_frame,x=-596,y=0,z=548,dx=-40,dy=30,dz=40] run data merge entity @s {Fixed:true,Invisible:1b, Invulnerable:1b}
+execute as @e[type=painting,x=-596,y=0,z=548,dx=-40,dy=30,dz=40] run data merge entity @s {Invulnerable:1b}

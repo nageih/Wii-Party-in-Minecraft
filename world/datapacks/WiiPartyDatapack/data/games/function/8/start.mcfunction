@@ -80,3 +80,5 @@ bossbar set 8greentimer players @a[team=green]
 bossbar set 8greentimer visible true
 bossbar set 8orangetimer players @a[team=orange]
 bossbar set 8orangetimer visible true
+
+schedule function games:8/play_intro 75t

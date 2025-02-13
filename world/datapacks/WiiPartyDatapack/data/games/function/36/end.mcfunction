@@ -33,6 +33,7 @@ schedule clear games:36/pick_valid
 schedule clear games:36/pick_invalid
 schedule clear games:36/new_turn
 schedule clear games:36/finish
+schedule clear games:36/end_turn
 
 
 effect clear @a[tag=playing] night_vision

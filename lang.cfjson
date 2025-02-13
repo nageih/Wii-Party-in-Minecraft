@@ -120,6 +120,25 @@
     "lobby.SP.Header":"Play on @T;?lobby.SP.Name@!",
     "lobby.SP.Subheader":"Click to visit!",
 
+    # Translations Billboard
+    "lobby.Translations.Header":"Translations",
+    @instruction=LimitForced|75
+    "lobby.Translations.Subheader.1.1|2":"Join our Discord to|help with translations",
+    "lobby.Translations.Subheader.2.1|2":"Special thanks to our|current translators:",
+    @clear
+    "lobby.Translations.Language.French":"French:",
+    "lobby.Translations.Language.Spanish":"Spanish:",
+    "lobby.Translations.Language.German":"German:",
+    "lobby.Translations.Language.Italian":"Italian:",
+    "lobby.Translations.Language.Chinese":"Chinese:",
+    "lobby.Translations.Language.Dutch":"Dutch:",
+    "lobby.Translations.Language.Turkish":"Turkish:",
+    "lobby.Translations.Language.Japanese":"Japanese:",
+    "lobby.Translations.Language.Portuguese":"Portuguese:",
+    "lobby.Translations.Language.Bulgarian":"Bulgarian:",
+    "lobby.Translations.Language.Korean":"Korean:",
+    "lobby.Translations.Language.Russian":"Russian:",
+
     # Discord Billboard
     @skip
     "?lobby.Discord.Name": "Discord",
@@ -176,7 +195,13 @@
     % Switch to the new minigame
     "lobby.Select.Next":"Next",
     "lobby.Select.Play":"Play",
-
+  
+    # add book and sign translate key (-496,16,553 in the game)
+    @instruction=Book|5,5,5,3,3
+    "lobby.Parkour.Book.1|2|3|4|5":"You are about to enter a Wii Party Parkour experience.|We recommend getting the full lore experience on the island before playing.|Head into the Sandstone building and clicking Explore Island and find a lectern in a shipwreck.|If you get stuck dm @PiemelPiraat|Warning: English Only",
+    @clear
+    "lobby.Parkour.Warning.1|2":"CAUTION|DO NOT ENTER",
+    "lobby.Parkour.Sign.1|2":"Complete Parkour|to Continue",
 
 
 
@@ -558,7 +583,7 @@
     # Derby Dash
     "game.DerbyDashName": "Derby Dash",
     % How To Play
-    "game.DerbyDash.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Right click to whip your horse, giving it a speed boost|@EI;%s#Bullet Point (-)@ If you run out of stamina your speed will be reduced|@EI;%s#Bullet Point (-)@ Your stamina generates quicker the longer it generates|@EI;%s#Bullet Point (-)@ First horse to reach the end wins!",
+    "game.DerbyDash.How.1|2|3|4": "@EI;%s#Bullet Point (-)@ Click to whip your horse, giving it a speed boost|@EI;%s#Bullet Point (-)@ If you run out of stamina your speed will be reduced|@EI;%s#Bullet Point (-)@ Your stamina generates quicker the longer it generates|@EI;%s#Bullet Point (-)@ First horse to reach the end wins!",
     "game.DerbyDash.Whip": "Whip",
     % Time Result
     "game.DerbyDash.Finish": "@EI;%1$s#Player Name@ finished in @EI;%2$s#Seconds@:@EI;%2$s#Miliseconds@!",
