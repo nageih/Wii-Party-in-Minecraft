@@ -121,11 +121,23 @@
     "lobby.SP.Subheader":"Click to visit!",
 
     # Translations Billboard
-    "lobby.Translations.Header":"Translations!",
+    "lobby.Translations.Header":"Translations",
     @instruction=LimitForced|75
     "lobby.Translations.Subheader.1.1|2":"Join our Discord to|help with translations",
-    "lobby.Translations.Subheader.2.1|2":"Special thanks to our|current translators.",
+    "lobby.Translations.Subheader.2.1|2":"Special thanks to our|current translators:",
     @clear
+    "lobby.Translations.Language.French":"French:",
+    "lobby.Translations.Language.Spanish":"Spanish:",
+    "lobby.Translations.Language.German":"German:",
+    "lobby.Translations.Language.Italian":"Italian:",
+    "lobby.Translations.Language.Chinese":"Chinese:",
+    "lobby.Translations.Language.Dutch":"Dutch:",
+    "lobby.Translations.Language.Turkish":"Turkish:",
+    "lobby.Translations.Language.Japanese":"Japanese:",
+    "lobby.Translations.Language.Portuguese":"Portuguese:",
+    "lobby.Translations.Language.Bulgarian":"Bulgarian:",
+    "lobby.Translations.Language.Korean":"Korean:",
+    "lobby.Translations.Language.Russian":"Russian:",
 
     # Discord Billboard
     @skip
