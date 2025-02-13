@@ -65,3 +65,5 @@ ride @a[team=blue,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=red,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=green,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
 ride @a[team=orange,tag=ingame,limit=1,nbt={RootVehicle:{}}] dismount
+
+kill @e[type=interaction,tag=6interact]

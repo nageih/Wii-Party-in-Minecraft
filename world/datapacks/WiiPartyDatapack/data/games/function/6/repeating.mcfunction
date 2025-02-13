@@ -1,8 +1,8 @@
 
 
 #if the player whips
-execute as @a[tag=ingame,scores={6rightclick=1..,6stamina=15..,6canwhack=0}] run function games:6/whackhorse
-execute as @a[tag=ingame,scores={6rightclick=1..,6stamina=..14,6canwhack=0}] run function games:6/whackhorseslow
+# execute as @a[tag=ingame,scores={6rightclick=1..,6stamina=15..,6canwhack=0}] run function games:6/whackhorse
+# execute as @a[tag=ingame,scores={6rightclick=1..,6stamina=..14,6canwhack=0}] run function games:6/whackhorseslow
 execute as @a[tag=ingame,scores={6whackcooldown=101..150,6stamina=..99}] if score cooldown1 6scores matches 0 run function games:6/addstam
 execute as @a[tag=ingame,scores={6whackcooldown=51..100,6stamina=..99}] if score cooldown2 6scores matches 0 run function games:6/addstam
 execute as @a[tag=ingame,scores={6whackcooldown=0..50,6stamina=..99}] if score cooldown3 6scores matches 0 run function games:6/addstam
@@ -45,3 +45,12 @@ ride @a[team=blue,tag=ingame,limit=1,nbt=!{RootVehicle:{}}] mount @e[type=horse,
 ride @a[team=red,tag=ingame,limit=1,nbt=!{RootVehicle:{}}] mount @e[type=horse,tag=redhorse,limit=1]
 ride @a[team=green,tag=ingame,limit=1,nbt=!{RootVehicle:{}}] mount @e[type=horse,tag=greenhorse,limit=1]
 ride @a[team=orange,tag=ingame,limit=1,nbt=!{RootVehicle:{}}] mount @e[type=horse,tag=orangehorse,limit=1]
+
+execute as @a[tag=ingame,team=blue] unless score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=blue,tag=6interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=red] unless score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=red,tag=6interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=green] unless score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=green,tag=6interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=orange] unless score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=orange,tag=6interact] ~ ~-0.5 ~
+execute as @a[tag=ingame,team=blue] if score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=blue,tag=6interact] ~ ~-10.5 ~
+execute as @a[tag=ingame,team=red] if score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=red,tag=6interact] ~ ~-10.5 ~
+execute as @a[tag=ingame,team=green] if score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=green,tag=6interact] ~ ~-10.5 ~
+execute as @a[tag=ingame,team=orange] if score @s 6canwhack matches 1.. at @s anchored eyes positioned ^ ^ ^1 run tp @e[type=interaction,tag=orange,tag=6interact] ~ ~-10.5 ~

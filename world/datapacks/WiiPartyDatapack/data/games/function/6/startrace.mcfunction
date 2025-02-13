@@ -39,3 +39,9 @@ summon minecraft:firework_rocket 6026 14 5986 {LifeTime:30,FireworksItem:{id:"mi
 scoreboard players set ingame 6scores 2
 
 function games:6/play_song
+
+# Interaction entities
+execute as @a[tag=ingame,team=blue] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["6interact","blue"],width:2.5f, response:1b,  height:1.5f}
+execute as @a[tag=ingame,team=red] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["6interact","red"],width:2.5f, response:1b,  height:1.5f}
+execute as @a[tag=ingame,team=green] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["6interact","green"],width:2.5f, response:1b,  height:1.5f}
+execute as @a[tag=ingame,team=orange] at @s anchored eyes run summon interaction ~ ~ ~ {Tags:["6interact","orange"],width:2.5f, response:1b,  height:1.5f}

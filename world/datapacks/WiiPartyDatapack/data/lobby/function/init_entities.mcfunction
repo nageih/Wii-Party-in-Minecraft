@@ -105,6 +105,15 @@ summon text_display -520 13.2875 538 {shadow:1b,alignment:"center",Tags:["lobbyM
 summon text_display -520 13.0 538 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Discord.Subheader","color":"#5865F2"}',background:-2113929216,Rotation:[45f,0f]}
 summon interaction -520 12.5 538 {Tags:["lobbyMain","discord"], width:1f, response:1b, height:2f}
 
+# Translation Promo
+summon text_display -525 14 573 {shadow:0b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]},text:'{"text":"f","font":"minecraft:fade"}',background:16777216,Rotation:[180f,0f]}
+summon text_display -525 14 573 {shadow:0b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.3f,0.3f,0.3f]},text:'{"text":"f","font":"minecraft:fade"}',background:16777216,Rotation:[0f,0f]}
+summon text_display -525 12.75 573 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},text:'{"translate":"lobby.Translations.Header","color":"#f2a058"}',background:-2113929216,Rotation:[180f,0f]}
+summon text_display -525 12.25 573 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Translations.Subheader.1.1","color":"#f2a058"}',background:-2113929216,Rotation:[180f,0f]}
+summon text_display -525 12.0 573 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Translations.Subheader.1.2","color":"#f2a058"}',background:-2113929216,Rotation:[180f,0f]}
+summon text_display -525 11.5 573 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Translations.Subheader.2.1","color":"#f2a058"}',background:-2113929216,Rotation:[180f,0f]}
+summon text_display -525 11.25 573 {shadow:1b,alignment:"center",Tags:["lobbyMain"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},text:'{"bold":true,"translate":"lobby.Translations.Subheader.2.2","color":"#f2a058"}',background:-2113929216,Rotation:[180f,0f]}
+
 
 
 # Graph
@@ -124,7 +133,11 @@ summon text_display -575 30 562.0 {Tags:["graphKey","orange"],background:0,shado
 
 
 # Lobby Parkour Info
-setblock -495 16 553 lectern[facing=west,has_book=true]{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:"",pages:['[{"translate":"lobby.Parkour.Book.1"},{"text":"\\n\\n"},"lobby.Parkour.Book.2"]','["lobby.Parkour.Book.3",{"text":"\\n\\n"},"lobby.Parkour.Book.4"]']}}}} replace
+setblock -495 16 553 air
+setblock -493 16 549 air
+setblock -493 16 551 air
+setblock -493 16 550 air
+setblock -495 16 553 lectern[facing=west,has_book=true]{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:"",pages:['[{"translate":"lobby.Parkour.Book.1"},{"text":"\\n\\n"},{"translate":"lobby.Parkour.Book.2"}]','[{"translate":"lobby.Parkour.Book.3"},{"text":"\\n\\n"},{"translate":"lobby.Parkour.Book.4"},{"text":"\\n\\n"},{"translate":"lobby.Parkour.Book.5"}]']}}}} replace
 setblock -493 16 549 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"translate":"lobby.Parkour.Warning.1"}','{"translate":"lobby.Parkour.Warning.2"}','{"text":""}','{"text":""}']},is_waxed:0b}
 setblock -493 16 551 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['{"translate":"lobby.Parkour.Warning.1"}','{"translate":"lobby.Parkour.Warning.2"}','{"text":""}','{"text":""}']},is_waxed:0b}
 setblock -493 16 550 minecraft:jungle_sign[rotation=4,waterlogged=false]{front_text:{color:"black",has_glowing_text:1b,messages:['[{"translate":"lobby.Parkour.Sign.1"},{"translate":"lobby.Parkour.Sign.2"}]','{"text":""}','{"text":""}','{"text":""}']},is_waxed:0b}
